@@ -35,8 +35,8 @@ function ThemeQuickSettings({custom,onChange}:{custom:SystemThemeCustom;onChange
 function ThemePreview({shadow}:{shadow:boolean}){
  const {token}=theme.useToken();
  return <div className="theme-choice-sample" style={{fontFamily:token.fontFamily,background:token.colorBgLayout,color:token.colorText,borderRadius:token.borderRadius,padding:8,'--sample-font':token.fontSize+'px','--sample-small-font':Math.max(10,token.fontSize-2)+'px','--sample-row-font':Math.max(10,token.fontSize-1)+'px','--sample-gap':token.paddingSM+'px','--sample-row-padding':Math.round(token.paddingSM*.7)+'px'} as CSSProperties}><Card size="small" title="你的控制中心" extra={<Tag color="success">就绪</Tag>} style={{borderRadius:token.borderRadiusLG,boxShadow:shadow?token.boxShadowTertiary:'none'}} styles={{body:{padding:Math.round(token.paddingLG*.6)}}}>
-  <strong className="theme-choice-sample-title">连接你的智能伙伴</strong><p aria-label="字体效果示例" style={{color:token.colorTextSecondary}}>角色、知识与设备 · Aa 123</p>
-  <code style={{fontFamily:token.fontFamilyCode,fontSize:token.fontSize}}>{"const msg = 'Hello'; // 0O1l"}</code><div className="theme-choice-sample-row"><span>客厅机器人</span><Tag color="success">在线</Tag></div><div className="theme-choice-sample-row"><span>工作室设备</span><span style={{color:token.colorTextSecondary}}>待连接</span></div>
+  <strong className="theme-choice-sample-title">连接你的智能伙伴</strong><p aria-label="字体效果示例" style={{color:token.colorTextSecondary}}>智能体、知识与工具 · Aa 123</p>
+  <code style={{fontFamily:token.fontFamilyCode,fontSize:token.fontSize}}>{"const msg = 'Hello'; // 0O1l"}</code><div className="theme-choice-sample-row"><span>知识助手</span><Tag color="success">在线</Tag></div><div className="theme-choice-sample-row"><span>研究助理</span><span style={{color:token.colorTextSecondary}}>待连接</span></div>
   <Button block type="primary" size="small" icon={<CheckOutlined/>}>开始体验</Button>
  </Card></div>;
 }

@@ -14,8 +14,8 @@ test('网关拒绝无目标、重复后备、非法阈值；停用规则不执�
 });
 test('领域用量按应用、模型、设备过滤，未计量金额保持为空',()=>{
  const rows=initialProduct().usage;
- const selected=filterUsage(rows,{device:'b1',model:'qwen-plus'});
- assert.ok(selected.length>0);assert.ok(selected.every(r=>r.device==='b1'&&r.model==='qwen-plus'));
+ const selected=filterUsage(rows,{agent:'a1',model:'qwen-plus'});
+ assert.ok(selected.length>0);assert.ok(selected.every(r=>r.agent==='a1'&&r.model==='qwen-plus'));
  assert.deepEqual(filterUsage(rows,{app:'missing'}),[]);
  assert.equal(usageTotals([{...rows[0],cost:null,tokens:null}]).cost,null);
  assert.ok((usageTotals(rows).cost||0)>0);

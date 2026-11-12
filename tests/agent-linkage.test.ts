@@ -23,7 +23,7 @@ test('回复读取所选文档与当前角色记忆，其他角色记忆不进�
  const env=fixture(),a=env.store.agents[0];a.runtime={...cloneAgentRuntime(),memoryMode:'本地独立记忆'};
  env.store.roleMemories.a1=[{id:'local',subject:'Alex',content:'喜欢蓝色',source:'手动',updated:'今天'}];
  env.store.roleMemories.a2=[{id:'private',subject:'其他人',content:'不应串用的记忆',source:'手动',updated:'今天'}];
- const run=simulateAgentTurn(a,'设备绑定',env);
+ const run=simulateAgentTurn(a,'知识库',env);
  assert.ok(run.references.length);assert.match(run.request.instructions,/知识助手/);
  assert.match(JSON.stringify(run.request),/喜欢蓝色/);assert.doesNotMatch(JSON.stringify(run.request),/不应串用/);
  assert.equal(run.model.id,a.model);
@@ -48,8 +48,7 @@ test('取消轮次不提交记忆及发布资格；完成后资格覆盖配置�
  const done=settleAgentTurn(turn,true);assert.equal(done.run.status,'completed');assert.equal(done.memoryWrite?.content,'我喜欢蓝色');assert.ok(hasCurrentAgentCheck(a,env,done.check));
  const saved=reviseAgent(a,a,false);assert.ok(hasCurrentAgentCheck(saved,env,done.check),'保存同一配置后不丢失资格');
  const published=reviseAgent(saved,saved,true);assert.ok(published.publishedConfig);assert.ok(hasCurrentAgentCheck(published,env,done.check));
- const device={...env.store.bots[0],agent:published.id};env.store.agents=[published];env.store.bots=[device];
- assert.equal(env.store.agents.find(x=>x.id===device.agent)?.publishedConfig?.model,a.model);
+ assert.equal(published.publishedConfig?.model,a.model);
  const draft={...published,instructions:'新的未发布提示词',knowledge:[]};assert.equal(hasCurrentAgentCheck(draft,env,done.check),false);assert.notEqual(published.publishedConfig?.instructions,draft.instructions);
  env.skills[0].version='2.0';assert.equal(hasCurrentAgentCheck(published,env,done.check),false);
 });

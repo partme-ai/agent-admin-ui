@@ -11,7 +11,7 @@ export function ShellNavigation({owner,openKeys,onOpenChange,onNavigate,drawer=f
  const target=rail?owner:openKeys.includes(owner)?selection:openKeys[0]||owner;
  const scroll=useMenuScroll(target,`${rail}/${drawer}/${openKeys.join('|')}`);
  const childLabel=(key:string,label:string)=><span data-menu-key={key}>{label}</span>;
- const counts:Record<string,number>={agents:c.store.agents.length,models:c.store.connections.length,knowledge:c.store.knowledge.length,devices:c.store.bots.length,extensions:c.store.extensions.length};
+ const counts:Record<string,number>={agents:c.store.agents.length,models:c.store.connections.length,knowledge:c.store.knowledge.length,extensions:c.store.extensions.length};
  const label=(n:{key:string;label:string})=><span className="shell-menu-label" data-menu-key={n.key}><span>{n.label}</span>{!!counts[n.key]&&<b className="shell-menu-count">{counts[n.key]}</b>}</span>;
  const renderItems=(nodes:typeof shellGroups[number]['items'],prefix='',depth=0):MenuProps['items']=>nodes.map(n=>{const key=prefix?`${prefix}/${n.key}`:n.key;return {key,className:depth?'shell-submenu-entry':undefined,label:depth?childLabel(key,n.label):label(n),title:n.label,icon:<Icon name={depth?shellSubmenuIcons[key]:n.key==='resources'?'book':n.key==='system'?'settings':n.key==='remote'?'devices':n.key}/>,children:n.children?.length&&!(tabletRail&&depth===0)?renderItems(n.children,key,depth+1):undefined};});
  const items:MenuProps['items']=renderItems(shellGroups.flatMap(g=>g.items));

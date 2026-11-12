@@ -1,8 +1,0 @@
-{
-  "repository": "https://github.com/xiangyuecn/Recorder",
-  "commit": "74180842defbcf1cf3c8bccabceb3cc0faed5b6f",
-  "source": "src/recorder-core.js",
-  "sha256": "8c13fc08e10dd03df9c022944dd0481d089f05d8f60779398a6d429ee66f2f46",
-  "license": "MIT",
-  "changes": "none; original source vendored verbatim; no optional encoders bundled"
-}

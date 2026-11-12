@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {accordionKeys,menuScrollDelta,menuScrollThumb} from '../src/menu_behavior.ts';
 test('一级菜单互斥，切换分组只保留新打开项，允许主动全部收起',()=>{
- assert.deepEqual(accordionKeys(['agents'],['agents','devices']),['devices']);
- assert.deepEqual(accordionKeys(['devices'],['devices','system']),['system']);
+ assert.deepEqual(accordionKeys(['agents'],['agents','resources']),['resources']);
+ assert.deepEqual(accordionKeys(['resources'],['resources','system']),['system']);
  assert.deepEqual(accordionKeys(['system'],[]),[]);
  assert.deepEqual(accordionKeys([],['knowledge']),['knowledge']);
  assert.deepEqual(accordionKeys(['knowledge'],['knowledge']),['knowledge']);

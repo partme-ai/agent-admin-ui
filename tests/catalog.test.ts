@@ -11,5 +11,5 @@ test('正式规划中的页面均有原型入口，旧 35 个 ID 不漂移',()=>
 });
 test('每个页面能恢复合法路由并归属唯一主导航',()=>{
  for(const page of pages){assert.equal(resolvePage(pathFor(page.id)),page.id);assert.ok(navItems.some(nav=>nav.key===page.nav));}
- assert.equal(navItems.length,14);
+ assert.equal(navItems.length,12);
 });

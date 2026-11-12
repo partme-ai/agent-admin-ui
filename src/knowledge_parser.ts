@@ -17,7 +17,7 @@ export const parserDefinitions:Record<string,ParserDefinition>={
  mistral:{label:'Mistral',types:['pdf',...images],remote:true,apiHost:'https://api.mistral.ai',keyUrl:'https://mistral.ai/api-keys',models:['mistral-ocr-latest']},
  'open-mineru':{label:'Open MinerU',types:['pdf'],remote:true,apiHost:'http://127.0.0.1:8000',note:'自部署 MinerU 服务；未配置鉴权时可不填密钥引用。手机或 Pad 的 localhost 指向自身，请填写可访问的服务地址。'},
  system:{label:'System OCR',types:images,note:'Cherry 原实现仅支持 macOS / Windows 原生 OCR。Web、Android Tablet、iPad 需连接支持此能力的 Desktop / Server；当前不执行系统 OCR。'},
- 'local-paddleocr':{label:'本地 PaddleOCR',types:images,note:'需宿主部署本地 OCR 模型。Cherry 的原生实现不支持 Intel Mac；TinyBot 各宿主的适配仍待验证。'},
+ 'local-paddleocr':{label:'本地 PaddleOCR',types:images,note:'需宿主部署本地 OCR 模型。Cherry 的原生实现不支持 Intel Mac；Agent Admin UI 各宿主的适配仍待验证。'},
  tesseract:{label:'Tesseract OCR',types:images,note:'选择需要识别的语言，可多选。后续由宿主加载对应语言包；当前不下载、不执行 OCR。'}
 };
 export const ocrLanguages=[

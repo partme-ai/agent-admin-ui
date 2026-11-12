@@ -13,14 +13,14 @@ test('人物配置完整进入发布快照，后续草稿和版本恢复互不�
  assert.equal(restored.profile?.identity,'旅行伙伴');
  assert.deepEqual(restored.profile?.skills,['story']);
 });
-test('角色面板有且仅有十项能力，设备入口使用同一个角色标识',()=>{
+test('角色面板有且仅有十项能力，各入口使用同一个角色标识',()=>{
  assert.deepEqual(roleAbilitySlots.map(x=>x.key),['VAD','ASR','LLM','SLM','VLLM','Intent','Mem','TTS','Lang','Voice']);
  assert.equal(rolePanelPath('a1'),'/w/demo/agents/a1/edit');assert.equal(rolePanelPath('a/b'),'/w/demo/agents/a%2Fb/edit');
 });
-test('人格预览包含结构化性格与手写约束，设备写入不能关闭审批',()=>{
+test('人格预览包含结构化性格与手写约束，工具写入不能关闭审批',()=>{
  const p=cloneRoleProfile();p.identity='家庭伙伴';p.traits=['温和'];
  assert.match(effectiveRoleInstructions('不编造资料',p),/家庭伙伴[\s\S]*温和[\s\S]*不编造资料/);
- assert.match(validateRoleProfile({...p,risk:{...p.risk,allowDeviceWrite:true,requireApproval:false}}),/审批/);
+ assert.match(validateRoleProfile({...p,risk:{...p.risk,allowToolWrite:true,requireApproval:false}}),/审批/);
  assert.equal(validateRoleProfile(p),'');
 });
 test('不同角色的记忆独立，不随复制角色或配置恢复迁移',()=>{

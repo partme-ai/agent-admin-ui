@@ -9,9 +9,8 @@ const fixture=()=>({store:initialStore(),skills:initialProduct().skills,host:'we
 test('示例资源存在不等于已完成首次配置，跳过不是成功',()=>{
  const env=fixture(),state=defaultOnboarding();
  assert.equal(onboardingSteps(state,env).filter(s=>s.status==='done').length,0);
- state.skipped=['knowledge','device'];
+ state.skipped=['knowledge'];
  assert.equal(onboardingSteps(state,env)[1].status,'skipped');
- assert.equal(onboardingSteps(state,env)[5].status,'skipped');
  assert.deepEqual(onboardingTarget('publish',state,env),{step:'model',page:'06',item:''});
 });
 test('模型必须启用且本地检测通过，知识必须有非空已索引文本',()=>{
@@ -40,12 +39,12 @@ test('自定义提供方按已保存字段定义校验，不能用成功演练�
  assert.equal(probeOnboardingModel({...model,customFields:{model:'qwen3'}},'success',providers).ok,true);
  assert.equal(probeOnboardingModel({...model,customFields:{model:'qwen3'}},'success',[]).ok,false);
 });
-test('同一个模型和知识库贯通智能体、正常完成的试聊、当前发布快照与设备',()=>{
- const env=fixture(),state={...defaultOnboarding(),active:true,modelId:'m1',knowledgeId:'k1',agentId:'a1',deviceId:'b1'};
+test('同一个模型和知识库贯通智能体、正常完成的试聊、当前发布快照',()=>{
+ const env=fixture(),state={...defaultOnboarding(),active:true,modelId:'m1',knowledgeId:'k1',agentId:'a1'};
  const before=JSON.stringify(env.store);
  assert.equal(onboardingSteps(state,env)[2].status,'done');
  assert.equal(onboardingSteps(state,env)[3].status,'pending');
- assert.deepEqual(onboardingTarget('device',state,env),{step:'trial',page:'02',item:'a1'});
+ assert.deepEqual(onboardingTarget('publish',state,env),{step:'trial',page:'02',item:'a1'});
  assert.equal(JSON.stringify(env.store),before,'计算引导不修改原配置');
  const a=env.store.agents[0],run=simulateAgentTurn(a,'验证关联',env),cancelled=settleAgentTurn(run,false);
  assert.equal(cancelled.check,undefined);
@@ -54,11 +53,9 @@ test('同一个模型和知识库贯通智能体、正常完成的试聊、当�
  assert.equal(onboardingSteps(state,env)[4].status,'pending','初始发布标记不能替代发布快照');
  env.store.agents[0]=reviseAgent(a,a,true);
  assert.equal(onboardingSteps(state,env).every(s=>s.status==='done'),true);
- env.store.bots[0].status='离线';assert.equal(onboardingSteps(state,env)[5].status,'done','配置关联不冒充联网');
  env.store.agents[0].instructions='新的未测试 Prompt';
  assert.equal(onboardingSteps(state,env)[3].status,'pending');
  assert.equal(onboardingSteps(state,env)[4].status,'pending');
- assert.equal(onboardingSteps(state,env)[5].status,'pending');
 });
 test('知识可稍后配置；依赖停用、实体删除或智能体改用其他模型会撤销就绪',()=>{
  const env=fixture(),state={...defaultOnboarding(),modelId:'m1',agentId:'a4',skipped:['knowledge'] as ['knowledge']};

@@ -24,7 +24,7 @@ export function SystemBrandSettings(){
  return <><Section title="系统信息" extra={<Button onClick={()=>{setError('');setDraft({...c.branding});}}>编辑标识</Button>}>
   <div className="system-brand-summary"><span className="brand-mark"><BrandLogo logo={c.branding.logo}/></span><div><strong title={c.branding.name}>{c.branding.name}</strong><span title={c.branding.slogan}>{c.branding.slogan}</span></div></div>
   {c.brandingError&&<Alert type="warning" showIcon title={c.brandingError}/>}
-  <KeyValue items={[["系统名称",c.branding.name],["Slogan",c.branding.slogan],["服务内核","tinybot-server"],["智能体框架","AgentScope-Rust"],["工作空间",c.store.preferences.name],["当前宿主",{web:'TinyBot Web',desktop:'TinyBot Desktop',android:'Android Tablet',ipad:'iPad'}[c.host]],["当前版本","交互原型 1.88"]]}/>
+  <KeyValue items={[["系统名称",c.branding.name],["Slogan",c.branding.slogan],["智能体框架","AgentScope-Rust"],["工作空间",c.store.preferences.name],["当前宿主",{web:'Agent Admin UI Web',desktop:'Agent Admin UI Desktop',android:'Android Tablet',ipad:'iPad'}[c.host]],["当前版本","交互原型 1.88"]]}/>
  </Section>
  <Drawer title="编辑系统标识" open={!!draft} onClose={close} size={c.device==='mobile'?'100%':440} footer={<div className="system-brand-footer"><Button disabled={uploading} onClick={()=>{setDraft(defaultSystemBrand());setError('');}}>恢复默认</Button><Space><Button onClick={close}>取消</Button><Button type="primary" loading={uploading} onClick={save}>保存标识</Button></Space></div>}>
   <div className="system-brand-preview"><span className="brand-mark"><BrandLogo logo={preview.logo}/></span><div><strong>{preview.name||'系统名称'}</strong><span>{preview.slogan||'Slogan'}</span></div></div>

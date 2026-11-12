@@ -11,12 +11,12 @@ type Command=RoleProfile['commands'][number];
 type Hook=RoleProfile['hooks'][number];
 export const roleSkills=[
  {id:'knowledge',name:'知识问答',desc:'检索受权文档，回答时保留来源。',needs:'至少一个已索引知识库',icon:<BookOutlined/>},
- {id:'inspection',name:'设备巡检',desc:'检查设备状态，整理需要处理的问题。',needs:'绑定设备；操作仍需审批',icon:<SafetyOutlined/>},
+ {id:'inspection',name:'资料复核',desc:'核对参考资料，整理需要补充的证据。',needs:'至少一个知识库；写入仍需审批',icon:<SafetyOutlined/>},
  {id:'story',name:'故事陪伴',desc:'按听众和时长组织适合朗读的故事。',needs:'主语言模型；语音输出需要 TTS',icon:<BookOutlined/>},
  {id:'learning',name:'学习讲解',desc:'通过例子和追问，逐步讲清一个问题。',needs:'主语言模型',icon:<AppstoreAddOutlined/>},
  {id:'reminder',name:'提醒与安排',desc:'把用户意图整理为可确认的提醒计划。',needs:'任务服务；创建前确认',icon:<SafetyOutlined/>}
 ];
-const eventOptions=['会话开始','会话结束','收到设备事件','任务完成','任务失败'];
+const eventOptions=['会话开始','会话结束','收到工具事件','任务完成','任务失败'];
 const toolName=(id:string)=>({search:'search_documents · 只读知识检索',create:'create_task · 创建待审批任务'}[id]||id);
 const toggleId=(items:string[],id:string,checked:boolean)=>checked?[...new Set([...items,id])]:items.filter(x=>x!==id);
 
@@ -25,7 +25,7 @@ export function RoleExtensions({value,onChange,section}:Props){
  const c=useConsole(),[command,setCommand]=useState<Command|null>(null),[hook,setHook]=useState<Hook|null>(null),[error,setError]=useState('');
  const update=(patch:Partial<RoleProfile>)=>onChange({...value,...patch});
  const mcp=c.store.extensions.filter(e=>e.id==='e3'||e.kind?.includes('MCP'));
- const readySkills=c.product.skills.filter(s=>s.installed).map(s=>({...s,desc:s.description,needs:roleSkills.find(x=>x.id===s.id)?.needs||'按技能定义核对模型、工具与权限',icon:roleSkills.find(x=>x.id===s.id)?.icon||<BookOutlined/>})).map(s=>({...s,ready:s.id==='knowledge'?c.store.docs.some(d=>d.status==='已索引'):s.id==='inspection'?c.store.bots.length>0:s.id==='reminder'?false:c.store.connections.some(m=>m.role==='LLM'&&m.enabled!==false&&m.status==='演示可用')}));
+ const readySkills=c.product.skills.filter(s=>s.installed).map(s=>({...s,desc:s.description,needs:roleSkills.find(x=>x.id===s.id)?.needs||'按技能定义核对模型、工具与权限',icon:roleSkills.find(x=>x.id===s.id)?.icon||<BookOutlined/>})).map(s=>({...s,ready:s.id==='knowledge'?c.store.docs.some(d=>d.status==='已索引'):s.id==='reminder'?false:c.store.connections.some(m=>m.role==='LLM'&&m.enabled!==false&&m.status==='演示可用')}));
  function saveCommand(){
   if(!command)return;
   if(!/^\/[A-Za-z0-9_\u4e00-\u9fff-]{1,24}$/.test(command.name.trim())){setError('命令以 / 开头，后接 1～24 个汉字、字母、数字、短横线或下划线');return;}
@@ -75,16 +75,15 @@ export function RoleExtensions({value,onChange,section}:Props){
    <div className="role-extension-heading role-hook-heading"><div><h3>事件钩子</h3><p>把事件关联到已启用的技能或命令。</p></div><Button icon={<PlusOutlined/>} disabled={!hookActions.length} onClick={()=>{setError('');setHook({id:crypto.randomUUID(),event:'会话开始',action:'',enabled:false});}}>添加钩子</Button></div>
    {!value.hooks.length&&<div className="role-extension-empty">{hookActions.length?'尚未添加钩子。新钩子默认停用。':'先启用一项技能或添加命令，再设置事件动作。'}</div>}
    {value.hooks.map(x=><div className="role-automation-row" key={x.id}><div className="role-automation-content"><strong>{x.event}</strong><p>{hookActions.find(a=>a.value===x.action)?.label||'目标已停用，请重新选择'}</p></div><Space><Switch size="small" aria-label={`启用钩子${x.event}`} checked={x.enabled} disabled={!hookActions.some(a=>a.value===x.action)&&!x.enabled} onChange={enabled=>update({hooks:value.hooks.map(y=>y.id===x.id?{...y,enabled}:y)})}/><Button aria-label={`编辑钩子${x.event}`} icon={<EditOutlined/>} onClick={()=>{setError('');setHook({...x});}}/><Button danger aria-label={`删除钩子${x.event}`} icon={<DeleteOutlined/>} onClick={()=>c.confirm('删除事件钩子',`移除「${x.event}」的动作关联。`,()=>update({hooks:value.hooks.filter(y=>y.id!==x.id)}))}/></Space></div>)}
-   <p className="role-extension-note">这里只编辑触发定义，不监听真实事件，不执行脚本或设备动作。自动化同样受宿主权限与审批约束。</p>
+   <p className="role-extension-note">这里只编辑触发定义，不监听真实事件，不执行脚本或外部动作。自动化同样受宿主权限与审批约束。</p>
    <Modal title={value.commands.some(x=>x.id===command?.id)?'编辑快捷命令':'添加快捷命令'} open={!!command} onCancel={()=>{setCommand(null);setError('');}} onOk={saveCommand} okText="应用到角色" cancelText="取消">{command&&<Form layout="vertical"><Form.Item label="命令名称" required><Input aria-label="角色命令名称" value={command.name} maxLength={25} onChange={e=>setCommand({...command,name:e.target.value})} placeholder="/讲故事"/></Form.Item><Form.Item label="要完成的事情" required><Input.TextArea aria-label="角色命令说明" value={command.instruction} rows={3} maxLength={1000} onChange={e=>setCommand({...command,instruction:e.target.value})} placeholder="讲一个适合睡前听的短故事，先询问听众年龄。"/></Form.Item><Checkbox checked={command.enabled} onChange={e=>setCommand({...command,enabled:e.target.checked})}>在角色快捷入口显示</Checkbox>{error&&<Alert className="margin-top" title={error} type="error" showIcon/>}</Form>}</Modal>
    <Modal title="配置事件钩子" open={!!hook} onCancel={()=>{setHook(null);setError('');}} onOk={saveHook} okText="应用到角色" cancelText="取消">{hook&&<Form layout="vertical"><Form.Item label="触发事件" required><Select aria-label="钩子事件" value={hook.event} options={eventOptions.map(value=>({value,label:value}))} onChange={event=>setHook({...hook,event})}/></Form.Item><Form.Item label="目标动作" required><Select aria-label="钩子动作" value={hook.action||undefined} placeholder="选择已启用技能或命令" options={hookActions} onChange={action=>setHook({...hook,action})}/></Form.Item><Checkbox checked={hook.enabled} onChange={e=>setHook({...hook,enabled:e.target.checked})}>启用此事件定义</Checkbox>{error&&<Alert className="margin-top" title={error} type="error" showIcon/>}</Form>}</Modal>
   </>}
   {section==='risk'&&<>
    <div className="role-extension-heading"><div><h3>角色风控</h3><p>为这个角色增加限制，不改变工作空间或宿主的权限上限。</p></div><SafetyOutlined/></div>
    <Form layout="vertical"><Form.Item label="角色敏感词" extra="输入后按回车添加；只维护本地规则，不上传文字。"><Select aria-label="角色敏感词" mode="tags" value={value.risk.sensitiveWords} tokenSeparators={[',','，']} maxTagCount="responsive" onChange={words=>update({risk:{...value.risk,sensitiveWords:[...new Set(words.map(x=>x.trim()).filter(Boolean))].slice(0,100)}})} placeholder="添加需要拦截的词"/></Form.Item></Form>
-   <div className="role-risk-row"><div><strong>执行前请求审批</strong><p>工具写入、任务创建和设备操作先展示目标及影响。</p></div><Switch aria-label="角色执行前审批" checked={value.risk.requireApproval} disabled={value.risk.allowDeviceWrite} onChange={requireApproval=>update({risk:{...value.risk,requireApproval}})}/></div>
-   <div className="role-risk-row"><div><strong>允许提出设备写入请求</strong><p>仅允许形成待审批请求；执行仍需设备资格及服务授权。</p></div><Switch aria-label="角色设备写入请求" checked={value.risk.allowDeviceWrite} onChange={allowDeviceWrite=>update({risk:{...value.risk,allowDeviceWrite,requireApproval:allowDeviceWrite?true:value.risk.requireApproval}})}/></div>
-   <Alert className="margin-top" showIcon type="info" title="角色配置不能授予控制权" description="声纹、性格、插件开关和角色身份都不能替代真实鉴权、设备控制资格与人工审批。"/>
+   <div className="role-risk-row"><div><strong>执行前请求审批</strong><p>工具写入与任务创建先展示目标及影响。</p></div><Switch aria-label="角色执行前审批" checked={value.risk.requireApproval} disabled={value.risk.allowToolWrite} onChange={requireApproval=>update({risk:{...value.risk,requireApproval}})}/></div>
+      <div className="role-risk-row"><div><strong>允许提出工具写入请求</strong><p>只形成待审批意图，实际执行仍需服务端授权。</p></div><Switch aria-label="工具写入请求" checked={value.risk.allowToolWrite} onChange={allowToolWrite=>update({risk:{...value.risk,allowToolWrite,requireApproval:allowToolWrite?true:value.risk.requireApproval}})}/></div><Alert className="margin-top" showIcon type="info" title="角色配置不能授予控制权" description="声纹、性格、插件开关和角色身份都不能替代真实鉴权、工具授权与人工审批。"/>
   </>}
  </div>;
 }

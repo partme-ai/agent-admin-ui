@@ -13,7 +13,7 @@ export const knowledgeSourceDefinitions=[
  {id:'gitlab',name:'GitLab',url:'',resource:'项目 ID / 路径',fields:['Access Token'],scopes:'按目标项目配置只读访问'},
  {id:'seafile',name:'Seafile',url:'',resource:'资料库 ID / 路径',fields:['API Token'],scopes:'按资料库配置只读访问'},
  {id:'nextcloud',name:'Nextcloud',url:'',resource:'WebDAV 目录',fields:['用户名','App Password'],scopes:'使用应用密码，不使用账号主密码'},
- {id:'web',name:'网页站点',url:'',resource:'抓取路径',fields:[],scopes:'TinyBot 网页导入配置'},
- {id:'webdav',name:'通用 WebDAV',url:'',resource:'目录',fields:['用户名','App Password'],scopes:'TinyBot 通用连接配置'},
- {id:'s3',name:'S3 对象存储',url:'',resource:'Bucket / Prefix',fields:['Access Key','Secret Key'],scopes:'TinyBot 存储连接配置'}
+ {id:'web',name:'网页站点',url:'',resource:'抓取路径',fields:[],scopes:'Agent Admin UI 网页导入配置'},
+ {id:'webdav',name:'通用 WebDAV',url:'',resource:'目录',fields:['用户名','App Password'],scopes:'Agent Admin UI 通用连接配置'},
+ {id:'s3',name:'S3 对象存储',url:'',resource:'Bucket / Prefix',fields:['Access Key','Secret Key'],scopes:'Agent Admin UI 存储连接配置'}
 ] as const;

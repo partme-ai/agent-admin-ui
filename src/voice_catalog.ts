@@ -1,5 +1,5 @@
 import type {VoiceAsset} from './state';
-import {trialVoices} from './robot_trial.ts';
+const trialVoices=[{id:'warm',name:'温暖女声',description:'柔和 · 自然',rate:.94,pitch:1.15},{id:'clear',name:'清晰男声',description:'沉稳 · 清晰',rate:.95,pitch:.82},{id:'bright',name:'活力童声',description:'轻快 · 活泼',rate:1.08,pitch:1.4}];
 import minimaxSnapshot from '../reference/minimax_system_voices.json' with {type:'json'};
 import minimaxSamples from '../reference/minimax_voice_samples.json' with {type:'json'};
 import jimengSnapshot from '../reference/jimeng_voice_catalog.source.json' with {type:'json'};

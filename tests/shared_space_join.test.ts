@@ -19,7 +19,7 @@ test('搜索只显示允许发现的空间，邀请空间不能绕过邀请码�
  assert.equal(searchSharedSpaces('产品',directory).length,1);
  assert.equal(searchSharedSpaces('内部',directory).length,0);
  assert.throws(()=>previewOpenSpace('demo-product',directory),/邀请码/);
- assert.equal(previewOpenSpace('demo-robot',directory).role,'viewer');
+ assert.equal(previewOpenSpace('demo-agent',directory).role,'viewer');
 });
 test('先预览后加入，角色由邀请确定；重复确认幂等且原数组不变',()=>{
  const directory=demoSharedDirectory(),before=JSON.stringify(directory),preview=lookupSpaceInvite('TBDEMO01',directory,demoSpaceInvites,now);
@@ -37,6 +37,6 @@ test('确认时重新核对邀请状态，取消或过期不产生成员或资�
  const revoked=demoSpaceInvites.map(i=>({...i,revoked:true}));
  assert.throws(()=>joinSharedSpace([],{spaceId:preview.space.id,code:'TBDEMO01'},directory,revoked,'u1',now),/撤销/);
  assert.throws(()=>joinSharedSpace([],{spaceId:'demo-internal',code:'TBDEMO01'},directory,demoSpaceInvites,'u1',now),/不匹配/);
- const joined=joinSharedSpace([],{spaceId:'demo-robot'},directory,demoSpaceInvites,'u1',now);
+ const joined=joinSharedSpace([],{spaceId:'demo-agent'},directory,demoSpaceInvites,'u1',now);
  assert.deepEqual(joined.knowledgeIds,[]);assert.deepEqual(joined.agentIds,[]);
 });

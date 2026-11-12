@@ -4,22 +4,21 @@ import {shellGroups,shellEntries,shellOwner,shellSelection,shellTarget,shellAnce
 import {pages,pathFor} from '../src/catalog.ts';
 import {resolvePage} from '../src/state.ts';
 test('移除重复远程控制后的主入口顺序一致，所有深层叶子可到达',()=>{
- assert.deepEqual(shellGroups.flatMap(g=>g.items.map(i=>i.label)),['工作台','设备(Bot)','模型','知识库','智能体','资源','系统']);
+ assert.deepEqual(shellGroups.flatMap(g=>g.items.map(i=>i.label)),['工作台','模型','知识库','智能体','资源','系统']);
  for(const {node} of shellEntries())assert.equal(resolvePage(pathFor(node.page,node.item)),node.page);
  const keys=shellEntries().map(x=>x.key);assert.equal(new Set(keys).size,keys.length);
- for(const scope of ['models','agents','devices'])for(const view of ['usage','analysis','cost'])assert.ok(keys.includes(`${scope}/${scope}-reports/${view}`));
+ for(const scope of ['models','agents'])for(const view of ['usage','analysis','cost'])assert.ok(keys.includes(`${scope}/${scope}-reports/${view}`));
 });
 test('旧角色、设备、形象、主题链接继续恢复；主题归系统',()=>{
  assert.equal(pathFor('04','a2'),'/w/demo/agents/a2/edit');assert.equal(shellOwner('04','agents'),'agents');
- assert.equal(shellOwner('13','devices'),'devices');assert.equal(shellOwner('02','chat'),'agents');
- assert.equal(shellOwner('30','settings','theme'),'system');assert.equal(shellOwner('34','voices'),'resources');
- assert.equal(pages.slice(0,35).length,35);
+ assert.equal(shellOwner('02','chat'),'agents');
+ assert.equal(shellOwner('30','settings','theme'),'system');
+ assert.ok(pages.length>=35);
 });
 test('多级Menu选中对应视图并打开完整祖先，不把默认页与显式子视图混淆',()=>{
  assert.equal(shellSelection('39','cost','models'),'models/models-reports/cost');
  assert.deepEqual(shellAncestors('39','cost','models'),['models','models/models-reports']);
  assert.equal(shellSelection('04','a2','agents'),'agents/mine');
- assert.equal(shellSelection('13','b1','devices'),'devices/mine');
  assert.equal(shellSelection('30','theme','system'),'system/theme');
  assert.equal(shellSelection('30','','system'),'system/configuration/general');
  assert.equal(shellTarget('system/audit/operations')?.item,'operations');
@@ -36,7 +35,7 @@ test('终端互联由快捷入口承接，与物理Bot列表分离，旧远程�
  assert.equal(shellEntries().some(x=>x.node.label==='远程控制'),false);
  assert.equal(resolvePage(pathFor(terminalEntry.page)+'?item='+terminalEntry.item),'30');
  assert.equal(resolvePage('/w/demo/settings/general?item=remote'),'30');
- assert.equal(shellTarget('devices/mine')?.page,'12');
+ assert.equal(shellTarget('devices/mine'),undefined);
 });
 
 test('常规合并进系统设置，旧常规链接选中新入口且保留主题和终端互联',()=>{

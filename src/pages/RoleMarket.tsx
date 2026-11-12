@@ -2,7 +2,7 @@ import {useState,type CSSProperties} from 'react';
 import {Alert,Button,Card,Descriptions,Drawer,Empty,Input,Segmented,Tag,Tooltip} from 'antd';
 import {ArrowRightOutlined,AudioOutlined,PlusOutlined,SearchOutlined,PlayCircleOutlined,StopOutlined} from '@ant-design/icons';
 import {useConsole} from '../context';
-import {PageHeader} from '../components';
+import {PageHeader,TileIcon} from '../components';
 import {roleMarketTemplates,createMarketRole} from '../role_market';
 import {effectiveRoleInstructions,roleAbilitySlots} from '../role_profile';
 import {ttsModels,voicesForModel} from '../voice_catalog';
@@ -12,12 +12,8 @@ import '../role_market.css';
 
 type MarketTemplate=(typeof roleMarketTemplates)[number];
 /** 市场卡与详情共用模板形象，不引入独立角色状态。 */
-function MarketPortrait({template,large=false}:{template:MarketTemplate;large?:boolean}){
- const expression=template.profile.expression==='好奇'?'curious':template.profile.expression==='平静'?'calm':'smile';
- const screenTheme=template.profile.screenTheme==='森林'?'forest':template.profile.screenTheme==='暖沙'?'sand':'graphite';
- return <div className={`market-portrait market-theme-${screenTheme} ${large?'market-portrait-large':''}`} style={{'--market-character':template.color} as CSSProperties} role="img" aria-label={`${template.name}的形象 · ${template.profile.expression}`}><div className={`market-robot-face market-expression-${expression}`}><i className="market-antenna"/><span className="market-robot-eye left"/><span className="market-robot-eye right"/><span className="market-robot-mouth"/><i className="market-robot-cheek left"/><i className="market-robot-cheek right"/></div><small>{template.profile.expression}</small></div>;
-}
-/** 从完整角色模板创建新草稿，不覆盖已存在的角色、记忆或设备绑定。 */
+function MarketPortrait({template,large=false}:{template:MarketTemplate;large?:boolean}){return <div className={`market-portrait ${large?'market-portrait-large':''}`} style={{background:'var(--soft)'}} aria-label={`${template.name}图标`}><TileIcon name={template.icon} large/></div>;}
+/** 从完整角色模板创建新草稿，不覆盖已存在的角色或记忆。 */
 export function RoleMarket(){
  const c=useConsole(),[query,setQuery]=useState(''),[category,setCategory]=useState('全部'),[selected,setSelected]=useState<MarketTemplate|null>(()=>roleMarketTemplates.find(t=>t.id===c.selected)||null);
  const preview=useVoicePreview(JSON.stringify(['role-market',query,category,selected?.id]));
@@ -40,7 +36,7 @@ export function RoleMarket(){
    <section className="market-detail-section"><h3>完整角色提示词 · Prompt</h3><pre className="market-full-prompt">{effectiveRoleInstructions(selected.instructions,selected.profile)}</pre></section>
    <section className="market-detail-section"><h3>模型与资源依赖</h3><Descriptions column={1} size="small" colon={false} items={[{key:'model',label:'模型要求',children:selected.requirements.join('、')||'通用对话模型'},{key:'knowledge',label:'知识库',children:selected.knowledge.map(id=>c.store.knowledge.find(k=>k.id===id)?.name||id).join('、')||'无需预置知识库'},{key:'tools',label:'工具',children:selected.tools.join('、')||'无需额外工具'},{key:'skills',label:'技能',children:selected.profile.skills.join('、')||'创建后添加'}]}/></section>
    <section className="market-detail-section"><h3>权限与边界</h3><ul className="market-detail-list">{selected.permissions.map(p=><li key={p}>{p}</li>)}</ul></section>
-   <section className="market-detail-section"><h3>试着这样问</h3><div className="market-questions">{selected.questions.map(q=><div key={q}>“{q}”</div>)}</div></section><Alert type="info" showIcon title="创建独立角色草稿" description="完整复制人格、性格、声音和能力配置；不携带私人记忆、历史会话或设备绑定。补齐连接并试聊后，再发布使用。"/>
+   <section className="market-detail-section"><h3>试着这样问</h3><div className="market-questions">{selected.questions.map(q=><div key={q}>“{q}”</div>)}</div></section><Alert type="info" showIcon title="创建独立角色草稿" description="完整复制人格、性格、声音和能力配置；不携带私人记忆或历史会话。补齐连接并试聊后，再发布使用。"/>
    </>}
   </Drawer>
  </div>;

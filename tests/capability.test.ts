@@ -25,5 +25,5 @@ test('外部服务配置不保存密钥，保留提供方与任务关联模式',
 test('表格要求的模型分类、外部平台与任务模板没有缺项',()=>{
  for(const role of ['VAD','ASR','LLM','VLLM','意图','TTS','记忆','RAG'])assert.ok(modelRoles.includes(role));
  for(const platform of ['Dify','Coze','FastGPT','百炼','星辰'])assert.ok(externalPlatforms.some(p=>p.name===platform));
- assert.equal(templateSpecs.length,8);assert.ok(templateSpecs.every(t=>t.requirements.length&&t.permissions.length&&t.questions.length));
+ assert.equal(templateSpecs.length,6);assert.ok(templateSpecs.every(t=>t.requirements.length&&t.permissions.length&&t.questions.length));
 });

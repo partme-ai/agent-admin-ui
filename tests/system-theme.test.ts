@@ -1,9 +1,7 @@
+const characterPresetKey='tinybot.character-presets.v1';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {systemThemes,defaultSystemTheme,buildSystemTheme,resolveSystemMode,contrastRatio,parseSystemTheme,readSystemTheme,writeSystemTheme,systemThemeKey} from '../src/system_theme.ts';
-import {characterPresetKey,saveCharacterPreset,readCharacterPresets} from '../src/character_presets.ts';
-import {defaultCharacter} from '../src/character_config.ts';
-import {sceneSvg} from '../src/character_scene.ts';
 
 test('300套精选组合和329个旧ID，霁蓝排首位；两种模式正文、导航和按钮均可读',()=>{
  assert.equal(systemThemes.length,659);
@@ -50,17 +48,6 @@ test('极浅、极深自定义主色与背景仍能阅读，序列化往返不�
  }
 });
 
-
-test('真实形象配置保存后切换所有主题，JSON字节、颜色ID、表情与绘制结果不变',()=>{
- const map=new Map<string,string>(),storage={getItem:(k:string)=>map.get(k)||null,setItem:(k:string,v:string)=>{map.set(k,v);}};
- const config={...defaultCharacter(),name:'已有的机器人',color:'traditional742-742',expression:33,state:'playful'};
- saveCharacterPreset(storage,{id:'saved-robot',name:config.name,config});
- const original=map.get(characterPresetKey),svg=sceneSvg(config,0,{reduce:true});
- for(const t of systemThemes)for(const mode of ['light','dark','system'] as const)writeSystemTheme(storage,{...defaultSystemTheme(),preset_id:t.id,mode});
- assert.equal(map.get(characterPresetKey),original);
- const restored=readCharacterPresets(storage)[0].config;
- assert.equal(restored.color,'traditional742-742');assert.equal(restored.expression,33);assert.deepEqual(restored,config);assert.equal(sceneSvg(restored,0,{reduce:true}),svg);
-});
 
 test('系统默认与空存储回退均为霁蓝，已有主题选择继续原样读取',()=>{
  assert.equal(defaultSystemTheme().preset_id,'jilan');

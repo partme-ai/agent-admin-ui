@@ -1,3 +1,4 @@
+const characterPresetKey='tinybot.character-presets.v1';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createThemeTransition,type ThemeTransitionHandle} from '../src/theme_transition.ts';
@@ -40,7 +41,7 @@ test('最后选择与当前颜色相同也取消待执行切换，不播放无�
 
 test('翻页预览不写主题或机器人配置，明确保存仍保留旧主题全部字段',async()=>{
  const {defaultSystemTheme,parseSystemTheme,readSystemTheme,writeSystemTheme,systemThemeKey}=await import('../src/system_theme.ts');
- const {characterPresetKey}=await import('../src/character_presets.ts');
+
  const saved={...defaultSystemTheme(),preset_id:'custom',mode:'system',custom:{name:'已有主题',primary:'#1E5A8F',background:'#F7F8FA',sidebar:'#1E5A8F',sidebar_style:'dark',appearance:{font_size:15,colors:{light:{text:'#273044'}}}}};
  const raw=JSON.stringify(saved),robot='[{"id":"mine","config":{"color":"traditional742-742","expression":33}}]',map=new Map([[systemThemeKey,raw],[characterPresetKey,robot]]);
  const storage={getItem:(key:string)=>map.get(key)||null,setItem:(key:string,value:string)=>{assert.equal(key,systemThemeKey);map.set(key,value);}};

@@ -7,7 +7,7 @@ import type {Host} from './catalog.ts';
 import type {SkillRecord} from './product_state.ts';
 import {cloneRoleProfile,effectiveRoleInstructions,roleConfigFingerprint,type RoleMemory} from './role_profile.ts';
 import {cloneAgentRuntime,validateAgentRuntime,indexedDocumentText} from './feature_state.ts';
-import {buildTrialReply} from './robot_trial.ts';
+import {buildTrialReply} from './agent_reply.ts';
 export type LinkageEnvironment={store:Store;skills:SkillRecord[];host:Host;station?:Station};
 export type LinkageIssue={kind:string;id:string;message:string};
 export type LinkageEvent={kind:string;name:string;status:string;detail:string};
@@ -75,12 +75,12 @@ export function simulateAgentTurn(agent:Agent,input:string,env:LinkageEnvironmen
  if(command)events.push({kind:'commands',name:command.name,status:'本地触发',detail:command.instruction});
  for(const id of requestedSkills){const skill=skills.find(s=>s.id===id);if(skill)events.push({kind:'skills',name:skill.name,status:'已装载',detail:skill.content.replace(/^---[\s\S]*?---\s*/, '').slice(0,500)});}
  const requestedTools=toolRequest?[[toolRequest[1],toolRequest[2]]]:audit?Object.entries(p.connectionTools).flatMap(([id,tools])=>tools.map(t=>[id,t])):[];
- for(const [id,tool] of requestedTools){if(!p.connectionTools[id]?.includes(tool))return fail('当前智能体未获准调用这个 MCP 工具。');const e=env.store.extensions.find(e=>e.id===id)!;const write=/delete|remove|create|update|write|restart|move|send/i.test(tool);events.push({kind:'connections',name:`${e.name} / ${tool}`,status:write?'待审批':'模拟完成',detail:write?'只形成待审批意图，不调用设备或写入服务':`读取所授权的 ${e.transport||'HTTP'} 工具声明；本地演练回执，不冒充外部业务结果`});}
+ for(const [id,tool] of requestedTools){if(!p.connectionTools[id]?.includes(tool))return fail('当前智能体未获准调用这个 MCP 工具。');const e=env.store.extensions.find(e=>e.id===id)!;const write=/delete|remove|create|update|write|restart|move|send/i.test(tool);events.push({kind:'connections',name:`${e.name} / ${tool}`,status:write?'待审批':'模拟完成',detail:write?'只形成待审批意图，不调用外部写入服务':`读取所授权的 ${e.transport||'HTTP'} 工具声明；本地演练回执，不冒充外部业务结果`});}
  if(audit)for(const id of p.extensions){const e=env.store.extensions.find(e=>e.id===id)!;events.push({kind:'plugins',name:e.name,status:'模拟完成',detail:e.id==='e1'?`知识插件接收当前检索结果 ${references.length} 条`:e.layer==='native'?`${env.host} 宿主能力演练；未调用原生接口`:`装配策略已生效：${e.scope}`});}
  const remember=input.match(/(?:请)?记住[：:]\s*(.+)/s);
  if(remember&&localMemory){run.memoryWrite={subject:env.store.members.find(x=>x.id==='u1')?.name||'当前用户',content:remember[1].trim().slice(0,1000)};run.text=`好的，这条偏好将在本轮完成后记入我的独立记忆：${run.memoryWrite.content}`;}
  else if(remember)run.text='当前没有启用本地独立记忆；这条内容不会写入长期记忆。';
- else if(/记忆|偏好|记得/.test(input))run.text=localMemory?(memory.length?`我记得：${memory.map(x=>x.content).join('；').slice(0,220)}`:'我的独立记忆里还没有记录。'):'当前记忆模式不读取长期记忆。';
+ else if(!audit&&/记忆|偏好|记得/.test(input))run.text=localMemory?(memory.length?`我记得：${memory.map(x=>x.content).join('；').slice(0,220)}`:'我的独立记忆里还没有记录。'):'当前记忆模式不读取长期记忆。';
  else if(eventRequest)run.text=hooks.length?`事件「${eventRequest[1]}」已在本地触发 ${hooks.length} 项钩子；执行过程列出对应技能或命令，不调用外部服务。`:'该事件未关联启用的钩子。';
  else if(toolRequest)run.text=`已完成「${toolRequest[2]}」的授权与本地工具演练。请在执行过程中查看回执；没有请求外部服务。`;
  else if(skillRequest||command){const detail=skillRequest?skills.find(s=>s.id===skillRequest[1]):undefined;run.text=detail?`按「${detail.name}」技能处理：${detail.content.replace(/^---[\s\S]*?---\s*/, '').slice(0,150)}`:`命令 ${command!.name} 已采用：${command!.instruction.slice(0,150)}`;}
@@ -104,7 +104,7 @@ export function retainCurrentAgentChecks(env:LinkageEnvironment,checks:Record<st
  return Object.keys(kept).length===Object.keys(checks).length?checks:kept;
 }
 
-/** 调试智能体使用当前草稿；设备调试始终读取已发布快照。 */
-export function resolveTrialAgent(agent:Agent|undefined,device=false):Agent|undefined{return agent?(device&&agent.publishedConfig?{...agent,...structuredClone(agent.publishedConfig),revision:agent.publishedRevision||agent.revision}:agent):undefined;}
+/** 调试智能体使用当前草稿；发布预览读取已发布快照。 */
+export function resolveTrialAgent(agent:Agent|undefined,published=false):Agent|undefined{return agent?(published&&agent.publishedConfig?{...agent,...structuredClone(agent.publishedConfig),revision:agent.publishedRevision||agent.revision}:agent):undefined;}
 /** 完成回执必须仍对应当前保存的智能体和资源；临时覆盖与迟到数据不能授权发布。 */
 export function completedTrialCheck(agent:Agent,run:AgentTurn,env:LinkageEnvironment):{config:string;resources:string}|undefined{const check={config:run.config,resources:run.resources};return run.status==='completed'&&!run.blocked&&run.agentId===agent.id&&hasCurrentAgentCheck(agent,env,check)?check:undefined;}

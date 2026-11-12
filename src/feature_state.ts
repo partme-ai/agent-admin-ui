@@ -10,16 +10,6 @@ export function validateContextSource(source:ContextSource):string{
  if(Object.keys(source.headers).some(k=>/authorization|token|secret|api[-_]?key|cookie|password/i.test(k)))return '请使用服务端凭据引用，不要在界面保存认证凭据';
  return '';
 }
-export type DeviceBinding={method:'code'|'manual';code?:string;mac?:string;name:string;agent:string;kind?:string};
-export function bindPreviewDevice(bots:{id:string;mac?:string}[],value:DeviceBinding){
- if(!value.name.trim()||!value.agent)throw new Error('请填写名称并选择智能体');
- if(value.method==='code'&&!/^\d{6}$/.test(value.code||''))throw new Error('请输入 6 位设备码');
- const raw=value.method==='manual'?value.mac||'':`DE:00:00:${value.code!.slice(0,2)}:${value.code!.slice(2,4)}:${value.code!.slice(4)}`;
- const mac=raw.replaceAll('-',':').toUpperCase();
- if(!/^([0-9A-F]{2}:){5}[0-9A-F]{2}$/.test(mac))throw new Error('MAC 地址格式不正确');
- if(bots.some(b=>b.mac===mac||b.id===`preview-${mac}`))throw new Error('这台设备已绑定，不能重复添加');
- return {id:`preview-${mac}`,mac,name:value.name.trim(),agent:value.agent,kind:value.kind||'TinyBot ESP32',location:'未分组',status:'待接入',battery:0,firmware:'待上报',autoUpdate:false};
-}
 export function chunkText(text:string,size=600,overlap=60):string[]{
  if(!Number.isInteger(size)||size<1||!Number.isInteger(overlap)||overlap<0||overlap>=size)throw new Error('切片长度须大于重叠长度，重叠长度不能为负数');
  const out:string[]=[];for(let i=0;i<text.length;i+=size-overlap){out.push(text.slice(i,i+size));if(i+size>=text.length)break;}return out;
@@ -34,7 +24,6 @@ export function validateEntry(v:ConfigEntry,items:ConfigEntry[]):string{
 }
 export function filterRecords<T extends {agent:string;device?:string;date?:string;text:string}>(items:T[],q:{agent?:string;device?:string;start?:string;end?:string;query?:string}):T[]{return items.filter(x=>(!q.agent||x.agent===q.agent)&&(!q.device||x.device===q.device)&&(!q.start||!!x.date&&x.date>=q.start)&&(!q.end||!!x.date&&x.date<=q.end)&&(!q.query||x.text.toLowerCase().includes(q.query.toLowerCase())));}
 export type ProviderDefinition={id:string;name:string;roles:string[];protocol:string;endpoint:string;fields:string};
-export type FirmwareAsset={localUrl?:string;id:string;name:string;kind:string;version:string;file:string;size:number;note:string;status:string};
 export type PromptTemplate={id:string;name:string;instructions:string};
 export type KnowledgeOptions={chunkSize:number;overlap:number;topK:number;threshold:number;mode:string;embedding:string;rerank:string;external:string};
 export type StorageOptions={provider:string;fields:Record<string,string>;retention:string;result:'未检测'|'本地校验通过'|'校验失败'};
@@ -51,4 +40,3 @@ export function validateAgentRuntime(runtime:AgentRuntime|undefined,connections:
  if(runtime.replacements.some(r=>!r.from.trim()||!r.to.trim()))return '请补齐发音替换词或移除空规则';
  return '';
 }
-export function prepareFirmwareAsset(draft:FirmwareAsset,previous?:FirmwareAsset):FirmwareAsset{return {...draft,status:previous&&previous.file===draft.file&&previous.version===draft.version&&previous.kind===draft.kind?draft.status:'待验证'};}

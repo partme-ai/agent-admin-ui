@@ -1,7 +1,7 @@
 {
-  "candidate": "console-ui-candidate-1.47",
-  "authority": "console-plan-1.0",
-  "maturity": "interactive-prototype; user visual approval pending",
+  "candidate": "agent-admin-ui-cleanup",
+  "authority": "docs/admin-ui-scope.md",
+  "maturity": "frontend local simulation; no real service integration",
   "platforms": [
     {
       "name": "Desktop",
@@ -50,7 +50,7 @@
     },
     {
       "id": "CON-P02",
-      "name": "机器人试聊",
+      "name": "智能体调试",
       "phase": "P0 文本/引用；P1 语音/视觉",
       "source": "src/pages/Chat.tsx",
       "prototype": "rendered",
@@ -197,64 +197,6 @@
       "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
     },
     {
-      "id": "CON-P12",
-      "name": "设备中心",
-      "phase": "P0",
-      "source": "src/pages/Devices.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P12-A01",
-        "CON-P12-A02",
-        "CON-P12-A03"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
-      "id": "CON-P13",
-      "name": "设备详情与能力",
-      "phase": "P0 基础；P1 完整",
-      "source": "src/pages/Devices.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P13-A01",
-        "CON-P13-A02",
-        "CON-P13-A03",
-        "CON-P13-A04"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
-      "id": "CON-P14",
-      "name": "设备发现、绑定与配网",
-      "phase": "P0 绑定；P1 配网",
-      "source": "src/pages/Devices.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P14-A01",
-        "CON-P14-A02",
-        "CON-P14-A03"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
-      "id": "CON-P15",
-      "name": "手动控制与交接",
-      "phase": "P0 首次物理操作前；P1 完整",
-      "source": "src/pages/Devices.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P15-A01",
-        "CON-P15-A02",
-        "CON-P15-A03",
-        "CON-P15-A04"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
       "id": "CON-P16",
       "name": "任务与计划",
       "phase": "P0 任务；P1 定时",
@@ -384,33 +326,6 @@
       "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
     },
     {
-      "id": "CON-P25",
-      "name": "固件与设备更新",
-      "phase": "P1",
-      "source": "src/pages/Operations.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P25-A01",
-        "CON-P25-A02"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
-      "id": "CON-P26",
-      "name": "升级计划与批次",
-      "phase": "P1 单次；P2 批次窗口",
-      "source": "src/pages/Operations.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P26-A01",
-        "CON-P26-A02",
-        "CON-P26-A03"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
       "id": "CON-P27",
       "name": "成员与权限",
       "phase": "P0 最小权限；P1 完整",
@@ -467,20 +382,6 @@
       "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
     },
     {
-      "id": "CON-P31",
-      "name": "通讯录与设备呼叫",
-      "phase": "P1",
-      "source": "src/pages/Media.tsx",
-      "prototype": "rendered",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P31-A01",
-        "CON-P31-A02",
-        "CON-P31-A03"
-      ],
-      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
       "id": "CON-P32",
       "name": "音乐与媒体资源",
       "phase": "P1",
@@ -507,20 +408,6 @@
         "CON-P33-A03"
       ],
       "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
-    },
-    {
-      "id": "CON-P34",
-      "name": "表情定制",
-      "phase": "P0 原型",
-      "source": "src/pages/CharacterLab.tsx",
-      "prototype": "responsive character studio, 89 expressions active",
-      "production": "not verified",
-      "contractActions": [
-        "CON-P34-A01",
-        "CON-P34-A02",
-        "CON-P34-A03"
-      ],
-      "contractActionsAcceptance": "local browser: desktop/tablet/mobile studio and extended expression save/reload/export; native/device not verified"
     }
   ],
   "pageFamilyPolish": {
@@ -551,64 +438,29 @@
     "evidence": "evidence/buddy-pages/VERIFICATION.md",
     "acceptance": "browser layout and selected interactions checked; user visual acceptance pending; native and real services not verified"
   },
-  "xiaozhiCompletion": {
-    "contract": "XIAOZHI-UI-COMPLETION.md",
-    "evidence": "evidence/xiaozhi-completion/VERIFICATION.md",
-    "pageChecks": 102,
-    "interactionCheckpoints": 65,
-    "testsPassed": 53,
-    "acceptance": "frontend browser checks; user visual approval pending; real services and native devices not verified"
-  },
   "rolePanel": {
-    "contract": "pages/CON-P04.md",
-    "evidence": "evidence/role-panel/VERIFICATION.md",
-    "abilitySlots": [
-      "VAD",
-      "ASR",
-      "LLM",
-      "SLM",
-      "VLLM",
-      "Intent",
-      "Mem",
-      "TTS",
-      "Lang",
-      "Voice"
+    "configuration": [
+      "persona",
+      "prompt",
+      "models",
+      "knowledge",
+      "plugins",
+      "mcp",
+      "skills",
+      "sandbox",
+      "memory"
     ],
-    "scope": "frontend only; device detail opens the same role id; production/native/user visual approval pending",
-    "pageChecks": 102,
-    "interactionCheckpoints": 111,
-    "testsPassed": 63
+    "flow": [
+      "configure",
+      "debug",
+      "publish"
+    ],
+    "status": "local simulation"
   },
   "roleMarket": {
-    "source": "src/pages/RoleMarket.tsx",
-    "templates": 8,
-    "prompt": "agent.instructions; separate editor and effective preview",
-    "flow": "market -> customization -> current-config simulation -> publish -> bind -> same role",
-    "evidence": "evidence/role-market/VERIFICATION.md",
-    "maturity": "frontend only; native, real models and devices not verified",
-    "testsPassed": 68,
-    "completeFlows": 3,
-    "affectedPageChecks": 18,
-    "interactionCheckpoints": 56
-  },
-  "grokExpressions": {
-    "upstream": 25,
-    "extensions": 64,
-    "total": 89,
-    "allSelectable": true,
-    "geometry": "circle / oval / rounded capsule; no heart/star/cross eyes",
-    "firmware": "not integrated",
-    "upstreamDisplayNames": "25 Chinese display names; original ids, indices, geometry and pools unchanged"
-  },
-  "grokCustomizer": {
-    "layout": "fixed preview + appearance/expression/motion editor; compact preview above controls on mobile",
-    "expressionSources": [
-      "all:89",
-      "upstream:25",
-      "tinybot:64"
-    ],
-    "filter": "source, category and name search; stable indices",
-    "sharedEditor": "src/pages/GrokCustomizer.tsx"
+    "templates": 22,
+    "appearance": "agent icon or uploaded avatar",
+    "binding_required": false
   },
   "compactLayout": {
     "contract": "PAGE-FAMILY-POLISH.md",
@@ -631,20 +483,6 @@
     },
     "browserChecks": 9,
     "evidence": "evidence/page-headers-1.30/README.md"
-  },
-  "characterUnification": {
-    "renderer": "grok in character editor and robot trial; marketplace keeps original template portraits",
-    "legacyInputs": "minimal accepted on read, normalized to grok; no automatic storage overwrite",
-    "legacyMappings": 48,
-    "expressions": 89,
-    "actions": 9,
-    "evidence": "evidence/unified-character-1.32/README.md",
-    "scope": "local frontend; semantic mapping is not complete tears/effects or real model/device acceptance"
-  },
-  "studioSpacing": {
-    "tabContentTop": 12,
-    "selector": "actual Ant Design tabpanel and body-holder",
-    "evidence": "evidence/studio-spacing-1.33/README.md"
   },
   "systemThemes": {
     "contract": "CON-P30",

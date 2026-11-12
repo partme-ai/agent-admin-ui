@@ -1,3 +1,5 @@
+> Agent Admin UI 当前范围见 [admin-ui-scope.md](admin-ui-scope.md)。本文保留 TinyBot 来源菜单记录；设备、形象与本地模型安装菜单已从本项目移除。
+
 # TinyBot-Web 最终菜单与交互基线
 
 2026-11-12，以本轮用户菜单为增量事实源。沿用 React + antd、既有流式布局与 16px 外边距；不改 Rust 业务、不安装运行环境、不请求真实模型或解析服务。主题、机器人形象持久化键和旧路由继续兼容。

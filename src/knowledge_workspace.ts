@@ -19,8 +19,8 @@ export function importFaqJson(raw:string,knowledge:string,id:()=>string):Doc[]{
  const validated=rows.map((row,i)=>{if(!row||typeof row!=='object')throw Error(`第 ${i+1} 条格式错误`);const r=row as Record<string,unknown>;if(typeof r.question!=='string'||!r.question.trim())throw Error(`第 ${i+1} 条缺少标准问`);const answers=Array.isArray(r.answers)?r.answers:typeof r.answer==='string'?[r.answer]:[];if(!answers.length||answers.some(a=>typeof a!=='string'||!a.trim()))throw Error(`第 ${i+1} 条缺少答案`);for(const key of ['similarQuestions','negativeQuestions','tags'])if(r[key]!==undefined&&(!Array.isArray(r[key])||(r[key] as unknown[]).some(v=>typeof v!=='string')))throw Error(`第 ${i+1} 条问题列表格式错误`);return {tags:(r.tags||[]) as string[],question:r.question,answers:answers as string[],similarQuestions:(r.similarQuestions||[]) as string[],negativeQuestions:(r.negativeQuestions||[]) as string[],enabled:r.enabled!==false};});
  return validated.map(({tags,...faq})=>({...saveFaqDocument(faq,knowledge,id()),tags:[...new Set(tags.map(t=>t.trim()).filter(Boolean))]}));
 }
-export function removeKnowledge(store:Store,spaces:SharedSpace[],id:string,deviceReferences:string[]=[]){
- if(deviceReferences.includes(id)||store.agents.some(a=>a.knowledge.includes(id)||a.publishedConfig?.knowledge.includes(id)))throw Error('仍有智能体、已发布版本或设备引用此知识库，请先解除关联');
+export function removeKnowledge(store:Store,spaces:SharedSpace[],id:string){
+ if(store.agents.some(a=>a.knowledge.includes(id)||a.publishedConfig?.knowledge.includes(id)))throw Error('仍有智能体或已发布版本引用此知识库，请先解除关联');
  return {store:{...store,knowledge:store.knowledge.filter(k=>k.id!==id),docs:store.docs.filter(d=>d.knowledge!==id)},spaces:spaces.map(s=>({...s,knowledgeIds:s.knowledgeIds.filter(k=>k!==id)}))};
 }
 export function saveWikiPage(old:WikiPage|undefined,draft:Omit<WikiRevision,'at'>,id:string,allowedSources:string[],at:string):WikiPage{

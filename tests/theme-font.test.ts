@@ -1,3 +1,4 @@
+const characterPresetKey='tinybot.character-presets.v1';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {theme} from 'antd';
@@ -6,7 +7,6 @@ import {defaultSystemTheme,parseSystemTheme,matchSystemTheme} from '../src/syste
 import {systemThemeConfig,themeVariablesFromToken,resolveThemeColors} from '../src/antd_theme.ts';
 import {themeFontOptions} from '../src/theme_fonts.ts';
 import {writeSystemTheme,readSystemTheme,systemThemeKey} from '../src/system_theme.ts';
-import {characterPresetKey} from '../src/character_presets.ts';
 
 test('字号和字体分开，字体选择经解析、保存格式和换色保留',()=>{
  assert.equal(themeQuickOptions.font_size.label,'字号');

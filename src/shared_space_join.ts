@@ -12,7 +12,7 @@ export const demoSpaceInvites:SpaceInvite[]=[
 export function demoSharedDirectory():SharedSpaceOffer[]{
  return [
   {id:'demo-product',name:'产品知识协作',description:'共同维护产品文档，交流知识库与智能体的使用方法。',discoverable:true,joinMode:'invite' as const},
-  {id:'demo-robot',name:'机器人交流',description:'讨论机器人配置、设备使用与日常维护。',discoverable:true,joinMode:'open' as const},
+  {id:'demo-agent',name:'智能体交流',description:'讨论模型配置、智能体协作与知识管理。',discoverable:true,joinMode:'open' as const},
   {id:'demo-internal',name:'内部研发资料',description:'受邀请成员共同维护研发知识。',discoverable:false,joinMode:'invite' as const}
  ].map(({discoverable,joinMode,...info})=>({discoverable,joinMode,space:{...defaultSpaceDraft(),...info,createdBy:'demo-owner',createdAt:'2026-11-12T00:00:00Z',updatedAt:'2026-11-12T00:00:00Z',members:[{userId:'demo-owner',role:'admin'}],knowledgeIds:[],agentIds:[]}}));
 }

@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {initialStore,reviseAgent} from '../src/state.ts';
 import {initialProduct} from '../src/product_state.ts';
-import {cloneAgentRuntime,validateAgentRuntime,bindPreviewDevice} from '../src/feature_state.ts';
-import {cloneRoleProfile,canBindRole} from '../src/role_profile.ts';
+import {cloneAgentRuntime,validateAgentRuntime} from '../src/feature_state.ts';
+import {cloneRoleProfile} from '../src/role_profile.ts';
 import {runtimeWithModelDefaults} from '../src/role_loadout.ts';
 import {createMarketRole,roleMarketTemplates} from '../src/role_market.ts';
 import * as settings from '../src/settings_integration.ts';
@@ -36,7 +36,7 @@ test('依赖指纹包含记忆提取与工具模型，普通记忆记录更新�
  env.store.connections.find(m=>m.id==='memory-new')!.model='changed';assert.notEqual(resourceFingerprint(agent,env),old);
  const next=resourceFingerprint(agent,env);env.store.connections.find(m=>m.id==='vision-new')!.model='changed';assert.notEqual(resourceFingerprint(agent,env),next);
 });
-test('新连接→默认值→新智能体→调试→发布→设备，携带实际资源且不串用其他智能体',()=>{
+test('新连接→默认值→新智能体→调试→发布，携带实际资源且不串用其他智能体',()=>{
  const env=fixture(),connection=prepareModelForSimulation({...env.store.connections[0],id:'fresh-model',name:'新模型连接',status:'待检测'},'验证配置');env.store.connections.push(connection);
  const agent=createMarketRole(roleMarketTemplates[0],env.store.connections,{chat:connection.id});agent.id='fresh-agent';agent.profile=cloneRoleProfile(agent.profile);agent.profile.extensions=[];agent.profile.skills=['knowledge'];agent.profile.connectionTools={};agent.knowledge=['k1'];agent.tools=['knowledge'];
  agent.runtime={...cloneAgentRuntime(agent.runtime),sandboxId:'server-default',stationTools:['search-new'],memoryMode:'本地独立记忆'};
@@ -45,7 +45,7 @@ test('新连接→默认值→新智能体→调试→发布→设备，携带�
  const run=settleAgentTurn(simulateAgentTurn(agent,'验证关联',env),true).run;
  assert.equal(run.blocked,false);assert.equal(run.model.id,connection.id);assert.equal(run.request.sandbox?.id,'server-default');assert.equal(run.request.tools[0].id,'search-new');assert.ok(run.request.skills.some(s=>s.id==='knowledge'));assert.match(JSON.stringify(run.request.memory),/只属于新智能体/);assert.ok(run.references.length);
  const check=completedTrialCheck(agent,run,env);assert.ok(check);assert.ok(hasCurrentAgentCheck(agent,env,check));
- const published=reviseAgent(agent,agent,true);assert.ok(canBindRole(published));const bot=bindPreviewDevice(env.store.bots,{method:'manual',mac:'AE:11:22:33:44:55',name:'新设备',agent:published.id});assert.equal(bot.status,'待接入');assert.equal(bot.agent,agent.id);
+ const published=reviseAgent(agent,agent,true);assert.equal(published.publishedConfig?.model,connection.id);assert.equal(published.publishedConfig?.runtime?.sandboxId,'server-default');
  const edited={...published,instructions:'未发布的新提示词'};assert.equal(resolveTrialAgent(edited,false)?.instructions,edited.instructions);assert.equal(resolveTrialAgent(edited,true)?.instructions,published.publishedConfig?.instructions);assert.equal(completedTrialCheck(edited,run,env),undefined);
  env.station.tools[0].enabled=false;assert.equal(completedTrialCheck(agent,run,env),undefined);
 });

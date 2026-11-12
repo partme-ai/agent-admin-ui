@@ -27,7 +27,6 @@ test('共享成员管理保护最后管理员，撤销共享不删除源资源',
 });
 test('设备与已发布版本仍引用时，不允许删除知识库',()=>{
  const store={knowledge:[{id:'k1'}],docs:[],agents:[{knowledge:[],publishedConfig:{knowledge:['k1']}}]};assert.throws(()=>removeKnowledge(store as any,[],'k1'));
- assert.throws(()=>removeKnowledge({...store,agents:[]} as any,[],'k1',['k1']));
 });
 test('普通成员可以退出，但不能绕过最后管理员保护',()=>{
  const s={...space(),members:[...space().members,{userId:'u2',role:'viewer' as const}]};assert.deepEqual(leaveSpace(s,'u2').members,space().members);assert.equal(s.members.length,2);

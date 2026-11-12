@@ -1,27 +1,26 @@
-import {normalizeCharacter,type CharacterConfig} from './character_config.ts';
 import {cloneAgentRuntime} from './feature_state.ts';
 import type {Agent,AgentVersion} from './state.ts';
-/** 人物面板的角色配置，与设备绑定和实际记忆内容分别保存。 */
+/** 人物面板的角色配置，与实际记忆内容分别保存。 */
 export type RoleProfile={
  identity:string;background:string;values:string;boundaries:string;address:string;greeting:string;
  traits:string[];warmth:number;humor:number;initiative:number;detail:number;
- appearance?:CharacterConfig;expression:string;screenTheme:string;disabledAbilities:string[];
+ expression:string;screenTheme:string;disabledAbilities:string[];
  extensions:string[];connectionTools:Record<string,string[]>;skills:string[];
  commands:{id:string;name:string;instruction:string;enabled:boolean}[];
  hooks:{id:string;event:string;action:string;enabled:boolean}[];
- risk:{sensitiveWords:string[];requireApproval:boolean;allowDeviceWrite:boolean};
+ risk:{sensitiveWords:string[];requireApproval:boolean;allowToolWrite:boolean};
 };
 /** 记忆归属角色实例，可进一步按成员区分；不进入配置历史快照。 */
 export type RoleMemory={id:string;subject:string;content:string;source:string;updated:string;status?:import('./settings_integration.ts').MemoryStatus;replacedBy?:string};
 /** 创建互不共享引用的默认人物配置。 */
 export function defaultRoleProfile():RoleProfile{return {
- identity:'知识与生活伙伴',background:'陪伴你探索问题、整理知识，也帮助你了解设备。',values:'诚实、尊重隐私，区分事实与推测。',boundaries:'未经允许不操作设备，不编造执行结果。',address:'你',greeting:'你好呀，今天有什么想一起探索的？',
+ identity:'知识与生活伙伴',background:'陪伴你探索问题、整理知识，也帮助你推进工作。',values:'诚实、尊重隐私，区分事实与推测。',boundaries:'未经允许不执行写入操作，不编造执行结果。',address:'你',greeting:'你好呀，今天有什么想一起探索的？',
  traits:['温和','耐心','好奇'],warmth:70,humor:35,initiative:40,detail:45,
- appearance:normalizeCharacter(),expression:'微笑',screenTheme:'石墨',disabledAbilities:['SLM','VLLM'],extensions:['e1'],connectionTools:{},skills:['knowledge'],commands:[],hooks:[],risk:{sensitiveWords:[],requireApproval:true,allowDeviceWrite:false}
+ expression:'微笑',screenTheme:'石墨',disabledAbilities:['SLM','VLLM'],extensions:['e1'],connectionTools:{},skills:['knowledge'],commands:[],hooks:[],risk:{sensitiveWords:[],requireApproval:true,allowToolWrite:false}
 };}
 /** 合并既有角色数据并深拷贝，不污染原草稿或其他角色。 */
-export function cloneRoleProfile(value?:RoleProfile):RoleProfile{return structuredClone({...defaultRoleProfile(),...value,appearance:normalizeCharacter(value?.appearance)});}
-/** 按稳定角色标识构造唯一面板路由，设备入口复用该地址。 */
+export function cloneRoleProfile(value?:RoleProfile):RoleProfile{return structuredClone({...defaultRoleProfile(),...value});}
+/** 按稳定角色标识构造唯一面板路由。 */
 export function rolePanelPath(agentId:string):string{return `/w/demo/agents/${encodeURIComponent(agentId)}/edit`;}
 export const roleAbilitySlots=[
  {key:'VAD',name:'语音活动检测',desc:'感知你何时开始与结束说话'},
@@ -49,7 +48,7 @@ export function validateRoleProfile(p:RoleProfile):string{
  if(p.hooks.some(x=>!x.event||!x.action.trim()))return '请补齐钩子的事件与动作';
  const targets=new Set([...p.skills.map(id=>`skill:${id}`),...p.commands.filter(c=>c.enabled).map(c=>`command:${c.id}`)]);
  if(p.hooks.some(h=>h.enabled&&!targets.has(h.action)))return '已启用的钩子目标不可用，请重新选择或停用钩子';
- if(p.risk.allowDeviceWrite&&!p.risk.requireApproval)return '设备写入必须保留审批';
+ if(p.risk.allowToolWrite&&!p.risk.requireApproval)return '工具写入必须保留审批';
  return '';
 }
 /** 配置身份不受保存修订号影响；变更Prompt、声音或任一配置都会使旧试聊失效。 */
@@ -60,5 +59,3 @@ export function roleConfigFingerprint(a:Agent|AgentVersion):string{
 }
 /** 只有当前配置经过完整模拟回应，才满足本地创建流程的试聊步骤。 */
 export function hasCurrentRoleTrial(agent:Agent,trials:Record<string,string>):boolean{return trials[agent.id]===roleConfigFingerprint(agent);}
-/** 已发布且当前配置未变更时，可以绑定该已发布角色；兼容旧初始快照。 */
-export function canBindRole(agent:Agent):boolean{return agent.published&&(!agent.publishedConfig||roleConfigFingerprint(agent)===roleConfigFingerprint({...agent,...agent.publishedConfig}));}

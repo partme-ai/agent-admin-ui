@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {defaultSystemBrand,parseSystemBrand,readSystemBrand,writeSystemBrand,systemBrandKey,validateBrandLogo} from '../src/system_brand.ts';
 const png='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWP4z8DwHwAFgAI/ScLbtAAAAABJRU5ErkJggg==';
 test('默认标识保持现状，空配置不写入存储',()=>{
- assert.deepEqual(defaultSystemBrand(),{schema_version:1,name:'TinyBot',slogan:'机器人控制中心',logo:''});
+ assert.deepEqual(defaultSystemBrand(),{schema_version:1,name:'Agent Admin UI',slogan:'智能体管理控制台',logo:''});
  assert.deepEqual(readSystemBrand({getItem:()=>null}).settings,defaultSystemBrand());
- const a=defaultSystemBrand();a.name='另一个名字';assert.equal(defaultSystemBrand().name,'TinyBot');
+ const a=defaultSystemBrand();a.name='另一个名字';assert.equal(defaultSystemBrand().name,'Agent Admin UI');
 });
 test('名称口号规范化、合法Logo保留；空白、超长、未知版本拒绝',()=>{
  const settings={...defaultSystemBrand(),name:' 星河 ',slogan:' 一起探索 ',logo:png};
@@ -22,7 +22,7 @@ test('保存、恢复仅操作标识键，损坏值和其他配置不被覆盖',
  const storage={getItem:(key:string)=>{accesses.push(key);return map.get(key)||null;},setItem:(key:string,value:string)=>{accesses.push(key);map.set(key,value);}};
  const settings={...defaultSystemBrand(),name:'星河',logo:png};writeSystemBrand(storage,settings);assert.deepEqual(readSystemBrand(storage).settings,settings);
  writeSystemBrand(storage,defaultSystemBrand());assert.equal(map.get('tinybot.system-theme.v1'),'theme');assert.equal(map.get('tinybot.character-presets.v1'),'robot');assert.ok(accesses.every(key=>key===systemBrandKey));
- map.set(systemBrandKey,'corrupt');const result=readSystemBrand(storage);assert.ok(result.error);assert.equal(result.settings.name,'TinyBot');assert.equal(map.get(systemBrandKey),'corrupt');
+ map.set(systemBrandKey,'corrupt');const result=readSystemBrand(storage);assert.ok(result.error);assert.equal(result.settings.name,'Agent Admin UI');assert.equal(map.get(systemBrandKey),'corrupt');
 });
 test('存储拒绝和不合法配置不会报告保存成功',()=>{
  const storage={setItem:()=>{throw Error('quota');}};assert.throws(()=>writeSystemBrand(storage,defaultSystemBrand()),/quota/);

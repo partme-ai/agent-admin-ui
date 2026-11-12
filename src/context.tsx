@@ -24,7 +24,7 @@ export function ConsoleProvider({children}:{children:ReactNode}){
  const [product,setProduct]=useState(initialProduct);
  const [store,setStore]=useState(initialStore),[page,setPage]=useState(()=>location.hash?resolvePage(location.hash.slice(1)):'01');
  const previousStore=useRef(store);
- useEffect(()=>{const before=previousStore.current;previousStore.current=store;const labels:Partial<Record<keyof Store,string>>={agents:'智能体配置',connections:'模型连接',roleMemories:'智能体记忆',knowledge:'知识库',docs:'知识文档',bots:'设备配置',systemEntries:'系统参数',storage:'存储配置',preferences:'客户端偏好',extensions:'插件与连接'};const changes=(Object.keys(labels) as (keyof Store)[]).filter(key=>before[key]!==store[key]);if(changes.length)setProduct(p=>({...p,audits:[audit('更新'+changes.map(key=>labels[key]).join('、'),'当前工作空间'),...p.audits].slice(0,500)}));},[store]);
+ useEffect(()=>{const before=previousStore.current;previousStore.current=store;const labels:Partial<Record<keyof Store,string>>={agents:'智能体配置',connections:'模型连接',roleMemories:'智能体记忆',knowledge:'知识库',docs:'知识文档',systemEntries:'系统参数',storage:'存储配置',preferences:'客户端偏好',extensions:'插件与连接'};const changes=(Object.keys(labels) as (keyof Store)[]).filter(key=>before[key]!==store[key]);if(changes.length)setProduct(p=>({...p,audits:[audit('更新'+changes.map(key=>labels[key]).join('、'),'当前工作空间'),...p.audits].slice(0,500)}));},[store]);
  const [host,setHost]=useState<Host>(()=>resolveConsoleHost(query.get('host')));
  useEffect(()=>{setProduct(p=>{const agentChecks=retainCurrentAgentChecks({store,skills:p.skills,host,station:p.station},p.agentChecks);return agentChecks===p.agentChecks?p:{...p,agentChecks};});},[store,product.skills,product.station,host]);
  const [scenario,setScenario]=useState('normal');

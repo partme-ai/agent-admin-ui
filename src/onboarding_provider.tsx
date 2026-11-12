@@ -22,13 +22,10 @@ function useGuidanceState(){
    const id=c.page==='10'?c.store.docs.find(d=>d.id===c.selected)?.knowledge:c.selected;
    if(id&&c.store.knowledge.some(k=>k.id===id)&&id!==state.knowledgeId)patch.knowledgeId=id;
   }
-  if(['agent','trial','publish','device'].includes(state.current)&&c.page==='04'){
+  if(['agent','trial','publish'].includes(state.current)&&c.page==='04'){
    const created=c.store.agents.find(a=>!before.agents.some(old=>old.id===a.id));
    const id=created?.id||(c.store.agents.some(a=>a.id===c.selected)?c.selected:'');
    if(id&&state.agentId!==id)patch.agentId=id;
-  }
-  if(state.current==='device'){
-   const changed=c.store.bots.find(b=>b.agent===state.agentId&&b!==before.bots.find(x=>x.id===b.id));if(changed)patch.deviceId=changed.id;
   }
   if(Object.keys(patch).length)setState(s=>({...s,...patch}));
  },[c.store,c.page,c.selected,state.active,state.current,state.agentId,state.knowledgeId]);

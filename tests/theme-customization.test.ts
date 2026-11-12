@@ -1,12 +1,10 @@
+const characterPresetKey='tinybot.character-presets.v1';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {theme} from 'antd';
 import {defaultSystemTheme,parseSystemTheme,writeSystemTheme,systemThemeKey,type SystemThemeCustom} from '../src/system_theme.ts';
 import {systemThemeConfig,resolveThemeColors,navigationThemeConfig,themeVariablesFromToken} from '../src/antd_theme.ts';
 import {patchThemeColor,resetThemeGroup,defaultThemeCustom} from '../src/theme_customization.ts';
-import {characterPresetKey,saveCharacterPreset,readCharacterPresets} from '../src/character_presets.ts';
-import {defaultCharacter} from '../src/character_config.ts';
-import {sceneSvg} from '../src/character_scene.ts';
 
 const custom:SystemThemeCustom={name:'高级主题',primary:'#1E5A8F',background:'#F7F8FA',sidebar:'#1E5A8F',sidebar_style:'dark' as const};
 const settings=(appearance:Record<string,unknown>)=>({...defaultSystemTheme(),preset_id:'custom',custom:{...custom,appearance}});
@@ -62,15 +60,4 @@ test('连续编辑并切换浅深模式不会创建无限算法实例或使主�
 test('无边框与直角仍保留键盘焦点描边',()=>{
  const t=theme.getDesignToken(systemThemeConfig(parseSystemTheme(JSON.stringify(settings({border_width:0,border_radius:0,shadow:'none'}))),'light','desktop'));
  assert.equal(t.lineWidth,0);assert.equal(t.borderRadius,0);assert.equal(t.boxShadow,'none');assert.ok(t.lineWidthFocus>=2);assert.ok(t.controlOutlineWidth>=2);
-});
-
-
-test('高级主题的所有模式与密度不改已有形象JSON、颜色ID与实际SVG绘制',()=>{
- const map=new Map<string,string>(),storage={getItem:(k:string)=>map.get(k)||null,setItem:(k:string,v:string)=>{map.set(k,v);}};
- const config={...defaultCharacter(),name:'既有形象',color:'traditional742-742',expression:33};
- saveCharacterPreset(storage,{id:'saved-before-theme',name:config.name,config});
- const original=map.get(characterPresetKey),svg=sceneSvg(config,0,{reduce:true});
- for(const mode of ['light','dark','system'] as const)for(const density of ['compact','comfortable','spacious'])writeSystemTheme(storage,parseSystemTheme(JSON.stringify({...settings({font_size:18,border_radius:0,shadow:'strong',density}),mode})));
- const loaded=readCharacterPresets(storage)[0].config;
- assert.equal(map.get(characterPresetKey),original);assert.deepEqual(loaded,config);assert.equal(sceneSvg(loaded,0,{reduce:true}),svg);
 });

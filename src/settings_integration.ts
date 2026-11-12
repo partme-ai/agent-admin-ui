@@ -10,7 +10,7 @@ export const memoryStates:Record<MemoryStatus,string>={active:'生效中',pendin
 export type MemoryPolicy={enabled:boolean;mode:'explicit'|'auto';model:string;embedding:string;semantic:boolean;delay:number;interval:number;maxItems:number;rules:string;conditioning:boolean};
 export const defaultMemoryPolicy:MemoryPolicy={enabled:false,mode:'explicit',model:'',embedding:'',semantic:false,delay:30,interval:60,maxItems:200,rules:'',conditioning:true};
 export type IntegrationEndpoint={id:string;name:string;enabled:boolean;token:string;scope:string[];tools:string[]};
-export function initialSettingsIntegration(){return {defaults:{} as ModelDefaults,ollama:{url:'http://127.0.0.1:11434',tasks:[] as {id:string;model:string;state:'待执行'|'已取消'}[]},api:{baseUrl:'http://127.0.0.1:8080',protocol:'OpenAI',enabled:false,keys:[] as IntegrationEndpoint[]},mcp:[] as IntegrationEndpoint[],historyIndex:{} as Record<string,{enabled:boolean;embedding:string}>};}
+export function initialSettingsIntegration(){return {defaults:{} as ModelDefaults,api:{baseUrl:'http://127.0.0.1:8080',protocol:'OpenAI',enabled:false,keys:[] as IntegrationEndpoint[]},mcp:[] as IntegrationEndpoint[],historyIndex:{} as Record<string,{enabled:boolean;embedding:string}>};}
 /** 显式默认失效时返回空，避免默默替换模型；无设置才兼容原有选择。 */
 export function resolveDefaultModel(connections:Connection[],defaults:ModelDefaults,slot:DefaultSlot):string{
  const spec=defaultSlots.find(s=>s.key===slot)!;
