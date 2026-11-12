@@ -1,0 +1,28 @@
+/* Portal浮层独立于页面外壳：短表单自然高度，长表单只滚动正文。 */
+.ant-modal-wrap .ant-modal{top:16px;margin:0 auto;padding-bottom:0;max-width:calc(100% - 32px)}
+.ant-modal .ant-modal-container{display:flex;flex-direction:column;max-height:calc(100dvh - 32px);box-sizing:border-box;overflow:hidden;padding-inline:16px}
+.ant-modal .ant-modal-header,.ant-modal .ant-modal-footer{flex:none}
+.ant-modal .ant-modal-body{min-height:0;min-width:0;overflow-y:auto;overscroll-behavior:contain;overflow-wrap:anywhere}
+.ant-modal .ant-modal-body>form,.ant-modal .ant-modal-body .ant-form-item-control{min-width:0}
+.ant-modal .ant-modal-footer{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:8px}
+.ant-modal .ant-modal-footer>.ant-space,.ant-drawer .ant-drawer-footer>.ant-space{max-width:100%;flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
+.ant-modal .ant-modal-footer>.ant-btn+.ant-btn{margin-inline-start:0}
+.ant-drawer .ant-drawer-section{min-width:0;max-height:100dvh}
+.ant-drawer .ant-drawer-header,.ant-drawer .ant-drawer-footer{flex:none}
+.ant-drawer .ant-drawer-body{min-height:0;min-width:0;overscroll-behavior:contain;overflow-wrap:anywhere}
+/* 共用编辑区与专用形象、主题抽屉使用相同外框，不改变控件或纵向留白。 */
+.ant-drawer .ant-drawer-header,.ant-drawer .ant-drawer-body,.ant-drawer .ant-drawer-footer{padding-inline:16px}
+.ant-drawer .ant-drawer-footer{padding-bottom:max(10px,env(safe-area-inset-bottom))}
+.empty-area{grid-column:1/-1;min-width:0;text-align:center;padding:28px 12px}
+.empty-area .ant-empty-description{overflow-wrap:anywhere}
+@media(max-width:600px){
+ .ant-modal-wrap .ant-modal{top:12px;max-width:calc(100% - 24px)}
+ .ant-modal .ant-modal-container{max-height:calc(100dvh - 24px);padding:16px}
+ .ant-modal .ant-modal-footer{padding-bottom:env(safe-area-inset-bottom)}
+ .ant-modal .ant-modal-footer .ant-space-item{min-width:0}
+ .ant-modal .ant-modal-body .ant-select{max-width:100%}
+ .empty-area{padding:24px 8px}
+}
+
+/* 手机保留通知入口，原有badge在基础样式中被隐藏。 */
+.buddy-shell.device-mobile .topbar-actions .ant-badge{display:inline-flex}

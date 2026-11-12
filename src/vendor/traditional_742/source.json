@@ -1,0 +1,40 @@
+{
+  "website": "https://colors.xiaoxiaodong.ai/dictionary?family=red",
+  "dictionary": "https://colors.xiaoxiaodong.ai/dictionary.html",
+  "repository": "https://github.com/nevertoday/zhongguo-traditional-colors",
+  "commit": "7934e2bca7719a8b3401b97a128270dbbc2c1940",
+  "retrieved": "2026-11-06",
+  "count": 742,
+  "families": {
+    "黄色系": 63,
+    "橙色系": 183,
+    "红色系": 196,
+    "紫色系": 21,
+    "蓝色系": 95,
+    "中性色": 57,
+    "青色系": 63,
+    "绿色系": 64
+  },
+  "sources": [
+    {
+      "path": "assets/data/images.js",
+      "url": "https://github.com/nevertoday/zhongguo-traditional-colors/blob/7934e2bca7719a8b3401b97a128270dbbc2c1940/assets/data/images.js",
+      "sha256": "8e19a53ea8e06962e4e887a7d3dbd7a037dcf8e49ced5a08667790f2cf79db36"
+    },
+    {
+      "path": "assets/data/harmonies.js",
+      "url": "https://github.com/nevertoday/zhongguo-traditional-colors/blob/7934e2bca7719a8b3401b97a128270dbbc2c1940/assets/data/harmonies.js",
+      "sha256": "de6a94fcec80bd99bedd64cbff0d099e313365942c082498b3c94c5b7bf9950f"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/nevertoday/zhongguo-traditional-colors/blob/7934e2bca7719a8b3401b97a128270dbbc2c1940/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ],
+  "outputSha256": "28735b954c0a4ab63765cf64192c92b3cf9f4fec0bc5ad8b90ca3516d8ea9274",
+  "licenseFile": "GPL-3.0",
+  "readmeLicenseClaim": "MIT",
+  "licenseDiscrepancy": "实际 LICENSE 为 GPL-3.0；README 的 MIT 声明不一致，不按 MIT 标注或消除上游许可义务。",
+  "verification": "仓库内 images.js 与 harmonies.js 的 742 个 ID、名称及 HEX 逐项一致；公开站点直取返回 403，未声称线上资源与固定提交逐字节一致。"
+}

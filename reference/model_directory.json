@@ -1,0 +1,3704 @@
+[
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      11,
+      68,
+      130,
+      200,
+      251,
+      303,
+      369,
+      455,
+      524,
+      542,
+      590,
+      618,
+      651,
+      784
+    ],
+    "models": [
+      "deepseek-v4-flash",
+      "deepseek-v4-pro",
+      "deepseek-v4-flash-vision-exp",
+      "deepseek-flash"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "glm",
+    "name": "智谱 GLM / Z.AI",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      13,
+      14,
+      70,
+      71,
+      131,
+      132,
+      203,
+      204,
+      252,
+      253,
+      304,
+      305,
+      403,
+      404,
+      405,
+      406,
+      517,
+      518,
+      519,
+      520,
+      521,
+      548,
+      574,
+      597,
+      648,
+      681,
+      682,
+      683,
+      684,
+      699,
+      700,
+      701,
+      702,
+      703,
+      710,
+      711,
+      712,
+      713,
+      764,
+      766
+    ],
+    "models": [
+      "glm-5.3",
+      "glm-5.3-flash",
+      "glm-5.2",
+      "glm-5-turbo",
+      "glm-5v-turbo",
+      "glm-5.1",
+      "GLM-5.3",
+      "GLM-5.3-Flash",
+      "GLM-5V-Turbo",
+      "GLM-5.1",
+      "GLM-5.1-Highspeed",
+      "GLM-5",
+      "GLM-5-Turbo",
+      "GLM-4.7",
+      "GLM-4.7-FlashX",
+      "GLM-4.7-Flash",
+      "GLM-4.6",
+      "GLM-4.5-Air",
+      "GLM-4.5",
+      "GLM-4.6V",
+      "GLM-4.6V-Flash",
+      "GLM-4.6V-FlashX",
+      "GLM-4.1V-Thinking-FlashX",
+      "GLM-4.1V-Thinking-Flash",
+      "GLM-4-FlashX-250414",
+      "GLM-4-Flash-250414",
+      "GLM-4V-Flash",
+      "codegeex-4",
+      "charglm-4",
+      "emohaa",
+      "glm-5",
+      "glm-4.7",
+      "glm-4.5-air",
+      "glm-4-flash-250414",
+      "glm-4.7-flash"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi / 月之暗面",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      18,
+      19,
+      75,
+      76,
+      135,
+      136,
+      207,
+      208,
+      255,
+      256,
+      307,
+      308,
+      389,
+      390,
+      391,
+      470,
+      471,
+      472,
+      482,
+      522,
+      546,
+      587,
+      629,
+      679,
+      680,
+      697,
+      698,
+      706,
+      707,
+      708,
+      709,
+      722,
+      723,
+      762
+    ],
+    "models": [
+      "k3",
+      "k3-256k",
+      "kimi-for-coding",
+      "kimi-for-coding-highspeed",
+      "kimi-k3",
+      "kimi-k2.7-code",
+      "kimi-k2.7-code-highspeed",
+      "kimi-k2.6",
+      "kimi-k2.5",
+      "kimi-k2-thinking",
+      "kimi-k2-thinking-turbo",
+      "kimi-k2-turbo-preview"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      24,
+      25,
+      82,
+      83,
+      141,
+      142,
+      213,
+      214,
+      259,
+      260,
+      315,
+      316,
+      385,
+      386,
+      387,
+      479,
+      480,
+      523,
+      569,
+      598,
+      627,
+      685,
+      704,
+      705,
+      714,
+      715,
+      716,
+      765
+    ],
+    "models": [
+      "MiniMax-M3",
+      "MiniMax-M2.7",
+      "MiniMax-M2.7-highspeed",
+      "MiniMax-M2.5",
+      "MiniMax-M2.5-highspeed",
+      "MiniMax-M2.1",
+      "MiniMax-M2.1-highspeed",
+      "MiniMax-M2"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "bailian",
+    "name": "阿里云 · 百炼",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      16,
+      17,
+      73,
+      74,
+      134,
+      205,
+      206,
+      306,
+      354,
+      355,
+      356,
+      496,
+      497,
+      499,
+      525,
+      526,
+      575,
+      576,
+      606,
+      607,
+      687,
+      718,
+      720
+    ],
+    "models": [
+      "qwen3.8-max",
+      "qwen3.8-flash",
+      "qwen3.7-max",
+      "qwen3.7-plus",
+      "qwen3.7-flash",
+      "qwen3.6-plus",
+      "qwen3.6-flash",
+      "qwen3.5-plus",
+      "qwen3.5-flash",
+      "qwen3-max",
+      "qwen-plus",
+      "qwen-flash",
+      "qwen3-vl-plus",
+      "qwen3.8-omni-flash",
+      "kimi-k2.5",
+      "glm-5",
+      "MiniMax-M2.5"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "qwen",
+    "name": "通义千问",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      254,
+      494,
+      498,
+      544,
+      545,
+      579,
+      636,
+      686,
+      717,
+      719,
+      726,
+      763
+    ],
+    "models": [
+      "qwen3.5-plus",
+      "qwen3.6-flash",
+      "qwen3.6-plus",
+      "qwen3.7-max",
+      "qwen3.7-plus",
+      "qwen3.8-max",
+      "qwen3.8-flash",
+      "qwen3-max-2026-01-23",
+      "qwen3-coder-next",
+      "qwen3-coder-plus",
+      "MiniMax-M2.5",
+      "glm-5",
+      "glm-4.7",
+      "kimi-k2.5",
+      "qwen3.6-max-preview",
+      "coder-model",
+      "vision-model"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "baidu",
+    "name": "百度云 · 千帆",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      15,
+      72,
+      133,
+      493,
+      635,
+      688,
+      689,
+      770
+    ],
+    "models": [
+      "deepseek-v4-pro",
+      "ernie-5.1",
+      "ernie-5.0",
+      "deepseek-v3.2",
+      "ernie-5.0-thinking-preview"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "volcengine",
+    "name": "字节 · 火山方舟",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      511,
+      512,
+      547,
+      645,
+      690,
+      691,
+      692,
+      724,
+      767
+    ],
+    "models": [
+      "doubao-seed-evolving",
+      "doubao-seed-2-1-pro-260628",
+      "doubao-seed-2-1-turbo-260628",
+      "glm-5-2-260617",
+      "deepseek-v4-pro-260425",
+      "deepseek-v4-flash-260425",
+      "kimi-k2-5-260127",
+      "glm-4-7-251222",
+      "deepseek-v3-2-251201",
+      "ark-code-latest",
+      "doubao-seed-2.1-turbo",
+      "glm-5.2",
+      "deepseek-v4-pro",
+      "deepseek-v4-flash",
+      "doubao-seed-1-6-251015",
+      "doubao-seed-1-6-flash-250828",
+      "doubao-seed-1-6-thinking",
+      "doubao-1.5-pro-256k",
+      "doubao-pro-32k"
+    ],
+    "phase": "P0"
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯 · 混元 / TokenHub",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      505,
+      506,
+      640,
+      694,
+      695,
+      769
+    ],
+    "models": [
+      "hy3-preview",
+      "hy3",
+      "hy4-preview",
+      "hunyuan-t1-latest",
+      "hunyuan-turbos-latest",
+      "hunyuan-standard-latest"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "xiaomi",
+    "name": "小米 · MiMo",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      57,
+      58,
+      117,
+      118,
+      144,
+      145,
+      243,
+      244,
+      264,
+      265,
+      318,
+      319,
+      515,
+      516,
+      527,
+      572,
+      647,
+      693
+    ],
+    "models": [
+      "mimo-v2.6-pro",
+      "mimo-v2.6-flash",
+      "mimo-v2.6-pro-ultraspeed",
+      "mimo-v2.5",
+      "mimo-v2.5-pro",
+      "mimo-v2-pro",
+      "mimo-v2-flash",
+      "mimo-v2-omni"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "stepfun",
+    "name": "阶跃星辰",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      20,
+      21,
+      77,
+      78,
+      137,
+      138,
+      209,
+      257,
+      258,
+      309,
+      310,
+      311,
+      502,
+      503,
+      599,
+      638,
+      802
+    ],
+    "models": [
+      "step-3.7-flash",
+      "step-3.5-flash",
+      "step-3.5-flash-2603",
+      "step-3.5-pro"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      29,
+      30,
+      87,
+      88,
+      146,
+      147,
+      218,
+      219,
+      274,
+      275,
+      567,
+      671,
+      804
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "modelscope",
+    "name": "魔搭 ModelScope",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      22,
+      79,
+      139,
+      210,
+      273,
+      312,
+      571
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "longcat",
+    "name": "美团 · LongCat",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      23,
+      81,
+      140,
+      212,
+      262,
+      314,
+      476,
+      570
+    ],
+    "models": [
+      "LongCat-2.0"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "bailing",
+    "name": "蚂蚁 · 百灵",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      26,
+      84,
+      143,
+      215,
+      263,
+      317
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "baichuan",
+    "name": "百川智能",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      696,
+      771
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "yi",
+    "name": "零一万物 · Yi",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      768
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "kat",
+    "name": "快手 · KAT",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      80,
+      211,
+      261,
+      313
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "compshare",
+    "name": "优刻得 · Compshare",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      47,
+      48,
+      105,
+      106,
+      167,
+      168,
+      234,
+      235,
+      290,
+      291
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "shengsuanyun",
+    "name": "胜算云",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      1,
+      60,
+      122,
+      176,
+      193,
+      245,
+      297,
+      566,
+      672
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      121,
+      392,
+      428,
+      489,
+      528,
+      538,
+      581,
+      632,
+      749,
+      759
+    ],
+    "models": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6-sol",
+      "gpt-6-luna",
+      "gpt-5.6-sol",
+      "gpt-5.6-terra",
+      "gpt-5.6-luna",
+      "gpt-5.5",
+      "gpt-5.5-pro",
+      "gpt-5.4",
+      "gpt-5.4-pro",
+      "gpt-5.4-mini",
+      "gpt-5.4-nano",
+      "gpt-5.6",
+      "gpt-5.3-codex"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      59,
+      357,
+      439,
+      440,
+      529,
+      539,
+      540,
+      582,
+      608,
+      748,
+      761
+    ],
+    "models": [
+      "claude-opus-5-5",
+      "claude-fable-5-1",
+      "claude-fable-5",
+      "claude-opus-5",
+      "claude-sonnet-5-5",
+      "claude-sonnet-5",
+      "claude-mythos-5",
+      "claude-opus-4-8",
+      "claude-haiku-4-5",
+      "claude-haiku-4-5-20251001",
+      "claude-opus-4-7",
+      "claude-sonnet-4-6"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "google",
+    "name": "Google Gemini",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      8,
+      67,
+      175,
+      372,
+      463,
+      541,
+      592,
+      620,
+      753,
+      775
+    ],
+    "models": [
+      "gemini-2.5-pro",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.5-flash-lite",
+      "gemini-3.1-pro-preview",
+      "gemini-3.1-flash-lite",
+      "gemini-3-flash-preview"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      402,
+      435,
+      514,
+      530,
+      594,
+      646,
+      652,
+      653,
+      788
+    ],
+    "models": [
+      "grok-4.7",
+      "grok-4.6",
+      "grok-4.5",
+      "grok-build-0.1",
+      "grok-4.3",
+      "grok-4.20-0309-reasoning",
+      "grok-4.20-0309-non-reasoning",
+      "grok-4",
+      "grok-4-fast",
+      "grok-3"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      388,
+      481,
+      550,
+      589,
+      628,
+      650,
+      783
+    ],
+    "models": [
+      "codestral-latest",
+      "devstral-medium-latest",
+      "mistral-large-latest",
+      "mistral-medium-2508",
+      "mistral-medium-3-5",
+      "mistral-small-latest",
+      "mistral-small-2603",
+      "devstral-latest",
+      "mistral-medium-latest",
+      "ministral-8b-latest"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      366,
+      367,
+      413,
+      451,
+      615,
+      656,
+      786
+    ],
+    "models": [
+      "command-a-plus-05-2026",
+      "command-a-03-2025",
+      "command-a-reasoning-08-2025",
+      "command-a-vision-07-2025",
+      "north-mini-code-1-0",
+      "command-r-plus-08-2024",
+      "command-r-08-2024"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "kind": "官方模型",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      477
+    ],
+    "models": [
+      "muse-spark-1.3",
+      "muse-spark-1.3-contributor",
+      "muse-spark-1.2",
+      "muse-spark-1.2-contributor",
+      "muse-spark-1.1"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      52,
+      110,
+      173,
+      190,
+      199,
+      271,
+      323,
+      398,
+      429,
+      492,
+      531,
+      543,
+      583,
+      634,
+      751,
+      772
+    ],
+    "models": [
+      "anthropic/claude-fable-5.1",
+      "openai/gpt-6-astra",
+      "openai/gpt-5.6-sol",
+      "anthropic/claude-opus-5",
+      "deepseek/deepseek-v4-pro",
+      "moonshotai/kimi-k3",
+      "z-ai/glm-5.3",
+      "qwen/qwen3.8-max",
+      "minimax/minimax-m3",
+      "xiaomi/mimo-v2.5-pro",
+      "x-ai/grok-4.6",
+      "deepseek/deepseek-v4.1-flash",
+      "qwen/qwen3.8-max-0902",
+      "openai/gpt-5.6-terra",
+      "openai/gpt-5.6-luna",
+      "openai/gpt-5.6",
+      "openai/gpt-5.4",
+      "openai/gpt-5.4-pro",
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano",
+      "openai/gpt-5.3-codex",
+      "anthropic/claude-sonnet-5",
+      "anthropic/claude-haiku-4.5",
+      "anthropic/claude-opus-4.8",
+      "anthropic/claude-opus-4.7",
+      "anthropic/claude-opus-4.6",
+      "anthropic/claude-opus-4.5",
+      "anthropic/claude-sonnet-4.6",
+      "anthropic/claude-sonnet-4.5",
+      "deepseek/deepseek-v4-flash",
+      "moonshotai/kimi-k2.7-code",
+      "moonshotai/kimi-k2.6",
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.3-flash",
+      "z-ai/glm-5.2",
+      "z-ai/glm-5.1",
+      "z-ai/glm-5v-turbo",
+      "z-ai/glm-5",
+      "z-ai/glm-5-turbo",
+      "z-ai/glm-4.7",
+      "z-ai/glm-4.7-flash",
+      "z-ai/glm-4.6",
+      "z-ai/glm-4.6v",
+      "z-ai/glm-4.5-air",
+      "z-ai/glm-4.5",
+      "qwen/qwen3.8-flash",
+      "qwen/qwen3.7-max",
+      "qwen/qwen3.7-plus",
+      "qwen/qwen3.7-flash",
+      "qwen/qwen3.6-plus",
+      "qwen/qwen3.6-flash",
+      "qwen/qwen3.5-plus-20260420",
+      "qwen/qwen3-vl-plus",
+      "qwen/qwen3-vl-flash",
+      "minimax/minimax-m2.7",
+      "minimax/minimax-m2.5",
+      "xiaomi/mimo-v2.5",
+      "x-ai/grok-build-0.1",
+      "x-ai/grok-4.3",
+      "google/gemini-3.1-pro-preview",
+      "qwen/qwen3-coder-next",
+      "openrouter/auto",
+      "google/gemini-3.7-flash"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "azure",
+    "name": "Azure / Microsoft Foundry",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      129,
+      359,
+      360,
+      361,
+      408,
+      478,
+      553,
+      610,
+      750,
+      760
+    ],
+    "models": [
+      "gpt-5.2",
+      "gpt-5",
+      "gpt-4.1"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "bedrock",
+    "name": "Amazon Bedrock",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      119,
+      120,
+      295,
+      344,
+      350,
+      351,
+      352,
+      353,
+      407,
+      437,
+      438,
+      554,
+      611,
+      727,
+      778
+    ],
+    "models": [
+      "anthropic.claude-opus-4-6-v1",
+      "anthropic.claude-sonnet-4-5-v2",
+      "anthropic.claude-haiku-4-5-v1"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "vertex",
+    "name": "Google Vertex AI",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      418,
+      465,
+      754
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA NIM",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      55,
+      115,
+      149,
+      241,
+      277,
+      326,
+      424,
+      486,
+      551,
+      596,
+      630,
+      733,
+      734,
+      735,
+      811
+    ],
+    "models": [
+      "nvidia/nemotron-3-ultra-550b-a55b",
+      "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "nvidia/nemotron-3-super-120b-a12b",
+      "z-ai/glm-5.2",
+      "moonshotai/kimi-k2.6",
+      "minimaxai/minimax-m3",
+      "deepseek-ai/deepseek-v4-pro",
+      "qwen/qwen3.5-397b-a17b",
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1",
+      "z-ai/glm5",
+      "minimaxai/minimax-m2.7",
+      "openai/gpt-oss-120b",
+      "openai/gpt-oss-20b",
+      "qwen/qwen3-coder-480b-a35b-instruct",
+      "qwen/qwen3-next-80b-a3b-thinking",
+      "meta/llama-3.3-70b-instruct",
+      "meta/llama-3.1-70b-instruct",
+      "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      467,
+      595,
+      622,
+      669,
+      794
+    ],
+    "models": [
+      "deepseek-ai/DeepSeek-R1",
+      "deepseek-ai/DeepSeek-V3.1",
+      "openai/gpt-oss-120b",
+      "Qwen/Qwen3-Coder-Next",
+      "meta-llama/Llama-3.3-70B-Instruct",
+      "deepseek-ai/DeepSeek-V3"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "byteplus",
+    "name": "BytePlus",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      4,
+      63,
+      125,
+      195,
+      247,
+      299,
+      444,
+      445,
+      721,
+      725
+    ],
+    "models": [
+      "dola-seed-2-1-turbo-260628",
+      "seed-2-0-code-preview-260328",
+      "glm-5-2-260617",
+      "deepseek-v4-pro-260425",
+      "deepseek-v4-flash-260425",
+      "glm-4-7-251222",
+      "ark-code-latest",
+      "kimi-k2.5"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      425,
+      487,
+      559,
+      631,
+      752,
+      773,
+      774
+    ],
+    "models": [
+      "qwen3.6",
+      "qwen3-coder:30b",
+      "gpt-oss:20b",
+      "llama3.3"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "lmstudio",
+    "name": "LM Studio",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      421,
+      475,
+      561,
+      626,
+      740,
+      741,
+      817
+    ],
+    "models": [
+      "custom-model"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      434,
+      510,
+      560,
+      644,
+      742,
+      820
+    ],
+    "models": [
+      "custom-model"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "llamacpp",
+    "name": "llama.cpp",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      474,
+      743,
+      744,
+      818
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "sglang",
+    "name": "SGLang",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      501,
+      637,
+      745,
+      819
+    ],
+    "models": [
+      "custom-model"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "osaurus",
+    "name": "Osaurus",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      746,
+      821
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "apple",
+    "name": "Apple Foundation Models",
+    "kind": "本地服务",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      441
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      473,
+      578,
+      625,
+      747,
+      822
+    ],
+    "models": [
+      "claude-opus-4-6",
+      "gpt-5",
+      "custom-model"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "newapi",
+    "name": "NewAPI",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      348
+    ],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode Zen / Go",
+    "kind": "模型平台",
+    "domestic": false,
+    "roles": [
+      "LLM"
+    ],
+    "records": [
+      12,
+      69,
+      426,
+      490,
+      491,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      675,
+      676,
+      833
+    ],
+    "models": [
+      "claude-opus-5",
+      "gpt-5.6-sol",
+      "gpt-5-nano",
+      "gemini-3.6-flash",
+      "minimax-m3",
+      "kimi-k3",
+      "big-pickle",
+      "deepseek-v4-pro",
+      "deepseek-v4-flash",
+      "kimi-k2.6",
+      "gpt-5.6-luna",
+      "qwen3.8-max",
+      "hy3-preview",
+      "glm-5.3-flash",
+      "glm-5.3",
+      "kimi-k2.7-code",
+      "deepseek-v4.1-flash",
+      "mimo-v2.5",
+      "mimo-v2.5-pro",
+      "glm-5.2",
+      "glm-5.1",
+      "deepseek-v4-flash-vision-exp",
+      "hy4-preview",
+      "hy3",
+      "qwen3.8-flash",
+      "minimax-m2.7",
+      "minimax-m2.5",
+      "qwen3.7-max",
+      "qwen3.7-plus",
+      "qwen3.6-plus",
+      "grok-4.6",
+      "gpt-6-astra",
+      "gpt-5.6-terra",
+      "gpt-5.5",
+      "gpt-5.5-pro",
+      "gpt-5.4",
+      "gpt-5.4-pro",
+      "gpt-5.4-mini",
+      "gpt-5.4-nano",
+      "gpt-5.3-codex",
+      "gpt-5.3-codex-spark",
+      "gpt-5.2",
+      "gpt-5.1",
+      "claude-fable-5-1",
+      "claude-fable-5",
+      "qwen3.5-plus",
+      "claude-sonnet-5",
+      "claude-haiku-4-5",
+      "claude-opus-4-8",
+      "claude-opus-4-7",
+      "claude-opus-4-6",
+      "claude-opus-4-5",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-5",
+      "mimo-v2.5-free",
+      "hy3-free",
+      "ling-3.0-flash-fin-free",
+      "nemotron-3-ultra-free",
+      "muse-spark-1.2-contributor-free",
+      "nemotron-3.5-lightning-free"
+    ],
+    "phase": "P1"
+  },
+  {
+    "id": "runtime",
+    "name": "外部 Agent / CLI",
+    "kind": "工具运行时",
+    "domestic": false,
+    "roles": [
+      "外部运行时"
+    ],
+    "records": [
+      0,
+      9,
+      10,
+      113,
+      114,
+      346,
+      347,
+      416,
+      450,
+      453,
+      459,
+      464,
+      555,
+      557,
+      558,
+      633,
+      731,
+      732,
+      755,
+      756,
+      757,
+      758,
+      776,
+      777,
+      816,
+      834,
+      838,
+      839,
+      840,
+      841
+    ],
+    "models": [
+      "claude-fable-5",
+      "claude-opus-5",
+      "claude-sonnet-5",
+      "claude-haiku-4.5",
+      "claude-opus-4.8",
+      "claude-sonnet-4.6",
+      "gemini-3.6-flash",
+      "gemini-3.1-pro-preview",
+      "gemini-3.5-flash",
+      "gemini-2.5-pro",
+      "gpt-5.6-sol",
+      "gpt-5.6-terra",
+      "gpt-5.6-luna",
+      "gpt-5.3-codex",
+      "gpt-5.4",
+      "gpt-5.5",
+      "gpt-5.4-mini"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "patewayai",
+    "name": "PatewayAI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      2,
+      61,
+      123
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "agentplan",
+    "name": "火山Agentplan",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      3,
+      62,
+      124,
+      194,
+      246,
+      298
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "doubaoseed",
+    "name": "DouBaoSeed",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      5,
+      64,
+      126,
+      196,
+      248,
+      300
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ccsub",
+    "name": "CCSub",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      6,
+      65,
+      127,
+      197,
+      249,
+      301
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "unity2-ai",
+    "name": "Unity2.ai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      7,
+      66,
+      128,
+      177,
+      198,
+      250,
+      302
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "aihubmix",
+    "name": "AiHubMix",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      27,
+      85,
+      150,
+      216,
+      266,
+      320,
+      670,
+      803
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "cherryin",
+    "name": "CherryIN",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      28,
+      86,
+      151,
+      189,
+      217,
+      267,
+      321
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "dmxapi",
+    "name": "DMXAPI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      31,
+      89,
+      152,
+      220,
+      268,
+      322
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "packycode",
+    "name": "PackyCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      32,
+      90,
+      153,
+      178,
+      221,
+      279,
+      328
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "apikey-fun",
+    "name": "APIKEY.FUN",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      33,
+      91,
+      154,
+      179,
+      222,
+      280,
+      329
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "apinebula",
+    "name": "APINebula",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      34,
+      92,
+      155,
+      180,
+      223,
+      281,
+      330
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "atlascloud",
+    "name": "AtlasCloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      35,
+      93,
+      156,
+      224,
+      282,
+      331,
+      814
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "sudocode",
+    "name": "SudoCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      36,
+      94,
+      157,
+      181,
+      225,
+      283,
+      332
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "claudeapi",
+    "name": "ClaudeAPI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      37,
+      95
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "claudecn",
+    "name": "ClaudeCN",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      38,
+      96,
+      158,
+      227,
+      269,
+      337
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "runapi",
+    "name": "RunAPI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      39,
+      97,
+      159,
+      228,
+      270,
+      338
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "relaxycode",
+    "name": "RelaxyCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      40,
+      98,
+      160
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "cubence",
+    "name": "Cubence",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      41,
+      99,
+      161,
+      182,
+      226,
+      284,
+      333
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "aigocode",
+    "name": "AIGoCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      42,
+      100,
+      162,
+      183,
+      229,
+      285,
+      334
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "rightcode",
+    "name": "RightCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      43,
+      101,
+      163,
+      230,
+      286,
+      335
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "aicodemirror",
+    "name": "AICodeMirror",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      44,
+      102,
+      164,
+      184,
+      231,
+      287,
+      336
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "crazyrouter",
+    "name": "CrazyRouter",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      45,
+      103,
+      165,
+      185,
+      232,
+      288,
+      339
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "sssaicode",
+    "name": "SSSAiCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      46,
+      104,
+      166,
+      186,
+      233,
+      289,
+      340
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "micu",
+    "name": "Micu",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      49,
+      107,
+      169,
+      236,
+      292,
+      341
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ctok-ai",
+    "name": "CTok.ai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      50,
+      108,
+      170,
+      187,
+      237,
+      293,
+      342
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "e-flowcode",
+    "name": "E-FlowCode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      51,
+      109,
+      171,
+      188,
+      238,
+      294,
+      343
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "therouter",
+    "name": "TheRouter",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      53,
+      111,
+      174,
+      191,
+      239,
+      272,
+      324
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "novita-ai",
+    "name": "Novita AI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      54,
+      112,
+      148,
+      240,
+      276,
+      325,
+      484,
+      739
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "pipellm",
+    "name": "PIPELLM",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      56,
+      116,
+      172,
+      242,
+      278,
+      327
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "service-192",
+    "name": "自定义",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      192
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      201,
+      666
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "nous-research",
+    "name": "Nous Research",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      202
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "openai-compatible",
+    "name": "OpenAI Compatible",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      296,
+      345,
+      395
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "service-349",
+    "name": "自定义网关",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      349
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "anthropic-compatible",
+    "name": "anthropic-compatible",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      358
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "baseten",
+    "name": "baseten",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      362,
+      443,
+      797
+    ],
+    "models": [
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "zai-org/GLM-4.7",
+      "zai-org/GLM-5.2",
+      "zai-org/GLM-5.2-Fast",
+      "thinkingmachines/inkling",
+      "moonshotai/Kimi-K2.6",
+      "moonshotai/Kimi-K2.7-Code",
+      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+      "openai/gpt-oss-120b"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "cerebras",
+    "name": "cerebras",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      363,
+      409,
+      446,
+      552,
+      593,
+      612,
+      654,
+      789
+    ],
+    "models": [
+      "zai-glm-4.7",
+      "gpt-oss-120b",
+      "gemma-4-31b",
+      "llama3.3-70b",
+      "qwen-3-235b"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "cloudflare-ai-gateway",
+    "name": "cloudflare-ai-gateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      364,
+      411,
+      449,
+      614
+    ],
+    "models": [
+      "claude-sonnet-4-6",
+      "gpt-5.2",
+      "openrouter/auto"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "cloudflare-workers-ai",
+    "name": "cloudflare-workers-ai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      365,
+      412
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "deepinfra",
+    "name": "deepinfra",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      368,
+      454,
+      601,
+      617,
+      793
+    ],
+    "models": [
+      "deepseek-ai/DeepSeek-V4-Flash",
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "zai-org/GLM-5.2",
+      "stepfun-ai/Step-3.7-Flash",
+      "moonshotai/Kimi-K2.7-Code",
+      "moonshotai/Kimi-K2.6",
+      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+      "deepseek-ai/DeepSeek-V3.2",
+      "zai-org/GLM-5.1",
+      "stepfun-ai/Step-3.5-Flash",
+      "moonshotai/Kimi-K2.5",
+      "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "Qwen/Qwen2.5-72B-Instruct"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "digitalocean",
+    "name": "digitalocean",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      370,
+      415
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "fireworks",
+    "name": "fireworks",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      371,
+      458,
+      586,
+      619,
+      667,
+      781
+    ],
+    "models": [
+      "accounts/fireworks/routers/glm-5p3-fast",
+      "accounts/fireworks/models/kimi-k2p6",
+      "accounts/fireworks/routers/kimi-k2p6-turbo",
+      "accounts/fireworks/routers/kimi-k2p5-turbo",
+      "accounts/fireworks/models/llama-v3p3-70b-instruct",
+      "accounts/fireworks/models/qwen3-coder"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "google-interactions",
+    "name": "google/interactions",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      373
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "groq",
+    "name": "groq",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      381,
+      466,
+      549,
+      588,
+      621,
+      649,
+      782
+    ],
+    "models": [
+      "groq/compound",
+      "groq/compound-mini",
+      "llama-3.1-8b-instant",
+      "llama-3.3-70b-versatile",
+      "openai/gpt-oss-120b",
+      "openai/gpt-oss-20b",
+      "openai/gpt-oss-safeguard-20b",
+      "qwen/qwen3.6-27b",
+      "qwen/qwen3-32b",
+      "llama-3.1-70b-versatile",
+      "mixtral-8x7b-32768"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "meta-chat",
+    "name": "meta/chat",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      382
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "meta-messages",
+    "name": "meta/messages",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      383
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "meta-responses",
+    "name": "meta/responses",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      384
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "openai-chat",
+    "name": "openai/chat",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      393
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "openai-responses",
+    "name": "openai/responses",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      394
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "openai-compatible-responses",
+    "name": "openai-compatible/responses",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      396,
+      397
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "togetherai",
+    "name": "togetherai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      399
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "venice",
+    "name": "venice",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      400,
+      508,
+      564,
+      603,
+      642,
+      658,
+      808
+    ],
+    "models": [
+      "zai-org-glm-5-2",
+      "zai-org-glm-4.7",
+      "venice-uncensored-1-2",
+      "google-gemma-4-31b-it",
+      "kimi-k2-6",
+      "deepseek-v3.2",
+      "qwen3-235b-a22b-thinking-2507",
+      "qwen3-coder-480b-a35b-instruct-turbo",
+      "qwen3-vl-235b-a22b",
+      "grok-4-5",
+      "qwen-3-7-max",
+      "qwen-3-7-plus",
+      "claude-fable-5",
+      "claude-opus-5",
+      "claude-sonnet-4-6",
+      "openai-gpt-56-sol",
+      "zai-org-glm-4.6",
+      "google-gemma-3-27b-it",
+      "kimi-k2-5",
+      "qwen-3-coder-480b"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "vercel-ai-gateway",
+    "name": "vercel-ai-gateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      401,
+      509,
+      604,
+      643
+    ],
+    "models": [
+      "anthropic/claude-opus-4.6",
+      "openai/gpt-5.2",
+      "google/gemini-2.5-pro"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "chatgpt",
+    "name": "chatgpt",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      410
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "databricks",
+    "name": "databricks",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      414
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "gitlab",
+    "name": "gitlab",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      417
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "kilo",
+    "name": "kilo",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      419,
+      835
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "llmgateway",
+    "name": "llmgateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      420
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "modal",
+    "name": "modal",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      422
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "neon",
+    "name": "neon",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      423
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "snowflake-cortex",
+    "name": "snowflake-cortex",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      427
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "perplexity",
+    "name": "perplexity",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      430,
+      655,
+      787
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "poe",
+    "name": "poe",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      431,
+      678
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "sap-ai-core",
+    "name": "sap-ai-core",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      432
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "vercel",
+    "name": "vercel",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      433,
+      663,
+      812
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "zenmux",
+    "name": "zenmux",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      436
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "arcee",
+    "name": "arcee",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      442,
+      609,
+      829
+    ],
+    "models": [
+      "trinity-large-thinking",
+      "trinity-large",
+      "blitz"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "chutes",
+    "name": "chutes",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      447,
+      613,
+      673
+    ],
+    "models": [
+      "deepseek-ai/DeepSeek-V3.2-TEE",
+      "moonshotai/Kimi-K2.6-TEE",
+      "moonshotai/Kimi-K2.5-TEE",
+      "zai-org/GLM-5.2-TEE",
+      "MiniMaxAI/MiniMax-M2.5-TEE",
+      "Qwen/Qwen3.6-27B-TEE",
+      "Qwen/Qwen3.5-397B-A17B-TEE",
+      "deepseek-ai/DeepSeek-V3-0324",
+      "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "clawrouter",
+    "name": "clawrouter",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      448
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "comfy",
+    "name": "comfy",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      452
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "fal",
+    "name": "fal",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      456
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "featherless",
+    "name": "featherless",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      457,
+      828
+    ],
+    "models": [
+      "Qwen/Qwen3-32B"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "gmi",
+    "name": "gmi",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      460,
+      585
+    ],
+    "models": [
+      "zai-org/GLM-5.2-FP8",
+      "zai-org/GLM-5.1-FP8",
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "deepseek-ai/DeepSeek-V3.2",
+      "google/gemini-3.5-flash-lite",
+      "anthropic/claude-sonnet-5",
+      "anthropic/claude-sonnet-4.6",
+      "openai/gpt-5.6-sol"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "gmi-cloud",
+    "name": "gmi-cloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      461
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "gmicloud",
+    "name": "gmicloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      462
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "kie",
+    "name": "kie",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      468
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "kilocode",
+    "name": "kilocode",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      469,
+      600,
+      624
+    ],
+    "models": [
+      "kilo-auto/balanced",
+      "kilo/auto",
+      "kilo/anthropic/claude-sonnet-4.5"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "novita",
+    "name": "novita",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      483,
+      577,
+      602,
+      738,
+      810
+    ],
+    "models": [
+      "moonshotai/kimi-k3",
+      "moonshotai/kimi-k2.7-code",
+      "minimax/minimax-m3",
+      "zai-org/glm-5.2",
+      "deepseek/deepseek-v4-pro",
+      "deepseek/deepseek-v4-flash",
+      "qwen/qwen3.7-max",
+      "minimax/minimax-m2.7"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "novitaai",
+    "name": "novitaai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      485
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ollama-cloud",
+    "name": "ollama-cloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      488
+    ],
+    "models": [
+      "kimi-k2.5",
+      "kimi-k2.6",
+      "kimi-k2.7-code",
+      "kimi-k3",
+      "deepseek-v4-flash",
+      "deepseek-v4-flash:0731",
+      "deepseek-v4-flash:preview",
+      "deepseek-v4-pro",
+      "deepseek-v4-pro:0813",
+      "deepseek-v4-pro:preview",
+      "gemma4",
+      "gemma4:31b",
+      "glm-5.1",
+      "glm-5.2",
+      "gpt-oss:120b",
+      "gpt-oss:20b",
+      "minimax-m2.7",
+      "minimax-m3",
+      "mistral-large-3:675b",
+      "nemotron-3-nano:30b",
+      "nemotron-3-super",
+      "nemotron-3-ultra",
+      "qwen3.5",
+      "qwen3.5:397b"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "qwencloud",
+    "name": "qwencloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      495
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "radius",
+    "name": "radius",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      500
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "synthetic",
+    "name": "synthetic",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      504,
+      639,
+      674,
+      832
+    ],
+    "models": [
+      "hf:openai/gpt-oss-120b",
+      "hf:deepseek-ai/DeepSeek-V3-0324"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "together",
+    "name": "together",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      507,
+      591,
+      641,
+      665,
+      780
+    ],
+    "models": [
+      "moonshotai/Kimi-K2.6",
+      "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "zai-org/GLM-5.2",
+      "deepseek-ai/DeepSeek-V3",
+      "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "vydra",
+    "name": "vydra",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      513
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "antigravity",
+    "name": "Google Code Assist",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      556
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "gpt4free",
+    "name": "GPT4Free",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      562
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs ASR",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      563
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "nearai",
+    "name": "NEAR AI Cloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      565,
+      659,
+      809
+    ],
+    "models": [
+      "zai-org/GLM-5.1-FP8",
+      "openai/gpt-oss-120b",
+      "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "Qwen/Qwen3.6-35B-A3B-FP8"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "vivgrid",
+    "name": "Vivgrid",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      568
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "avian",
+    "name": "Avian",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      573,
+      806
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "openhuman",
+    "name": "OpenHuman",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      580
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "orcarouter",
+    "name": "OrcaRouter",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      584
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "sumopod",
+    "name": "SumoPod",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      605
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "custom",
+    "name": "Custom (manual config)",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      616,
+      837
+    ],
+    "models": [
+      "custom-model"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "inferrs",
+    "name": "Inferrs (local)",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      623
+    ],
+    "models": [
+      "google/gemma-4-E2B-it",
+      "custom-model"
+    ],
+    "phase": "P2"
+  },
+  {
+    "id": "telnyx",
+    "name": "Telnyx",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      657,
+      779
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "atlas-cloud",
+    "name": "Atlas Cloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      660
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "evolink",
+    "name": "Evolink",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      661
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "edenai",
+    "name": "Eden AI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      662
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "vercel-ai",
+    "name": "Vercel AI Gateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      664
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      668
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "astrai",
+    "name": "Astrai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      677,
+      805
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "Amazon Bedrock",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      728
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare AI Gateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      729,
+      813
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "cloudflare-ai",
+    "name": "Cloudflare AI Gateway",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      730
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ovhcloud",
+    "name": "OVHcloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      736
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ovh",
+    "name": "OVHcloud",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      737,
+      815
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "atomic-chat",
+    "name": "atomic_chat",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      785
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "crusoe",
+    "name": "crusoe",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      790
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "sambanova",
+    "name": "sambanova",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      791
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "hyperbolic",
+    "name": "hyperbolic",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      792
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "ai21",
+    "name": "ai21",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      795
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "reka",
+    "name": "reka",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      796
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "nscale",
+    "name": "nscale",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      798
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "anyscale",
+    "name": "anyscale",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      799
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "nebius",
+    "name": "nebius",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      800
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "friendli",
+    "name": "friendli",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      801
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "deepmyst",
+    "name": "deepmyst",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      807
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "lepton",
+    "name": "lepton",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      823
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "manifest",
+    "name": "manifest",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      824
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "morph",
+    "name": "morph",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      825
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "github-models",
+    "name": "github_models",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      826
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "upstage",
+    "name": "upstage",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      827
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "lambda-ai",
+    "name": "lambda_ai",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      830
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "inception",
+    "name": "inception",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      831
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "zerorouter",
+    "name": "zerorouter",
+    "kind": "兼容服务",
+    "domestic": false,
+    "roles": [
+      "待核实"
+    ],
+    "records": [
+      836
+    ],
+    "models": [],
+    "phase": "P2"
+  },
+  {
+    "id": "huawei",
+    "name": "华为云 · 盘古 / ModelArts",
+    "kind": "模型平台",
+    "domestic": true,
+    "roles": [
+      "待核实"
+    ],
+    "records": [],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "spark",
+    "name": "讯飞 · 星火",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "待核实"
+    ],
+    "records": [],
+    "models": [],
+    "phase": "P1"
+  },
+  {
+    "id": "sensenova",
+    "name": "商汤 · 日日新",
+    "kind": "官方模型",
+    "domestic": true,
+    "roles": [
+      "待核实"
+    ],
+    "records": [],
+    "models": [],
+    "phase": "P1"
+  }
+]

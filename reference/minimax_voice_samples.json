@@ -1,0 +1,3298 @@
+{
+  "providerId": "minimax",
+  "observedAt": "2026-11-05",
+  "pageUrl": "https://www.minimax.cn/audio/voices",
+  "mapping": "Exact catalog voiceId == official uniq_id; no name matching or ID normalization.",
+  "scope": "Official fixed audition clips; not generated replies or per-model synthesis validation.",
+  "samples": [
+    {
+      "voiceId": "male-qn-qingse",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-jingying",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-badao",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-daxuesheng",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-shaonv",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-yujie",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-chengshu",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-tianmei",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-qingse-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-jingying-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-badao-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "male-qn-daxuesheng-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-shaonv-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-yujie-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-chengshu-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "female-tianmei-jingpin",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "clever_boy",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "cute_boy",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "lovely_girl",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "cartoon_pig",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "bingjiao_didi",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "junlang_nanyou",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "chunzhen_xuedi",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "lengdan_xiongzhang",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "badao_shaoye",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "tianxin_xiaoling",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "qiaopi_mengmei",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "wumei_yujie",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "diadia_xuemei",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "danya_xuejie",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Reliable_Executive",
+      "websiteVoiceId": "226869000163456",
+      "name": "沉稳高管 - 低沉厚实,磁性,从容不迫",
+      "sourceUrl": "https://filecdn.minimax.chat/public/89956d48-f0d7-49c7-98a0-4dfb1aee0dbe.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0086eaeca594c51843ea3f65.mp3",
+      "bytes": 283172,
+      "sha256": "4692b71d566ed72889fb3867fdbcaf9bf0a050af5a502cfd866919bf23c4b30c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_News_Anchor",
+      "websiteVoiceId": "226869000163457",
+      "name": "新闻女声 - 明亮圆润,干练利落,新闻现场感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f08808e9-01b0-45d0-baa5-d79ede6f5c8e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f1bca3d6c1d30a06ca399ab8.mp3",
+      "bytes": 330867,
+      "sha256": "43a254ad8c1f16efe90c8a102c149e036d4bc2eeafdd02397aba1547ca3da7d3",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Mature_Woman",
+      "websiteVoiceId": "226869000163459",
+      "name": "傲娇御姐 - 低沉沙哑,慵懒舒缓,性感撩人",
+      "sourceUrl": "https://filecdn.minimax.chat/public/63e8ebff-5a36-488d-b6e2-87f6a1094f2a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6c8a70db2cd2d7b43e76e0f7.mp3",
+      "bytes": 283172,
+      "sha256": "8226f8e091faa4efd75cf8a361646315f9f1ccbaba4365bd6777ec0201df75e2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "websiteVoiceId": "226869000163460",
+      "name": "不羁青年 - 低沉磁性,慵懒随意,霸道",
+      "sourceUrl": "https://filecdn.minimax.chat/public/05498993-76c0-443b-aac4-800abf56e5ef.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/36dd4308d52535e907b97e9b.mp3",
+      "bytes": 304091,
+      "sha256": "240fc8eee82d652017dda7ce5933eae9d02c48901a5b782d722c15569e13ed2b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Arrogant_Miss",
+      "websiteVoiceId": "227505945505984",
+      "name": "嚣张小姐 - 娇俏明亮,灵动跳跃,傲娇自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d2cb4eaf-73b0-43e1-8b65-af39e515aef5.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/dbd27c4a933203800810fb73.mp3",
+      "bytes": 298234,
+      "sha256": "caefc53f05bc5ce20a453913137f067687ab6312b58b091e00098f71be55e2d4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Robot_Armor",
+      "websiteVoiceId": "227505945505985",
+      "name": "机械战甲 - 金属质感,机械顿挫,科幻色彩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8ffa58df-128b-452b-8867-fa97d8bd0445.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/02f30634f1fc9aa810b21d50.mp3",
+      "bytes": 310785,
+      "sha256": "8f3cf17edabc4354a773ffa9319a4164786f6a2812a9e7d538f1c16c4362ede4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "websiteVoiceId": "226869000163462",
+      "name": "热心大婶 - 高昂明亮,碎碎念,生活气息",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5d6b6bf7-1f2e-464d-ad18-aa04221b1cf1.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/20f901e829ec0dfece332cdf.mp3",
+      "bytes": 304928,
+      "sha256": "9c4b5ab0b4b6f6db5a2fa935ba5a42180ac550e6e30ac1bceccebf82af1714d5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_HK_Flight_Attendant",
+      "websiteVoiceId": "226869000163463",
+      "name": "港普空姐 - 清脆明亮,快言快语,直爽且真实",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b25cf027-7a9b-476a-b244-603523cadfdc.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ae24e3e1a4ea26ef3cc6cfd3.mp3",
+      "bytes": 291540,
+      "sha256": "1db5d1f666620c013b4a263923e5b95fc3380bb14bc4104f45cd56b444def1c3",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Humorous_Elder",
+      "websiteVoiceId": "226869000163464",
+      "name": "搞笑大爷 - 沧桑醇厚,松弛接地气,幽默热心",
+      "sourceUrl": "https://filecdn.minimax.chat/public/64e87584-336f-4cf5-9c43-15ef20461f84.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e8ba9897e7830e5161b594df.mp3",
+      "bytes": 291540,
+      "sha256": "647f498e08e8b41dd0972aee361b442d35bdd6d8a285d13eb1721759911fd641",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Gentleman",
+      "websiteVoiceId": "226869000163465",
+      "name": "温润男声 - 温润清亮,娓娓道来,阳光自律",
+      "sourceUrl": "https://filecdn.minimax.chat/public/774c0855-9d02-4074-b9da-d859754c9040.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2180a4ead8ae367f1193cdd2.mp3",
+      "bytes": 255560,
+      "sha256": "ecb96d810efff05b18cc499b7420c8563648daf5c8056236fbea4d005096172b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Warm_Bestie",
+      "websiteVoiceId": "226869000163466",
+      "name": "温暖闺蜜 - 温柔清亮,舒缓且充满关切,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b3130fbd-3cd3-47f1-aa77-bd742625a379.wav",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/922f064b150dcfbd898f9e3b.wav",
+      "bytes": 546014,
+      "sha256": "8c3525731d38fec6abf497921034fa7c46ddfffada25b9ad707f45d43451592f",
+      "contentType": "audio/wav"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Male_Announcer",
+      "websiteVoiceId": "226869000163467",
+      "name": "播报男声 - 清澈干净,自然流畅,邻家大哥哥",
+      "sourceUrl": "https://filecdn.minimax.chat/public/404e2907-45c7-4468-b9bb-1d8ea1504cc8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c81caef80f13d42158d45bba.mp3",
+      "bytes": 304091,
+      "sha256": "cf4e7a2aa15218d08ba631c80eed73101885cde97a63edcd73fb30cc3fb33347",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Sweet_Lady",
+      "websiteVoiceId": "226869000163468",
+      "name": "甜美女声 - 甜美细腻,舒缓自然,邻家亲切感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/32dc9912-37f0-4398-bff1-79c4334a1e1a.wav",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b65575741de63627698bfcf0.wav",
+      "bytes": 609172,
+      "sha256": "8d7bb0bc9f65c9ce1d259c59ded9c74f5dc235f28dc5decab4d94ed4999ee2e8",
+      "contentType": "audio/wav"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Southern_Young_Man",
+      "websiteVoiceId": "226869000163469",
+      "name": "南方小哥 - 温润细腻,娓娓道来,亲切邻家",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8ccda6d6-227f-4f6a-b988-cdc5e54e4169.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f27bbb876b5772a7f17ec5ca.mp3",
+      "bytes": 248865,
+      "sha256": "f90c48dc9193dc4f97a498126f48fa32ff574d584423235e0e3ac340420c8585",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Wise_Women",
+      "websiteVoiceId": "226869000163470",
+      "name": "阅历姐姐 - 温润厚实,娓娓道来,极具亲和力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/cf19e764-8f0d-461b-b8e0-258fd036c131.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/812e9a26bdc1bde4139dd4b9.mp3",
+      "bytes": 335051,
+      "sha256": "b5a0d5b73f73f9ca7ec8702897d096049d26c06bfd4f419b394ee40f773f4953",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Gentle_Youth",
+      "websiteVoiceId": "226869000163471",
+      "name": "温润青年 - 清亮干净,娓娓道来,邻家大哥哥",
+      "sourceUrl": "https://filecdn.minimax.chat/public/314e35ec-b736-4f54-90c2-e60a6d007857.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8b222c735591f6a2c10c2595.mp3",
+      "bytes": 270621,
+      "sha256": "cbdbf33f88b6373f618afee16d76040fb36d499d3cac256cc5b6a1cb4e82c22f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Warm_Girl",
+      "websiteVoiceId": "226869000163472",
+      "name": "温暖少女 - 甜美细腻,娓娓道来,治愈感",
+      "sourceUrl": "https://cdn.hailuoai.com/hailuo-video-web/public_assets/2f57c24e-4cb2-4a9c-8a70-b0d5501e0b80.wav",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8e7f274efe1d9ae2babb9779.wav",
+      "bytes": 543042,
+      "sha256": "63db90d72516695827ac2e1699bf2b65d4297ae84b7575a289392cb8f9f8cab8",
+      "contentType": "audio/wav"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Kind-hearted_Elder",
+      "websiteVoiceId": "226869000163473",
+      "name": "花甲奶奶 - 略带沙哑,娓娓道来,极具亲和力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/60b54ed4-aebe-44fb-a963-1a0d8350a7b9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/89ee83bf0e85700d6987a3a6.mp3",
+      "bytes": 352623,
+      "sha256": "84410a16baf550dec515e39455caa8163f571277d15abd63aca82fce5644fe25",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Cute_Spirit",
+      "websiteVoiceId": "226869000163474",
+      "name": "憨憨萌兽 - 软萌稚嫩,轻快活泼,天真烂漫",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6c96de4b-9c08-4b17-a183-3d1512449ae4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/de46739d858dfd64028628b0.mp3",
+      "bytes": 317480,
+      "sha256": "f44a003cf1aac5ba89835c973b22c658b0f2befce8b6daa7c3ca87f46059793e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Radio_Host",
+      "websiteVoiceId": "226869000163475",
+      "name": "电台男主播 - 清亮明快,干脆利落,略带傲娇",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2161adbc-e06c-4fca-8b5e-0999fc89d015.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/7ab726df58e70d88a3a6a18c.mp3",
+      "bytes": 237988,
+      "sha256": "98592fb168aaef1c706088ab31904e1c3779cbf13ad3204c66a1b2df3be784ea",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Lyrical_Voice",
+      "websiteVoiceId": "226869000163476",
+      "name": "抒情男声 - 温润醇厚,娓娓道来,治愈感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/950e53ff-98f1-4342-8c99-424f72569211.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e26fa57b1bf77bb9cbf4c0d8.mp3",
+      "bytes": 324173,
+      "sha256": "badf2f97c62217e2eebba986b9af6814e8804c2ac963b3f0e23921ac1ecff2c5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Straightforward_Boy",
+      "websiteVoiceId": "226869000163477",
+      "name": "率真弟弟 - 明朗干净,直率自然,邻家少年",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9e71a46a-f486-4128-be72-1034d31b9ed7.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/bc013a6bdbebeee55def5197.mp3",
+      "bytes": 285683,
+      "sha256": "97adfa74ef85842a7289965ea4cde919255a848c6d3c61f7d009dae915a9dff7",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Sincere_Adult",
+      "websiteVoiceId": "226869000163478",
+      "name": "真诚青年 - 清澈干净,娓娓道来,具有治愈感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5390bf72-3d54-417a-a6eb-e4ae7cf9f977.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c7a25791a4aa90240007cbd5.mp3",
+      "bytes": 300744,
+      "sha256": "568b585b056ab043d49dd4a08c07ebaacbae905ea7101711ca9d21918940a0fc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Gentle_Senior",
+      "websiteVoiceId": "226869000163479",
+      "name": "温柔学姐 - 温婉柔和,娓娓道来,亲切且富有感染力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e70ebd5e-5491-401c-9ba9-c93d1a81a136.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/104f02ff8925b70268e32b7a.mp3",
+      "bytes": 272294,
+      "sha256": "71e58430be2e9680b4d5a758da842d58f556ad5f450dfaed13a07ee10f687683",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Stubborn_Friend",
+      "websiteVoiceId": "226869000163480",
+      "name": "嘴硬竹马 - 清朗温暖,自然随性,邻家大男孩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/eff646cf-2dfa-4a82-8352-cfea8df051ff.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4a4ebb36dcefd63f046cf1d3.mp3",
+      "bytes": 272294,
+      "sha256": "70f31feb23f645c49730f9d2f4a3b6685a50f87b16cab3fb908d17fa23490533",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Crisp_Girl",
+      "websiteVoiceId": "226869000163481",
+      "name": "清脆少女 - 清脆甜美,娓娓道来,治愈亲切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b5a71077-67c0-4d26-92a3-51570854f286.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b5721d197297dde7ac97bb4b.mp3",
+      "bytes": 268111,
+      "sha256": "8f5e190fbd5d6a3aad9c20167d81e0b78cfedacc8e4c2b23b4e60c8133647ae9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Pure-hearted_Boy",
+      "websiteVoiceId": "226869000163482",
+      "name": "清澈邻家弟弟 - 清澈干净,娓娓道来,邻家男孩感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8638dfe9-875d-4eac-8951-ff7ade7fb639.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4a8fe2e7235204303360e994.mp3",
+      "bytes": 294050,
+      "sha256": "5040daad5d6f1e0157b89d3991e8046bc3e6bd7476aeedf67d801669eaaa6ed9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Chinese (Mandarin)_Soft_Girl",
+      "websiteVoiceId": "286339866161296",
+      "name": "软软女孩 - 甜美软糯,轻快自然,亲切活泼",
+      "sourceUrl": "https://filecdn.minimax.chat/public/224ffb61-a2bb-4184-acf7-78ddf49d8cfd.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5e9d3cadd191ab224afa2d58.mp3",
+      "bytes": 311622,
+      "sha256": "13f2de5d5bb267485d92edd9a35064007be3b5607ffe62dfe0df95bc1bbab6f6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Cantonese_ProfessionalHost（F)",
+      "websiteVoiceId": "226869000163484",
+      "name": "专业女主持 - 清晰明亮,紧凑流畅,新闻现场感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/84589766-c651-477b-b320-36b89599f953.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c7d39e864f304a7c8cbad8bf.mp3",
+      "bytes": 270621,
+      "sha256": "4ec11dd8856584ac31ada86e4194fa8099a637ee9f908792b6b423ef8d4dab8c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Cantonese_GentleLady",
+      "websiteVoiceId": "226869000163485",
+      "name": "温柔女声 - 略带沙哑,语速较快,直率自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d391936d-d586-4dab-886c-a2a084a20920.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cab7bbf07a1631f3711b1ecd.mp3",
+      "bytes": 330867,
+      "sha256": "521ec0153132600610fd68a3d3945ca06808525a5e80bb68d40f2c592b8111b7",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Cantonese_ProfessionalHost（M)",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Cantonese_PlayfulMan",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Cantonese_CuteGirl",
+      "websiteVoiceId": "226869000163488",
+      "name": "可爱女孩 - 稚嫩甜美,灵动自然,纯真",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ff96520a-ac12-491d-945e-d6337467eb7d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4ec576970a3c40c40f9d13a8.mp3",
+      "bytes": 350113,
+      "sha256": "11be69e6137b10473ee64c3301e02517cba02cc9b4ab9a0b93510c309dd89048",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Cantonese_KindWoman",
+      "websiteVoiceId": "226869000163489",
+      "name": "善良女声 - 略带沙哑,娓娓道来,亲切犀利",
+      "sourceUrl": "https://filecdn.minimax.chat/public/78239a18-5e9c-4538-94f6-2f504c080374.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/552ceaf086486f521e218b9f.mp3",
+      "bytes": 276479,
+      "sha256": "8f41b18c1c76befc2744285c7a552c6dc9fd81cf8636ea3253db015b6d8c8eb8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Santa_Claus ",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Grinch",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Rudolph",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Arnold",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Charming_Santa",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Charming_Lady",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Sweet_Girl",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Cute_Elf",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Attractive_Girl",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "Serene_Woman",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "English_Trustworthy_Man",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "English_Graceful_Lady",
+      "websiteVoiceId": "226869000163491",
+      "name": "Graceful Lady - 温润,舒缓,文学感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f7cef5ed-0783-40df-82b6-1b467cbd51ae.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3c65ce790c998fbfa741945a.mp3",
+      "bytes": 380236,
+      "sha256": "7ec7dded6ad0dc1997b4553560a3c40c85def4b39c46e56c816d159fda0e2543",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "English_Aussie_Bloke",
+      "websiteVoiceId": "226869000163492",
+      "name": "澳洲小哥 - 明亮且富有质感,松弛自然,随性且略带调侃",
+      "sourceUrl": "https://filecdn.minimax.chat/public/44263515-d3e7-4f4c-a135-69203566b8a7.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5c8d6b5ec0fbab7ea9132049.mp3",
+      "bytes": 307438,
+      "sha256": "9c9905c4a5c9cf21838e614bcae80aa1966cff3dbb322ee70a5615c746ba9eef",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "English_Whispering_girl",
+      "status": "not_found"
+    },
+    {
+      "voiceId": "English_Diligent_Man",
+      "websiteVoiceId": "226869000163493",
+      "name": "Diligent Man - 清脆明亮,轻快活泼,热情感染力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/138731f9-b186-44f0-be5b-31efad0a7c74.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0944ae284bd79b5757a5f28b.mp3",
+      "bytes": 267274,
+      "sha256": "cc1e99226932bfcebd3458d4b2b559afa36d532f63a711e16480cf05f4b299ba",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "English_Gentle-voiced_man",
+      "websiteVoiceId": "226869000163494",
+      "name": "Gentle-voiced Man - 醇厚深沉,娓娓道来,极具故事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/773715bc-fb9a-4032-94d4-2d58d7cce152.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/343c0d2432bf4a0c4c8bb75e.mp3",
+      "bytes": 319990,
+      "sha256": "cc5e901d6b6fed8efc9303102beffb3a6f872dfa86cf9b6c50e7877103e25eae",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_IntellectualSenior",
+      "websiteVoiceId": "226869000163495",
+      "name": "高智学长 - 清澈柔和,舒缓从容,宁静致远",
+      "sourceUrl": "https://filecdn.minimax.chat/public/fc73d843-a689-4645-91cf-81b725be629f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c19002d3b8ea7cc0bf34fafc.mp3",
+      "bytes": 362664,
+      "sha256": "be1783a681bd93a2f37e15dac07a0abbc8a17e6f020dbfebbfe2a185c44d1c75",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_DecisivePrincess",
+      "websiteVoiceId": "226869000163496",
+      "name": "雷厉千金 - 清脆透亮,节奏紧凑,傲娇严厉",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d97fa23a-1379-4151-abe7-f79b74119eca.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ca1dd989b006c6458e4c9b93.mp3",
+      "bytes": 406175,
+      "sha256": "28833df0796723ad9662839856d866cbc5c32edbdf5fdcdbe23ef346a94fe785",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_LoyalKnight",
+      "websiteVoiceId": "226869000163497",
+      "name": "Loyal Knight - 清冷孤傲,干脆利落,守护者氛围",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6e217881-c6f8-4d69-b4d3-ec224d5b63ae.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e7201d040371220debebe896.mp3",
+      "bytes": 317480,
+      "sha256": "7eda6ce6b8fa2b538e97b072e2c2337da2871c86cec79f52156908d6ed70e8b8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_DominantMan",
+      "websiteVoiceId": "226869000163498",
+      "name": "Dominant Man - 质感冷冽,冷静克制,高冷",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ff3d135b-c3e8-48f9-9bd3-837af37ca54d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c86a6577105349e45b391221.mp3",
+      "bytes": 339235,
+      "sha256": "3699a26061ac95b539c384c7edd8f29b99af16215e5d4f50a42ed2c5fc5efc74",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_SeriousCommander",
+      "websiteVoiceId": "226869000163499",
+      "name": "Serious Commander - 温润清冷,优雅从容,神秘学者感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/44e4da80-f347-4dda-996d-5a6dc93e3c21.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d55edfc717aa62f28c052f4d.mp3",
+      "bytes": 340909,
+      "sha256": "34baeb11fd13fa5280fe2f9eae571c0be0855e352ab2ab6d552703a769f03bcc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_ColdQueen",
+      "websiteVoiceId": "226869000163500",
+      "name": "Cold Queen - 低沉沙哑,慵懒随意,御姐气场",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e225929e-88b7-4cf3-b70c-919e58dfdd13.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3d873126473093857343341b.mp3",
+      "bytes": 369358,
+      "sha256": "b5f330584b404cf1aa45c3608169892cfaaaf90304ddbf1eb53e3ecd5d2d3467",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_DependableWoman",
+      "websiteVoiceId": "226869000163501",
+      "name": "Dependable Woman - 清脆明亮,干脆利落,爽朗大方",
+      "sourceUrl": "https://filecdn.minimax.chat/public/598b8142-c15b-4e8d-bb7b-97a7b96aebc5.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a7a3634df1a952d5bd7079b8.mp3",
+      "bytes": 324173,
+      "sha256": "6c938bf55637d9596bef9a98016b1598f06bd106ab6e4df8757a393fe7b465d4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_GentleButler",
+      "websiteVoiceId": "226869000163502",
+      "name": "Gentle Butler - 磁性且略带慵懒,轻松自如,优雅而神秘",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0ee876e0-92d8-4920-839b-66e3ca9bcab3.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/08a82fd91c861f4aabe41733.mp3",
+      "bytes": 345929,
+      "sha256": "46c036be77411864d6af76d0551dd2ba5c510c59a0153695f491c64693055d2e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_KindLady",
+      "websiteVoiceId": "226869000163503",
+      "name": "Kind Lady - 温柔妩媚,舒缓从容,知性御姐感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ded915f2-1678-41f4-8700-f1d731684237.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/44d8fcd2d1bd9bfa083fad34.mp3",
+      "bytes": 396971,
+      "sha256": "11ea5ac89dd0d06e12ce716ac4da2f5fff0ca34f6acfaa6801ae8b08b49f9fad",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_CalmLady",
+      "websiteVoiceId": "226869000163504",
+      "name": "Calm Lady - 清冷优雅,从容不迫,高贵自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/363be0da-251c-4610-8e8b-421d19645354.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cda3d38c98d034e7b4f19fbb.mp3",
+      "bytes": 367685,
+      "sha256": "5e6c8de8e26d552b31a90375e9760ee30b632963967f2990c1b9e67a574d1231",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_OptimisticYouth",
+      "websiteVoiceId": "226869000163505",
+      "name": "Optimistic Youth - 清爽明快,充满活力,阳光少年形象",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c8f44e03-e548-48be-bf58-a8c837036fd2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b70b8e2a5363d86f14f477f8.mp3",
+      "bytes": 358480,
+      "sha256": "c6de95d43e77da82f8e963021ab2437962ff11828d7145b8b27ec4d8a6d60951",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_GenerousIzakayaOwner",
+      "websiteVoiceId": "226869000163506",
+      "name": "Generous Izakaya Owner - 豪爽沙哑,激情高昂,自信热血",
+      "sourceUrl": "https://filecdn.minimax.chat/public/22332afb-8515-427e-a2e0-77d6fae0b448.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/98b84089f8c437623680925f.mp3",
+      "bytes": 336725,
+      "sha256": "bb97e3c62f7a01d484a8e89b9189f78b2d82e1b52b7035b5b110d5f5affbc4ba",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_SportyStudent",
+      "websiteVoiceId": "226869000163507",
+      "name": "Sporty Student - 清亮朝气,干脆利落,自信飞扬",
+      "sourceUrl": "https://filecdn.minimax.chat/public/89e08f73-b0b1-4d7a-a034-e211390c847a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2985d148e1748dfe0696e7fa.mp3",
+      "bytes": 328357,
+      "sha256": "e50c17f9475806805c8db9f26222b77eabf593fdefdda091f855a6df6a52b3c5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_InnocentBoy",
+      "websiteVoiceId": "226869000163508",
+      "name": "Innocent Boy - 清澈纯净,温和礼貌,少年感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f3730750-eebc-431b-8927-b2d5462695c2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4ce5d9dca7767d92bd41df08.mp3",
+      "bytes": 322500,
+      "sha256": "fd628db8c1c5031b373f9be2c251ffb3cfac94eef476fb81e85c931951d89132",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Japanese_GracefulMaiden",
+      "websiteVoiceId": "226869000163509",
+      "name": "Graceful Maiden - 清澈柔和,舒缓有礼,治愈且知性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/43766b9d-c80c-4758-9dbe-493b14c8b588.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ca6d392ff8993b812b70ca62.mp3",
+      "bytes": 330031,
+      "sha256": "d5ae4220d3278d8ba94b8f84eda6b88c14176e17f791a82b06afe199dc9ca682",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_SweetGirl",
+      "websiteVoiceId": "226869000163513",
+      "name": "甜美女声 - 清脆甜美,轻快活泼,热情且富有感染力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aba64241-28c0-400d-9bde-8649b866e632.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/01540d62c44065ab9ac26272.mp3",
+      "bytes": 307438,
+      "sha256": "21623e1a5caa87cf7a9077c16eba83205892d425f71661cb463a34fde15a0b89",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CheerfulBoyfriend",
+      "websiteVoiceId": "226869000163514",
+      "name": "清爽男大 - 清亮干净,轻快跃动,温暖阳光",
+      "sourceUrl": "https://filecdn.minimax.chat/public/34eff382-1bee-477f-a5ae-1876f0f1db2c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f87a063ea0e2ae313e433ba7.mp3",
+      "bytes": 285683,
+      "sha256": "8919fb8b68675b0c56e9498fc07d63e367d0ec5158ed84426a50b35cf95f20ba",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_EnchantingSister",
+      "websiteVoiceId": "226869000163515",
+      "name": "温柔姐姐 - 极富磁性,从容自信,高冷威严",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b13d060b-a8df-447e-8476-213aef6e0485.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2c218f51b035fc731da531d4.mp3",
+      "bytes": 341745,
+      "sha256": "1074eba2e572f6993dda8adc4e0d6763a9e183f844737c0112a1d0b3801462cb",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ShyGirl",
+      "websiteVoiceId": "226869000163516",
+      "name": "害羞女生 - 细腻气声,轻柔舒缓,邻家少女感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c00d9ad2-b3e5-4fd1-a87a-acbc05474e6a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ebc27bec9914381a8c2f3fd6.mp3",
+      "bytes": 362664,
+      "sha256": "c81dbfe9ac7c290127ef1e89c8228859879843322880ffc52e2c8c0c4ba4d5dc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ReliableSister",
+      "websiteVoiceId": "226869000163517",
+      "name": "干练姐姐 - 干练沙哑,干脆利落,酷飒御姐感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/43abfe22-0d35-4a30-8934-05523ec75ccd.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f4f4d11bf4749eae8b3c7366.mp3",
+      "bytes": 326684,
+      "sha256": "c7af8b84a43388869b039dc0e92f7aec974df1e948a0774ed98e6dab4e5d0ed0",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_StrictBoss",
+      "websiteVoiceId": "226869000163518",
+      "name": "霸道君王 - 清亮透彻,抑扬顿挫,王者气场",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3ba37a53-0dc1-483c-ac3f-8a6774eac0c4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/545ee3a740cbae8418bdfb49.mp3",
+      "bytes": 394460,
+      "sha256": "95e3ed633bf5fab0e5a056f211bca335f2a07cecb19ae914469752ed3503a8e2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_SassyGirl",
+      "websiteVoiceId": "226869106802816",
+      "name": "清甜女声 - 甜美娇俏,轻快跳跃,元气满满",
+      "sourceUrl": "https://filecdn.minimax.chat/public/643f393b-ea22-4e52-9740-ca7aace93f0a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f7cc5b9fb6f7a0b53379ce0a.mp3",
+      "bytes": 352623,
+      "sha256": "38d4e9e9dfd0a8b36e035e40f1941486e644543c853b60368177b5d691a2e90e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ChildhoodFriendGirl",
+      "websiteVoiceId": "226869106802817",
+      "name": "利落女友 - 明亮沙哑,干练利落,自信俏皮",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c19a8309-57d8-4b34-8215-020318c90d4d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/39091ebc63a7cf65b99695ce.mp3",
+      "bytes": 343418,
+      "sha256": "d9212989e58d75f9aff019757bc39dc629a7ae552359e1d46be995dea3cde420",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_PlayboyCharmer",
+      "websiteVoiceId": "226869106802818",
+      "name": "松弛男声 - 慵懒磁性,轻快流畅,极具撩拨感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a3e587b5-3103-4601-a4d5-f9baab176238.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/171d6d134208043cb8747144.mp3",
+      "bytes": 321663,
+      "sha256": "0b8c44c9e707500b9c2eb30d813791579820c4ab10f8ce8288cac0297b607d47",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ElegantPrincess",
+      "websiteVoiceId": "226869106802819",
+      "name": "靠谱队友 - 清冷高贵,干练利落,威严自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7798b5e6-4f40-44ba-9229-72513ba95568.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/11b1ee25f0856f8c6c725f97.mp3",
+      "bytes": 337562,
+      "sha256": "3687e986ec2fb4414d8a8e694523f11d034f6ea3964d8142d1827f1667ac544b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_BraveFemaleWarrior",
+      "websiteVoiceId": "226869106802820",
+      "name": "坚定女声 - 清亮凛冽,干脆利落,领袖风范",
+      "sourceUrl": "https://filecdn.minimax.chat/public/767a09c2-f848-4e13-8992-ce44b0d6a537.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/55070dbff2291aacacaa19eb.mp3",
+      "bytes": 336725,
+      "sha256": "edda5b94aa0f17db7f066606ec9be0a3a4aabfafbd2725ff163e96a55d89566d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_BraveYouth",
+      "websiteVoiceId": "226869106802821",
+      "name": "温柔青年 - 清朗明快,轻快跳跃,恋爱氛围感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8458b7ff-4bee-431b-96a0-63cb8060e314.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/134044c1c3cb08b6cb1858aa.mp3",
+      "bytes": 394460,
+      "sha256": "b42bc030b8da1436d3209b24f7ec7cdaf4a7bd7bfc72a6c5d16ced2fb6a3c44f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CalmLady",
+      "websiteVoiceId": "226869106802822",
+      "name": "冷静女声 - 清冷优雅,沉稳内敛,威严冷静",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9c368da0-58eb-4200-b697-a34893aefe5f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/108a1a50c568318883a07cce.mp3",
+      "bytes": 360991,
+      "sha256": "98caba339b53cacd1327b4eb2359b22ff9b9acf2055f0941811e5528f7a563a3",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_EnthusiasticTeen",
+      "websiteVoiceId": "226869106802823",
+      "name": "活力少年 - 清亮高亢,急促有力,少年英雄感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aefea3fc-1cc9-4846-979a-29c4c29796f2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1424000c246d656aeb8c13d4.mp3",
+      "bytes": 334214,
+      "sha256": "4b5e3aa15137d007ea9546634ff64e6c286cfc5c77d3730be1fb06973e986eff",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_SoothingLady",
+      "websiteVoiceId": "226869106802824",
+      "name": "慵懒女声 - 温柔慵懒,舒缓流畅,亲切迷人",
+      "sourceUrl": "https://filecdn.minimax.chat/public/31951acc-326c-4723-b297-8ba4101e3da9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9d92d2b78be59ef0c11860cd.mp3",
+      "bytes": 436298,
+      "sha256": "acba30f10c5aa98b64b8e3b89b4060b33ed2365860faa941ce239cd25fc2bb56",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_IntellectualSenior",
+      "websiteVoiceId": "226869106802825",
+      "name": "温润男声 - 温润清澈,舒缓从容,淡然诗意",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0f97df90-b91a-474f-8a75-21e4c81ee707.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/84ebdc37ea1610b3ffb5b944.mp3",
+      "bytes": 354296,
+      "sha256": "08365af728ee5f0ba370ea57cfaaf58a87890c21e25cd616b60ff2178121ce2b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_LonelyWarrior",
+      "websiteVoiceId": "226869106802826",
+      "name": "孤胆游侠 - 略带沙哑,干脆利落,冷峻魅力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f577ea97-929c-406f-bb40-19b8062c4ca8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e471e748070c07a0327ec4c8.mp3",
+      "bytes": 293213,
+      "sha256": "8016675342f257f3effb2818e211cf2962ebee0c3021afb5e10501a98bad2d2e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_MatureLady",
+      "websiteVoiceId": "226869106802827",
+      "name": "冷傲女王 - 冷艳锐利,果断傲慢,自信轻蔑",
+      "sourceUrl": "https://filecdn.minimax.chat/public/4b0316be-7881-4120-b369-0b213e064b81.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1485ad1d525a61ed566cd0fd.mp3",
+      "bytes": 360991,
+      "sha256": "c6cfa7a097b772fdbced6f96adf6b364c5c450c14a58c448c71c5011f1e47085",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_InnocentBoy",
+      "websiteVoiceId": "226869106802828",
+      "name": "清澈少年 - 清澈稚嫩,温柔诚恳,乖巧少年",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ca577705-2826-4f4d-a8c6-d847acf67a42.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0a515b8b149cc76a85b881e4.mp3",
+      "bytes": 340909,
+      "sha256": "cec4e973332c72a37b6219aa51b425e4cb95818bcc1f3cc121abcd45a0f09d5c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CharmingSister",
+      "websiteVoiceId": "226869106802829",
+      "name": "冷艳女声 - 低沉略带沙哑,自信且充满压迫感,危险迷人",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a9c882bd-ef2a-4965-b342-e33916058419.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3286fd351325650dcf408b94.mp3",
+      "bytes": 422911,
+      "sha256": "4c6d2bb9614736867a5e1915188da03d2de84ea3052ea738b5fb50a5fffe3d9d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_AthleticStudent",
+      "websiteVoiceId": "226869106802830",
+      "name": "热血运动员 - 明亮高亢,干脆利落,热血激昂",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e1f19a92-3c50-486b-b350-66810270f0f0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2ec06c7473b438a11af24c30.mp3",
+      "bytes": 347603,
+      "sha256": "3af1d0da9b0cbf1a7c388f683e19cce89858c913238fa4f7f1c80d42759c255c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_BraveAdventurer",
+      "websiteVoiceId": "226869106802831",
+      "name": "Brave Adventurer - 清脆明亮,灵动活泼,顽皮乐观",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e1a5a950-d918-49e7-bf7b-d26e0cf95b0a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/58279bead5ea128909a0706e.mp3",
+      "bytes": 311622,
+      "sha256": "90753df44d3b5c15a5a4d6e1c24c2ee4c3e32e10ea1af52ff4964a48c5b769bc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CalmGentleman",
+      "websiteVoiceId": "226869106802832",
+      "name": "Calm Gentleman - 低沉优雅,从容不迫,充满故事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/68da2ecb-dbac-49e9-9584-88e30a2eedb3.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1941c1c6a8a3468248b2125f.mp3",
+      "bytes": 326684,
+      "sha256": "5866133ef9ddddf35af61f32ac23312c34cb0e8094fa0fd168882b8ceca536dd",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_WiseElf",
+      "websiteVoiceId": "226869106802833",
+      "name": "Wise Elf - 温柔细腻,舒缓轻柔,认真羞涩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/40bf54e1-236d-4900-b075-52e8c35f6ddf.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5f68b606a222f902545176ad.mp3",
+      "bytes": 478136,
+      "sha256": "c4e2a82623d570892f4e686a977074a2d97257c54b3a338586ae62c91175f3ae",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CheerfulCoolJunior",
+      "websiteVoiceId": "226869106802834",
+      "name": "Cheerful Cool Junior - 清亮爽朗,自信轻快,热血无畏",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e91bd544-fdf9-4fd3-b2e6-bcd89b22fdf9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/13a3c58c5264b569fa685ec7.mp3",
+      "bytes": 299908,
+      "sha256": "87a8efac6df8b148492a2696ec98092d1ce3e8a006466250d3b0ac0c1b50e083",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_DecisiveQueen",
+      "websiteVoiceId": "226869106802835",
+      "name": "Decisive Queen - 清脆明亮,干脆利落,强气自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3de85681-e83a-4577-9137-5f1a126ac6f2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c25e6bfcd80da6e187d54662.mp3",
+      "bytes": 314132,
+      "sha256": "3503f1500c28e0cace1ba67effeb395d79aff15cd013456a807b93703bb95b9b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ColdYoungMan",
+      "websiteVoiceId": "226869106802836",
+      "name": "Cold Young Man - 清冷清澈,娓娓道来,冷静且克制",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b146bc6b-9d05-4301-925f-2a81d346470d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/83ac559e1d32bab6d82a8c98.mp3",
+      "bytes": 313295,
+      "sha256": "f2d8c5f017bb722de5e737fb2b2621e9e0096fe0e1f5d785999badfbdd41d216",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_MysteriousGirl",
+      "websiteVoiceId": "226869106802837",
+      "name": "Mysterious Girl - 甜美高亢,干脆利落,元气满满",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d6dbbad0-0531-4417-b50f-946ae2b07226.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/fd03045561e7e26f2ca19fc9.mp3",
+      "bytes": 360991,
+      "sha256": "1cee806a51f1b6e36a8c67d976b637b3c3932927b9579d92506151af87b28917",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_QuirkyGirl",
+      "websiteVoiceId": "226869106802838",
+      "name": "Quirky Girl - 清脆明亮,轻快跳跃,元气少女感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/494e789f-905e-414c-bd51-1b1fee2293d3.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c11d82211ef78447d8e4d80d.mp3",
+      "bytes": 336725,
+      "sha256": "24bf1c8aeab717b3b42c210b0f02b64a7835b73697aba21914f5594b1eaf1b75",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ConsiderateSenior",
+      "websiteVoiceId": "226869106802839",
+      "name": "Considerate Senior - 温暖厚实,舒缓从容,关怀感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/552aa7e9-f693-4988-ad0b-6cebbb8f5bac.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e8a2c7c337c7032952fb4647.mp3",
+      "bytes": 345929,
+      "sha256": "7fe6db384f4635c93b4327ea355d2f4de4bad4cc8d2a65f7db7ea33b3cd5f0bb",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CheerfulLittleSister",
+      "websiteVoiceId": "226869106802840",
+      "name": "Cheerful Little Sister - 清脆明亮,语速轻快活泼,热情亲切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/339a1cce-9c65-4428-a7d9-fa6143aaa663.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/185fe74bac2c2c83d0ecc89f.mp3",
+      "bytes": 360154,
+      "sha256": "69a3b774deb3a7639c05ea9f8563bc7092910bbbfdbb406239fd4ee0726edcd9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_DominantMan",
+      "websiteVoiceId": "226869106802841",
+      "name": "Dominant Man - 冷峻低沉,沉稳克制,高冷贵公子",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a166008b-8bf2-4e1e-a9f0-726ffe401d5d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/46f1ea77989bbaf1f530d64f.mp3",
+      "bytes": 334214,
+      "sha256": "57ece950820fdf842ffcad23efd61d490455d63e277796584a4ad5bfd82f40d1",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_AirheadedGirl",
+      "websiteVoiceId": "226869106802842",
+      "name": "Airheaded Girl - 清脆明亮,干脆利落,傲娇感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6297431c-6b27-4d76-90ec-0d831e694161.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/396021436e2d05f6c70381ed.mp3",
+      "bytes": 325847,
+      "sha256": "30a2ce067c6fd24fa61af17126e85b9c1143b5d503f7606d7bc2058145943b59",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ReliableYouth",
+      "websiteVoiceId": "226869106802843",
+      "name": "Reliable Youth - 干净纯粹,干脆利落,正气凛然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e61931bb-a4fb-4163-8054-a3ebf6841099.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a782afeead4ee231ba5595a2.mp3",
+      "bytes": 347603,
+      "sha256": "63da7d416d795d31b82c243483cd3b9e082369da53d7158598e05e9041036c2f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_FriendlyBigSister",
+      "websiteVoiceId": "226869106802844",
+      "name": "Friendly Big Sister - 略带沙哑,自信从容,极具诱惑力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a30a2028-884f-4b76-a629-0f659e5754da.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/806a097b46f804ba720112e5.mp3",
+      "bytes": 421237,
+      "sha256": "1a914985de60985b3fab19e5dec52d1addcab9215a2a0582b738757f472ac099",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_GentleBoss",
+      "websiteVoiceId": "226869106802845",
+      "name": "Gentle Boss - 阴冷沙哑,阴狠果断,黑暗压迫感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/874d7511-8dda-4af1-a35f-672921878af2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/03c570ac7d9f0a23de458306.mp3",
+      "bytes": 449687,
+      "sha256": "54c693376b98d9e4683c2900ed7f32589d26a8724348d0e1f74ee2644d2e53d3",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ColdGirl",
+      "websiteVoiceId": "226869106802846",
+      "name": "Cold Girl - 轻柔慵懒,缓慢拖沓,淡漠疏离",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0ad1de6e-3126-4bbd-a579-914b7ef8b0a1.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a2e93654dbdffb204da27617.mp3",
+      "bytes": 427094,
+      "sha256": "b33b6cb7c6dffb30d25aa51efd46d540bb210c786a6880db7f2fac5ab42a8cc6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_HaughtyLady",
+      "websiteVoiceId": "226869106802847",
+      "name": "Haughty Lady - 通透澄澈,不紧不慢,孤傲神秘",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1b3e7385-3446-48e3-b7f7-59c721f92dab.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/41bc92fff108897be8d08ff8.mp3",
+      "bytes": 384419,
+      "sha256": "9ad950c9edf7745cb92a14f935093cfb0049c5a9e242dfe0eac485a1d180f181",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CharmingElderSister",
+      "websiteVoiceId": "226869106802848",
+      "name": "Charming Elder Sister - 华丽优雅,从容不迫,神秘且撩人",
+      "sourceUrl": "https://filecdn.minimax.chat/public/4e907f4e-5024-48e6-913f-9de28ed6ae4a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/90dad5ef22ce0fd8023ecddc.mp3",
+      "bytes": 391114,
+      "sha256": "a1618601932a6fc02ad5f0e3c6219f0ef001030b5228507c09d55d5c81f090e7",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_IntellectualMan",
+      "websiteVoiceId": "226869106802849",
+      "name": "Intellectual Man - 低沉醇厚,舒缓慵懒,温柔亲昵",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7334a8d2-d8b9-4124-aef8-4cf54997917e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1a398e538ee505100306a5ba.mp3",
+      "bytes": 381073,
+      "sha256": "15316cb031a39e883809d8e4e8a0fae03684dd25ae94a3e2a227f6c58f6138d9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CaringWoman",
+      "websiteVoiceId": "226869106802850",
+      "name": "Caring Woman - 清脆明亮,轻快活泼,俏皮可爱",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d51fb00e-3ba8-433f-885a-8e81539697a9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3c7d901614beaa3c74a431d2.mp3",
+      "bytes": 362664,
+      "sha256": "6ee9a9ba3cf3a1bc6c5ded2db6d6e20178ca74b7617f78fd7b92d45d997d15b5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_WiseTeacher",
+      "websiteVoiceId": "226869106802851",
+      "name": "Wise Teacher - 清亮明快,干脆利落,运筹帷幄的傲气",
+      "sourceUrl": "https://filecdn.minimax.chat/public/413bf9d0-c0fa-4589-9c19-98ab40da0de6.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/49cb8a5abdfb57592f114819.mp3",
+      "bytes": 307438,
+      "sha256": "19015648082fb81126d7757342b9118d3112f53e49acad9b75d2040c11b4f51b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ConfidentBoss",
+      "websiteVoiceId": "226869106802853",
+      "name": "Confident Boss - 沙哑磁性,从容不迫,幕后操纵感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/82564634-7d90-4ed1-9b0b-1ea76c19ce1d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8f821b3697ff62009b8739d3.mp3",
+      "bytes": 444666,
+      "sha256": "9bb3ba7aab2e2500a31e73b4acab02c3840ce246293dedec8fd8e07e1faeca5f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_AthleticGirl",
+      "websiteVoiceId": "226869106802854",
+      "name": "Athletic Girl - 清脆明亮,欢快跳跃,元气满满",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8cb05ee3-4ff9-46b3-aaf8-318662b9a87c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2ecca91f19de67d8a6a4a63a.mp3",
+      "bytes": 360154,
+      "sha256": "db67a8730f86338e17137ffdf61bed74aab39fbf45fb9543b99dec4c89209253",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_PossessiveMan",
+      "websiteVoiceId": "226869106802855",
+      "name": "Possessive Man - 冷冽富有磁性,从容不迫,高冷统领感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0dbd4fcd-d217-4fb5-94c8-f94842093cac.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/00a6970b4dc37bb385c56302.mp3",
+      "bytes": 332541,
+      "sha256": "ef74519315530f56e9b4f3d79e5aafec66b07d4db28a05d7450a6841d7edc45f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_GentleWoman",
+      "websiteVoiceId": "226869106802856",
+      "name": "Gentle Woman - 清澈温润,彬彬有礼,大家闺秀感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5964cf93-f84e-46fe-a02c-55c202158d6d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/79f896241a6bc8618c8ac77c.mp3",
+      "bytes": 326684,
+      "sha256": "c58d3a28e1a1a71f4073155e6b91fb66a265835919d22782f65e52bf949be1f0",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_CockyGuy",
+      "websiteVoiceId": "226869106802857",
+      "name": "Cocky Guy - 中气十足,极具爆发力,狂妄感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0cd0820e-b397-4e63-a9ff-ee9409771a9b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/206f0d8ee75e7d5b10810161.mp3",
+      "bytes": 376052,
+      "sha256": "d27614b4f8712ee1bddb05c1c9317c1757d00473693a7cf6de1352d649f77bcf",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_ThoughtfulWoman",
+      "websiteVoiceId": "226869106802858",
+      "name": "Thoughtful Woman - 清脆明亮,轻快活泼,亲切可爱",
+      "sourceUrl": "https://filecdn.minimax.chat/public/991c6eb8-f421-42c7-84a8-e61b4a45427b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0f82acaa60ac12b4d00d57a8.mp3",
+      "bytes": 347603,
+      "sha256": "086b31ae73363c8d7f383a4e358d5e4ca9abddcffc98c305cb776d16fed42ba2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Korean_OptimisticYouth",
+      "websiteVoiceId": "226869106802860",
+      "name": "Optimistic Youth - 清亮,轻快活泼,元气满满",
+      "sourceUrl": "https://filecdn.minimax.chat/public/eaab3248-d547-48da-92d9-60e8c842edf9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f730d9b18812c84d2c6ee029.mp3",
+      "bytes": 360991,
+      "sha256": "eaba6169e84f989c2afbc064e31c310a73f644424745a0cb526fc3f83c27947d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SereneWoman",
+      "websiteVoiceId": "226869106802861",
+      "name": "Serene Woman - 明亮清脆,灵活多变,生动活泼",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a0634c3c-c967-4b40-9186-78d3a5fbc530.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/65e05e78fa4194f0373d0850.mp3",
+      "bytes": 278989,
+      "sha256": "1479e281236579ee4c08317b9267f80faa6c53a513636ce235cfe99f040f0a7d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_MaturePartner",
+      "websiteVoiceId": "226869106802862",
+      "name": "Mature Partner - 粗犷沙哑,慵懒随意,历经沧桑",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b8bdc6ad-3d1b-4b15-9b92-c1400e9455af.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/093324649305786ebe7221bb.mp3",
+      "bytes": 324173,
+      "sha256": "05ba0a1d72c686ce5881b69fcee0963ad04533fd4c01f89b666d588a4b318bce",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_CaptivatingStoryteller",
+      "websiteVoiceId": "226869106802863",
+      "name": "Captivating Storyteller - 深沉厚重,娓娓道来,历史厚重感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/76c27a7c-603a-48ad-aa87-f84d25311b2c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0eb473c5b48b34c029ae4eb2.mp3",
+      "bytes": 306602,
+      "sha256": "74d82036f4157aa57d2f343fce50055c44d964ea50dc3bd0e13f68e20f06eec6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Narrator",
+      "websiteVoiceId": "226869106802864",
+      "name": "Narrator - 热情洋溢,夸张戏剧化,慈祥母亲角色",
+      "sourceUrl": "https://filecdn.minimax.chat/public/58368b15-e52e-4844-b3be-cbb9d431bfba.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0e9dcd3bfe753b5cfd5158e9.mp3",
+      "bytes": 298234,
+      "sha256": "9388c2baddb59cd57570900cb1e7489bbb36f95e3acd841cdc46965434ee00c4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_WiseScholar",
+      "websiteVoiceId": "226869106802865",
+      "name": "Wise Scholar - 清亮质朴,如话家常,邻家男孩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/53e77755-1c4b-4fdf-af6c-d6a66f46bf90.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b7e80b218b9888f00fe83101.mp3",
+      "bytes": 283172,
+      "sha256": "643c76b666d1ba3184f68baa6a767b60a205d61e45fbef3e6c3546980481231f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Kind-heartedGirl",
+      "websiteVoiceId": "226869106802866",
+      "name": "Kind-hearted Girl - 甜美清亮,轻快活泼,邻家亲切感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/cd3015e1-a994-46e1-8a46-90db955eb6aa.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/7ad856cdfa6ca28690e46361.mp3",
+      "bytes": 311622,
+      "sha256": "aeac2b27c4c2a34e24f3502e28d313f43476a010076de9d53a348a00eef76c7c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_DeterminedManager",
+      "websiteVoiceId": "226869106802867",
+      "name": "Determined Manager - 锐利坚定,字字铿锵,充满压迫感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a2b91683-d5a5-49cd-863a-8514f33138a4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e3c7cb9d0f905aaa82cd318a.mp3",
+      "bytes": 365174,
+      "sha256": "ac9ffd699c341c6369a260e52c47efde8dd3c0faec2f09d1fba823be2c26fc01",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_BossyLeader",
+      "websiteVoiceId": "226869106802868",
+      "name": "Bossy Leader - 沙哑粗砺,威严有力,带有压迫感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0f2c8cbd-7043-4cb1-97b8-055782fdb263.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/46b5685403034cd8027377c3.mp3",
+      "bytes": 285683,
+      "sha256": "c6bcf21ff06ffbd0ad7c164e385b0e453687f90a906699b1ae5836e727424c55",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ReservedYoungMan",
+      "websiteVoiceId": "226869106802869",
+      "name": "Reserved Young Man - 温润清澈,娓娓道来,极具叙事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/972e96bc-568d-4561-b400-c13e97bdecac.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a193edf38e7a83eb95164c77.mp3",
+      "bytes": 315806,
+      "sha256": "ade4612e5fff71ee6abe488da9e63714125561b9d0d2aeb10d29034b8a764cfc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ConfidentWoman",
+      "websiteVoiceId": "226869106802870",
+      "name": "Confident Woman - 明亮清晰,干脆利落,知性力量感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2b073196-ce62-438d-91b2-2157061f5f81.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/613a10066f3148f75f8d93de.mp3",
+      "bytes": 309112,
+      "sha256": "b7a40938c06457526fd558c894c3da5054dfe850a9aa8a8e76fafb96cbec16c0",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ThoughtfulMan",
+      "websiteVoiceId": "226869106802871",
+      "name": "Thoughtful Man - 温润磁性,娓娓道来,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/30756b6f-24c3-4060-a9f4-b27d3b808eac.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b976cb166a13f337ffacf3e7.mp3",
+      "bytes": 283172,
+      "sha256": "715f480ae4a36bafeb50bc34a5cd61b15a2be98f3031f237a67f3168af8c2c96",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Strong-WilledBoy",
+      "websiteVoiceId": "226869106802872",
+      "name": "Strong-willed Boy - 清亮坚定,充满激情,热血",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aec8c5ad-d246-4472-a71e-16ebc11d0326.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/66122dd7d5ee1ab3c939b9ad.mp3",
+      "bytes": 297397,
+      "sha256": "74b65ff115d6375596d9cec38a547aa6c7636648f8d96848b9dcb0c5d3c5bd80",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SophisticatedLady",
+      "websiteVoiceId": "226869106802873",
+      "name": "Sophisticated Lady - 略带沙哑,豪爽干练,自信笃定",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0cc049f1-8815-455d-8c66-adf1a7c0a527.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2e9429d570e027c906da884b.mp3",
+      "bytes": 291540,
+      "sha256": "52727a271995a5d49555209dc2e77f123f6b7b43f9ab60d2fb5aa607b6e173ad",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_RationalMan",
+      "websiteVoiceId": "226869106802874",
+      "name": "Rational Man - 低沉浑厚,从容不迫,严肃冷峻",
+      "sourceUrl": "https://filecdn.minimax.chat/public/48ac2f70-128a-4d4e-b435-041e5cf032c2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e94634bda6ef36645ccc0ec5.mp3",
+      "bytes": 265601,
+      "sha256": "05d43715981201988153f1fa64bf9a4ac215c08e6d189e71f9d49797c7071157",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_AnimeCharacter",
+      "websiteVoiceId": "226869106802875",
+      "name": "Anime Character - 粗犷沙哑,急促多变,紧张氛围感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/35f015f2-577e-456d-820e-1baa447b712b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a454926e972311166c84b36e.mp3",
+      "bytes": 328357,
+      "sha256": "b2405627cba3791ee887e28e7e0e39110d5e25944e7128d4c7852c9a5c9ba2a1",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Deep-tonedMan",
+      "websiteVoiceId": "226869106802876",
+      "name": "Deep-toned Man - 浑厚,抑扬顿挫,反派魅力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e7d0e581-725c-437a-9078-ffd9f63b2270.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9505f4e708ef66fa5449dedc.mp3",
+      "bytes": 381073,
+      "sha256": "c2092070cbd9729400ea52378c5b23a0f4c6df5bc089279fa77a426c94970713",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Fussyhostess",
+      "websiteVoiceId": "226869106802877",
+      "name": "Fussy hostess - 尖锐高亢,急促迫切,傲慢且挑剔",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8115301e-8e0e-4d80-b823-60fd9a257f91.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/91b3283f73af53ebb690db48.mp3",
+      "bytes": 391114,
+      "sha256": "5b2183affad3f9896684276b2ea0e4de2c5059b98ea84bb8bc90c6963fe1fedd",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SincereTeen",
+      "websiteVoiceId": "226869106802878",
+      "name": "Sincere Teen - 清脆明亮,节奏急促,充满吐槽感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/66bc2d78-18df-4890-8add-5d9b024affb2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9dca5a5d3c49fe32ba8b8460.mp3",
+      "bytes": 304928,
+      "sha256": "0b056f39344cb8696604c236c91beb015a510f8d643e39b6a5772282266e5328",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_FrankLady",
+      "websiteVoiceId": "226869212622976",
+      "name": "Frank Lady - 明亮尖锐,节奏急促,极具戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/083f9293-4a66-4960-b0cf-7c2695d2dd97.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ef896b8265b7fa01472d67cb.mp3",
+      "bytes": 304091,
+      "sha256": "647e4fa7d347cf24d5b2c8f60fa75037b2ba6fa4dcd38a188267abf80ec48717",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Comedian",
+      "websiteVoiceId": "226869212622977",
+      "name": "Comedian - 高亢明快,抑扬顿挫,幽默诙谐",
+      "sourceUrl": "https://filecdn.minimax.chat/public/af3a1408-5009-4b9f-b419-0d2ff1c362a0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6d4d0c42995c056f95a5344f.mp3",
+      "bytes": 374378,
+      "sha256": "efe5ae353c6395f3b274f939a556970098a059f73100667ee270ee852d0171f8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Debator",
+      "websiteVoiceId": "226869212622978",
+      "name": "Debator - 沙哑粗砺,抑扬顿挫,狡黠匪气",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1551e6f4-792c-4e3a-b40c-3538f589b60b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ba31f2ace528e4b16d643723.mp3",
+      "bytes": 283172,
+      "sha256": "b9e407a2e57be1ecf5b70e395531b53f7079bd8b311a63117d3f06ae09236ba7",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ToughBoss",
+      "websiteVoiceId": "226869212622979",
+      "name": "Tough Boss - 低沉沙哑,极具戏剧张力,严肃厚重",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9074371b-955b-4e4e-804f-09d8a1448ce7.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e582b67a9ae01d87c12a35f9.mp3",
+      "bytes": 306602,
+      "sha256": "f7cc03b21a93282ffb1b05e85a6e2d7801f0f934914c188dcfa0641a9c4fdb77",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Wiselady",
+      "websiteVoiceId": "226869212622980",
+      "name": "Wise Lady - 清亮优雅,节奏精准,神秘引导感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/93e2c5d4-a4b2-44b4-a8fb-82efa8a7cdd8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/510a3152d368297f745e9d54.mp3",
+      "bytes": 343418,
+      "sha256": "f17333129fb3b5e63b8f869990bb2fb978bf5d859c1a698deea89f40991717d9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Steadymentor",
+      "websiteVoiceId": "226869212622981",
+      "name": "Steady Mentor - 粗砺沙哑,戏剧夸张,凶狠狂妄",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aed18d6d-8319-4d25-b008-0483a71f02a6.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e9bc133d0a6b6e30b2663e56.mp3",
+      "bytes": 291540,
+      "sha256": "c0b8a3a1f00ff97110bea2a72cc22c9d71d6f3939025c54ae1216d7f80f7026b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Jovialman",
+      "websiteVoiceId": "226869212622982",
+      "name": "Jovial Man - 略带沙哑,慵懒随性,乐天搞怪",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3ccbc32c-6a28-4e77-9a3d-4eca54d9d2cd.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/79d9090bb2a2ace9f20b6894.mp3",
+      "bytes": 464748,
+      "sha256": "9fefdef5c2561d7e549506d09e5d21fc818c6c358e6853b18fced4f5cedfd42b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SantaClaus",
+      "websiteVoiceId": "226869212622983",
+      "name": "Santa Claus - 浑厚洪亮,抑扬顿挫,和蔼可亲",
+      "sourceUrl": "https://filecdn.minimax.chat/public/68f8d88c-8512-4d45-bf7b-490a39b4ac03.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f716a090701d0113a8e80bd1.mp3",
+      "bytes": 364337,
+      "sha256": "8dd11f06aafe02cf8f0e07549505c5ed77000ffc21d88b34c7121395c0edf759",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Rudolph",
+      "websiteVoiceId": "226869212622984",
+      "name": "Rudolph - 稚嫩鼻音,迟缓笨拙,纯真童趣",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e4cf8f02-db24-4c0e-9100-cff1f33ad6db.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c95f106960503781da41b6c0.mp3",
+      "bytes": 289030,
+      "sha256": "17c0ed9df5a0f6bcc15e21f5f29b5c901e8567dbb613d5671766998be9b4e06b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Intonategirl",
+      "websiteVoiceId": "226869212622985",
+      "name": "Intonate Girl - 清脆明亮,节奏轻快跳跃,戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1f7f89f9-e8eb-43e0-82e2-e647c6a6957d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4154ba8ca5c6efb255dfd011.mp3",
+      "bytes": 297397,
+      "sha256": "24771dfb5a0d2d0daffb742f147c3fb903870d8b6193e3688bd969f401d7b78e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Arnold",
+      "websiteVoiceId": "226869212622986",
+      "name": "Arnold - 低沉沙哑,娓娓道来,阅历感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/049200e9-bc2f-4c06-bea5-e40879ea71d4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/14d45c5f2ab805e5e9e2ca53.mp3",
+      "bytes": 263090,
+      "sha256": "b0312a8e5b5bfe76ffab59c8a017ce25214e5f6efba9fc0d99cb7e018bb21406",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_Ghost",
+      "websiteVoiceId": "226869212622987",
+      "name": "Ghost - 粗犷沙哑,干练急促,战场实况感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/366ddf40-50c1-4829-9f26-558e48a8a5f3.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a668c1bdf9ce4e96f8f55a81.mp3",
+      "bytes": 280662,
+      "sha256": "446a52c2c1e32bceeae17c3fcbf37b90ad54759cfa1bccedfc3aa5b4a4f99b98",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_HumorousElder",
+      "websiteVoiceId": "226869212622988",
+      "name": "Humorous Elder - 沙哑滑稽,夸张起伏,喜剧画面感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f65be5c8-13e1-4b73-a4e1-b7eb6640b590.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a20c4d1c9c5b94b1a2910eec.mp3",
+      "bytes": 254723,
+      "sha256": "7fcecd832227b26dd2a85ebc37d4c17ece28b360599e4755a4ac103f26c205ef",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_EnergeticBoy",
+      "websiteVoiceId": "226869212622989",
+      "name": "Energetic Boy - 清脆明亮,轻快活泼,充满朝气",
+      "sourceUrl": "https://filecdn.minimax.chat/public/95c75f30-8285-4bb3-b922-bc73db56f425.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/429f570735f02ea4f629f1c1.mp3",
+      "bytes": 307438,
+      "sha256": "55e2e1bb472aba0844cf4f894e6c03ab4e06de35d965b3805c6ef4224e71283b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_WhimsicalGirl",
+      "websiteVoiceId": "226869212622990",
+      "name": "Whimsical Girl - 甜美细腻,轻快灵动,古灵精怪",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b354c6b0-42fd-4628-9a1e-c36b0c6f894a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2aee4bc4d3a1d0e13569ecea.mp3",
+      "bytes": 276479,
+      "sha256": "0957fb365c9239f984953a33fd1828df49066e9afcb60b90dcb63aa99bb40c51",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_StrictBoss",
+      "websiteVoiceId": "226869212622991",
+      "name": "Strict Boss - 硬朗有力,干脆利落,严厉紧迫",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a22ff931-f362-46e2-a1b9-39f2e4c909aa.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/241ec2102c23cfe23a93567a.mp3",
+      "bytes": 326684,
+      "sha256": "50c8f07f04f59972bb48870e9baa7b3b485cdb5de040d580b9f6af5f8728e3f8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ReliableMan",
+      "websiteVoiceId": "226869212622992",
+      "name": "Reliable Man - 低沉浑厚,从容不迫,沉稳与睿智",
+      "sourceUrl": "https://filecdn.minimax.chat/public/818c43f4-3535-4a89-9bd1-a1220e1754f2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/11d4e48035e40f2d0e468253.mp3",
+      "bytes": 384419,
+      "sha256": "75ee5c223995fd36c818fdb650df9790f62f96428ddc89a888f43444aa60e273",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SereneElder",
+      "websiteVoiceId": "226869212622993",
+      "name": "Serene Elder - 苍老沙哑,节奏缓慢,充满戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e761e1b2-cf84-4c91-bb37-6008d9d19171.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/08c14efe326bde82d4a36ce6.mp3",
+      "bytes": 373542,
+      "sha256": "8959793d5d02beded9fd1175cef9b748ad7b599e8cc6f3b592661b1068a238d8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_AngryMan",
+      "websiteVoiceId": "226869212622994",
+      "name": "Angry Man - 紧绷高亢,急促激烈,歇斯底里",
+      "sourceUrl": "https://filecdn.minimax.chat/public/4d44ca7f-f8e8-4151-b284-2594ee945c4c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1df92551cc1dff9afc2beeda.mp3",
+      "bytes": 311622,
+      "sha256": "14a8851730f5b93180bc7aca3d6f072bd3a8db8044aac3b97035d5e8e56b6481",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_AssertiveQueen",
+      "websiteVoiceId": "226869212622995",
+      "name": "Assertive Queen - 清亮锐利,干脆利落,高冷且果断",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b01287be-f31d-47af-a44b-28c665d28e75.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/405d77315c171d693f3933f5.mp3",
+      "bytes": 267274,
+      "sha256": "49007f96a551cf3e18a8aa704d4633fa29fd21a87cf78d15dc60b29689962585",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_CaringGirlfriend",
+      "websiteVoiceId": "226869212622996",
+      "name": "Caring Girlfriend - 甜美柔和,舒缓流畅,邻家亲切感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/64d0fa4b-b821-450c-9acc-61aadf2132e2.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/670d42900a5fc72c994a3a2b.mp3",
+      "bytes": 294050,
+      "sha256": "7455f1c59afc6ae21d3f89a145fd8038782c4e0e12522ebda32cd3744385e0e4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_PowerfulSoldier",
+      "websiteVoiceId": "226869212622997",
+      "name": "Powerful Soldier - 刚毅有力,干脆利落,极具战斗感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/075da942-8337-4fe5-be23-98fb533a07b8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a9befc7d9eb94cc6c042431f.mp3",
+      "bytes": 263927,
+      "sha256": "2938dd5bd430360a35d4dfc21eca46b23e4d8b2df416e59e67e496b59fef18f1",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_PassionateWarrior",
+      "websiteVoiceId": "226869212622998",
+      "name": "Passionate Warrior - 清朗,紧凑有力,热血",
+      "sourceUrl": "https://filecdn.minimax.chat/public/656b7ef8-909c-4212-bb4c-c405fed0eba0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/46d5be41f531368a3278c26b.mp3",
+      "bytes": 291540,
+      "sha256": "4f476d0432a004c6a3445b44e5ffdecd390a909f1f1641713706c85d95b57ce8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ChattyGirl",
+      "websiteVoiceId": "226869212622999",
+      "name": "Chatty Girl - 甜美明亮,轻快跳跃,邻家女孩般的陪伴感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2b72ac1e-98c0-4b90-adda-8334a32ae409.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9f9e3a40aaffe8aba64e3a77.mp3",
+      "bytes": 280662,
+      "sha256": "10cd7a95358652a47ad285decb1ea8ec275d83006a13a4e1c00df9e9aea4606b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_RomanticHusband",
+      "websiteVoiceId": "226869212623000",
+      "name": "Romantic Husband - 自然松弛,随意慵懒,愤世嫉俗",
+      "sourceUrl": "https://filecdn.minimax.chat/public/18c73906-0170-429d-8fae-9c5c1b2c6213.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2677bbf128ce20d44bec0544.mp3",
+      "bytes": 330031,
+      "sha256": "5587fd4faf26eb417574122d35ffcdb505b33824e3f555e73bce418682e4045f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_CompellingGirl",
+      "websiteVoiceId": "226869212623001",
+      "name": "Compelling Girl - 清亮坚定,干脆利落,自信果敢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6b15724c-45f4-477b-8e9c-8c7307e30cc6.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1acc8e4fe968acdbb836f15c.mp3",
+      "bytes": 307438,
+      "sha256": "2e603068cf03c3ff6b2fb0fa15cc9547d6f67914d734bf3334ef897d26644691",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_PowerfulVeteran",
+      "websiteVoiceId": "226869212623002",
+      "name": "Powerful Veteran - 低沉粗砺,强硬有力,充满压迫感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/13da0f6a-39d1-4301-9766-6dc39c40eb10.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/faa5f23b460a054fdedd471d.mp3",
+      "bytes": 417053,
+      "sha256": "db65f7bd48fcce7ee4bde6eec73913b9fd547ac1bee95d46c7e9bd21d2967e78",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_SensibleManager",
+      "websiteVoiceId": "226869212623003",
+      "name": "Sensible Manager - 略带沙哑,节奏急促,焦急恳切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/885bf180-3c7c-4794-b12f-73f8d5453444.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4f8cf7bfeaa8d2a9a0f5a9c4.mp3",
+      "bytes": 314132,
+      "sha256": "4c426ae6c2aff6b4f0f5da45ec8cfdc3f06230e19d22ccf646043d350fb86044",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Spanish_ThoughtfulLady",
+      "websiteVoiceId": "226869212623004",
+      "name": "Thoughtful Lady - 柔和细腻,舒缓自然,生活化",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d85b1065-dfe1-43b8-9840-89672834ac5f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0f68a24c572bf2227fb78608.mp3",
+      "bytes": 285683,
+      "sha256": "a78d49e37af44bcfee29cc35ac6a56a2e54db741c8ebac14cc91e69f227aa4fc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SentimentalLady",
+      "websiteVoiceId": "226869212623005",
+      "name": "Sentimental Lady - 尖锐明亮,夸张多变,傲慢且神经质",
+      "sourceUrl": "https://filecdn.minimax.chat/public/96c374c8-b0d1-4cd6-9ef1-5c7aedc0ed28.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3bdc9559f777a67c137627e4.mp3",
+      "bytes": 276479,
+      "sha256": "a9a51d887162e2f9a36005a536abc0a948dd1b3da44a4d978594b2b07d7be900",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_BossyLeader",
+      "websiteVoiceId": "226869212623006",
+      "name": "Bossy Leader - 低沉沙哑,强硬有力,严肃冷峻",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0c3429ac-9c9b-40f7-9524-421df8f70028.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8b893a6ce710420313d9aa15.mp3",
+      "bytes": 273968,
+      "sha256": "ec1487fd815e91aa8ceda354f0a2991a26211a217c1fe35cc5d000db9908173e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Wiselady",
+      "websiteVoiceId": "226869212623008",
+      "name": "Wise lady - 清晰明亮,从容不迫,具有引导性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1c3f9c50-09db-496e-ae93-2cfe3b0c9f11.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2d5c3c4749ec8a71749f59aa.mp3",
+      "bytes": 302417,
+      "sha256": "0d74ca6f7bdc1eb5f58328d79ccc061c9276d053d08caa385af943dafd046e46",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Strong-WilledBoy",
+      "websiteVoiceId": "226869212623009",
+      "name": "Strong-willed Boy - 清朗坚定,抑扬顿挫,热血",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9f71b4c2-ee1c-41f7-907f-98af76360cbf.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a130568fe6a0c11354798fdd.mp3",
+      "bytes": 356807,
+      "sha256": "87826a652bcfa48b6f148387b7d4f7b173aab2a69715c9869c01ff6f56f352e6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Deep-VoicedGentleman",
+      "websiteVoiceId": "226869212623010",
+      "name": "Deep-voiced Gentleman - 低沉沙哑,张弛有度,极具戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/59fc41cf-81e3-4d19-865e-45797e536f02.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/07e434f0392f487c340fa07e.mp3",
+      "bytes": 289866,
+      "sha256": "78a836bc93809afe132388b33d9803d51e6e8d6f550a87340f9cf9a66dd7e8f7",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_UpsetGirl",
+      "websiteVoiceId": "226869212623011",
+      "name": "Upset Girl - 轻柔细腻,缓慢迟疑,忧郁歉意",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e35054e1-be07-4801-a835-2c81ab00e549.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3b4b7d10d35c08faab7aa7cb.mp3",
+      "bytes": 295724,
+      "sha256": "316fadae4f1b3eca776c21334dc855279bd6811fc40c7941633bc685ee2f21e9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_PassionateWarrior",
+      "websiteVoiceId": "226869212623012",
+      "name": "Passionate Warrior - 清亮激昂,节奏紧凑,热血自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/96909c80-294c-4a36-a6ee-eebbfdabb578.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/262a3c62204d031eb06559f2.mp3",
+      "bytes": 272294,
+      "sha256": "d53e1bb13c792f531c869e99d8af2c3114e31a1ab776252891c636bfb074fa16",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_AnimeCharacter",
+      "websiteVoiceId": "226869212623013",
+      "name": "Anime Character - 高亢明亮,急促紧凑,充满戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e6e85517-09fe-4601-b396-c9882698f05f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/13cd4e98d5d69da15b1ac060.mp3",
+      "bytes": 432115,
+      "sha256": "14d9851c51a8fd909a9071636039ccd166a52ad6476cbf2259b50a9a569bc7fa",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ConfidentWoman",
+      "websiteVoiceId": "226869212623014",
+      "name": "Confident Woman - 明亮穿透,坚定有力,自信且充满气场",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f39874c2-bf6c-416f-8fee-a2879505cccd.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/dbcac204997cdf5bca0acdd9.mp3",
+      "bytes": 251375,
+      "sha256": "7cb46389fff98e70bd88c98ba6006c063e9deeaf2ba6a8386baf78793b0f6544",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_AngryMan",
+      "websiteVoiceId": "226869212623016",
+      "name": "Angry Man - 紧绷且略带沙哑,节奏急促,极具对抗性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9536a438-673b-47bd-8ccc-1cd4690b3bea.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a22796527b0c9ecd6ff036b0.mp3",
+      "bytes": 355970,
+      "sha256": "af34e81b8ff0d24324c834fa53f3028dd19279b746224d473f044ea94506fbc5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CaptivatingStoryteller",
+      "websiteVoiceId": "226869212623017",
+      "name": "Captivating Storyteller - 低沉浑厚,娓娓道来,充满叙事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ebf63c57-da8f-4d7a-85b0-d2a11dee295e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c3b5b9ebe3e3f5669a417218.mp3",
+      "bytes": 298234,
+      "sha256": "8ec5d852cf256f389e71d90864879bc9dce0b2164e74162354ae64a170bee392",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Godfather",
+      "websiteVoiceId": "226869212623019",
+      "name": "Godfather - 沙哑低沉,缓慢凝重,充满压迫感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b93142ce-ed0f-4997-80c4-04b2333b5661.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/64917e45e9b70f8524435f82.mp3",
+      "bytes": 278989,
+      "sha256": "19d16bed8c725763f31dacfdc15939491fbe8976aa15e862ced254103f4e1035",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ReservedYoungMan",
+      "websiteVoiceId": "226869212623020",
+      "name": "Reserved Young Man - 纯净透亮,彬彬有礼,内敛真诚",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7352ca80-ad50-42d0-bb91-83d2f99e9a97.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9a0eb853dc35daddbafa864d.mp3",
+      "bytes": 242171,
+      "sha256": "1deb370cb924288c85a66b59cd6dec41c6373dc387e6877ec5e6b5c4f6542a01",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SmartYoungGirl",
+      "websiteVoiceId": "226869212623021",
+      "name": "Smart Young Girl - 高昂清脆,灵动活泼,机灵古怪",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c051daee-8ffe-4a5c-8f22-75e1a0191077.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ea377222dd16d8905887d9d8.mp3",
+      "bytes": 307438,
+      "sha256": "6b065cc984aa6ad707411308a88cc2fb7b41f4ffc2eafa48b0efb41cfc6b93e4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Kind-heartedGirl",
+      "websiteVoiceId": "226869212623022",
+      "name": "Kind-hearted Girl - 清澈甜美,轻快流畅,积极阳光",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9e261b2c-311d-4473-8886-2067cb99d2de.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/598c78696f398208a18c3875.mp3",
+      "bytes": 304091,
+      "sha256": "24fd6ece2e0972d6e70e55477cba6de63967e02a7aafcfe3edfee98f9d42c754",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Pompouslady",
+      "websiteVoiceId": "226869212623023",
+      "name": "Pompous lady - 高亢尖锐,矫揉造作,傲慢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/32d80225-03ea-4748-94ae-6c8c1b5d7aa0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/32b8582601811287432eb0ac.mp3",
+      "bytes": 340909,
+      "sha256": "309765da1281e3fd8871b6122287a90030413888c6fa0548433d0faee876ba39",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Grinch",
+      "websiteVoiceId": "226869212623024",
+      "name": "Grinch - 沙哑粗砺,夸张多变,滑稽狡黠",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1765e9a0-c421-45f5-90dc-ca7f58c72465.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/42f13ad4e8cdf6583a1973df.mp3",
+      "bytes": 307438,
+      "sha256": "5d92c81a50000e4b38c8f2185d50df0f8cb627271982835dc9ee4bd683d8fc2e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Debator",
+      "websiteVoiceId": "226869212623025",
+      "name": "Debator - 沙哑粗砺,松弛痞气,狡黠市侩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/095e8621-c1f6-491c-bfbd-4491dbb7f5b6.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/19c3916599260200a55ffca0.mp3",
+      "bytes": 422911,
+      "sha256": "1f34b9e82cd690c971c2593a95233270b1ea21fbf4076d5db52c3421fbc0785e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SweetGirl",
+      "websiteVoiceId": "226869212623026",
+      "name": "Sweet Girl - 甜美娇俏,夸张戏剧化,虚荣傲慢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2165c9b0-467a-45f1-aa13-248580305a83.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9fb42dbfd455690caed3b963.mp3",
+      "bytes": 326684,
+      "sha256": "7ff40671a2b5a04211125bcb28a2513ccbeab3c8ec8b2afdde8b96a2b0bff001",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_AttractiveGirl",
+      "websiteVoiceId": "226869212623028",
+      "name": "Attractive Girl - 甜美细腻,自然随性,邻家女孩感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2c5c7b89-acee-4f6a-8e6c-0e8ff9f90a7b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/51318aaeca1e0f908ec24eb7.mp3",
+      "bytes": 281499,
+      "sha256": "a66d38a18bc10da452129dd030d018498f7f01d8fb70f2da6ceb0becd6c4dcb5",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ThoughtfulMan",
+      "websiteVoiceId": "226869212623029",
+      "name": "Thoughtful Man - 清亮干净,节奏轻快,诚恳活力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/196177c9-8625-4544-b62f-f5a5a9e2c73e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5b0871c992fad06bea9ff352.mp3",
+      "bytes": 339235,
+      "sha256": "a179de6228926a5380cdc36ab3d60f40939e8fb6b2f15765b206531aeb171038",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_PlayfulGirl",
+      "websiteVoiceId": "226869212623030",
+      "name": "Playful Girl - 甜美清亮,灵动活泼,元气少女感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c4c4521a-16e8-4db5-b964-f1e83c6d405c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6d2c6a48190337a18b0cea12.mp3",
+      "bytes": 299908,
+      "sha256": "3bf80d1e1c498f40f3f737c1dba136e83893878694b4c651251e9e94cffa6e7f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_GorgeousLady",
+      "websiteVoiceId": "226869212623031",
+      "name": "Gorgeous Lady - 妩媚动人,娓娓道来,慵懒高贵",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a22dad8a-40ac-40a9-ba66-42cd3912f73d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/532808a3ce2feee78a0b2dd8.mp3",
+      "bytes": 289030,
+      "sha256": "674a806b99fded98715da057211895815c960c228410f1fac13da33819305895",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_LovelyLady",
+      "websiteVoiceId": "226869212623032",
+      "name": "Lovely Lady - 略带沙哑,干脆利落,具有统御力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f338acc9-7cf0-48b3-8a9c-0e01a63eef3b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e3decf583ed7648c60bd896d.mp3",
+      "bytes": 254723,
+      "sha256": "2932ba0b4e8d1a07c66713c94d50aaa2984c4b13458ef0006cd933a88f9f7a9a",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SereneWoman",
+      "websiteVoiceId": "226869212623033",
+      "name": "Serene Woman - 明亮清晰,节奏灵活,舞台表演感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3856480a-068f-41a3-aea0-2858d18224f0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9bec878b35c66f51eeb5adae.mp3",
+      "bytes": 274805,
+      "sha256": "c4ccb4a3be0987763c474911576cbca02e15a546ab9da0b39fe9c240fd156320",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SadTeen",
+      "websiteVoiceId": "226869212623034",
+      "name": "Sad Teen - 略带沙哑,节奏急促,充满了讽刺",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e7ccf5b9-e47d-45ef-a401-5ca12c837435.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/77081c26e291d820c6aaf756.mp3",
+      "bytes": 314132,
+      "sha256": "8505e1483f39d9b659e85501f10b899df871b50e7c251edf1c1e8a8dba8c976d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_MaturePartner",
+      "websiteVoiceId": "226869212623035",
+      "name": "Mature Partner - 粗砺沙哑,抑扬顿挫,爱发牢骚",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a371ff7a-25ca-4d35-9a6a-c15824a90552.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9a5bf223c88cf76433505a0b.mp3",
+      "bytes": 371868,
+      "sha256": "adc2a82c50d12975e46803d44cd84c2c6ff3defb28f89b1f40ffe9cdb89e1aac",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Comedian",
+      "websiteVoiceId": "226869212623036",
+      "name": "Comedian - 高亢明亮,抑扬顿挫,幽默滑稽",
+      "sourceUrl": "https://filecdn.minimax.chat/public/94c66539-f11b-4250-acc6-861eded1bf81.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e55694b93718451cbaa23896.mp3",
+      "bytes": 369358,
+      "sha256": "6c59f512e23ed778185e3a40a0881d8d8a87adb04b6ad77222adb76043f24257",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_NaughtySchoolgirl",
+      "websiteVoiceId": "226869212623037",
+      "name": "Naughty Schoolgirl - 清脆甜美,轻快跳跃,俏皮可爱",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6f4a674d-9e31-49c4-a62f-97a27a701b34.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6f0b74def15a9e839510039f.mp3",
+      "bytes": 356807,
+      "sha256": "59078e2197d0f8c31212755688a1fdd9450453b1ee3d2ee75c37c383906f4240",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Narrator",
+      "websiteVoiceId": "226869212623038",
+      "name": "Narrator - 温暖亲切,轻快活泼,热情感染力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/cf77b39b-4387-4b88-9f31-7941784fd2bb.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9b85903bd06751e6b511df95.mp3",
+      "bytes": 350113,
+      "sha256": "8a71946bf04e1fe6d0a7558a9510c73e909151bfb7e14919e0219ca8b622cf19",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ToughBoss",
+      "websiteVoiceId": "226869310943360",
+      "name": "Tough Boss - 略带沙哑,沉稳严肃,充满故事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/21b7b906-3da4-4152-94b0-12d56366fdcb.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5bbfe077c06d6871d71b06ef.mp3",
+      "bytes": 360154,
+      "sha256": "a345258d9d8bb8ef1c4eb20e9ebd66836c38da7b8d70475583856e78a9331c55",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Fussyhostess",
+      "websiteVoiceId": "226869310943361",
+      "name": "Fussy hostess - 尖锐高亢,急促且充满压迫感,暴躁女王",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ea326ec8-c838-437f-83b7-6aa99918511e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/075a2d58ff8f2c76a2ef3a1e.mp3",
+      "bytes": 347603,
+      "sha256": "dd7d1181180fb5428bef3d5895d16c85a7c01bba55e1e361b3d08d146487b1c0",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Dramatist",
+      "websiteVoiceId": "226869310943362",
+      "name": "Dramatist - 沙哑,张扬夸张,狂放不羁",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b77ce375-eec8-496a-a808-388494a44783.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/47166edbe689fc678f45f7f1.mp3",
+      "bytes": 358480,
+      "sha256": "5e1a935283a19b7676ab62fa1070a270c8cafe9a4c767d2857b35c62f4afc7cb",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Steadymentor",
+      "websiteVoiceId": "226869310943363",
+      "name": "Steady Mentor - 沙哑粗犷,抑扬顿挫,狂妄阴森",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0206476c-7fce-4999-a114-5db1264d24ea.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b42e1e12251c488625b95f8f.mp3",
+      "bytes": 418727,
+      "sha256": "13d3de558f818eab9f831b4b681ca2386541d6782ac7cf4af8768a145f7d0502",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Jovialman",
+      "websiteVoiceId": "226869310943364",
+      "name": "Jovial Man - 粗犷且略带沙哑,节奏轻松随意,滑稽且极具亲和力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/952b1784-ef66-45d5-a5c5-8fffaeafea0c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/300acf4957b8fa110d966930.mp3",
+      "bytes": 354296,
+      "sha256": "4b643cf0c8d3ff4857727c1081c602864331e3a25d3c85de536086fa09f1f7a6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CharmingQueen",
+      "websiteVoiceId": "226869310943365",
+      "name": "Charming Queen - 冷艳磁性,慵懒优雅,高冷神秘",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8418ab1f-e163-4843-97e0-aaabf7528fb9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/dcaa055fdee0c94f83a7b252.mp3",
+      "bytes": 273968,
+      "sha256": "3ef590a4423af73da1ad3661a581faf0eea7d0afeacb3eb003ab547685c98684",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SantaClaus",
+      "websiteVoiceId": "226869310943366",
+      "name": "Santa Claus - 浑厚洪亮,戏剧化,喜庆欢快",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2d13b56a-bc67-4336-a01a-b6b465b8fc3d.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e059f6ccc777befd1563a9e9.mp3",
+      "bytes": 318316,
+      "sha256": "2066ee642bf4639d8672a1e015ec5fe58b3c6004d0ada2a70ece86d47f614a40",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Rudolph",
+      "websiteVoiceId": "226869310943367",
+      "name": "Rudolph - 鼻音质感,略显稚嫩,卡通形象感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ad24a274-13b1-4c8a-a6ff-08783ad20e19.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8fc818701a2c5cabc1ea9a21.mp3",
+      "bytes": 356807,
+      "sha256": "74fe6af21425f0ad70593d3c7326daf224bb4006d413974a278a205f7a9928ee",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Arnold",
+      "websiteVoiceId": "226869310943368",
+      "name": "Arnold - 浑厚低沉,从容不迫,亲历者叙事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/abb6716b-5b98-4179-80f5-f1b94864865e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4d86cd0a6a7328eb4d8698c4.mp3",
+      "bytes": 295724,
+      "sha256": "fc3a181b4149cd473b2d62e5cbee873f21ac98f3787b8c1b8deb9bfea7e5daff",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CharmingSanta",
+      "websiteVoiceId": "226869310943369",
+      "name": "Charming Santa - 低沉沙哑,抑扬顿挫,威严神秘",
+      "sourceUrl": "https://filecdn.minimax.chat/public/4c6d3d68-22d7-48d4-a624-c2e8ab714f67.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d8a6402e0a6ca1ca9a3cc99d.mp3",
+      "bytes": 438809,
+      "sha256": "e0a2123a121ebb6a2ab2d43863da9df75ffb93aa8ffe16329d43138abc637023",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CharmingLady",
+      "websiteVoiceId": "226869310943370",
+      "name": "Charming Lady - 气声饱满,耳边低语,性感撩人",
+      "sourceUrl": "https://filecdn.minimax.chat/public/69b7aa3f-d982-4c0a-9449-3de86b6fc8b0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ae1ba9684419449226164e45.mp3",
+      "bytes": 235478,
+      "sha256": "9a5ca5d04da230fe1aeb63606b0a83dff0eab665d58f0b086150f3075e01c5fd",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Ghost",
+      "websiteVoiceId": "226869310943371",
+      "name": "Ghost - 低沉沙哑,节奏干脆,冷静克制",
+      "sourceUrl": "https://filecdn.minimax.chat/public/02bc899f-708e-4f26-918d-1a96cdc7cf61.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e0afb10419a06b64faf15e64.mp3",
+      "bytes": 337562,
+      "sha256": "ef21439af65ea58c9718e42f9786087b2b14307a1af72e5f05eb0891c3130f5d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_HumorousElder",
+      "websiteVoiceId": "226869310943372",
+      "name": "Humorous Elder - 沙哑颤抖,夸张跳跃,诙谐幽默",
+      "sourceUrl": "https://filecdn.minimax.chat/public/10c5770a-0e67-4c70-90b9-8fc4b8473c6e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/ab180a694e865a73fb32ceaf.mp3",
+      "bytes": 299908,
+      "sha256": "749542fc46b0615a2ce5dd27665b64a64d8a72e6081f7a966016ae60c8360c35",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CalmLeader",
+      "websiteVoiceId": "226869310943373",
+      "name": "Calm Leader - 低沉粗犷,随意自然,街头江湖气",
+      "sourceUrl": "https://filecdn.minimax.chat/public/731b3d11-6f45-4b2d-85d8-960807c69199.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/533b3bc156e0b030a236812a.mp3",
+      "bytes": 274805,
+      "sha256": "8f4044fdda29478e8e71ba9383e4c3c762774bd409f9d2540d7b89960b9b1749",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_GentleTeacher",
+      "websiteVoiceId": "226869310943374",
+      "name": "Gentle Teacher - 声线清澈,循循善诱,耐心讲解",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c1f2a60f-220a-485f-8c49-b0a6c7b19c8c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/950a7b1cf749b1e47b49ae37.mp3",
+      "bytes": 330031,
+      "sha256": "889983d6758b1ae5e32ae3043998dd112008018bd2c0fc0101584b279814feab",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_EnergeticBoy",
+      "websiteVoiceId": "226869310943375",
+      "name": "Energetic Boy - 阳光清爽,活力四射,邻家大男孩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/11f2d4e0-3254-435f-a1d2-6b42f80e4370.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1e93102a5281b17e10a7a678.mp3",
+      "bytes": 289030,
+      "sha256": "b136400bc4217b48ae3f80e0b4eab1f10033c6dd46b20d145120b10ad6040e11",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ReliableMan",
+      "websiteVoiceId": "226869310947456",
+      "name": "Reliable Man - 低沉醇厚,娓娓道来,智者风范",
+      "sourceUrl": "https://filecdn.minimax.chat/public/af8f9422-4427-4006-a882-9d29eebd157a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9ade6874428c1f7e1ab90186.mp3",
+      "bytes": 344255,
+      "sha256": "a25bdaab5940bbb4c1adb7abbeb250d0f34d97823c1c77557e0682ee01508aa9",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SereneElder",
+      "websiteVoiceId": "226869310947457",
+      "name": "Serene Elder - 低沉沙哑,娓娓道来,故事感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2c0b39a5-4ca5-49c5-b9e6-e95d0afc5976.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2b957de40535b23a74afac96.mp3",
+      "bytes": 365174,
+      "sha256": "348978e25c70483c3593f9a675c9f1f61ecf19fe0009edcd941c746e25f7bd5c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_GrimReaper",
+      "websiteVoiceId": "226869310947458",
+      "name": "Grim Reaper - 低沉沙哑,节奏冷酷,阴郁恐怖",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a37be2c6-f572-4638-8436-b77442396fde.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/46924b45a081d02cd85ee05f.mp3",
+      "bytes": 343418,
+      "sha256": "fc88ba203085f95fff9462619a73c1d5774231cbdc68b15bf441b9270e9a21f3",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_AssertiveQueen",
+      "websiteVoiceId": "226869310947459",
+      "name": "Assertive Queen - 华丽富有质感,自信坚定,高贵冷艳",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e709c56f-ded9-4df6-8c25-77a7325bceff.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/833c4c7cdee23606cf8f95fd.mp3",
+      "bytes": 257233,
+      "sha256": "7751063b6d2e57e5623f2feac6d4388a377ca549bcac73f9cfbd3f4880602e66",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_WhimsicalGirl",
+      "websiteVoiceId": "226869310947460",
+      "name": "Whimsical Girl - 清脆明亮,灵动多变,奇幻色彩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b73cac98-78f0-4893-b2f2-de6d72241b01.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/95f45e5ef3a1e303e3732d3c.mp3",
+      "bytes": 272294,
+      "sha256": "5d3f7e03ab00f37ea45c2c72892ec462aa2a06be0c576feb7b0e0dac9934dc38",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_StressedLady",
+      "websiteVoiceId": "226869310947461",
+      "name": "Stressed Lady - 颤抖且略带气声,急促不安,绝望且焦虑",
+      "sourceUrl": "https://filecdn.minimax.chat/public/13638d3c-6cdd-46eb-abb4-02d79cd0daa8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/51ee29921981f47dc40ec748.mp3",
+      "bytes": 274805,
+      "sha256": "aa24dce3847ced9f1c7adeeaf1794b1e5087d3c1efe869b0de38b569cd20339c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_FriendlyNeighbor",
+      "websiteVoiceId": "226869310947462",
+      "name": "Friendly Neighbor - 清脆明亮,语速干脆,充满活力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6129ce22-0252-4e89-a455-5831296c3cd1.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/11696153793c76b0692fd4b5.mp3",
+      "bytes": 321663,
+      "sha256": "d5e450b11971718db726a573732f4f88afade10821015bf9d86eab7dadf9fdb2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CaringGirlfriend",
+      "websiteVoiceId": "226869310947464",
+      "name": "Caring Girlfriend - 甜美细腻,富有韵律感,亲切温柔",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7e00b6ed-0f1c-4cdb-b9c5-055d03ef108b.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e590879bd13d542d595dd7bc.mp3",
+      "bytes": 407849,
+      "sha256": "473d0dc36fdd3be2763072ccb8a164ed6da8f3228de2258b9714b6a397b08bed",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_PowerfulSoldier",
+      "websiteVoiceId": "226869310947465",
+      "name": "Powerful Soldier - 沙哑爆发,紧凑有力,热血激昂",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7138777c-e2e0-44af-be06-2c6a9d890372.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e17fb12232ceaf450ccbc7ba.mp3",
+      "bytes": 293213,
+      "sha256": "dd1cb2d5b74313197c2049f96ad5d43df746d09185bad860bef7097c424eb771",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_FascinatingBoy",
+      "websiteVoiceId": "226869310947466",
+      "name": "Fascinating Boy - 明亮,跳跃轻快,热情洋溢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/478b42e6-06d3-4931-9069-e7929aad068c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/10b425a011ac23f301069c4e.mp3",
+      "bytes": 401155,
+      "sha256": "99e89a4ff42405adda8a0fed96aae9cb836149399477ee3705d7afc15430aa63",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_RomanticHusband",
+      "websiteVoiceId": "226869310947468",
+      "name": "Romantic Husband - 略带沙哑,抑扬顿挫,愤世嫉俗",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ff8f214f-c60c-4605-b6ec-11b72956ee86.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/2b12e04173a878c82f0bb888.mp3",
+      "bytes": 284846,
+      "sha256": "2f2f3b5086a4ec751c4996084e5dba1f4fe690d11d229f1c999d7247f362d9f2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_StrictBoss",
+      "websiteVoiceId": "226869310947469",
+      "name": "Strict Boss - 清晰高亢,果断干脆,紧张专注",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9a6fdf9a-7d72-4703-bb8f-c4352e855330.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/03acc603cfc77aee6132c931.mp3",
+      "bytes": 381073,
+      "sha256": "d2216a22213c998b875d390d8b5bbefd8c85a7489dfb58bc6ed2dc8a320734ca",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_InspiringLady",
+      "websiteVoiceId": "226869310947470",
+      "name": "Inspiring Lady - 清脆甜美,充满活力,热情洋溢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8e179cb4-b62b-409c-bc51-60c07a230f1a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/925adf0a51b68ce3d4f093a0.mp3",
+      "bytes": 318316,
+      "sha256": "55b0e961f0e543ce59f88df6aa167e24299886d80dbfd5f64a10d20a0e6642ee",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_PlayfulSpirit",
+      "websiteVoiceId": "226869310947471",
+      "name": "Playful Spirit - 高亢明亮,节奏急促,俏皮叛逆",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1b169dea-0a78-49d7-af44-350b85bd7e93.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/591502fa959112855d412469.mp3",
+      "bytes": 298234,
+      "sha256": "8c3a597c85eaa5c8a77f4a84e9dc5433c98483cbfaa0dfb9d93ab1b89174074e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ElegantGirl",
+      "websiteVoiceId": "226869310947472",
+      "name": "Elegant Girl - 声线清脆尖细,节奏急促,富有戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/248ce959-a7e6-415e-ab19-5a3d87fab466.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/582eb358972337cf15d8595a.mp3",
+      "bytes": 326684,
+      "sha256": "179b067d86cddc7735566312a777573e65f2c30ed10ac3d76545a44b6a633f0e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_CompellingGirl",
+      "websiteVoiceId": "226869310947473",
+      "name": "Compelling Girl - 清晰坚实,节奏紧凑,指令感强",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f915eaba-30bf-4c93-9d85-07afcb36238f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a1309075d60a3e95743ed7c5.mp3",
+      "bytes": 289866,
+      "sha256": "20f1296357a0a440ca2c833412ed142374df51ee9bfeb64558b954179a617f83",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_PowerfulVeteran",
+      "websiteVoiceId": "226869310947474",
+      "name": "Powerful Veteran - 粗砺深沉,缓慢坚定,上位者气息",
+      "sourceUrl": "https://filecdn.minimax.chat/public/115cbd1a-67cd-4cab-9654-3b341d6e1926.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d422db00da597c779309a0f2.mp3",
+      "bytes": 377726,
+      "sha256": "5464ba4224ce79661588fe4ff7980ee3f17263a8caf98cb5bda25b69c48bf152",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_SensibleManager",
+      "websiteVoiceId": "226869310947475",
+      "name": "Sensible Manager - 厚重且略带沙哑,充满情感起伏,忧心忡忡",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0653e831-8315-4937-9c7e-d8491462d43f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5151bcad7f7661bcb7a36db0.mp3",
+      "bytes": 326684,
+      "sha256": "a7e101b84e3aae18ef1dc7951a8d0652e52181bba94822970465d6342f60cc5c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ThoughtfulLady",
+      "websiteVoiceId": "226869310947476",
+      "name": "Thoughtful Lady - 柔和亲切,极具生活气息,充满关切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6a2afd80-8639-45f7-b0f2-fa1db6dfb396.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cc3a010cda8373384945060e.mp3",
+      "bytes": 274805,
+      "sha256": "365edfbe150e2888a8e8f65ff4bf8ff11aa310cb712d5c8454b5721cfb11adcf",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_TheatricalActor",
+      "websiteVoiceId": "226869310947477",
+      "name": "Theatrical Actor - 浑厚粗犷,戏剧腔调浓郁,傲慢且充满威胁",
+      "sourceUrl": "https://filecdn.minimax.chat/public/bc036a79-341e-4e09-b34b-5f19b5e80759.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cc9f75970c87ddddc5678dc9.mp3",
+      "bytes": 407849,
+      "sha256": "ec6d6db7e701b74c8e548e531335e88f4638d12f7faf1d76d86f202a1da035a6",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_FragileBoy",
+      "websiteVoiceId": "226869310947478",
+      "name": "Fragile Boy - 带有颤抖气声,节奏迟疑,脆弱",
+      "sourceUrl": "https://filecdn.minimax.chat/public/68527441-040e-42b5-9e36-356d7542fdac.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1b40b4195664fe5e71d8f227.mp3",
+      "bytes": 373542,
+      "sha256": "a888b932ef6ba3d34e08b0f780584d305daa50f5e87d96c1f7067f18b29c682f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_ChattyGirl",
+      "websiteVoiceId": "226869310947479",
+      "name": "Chatty Girl - 甜美明亮,轻快活泼,邻家亲切感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e0065909-7062-4778-85bc-ce8ec7d100cb.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/121cbe1e69026db0b42dbb60.mp3",
+      "bytes": 293213,
+      "sha256": "1cba31f9b542b54501fb59c047f0368d02941a70f33804d43bdafd5c44404a33",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_Conscientiousinstructor",
+      "websiteVoiceId": "226869310947481",
+      "name": "Conscientious Instructor - 清脆明亮,轻快流畅,热情亲切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ec1aca02-1c63-44f4-ab3e-f0ae5cf0edee.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e48653906e3614b7ba47ca49.mp3",
+      "bytes": 326684,
+      "sha256": "1f16329752340c27cbb4801cf6bd1d393704978baa9e77c299704ddd4141b28c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_RationalMan",
+      "websiteVoiceId": "226869310947482",
+      "name": "Rational Man - 低沉浑厚,缓慢从容,权威气质",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2fe3af4d-07f5-44cc-8bc1-5e0c9eb734ef.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/27d8861a56dac0f0d73a8a2f.mp3",
+      "bytes": 280662,
+      "sha256": "7db5a7932b01d4190dbbf5a574b44306e8e689fc1a5d23894b28bbfe54d67121",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_WiseScholar",
+      "websiteVoiceId": "226869310947484",
+      "name": "Wise Scholar - 清亮明快,干脆利落,邻家亲切感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/260a1f17-53e3-4a72-904b-f05b8859a4cc.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d8beb03cd9a89bcf5bd6cd6c.mp3",
+      "bytes": 304928,
+      "sha256": "da1b3d576b54f6ad1d8f98a45c66aa06e4f7644cc6320ab8caafab9b9617d04b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_FrankLady",
+      "websiteVoiceId": "226869310947485",
+      "name": "Frank Lady - 略带沙哑,节奏急促,充满生活气息",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2a433448-924c-4a38-b169-6565ef42db49.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8bd7444ffd2c82e522b1e8ff.mp3",
+      "bytes": 336725,
+      "sha256": "1d7afb557f05caf07a6202bc5a7c2aa5adbc21389f35dee45e98709721e9b137",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Portuguese_DeterminedManager",
+      "websiteVoiceId": "226869310947486",
+      "name": "Determined Manager - 尖锐且充满张力,节奏急促,严肃且具有对抗性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7fd6cb3f-68ab-439a-adf6-bdf8384a46e5.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/73e2cbc8b76612c69f64b22b.mp3",
+      "bytes": 295724,
+      "sha256": "63235ba62b8c8021211cd42c63b342f249c9dd0284c2c0796180bb02c0a8a593",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_Male_Speech_New",
+      "websiteVoiceId": "226869310947489",
+      "name": "Level-Headed Man - 清晰明朗,娓娓道来,专家权威感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2c10e785-f7b3-4b7e-8371-bc3c05027085.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cd985f3922b1555875aff608.mp3",
+      "bytes": 317480,
+      "sha256": "49bbaaa5c4e0ab79b7a6461e1a16c854cd4bd2d3cb0d6104954a05cb2a058ee4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_Female_News Anchor",
+      "websiteVoiceId": "226869310947490",
+      "name": "Patient Female Presenter - 知性清晰,流畅自然,专业客观",
+      "sourceUrl": "https://filecdn.minimax.chat/public/cd5107ec-8b13-4222-a373-8b3f7ac9c1d4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/75bc730f319c529bc12b016d.mp3",
+      "bytes": 259743,
+      "sha256": "d98e1f93cf5a47c744efeb772ab8a302add5d4f02b9dabe8dee9932264529bcc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_CasualMan",
+      "websiteVoiceId": "226869310947491",
+      "name": "Casual Man - 温润且富有质感,娓娓道来,具有思辨性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/10956525-11c6-48ed-944d-2d7f82fbc9a0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9b5b0e32522c65e20034267e.mp3",
+      "bytes": 235478,
+      "sha256": "cf5cb6e13dfec06d6b12cadf0521bee49f4c0cf9f84dfffff887433416aead05",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_MovieLeadFemale",
+      "websiteVoiceId": "226869310947492",
+      "name": "Movie Lead Female - 清脆明亮,急促多变,情绪饱满",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9db802a3-dc1e-4eb8-99ce-3648d96e1f4c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/12d23f785fdd26f874f6aa02.mp3",
+      "bytes": 253049,
+      "sha256": "49a781ebc56fda4b4792039f3fd2b2ed35cf6e5badea3c087f4ada9af70c7f82",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_FemaleAnchor",
+      "websiteVoiceId": "226869310947493",
+      "name": "Female Anchor - 略带沙哑,娓娓道来,极具文艺感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8f2d72ae-5f04-488e-bb41-73d0b461ba58.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/0b4bb3b146dc4524a7158846.mp3",
+      "bytes": 278989,
+      "sha256": "1c38f87bf07792fbf103d6e7db18756f3b5013f4ff86ec459eadee2e2df4396d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "French_MaleNarrator",
+      "websiteVoiceId": "226869310947494",
+      "name": "Male Narrator - 清澈干净,娓娓道来,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/094a8be7-12b7-404f-992d-1411c4421779.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/01c09b22159118416ab86d15.mp3",
+      "bytes": 299908,
+      "sha256": "23f9a3b489ccb7a1ab45c2d433660268aa6c58799e4e5ce96878ccb30b52d044",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_SweetGirl",
+      "websiteVoiceId": "226869310947495",
+      "name": "Sweet Girl - 高亢明亮,戏剧化,自恋傲娇",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0f23fdd8-c608-4a0d-b5bc-e575f7066a90.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6f7ac2d6257046afce7fe45e.mp3",
+      "bytes": 356807,
+      "sha256": "2504fef95fc3f5738a51ce281bcf26a2c7f7ff041f4467f44f245fcb2e1c280d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_ReservedYoungMan",
+      "websiteVoiceId": "226869310947496",
+      "name": "Reserved Young Man - 干净清澈,娓娓道来,内敛深情",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aedf07d3-fbfd-4694-b09e-0df55f5c45aa.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/a8f639e4939537bfaa5104c8.mp3",
+      "bytes": 369358,
+      "sha256": "db9a9041883067fd5805ea34a4946f6ad55f6c6b092cce72ea939b046de71208",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_CharmingGirl",
+      "websiteVoiceId": "226869310947497",
+      "name": "Charming Girl - 甜美细腻,自然随性,亲切邻家",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7b9329cc-b70b-4fe1-a1b0-4793fcb9b096.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6bffce474db004ab01ea2415.mp3",
+      "bytes": 341745,
+      "sha256": "5d434aa21402450728141b41673a3ec46bade80886214c8976e1598e64c9b1f0",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_CalmWoman",
+      "websiteVoiceId": "226869310947498",
+      "name": "Calm Woman - 清脆明亮,流畅自然,戏剧张力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/aa3e4e33-2c84-4a95-88e1-579fe765b127.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8e149454dc5ac70e792c869d.mp3",
+      "bytes": 341745,
+      "sha256": "7fb33d7352520e3ec5e7ea6a68e8102e1904d41797e192cce689c84490010aaa",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_ConfidentWoman",
+      "websiteVoiceId": "226869310947499",
+      "name": "Confident Woman - 明亮圆润,从容坚定,干练大方",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8a248708-8116-4fb2-8729-233cfabedf9c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8622643e6fe15b28da6cc705.mp3",
+      "bytes": 328357,
+      "sha256": "a165f830be0834135d49310ba794f8a3605f757ddca2e3024211c682fbcd533e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_CaringMan",
+      "websiteVoiceId": "226869310947500",
+      "name": "Caring Man - 富有磁性,抑扬顿挫,电影独白般",
+      "sourceUrl": "https://filecdn.minimax.chat/public/485b0175-2aec-4128-a682-8caaacfe44d0.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4a20e4ce18122df6f95da7a6.mp3",
+      "bytes": 302417,
+      "sha256": "e78fad74e8916d9ed435ad564ab9ae8ff00f8715b5f4de2ca6d5a3373c7a6697",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_BossyLeader",
+      "websiteVoiceId": "226869310947501",
+      "name": "Bossy Leader - 低沉粗犷,语气强硬,战场指挥感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b77662ce-4721-47cd-9837-1da1ae9c877f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9ea4f95207e68c66cf7c31b3.mp3",
+      "bytes": 311622,
+      "sha256": "be5fcd88db0cb05f8ee385251e2efac8336b7d8ae265f283a1d05cb68d04a108",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_DeterminedBoy",
+      "websiteVoiceId": "226869310947502",
+      "name": "Determined Boy - 清亮有力,坚定果敢,热血",
+      "sourceUrl": "https://filecdn.minimax.chat/public/564c7670-c88c-419b-93a4-badb9d0c8e89.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b6f610719f942c4e1f082c41.mp3",
+      "bytes": 304928,
+      "sha256": "e1961e3b622bf04f8a33199335fd89976c44f9ad6ee0d676ce4a6ce2d5ef432a",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Indonesian_GentleGirl",
+      "websiteVoiceId": "226869409853568",
+      "name": "Gentle Girl - 软糯轻柔,舒缓慵懒,呆萌",
+      "sourceUrl": "https://filecdn.minimax.chat/public/501c3144-dc77-4a82-b6ae-e720ba53d751.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/8f80a1b4eabc91af3a712abe.mp3",
+      "bytes": 317480,
+      "sha256": "f6a7429141d3cc4ce72034e71a678faf946b6a132735160a9bb76a663e738f8c",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "German_FriendlyMan",
+      "websiteVoiceId": "226869409853569",
+      "name": "Friendly Man - 轻松自然,如话家常,邻家感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3ec61d77-28a5-453c-84a4-cdbaf59efedb.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5740bb6a14a87ff338c67491.mp3",
+      "bytes": 289030,
+      "sha256": "c7fa62484289b3538c701bee6a40798edd55022eca53288af18b0927ca95d9b8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "German_SweetLady",
+      "websiteVoiceId": "226869409853570",
+      "name": "Sweet Lady - 轻柔细腻,舒缓流畅,忧郁深情",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5e5a0840-26c0-496a-b387-1c1a3bc93bae.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4517839e66e68a2483556353.mp3",
+      "bytes": 367685,
+      "sha256": "839029bec1ef07985c64a7b02e39d4770a469b0707b67d433a67ccb311249f3d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "German_PlayfulMan",
+      "websiteVoiceId": "226869409853571",
+      "name": "Playful Man - 自然清亮,轻快流畅,亲密交谈",
+      "sourceUrl": "https://filecdn.minimax.chat/public/2c950b7a-dce8-4412-84ae-a277f955f544.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/37faadf6bdbaad67c464ef3e.mp3",
+      "bytes": 295724,
+      "sha256": "773fc3f2117e6aa719e66b73b8f4c4a0b6b2b8dea63106bb0421c87d11630c5e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_HandsomeChildhoodFriend",
+      "websiteVoiceId": "226869409853572",
+      "name": "Handsome Childhood Friend - 低沉沙哑,慵懒随意,耳边低语感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/22dbbad0-8261-40c7-a827-eba18caef7a7.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4cba64ed158bc15f1a61f913.mp3",
+      "bytes": 398778,
+      "sha256": "0e2c46040e4fc40dab37717825f917902234dd487cd692bfb5e6f764150355bc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_BrightHeroine",
+      "websiteVoiceId": "226869409853573",
+      "name": "Bright Queen - 略带沙哑,干脆利落,不羁野性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b1a897f1-c347-4df5-92a3-b54b4dd8cc68.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9ad640a9c4b3e7f2b9a94c05.mp3",
+      "bytes": 287600,
+      "sha256": "84b6046e2354b453fac10bb46b8c5da573b88c209b94728543b4fec75fbd0f7e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_AmbitiousWoman",
+      "websiteVoiceId": "226869409853574",
+      "name": "Ambitious Woman - 略带沙哑,干练直爽,酷飒御姐感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/6236abe7-9116-41d4-a80a-46ae82d43106.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/eb937d7abe9c5b815905678a.mp3",
+      "bytes": 258343,
+      "sha256": "6e9fc7cb01a29b067866e8c799f096d440d23ed747233ffe0aaf24ea9dfcf7c2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_ReliableMan",
+      "websiteVoiceId": "226869409853575",
+      "name": "Reliable Man - 低沉沙哑,沉稳有力,历尽沧桑",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c3b6bba6-c762-40f3-9451-071db81d2dd8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/29dc347dd48dcbb22c795d75.mp3",
+      "bytes": 321037,
+      "sha256": "68b208747c8fc1bcd10ae6ceed860e80e8aae4917839766128ee6579e47d390e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_CrazyQueen",
+      "websiteVoiceId": "226869409853576",
+      "name": "Crazy Girl - 高亢明亮,充满爆发力,古灵精怪",
+      "sourceUrl": "https://filecdn.minimax.chat/public/34f16969-11d5-4b69-bb47-d78317dadbce.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/735e7ca4bd560d76be9fed05.mp3",
+      "bytes": 345279,
+      "sha256": "b39b71cb263fb217f173f19980ca896655b973baa29b7bc9e08f83880c7b1538",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_PessimisticGirl",
+      "websiteVoiceId": "226869409853577",
+      "name": "Pessimistic Girl - 清冷脆弱,克制不安,悲观内向",
+      "sourceUrl": "https://filecdn.minimax.chat/public/165c043b-09f1-4ec7-8b7e-a47de57654c9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1186883e31dad4bede8f0c96.mp3",
+      "bytes": 291780,
+      "sha256": "a474b52d6770ef974d4878bbebb6a3c672a5e369b2d70174454e166c37deadfd",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_AttractiveGuy",
+      "websiteVoiceId": "226869409853578",
+      "name": "Attractive Guy - 低沉磁性,语调慵懒,霸道男友感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/04ec9928-ef0b-4fd2-b908-749e0f281ede.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/3c20fdfe3d1afc4185a55404.mp3",
+      "bytes": 322708,
+      "sha256": "8ffbfd0fadd62d078e3d23f945479813650bda79318bea8a133e2ccb60254e3e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Russian_Bad-temperedBoy",
+      "websiteVoiceId": "226869409853579",
+      "name": "Bad-tempered Boy - 稚嫩清亮,干脆利落,二次元画面感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e017753b-1b49-4947-9d97-f4fc57c31742.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/68ad84a6c5faba03b6954e81.mp3",
+      "bytes": 359489,
+      "sha256": "e9020c49060402d0f2ccd5fb6124acf6f5694840d82d3e7fa3fe6ddd3adbe7af",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Italian_BraveHeroine",
+      "websiteVoiceId": "226869409853580",
+      "name": "Brave Heroine - 略带沙哑,干脆利落,高冷御姐",
+      "sourceUrl": "https://filecdn.minimax.chat/public/945593c7-3498-480b-be0d-c0e5cb03fd96.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/bb681b68048004abf2b22bf7.mp3",
+      "bytes": 291540,
+      "sha256": "2c717d366c9a695150185f04835e4f45edaaf0b21d03f05bd8e3909c59aabae4",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Italian_Narrator",
+      "websiteVoiceId": "226869409853581",
+      "name": "Narrator - 低沉浑厚,娓娓道来,沉浸式",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ed53a4b8-ddda-4256-94f8-74504855a13e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/efbfe932733cd84305e561ab.mp3",
+      "bytes": 304928,
+      "sha256": "93de7a98a0f5c00940abb335df77fb3e24b2d8669ab60b153755a9f86295a0ec",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Italian_WanderingSorcerer",
+      "websiteVoiceId": "226869409853582",
+      "name": "Wandering Sorcerer - 低沉沙哑,慵懒随意,优雅神秘",
+      "sourceUrl": "https://filecdn.minimax.chat/public/c6575b37-e2e9-405e-88e6-04790bb6cc35.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/04f959f6124991ba3c684ad0.mp3",
+      "bytes": 304928,
+      "sha256": "8b3223184536d7defe3e22e89638275d9eb902e0a634cfc6b5d76d18be0916ea",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Italian_DiligentLeader",
+      "websiteVoiceId": "226869409853583",
+      "name": "Diligent Leader - 略带沙哑,从容不迫,高傲且充满气场",
+      "sourceUrl": "https://filecdn.minimax.chat/public/226201a7-4d68-4c10-a03d-794a5dbd6a91.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/4174eec4fba3ff8cfb05aea1.mp3",
+      "bytes": 307438,
+      "sha256": "dd2bd7c379a9e4d3cc25730445ca0a0870f7edb3c1cf38dccadd5565ac3f24f1",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Arabic_CalmWoman",
+      "websiteVoiceId": "227505945505987",
+      "name": "Calm Woman - 柔和温润,娓娓道来,理性通透",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5a2ec577-febf-4cfd-9e47-343a928d82d3.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5c7dbf05cc114b894d949920.mp3",
+      "bytes": 352623,
+      "sha256": "0be08fa7b3496eea1b4fa999f9833fd48607a6edacd5a0cbff10767e86eff145",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Arabic_FriendlyGuy",
+      "websiteVoiceId": "227505945505988",
+      "name": "Friendly Guy - 醇厚温暖,从容淡定,宠溺感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a0eccf86-df5e-412e-94b2-87ff8d3d3455.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e8ed26268727cb42cdad1ac7.mp3",
+      "bytes": 352623,
+      "sha256": "414f66c8c1f3fe941ee8588f28ce8d32cc7f6508e97f30a679b23a49536ecefa",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Turkish_CalmWoman",
+      "websiteVoiceId": "227505945505989",
+      "name": "Calm Woman - 柔和质感,舒缓流畅,沉稳亲和",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ef3ae5a3-ab65-4fab-be73-f0d59a5349cb.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f7dd55e8799b896624e37240.mp3",
+      "bytes": 386093,
+      "sha256": "43708027334cd337e25e921088d34200bf8055ccf8237b5700bf61bcc110e557",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Turkish_Trustworthyman",
+      "websiteVoiceId": "227505945505990",
+      "name": "Trustworthy man - 低沉沙哑,娓娓道来,质朴真诚",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f3e6cc12-d46c-41eb-a271-e7b8d6cf154e.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/aa5c1bc0fa87a0b1578ab26e.mp3",
+      "bytes": 390277,
+      "sha256": "f71f4ec0194f57ea9f435573cdbe7818b20058a7008c00e553b9acbf23990783",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Ukrainian_CalmWoman",
+      "websiteVoiceId": "227505945505991",
+      "name": "Calm Woman - 知性温婉,娓娓道来,治愈感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a51cbc7c-1aa0-46e8-988d-d566689fe07c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cd0fa5c2364038d37f137c89.mp3",
+      "bytes": 370356,
+      "sha256": "24116428ec8a919e466024c2bbe22a91e576d6ab970fbac7bfd19e1a3bbf9abb",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Ukrainian_WiseScholar",
+      "websiteVoiceId": "227505945505992",
+      "name": "Wise Scholar - 清亮质朴,自然随性,亲切接地气",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3c1c5e86-4378-47c3-81d0-f556b7e63f4c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/1e94c1d959b1613f4a2061bb.mp3",
+      "bytes": 346115,
+      "sha256": "cdc6c70310132a4ebb1d2ef931c81e08096b9a15ba89d2b47365c49491cf63c8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Dutch_kindhearted_girl",
+      "websiteVoiceId": "226869000163510",
+      "name": "Kind-hearted girl - 甜美细腻,清晰明快,温暖亲切",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5a7d0212-4262-4932-ac29-8407544f5b42.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/93fe56997b1aa18c482e15f2.mp3",
+      "bytes": 336725,
+      "sha256": "5cc0fd0a2b1ee73d488202ed66882b842ce1d21d0a1a766da7def1121105585f",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Dutch_bossy_leader",
+      "websiteVoiceId": "226869000163511",
+      "name": "Bossy leader - 沙哑颗粒感,斩钉截铁,霸气外露",
+      "sourceUrl": "https://filecdn.minimax.chat/public/9ceb05f2-232a-4c73-afcc-46019aeb17db.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/b8642012115c9964396cfdd7.mp3",
+      "bytes": 246355,
+      "sha256": "885db08c33f1d63b4c5b1bb30701b1a629c11dede032b6733cd277cae365e62e",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Vietnamese_kindhearted_girl",
+      "websiteVoiceId": "226869000163512",
+      "name": "Kind-hearted girl - 甜美细腻,轻快流畅,邻家女孩",
+      "sourceUrl": "https://filecdn.minimax.chat/public/a1730798-8a0d-417c-98ed-ae04d82d0d5a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/565bf767e40391ea2a7ef0f5.mp3",
+      "bytes": 324173,
+      "sha256": "db0b93934f2d9dd33129d48b104b75c6f35a8b713de50f59234db77d579eb307",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Thai_male_1_sample8",
+      "websiteVoiceId": "266818336862403",
+      "name": "Serene Man - 醇厚温润,娓娓道来,治愈感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3de16080-7cd6-4af1-9a4f-b80cf01f88e5.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c9d2da5b684d0d3301028007.mp3",
+      "bytes": 339235,
+      "sha256": "d64f35edb13fccae3ed241c8ec2f2e8342d6f319a156215370fd6c0dc7ec58b8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Thai_male_2_sample2",
+      "websiteVoiceId": "266818336862402",
+      "name": "Friendly Man - 明亮亲切,轻快流畅,极具亲和力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/d985518e-9892-4903-a8bb-1b29c5d4f9df.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/f4b30f01886388ba6e3f6582.mp3",
+      "bytes": 397808,
+      "sha256": "a8a252985b82d30448f491802b05970c4216a86c90877044989d76b90040103b",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Thai_female_1_sample1",
+      "websiteVoiceId": "266818336862401",
+      "name": "Confident Woman - 明亮,轻快流畅,自信",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0f845bbc-1304-44cb-8222-a48c9ff40a94.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d83395db03164ea0a9282c9b.mp3",
+      "bytes": 334214,
+      "sha256": "3fc09109e39aaea55848e11dac877bf9484c9ee79a83a73672bba12a66d957fc",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Thai_female_2_sample2",
+      "websiteVoiceId": "266818336862400",
+      "name": "Energetic Woman - 清亮,条理清晰,充满活力",
+      "sourceUrl": "https://filecdn.minimax.chat/public/5db6b1ef-fd11-451d-8628-a13ba12074af.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/25a3c6f827cc52c4c849b7dc.mp3",
+      "bytes": 352623,
+      "sha256": "d32ccb928e177399ab59c12c2fe8609c1c0e76ea6423fecec7a96aed2bf027c2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Polish_male_1_sample4",
+      "websiteVoiceId": "266817760882883",
+      "name": "Male Narrator - 沉稳厚实,从容平缓,专业严谨",
+      "sourceUrl": "https://filecdn.minimax.chat/public/21f40645-2b5f-4b75-8e7d-4af11dcd25ae.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5f77e75834143d9c5ae502f4.mp3",
+      "bytes": 311622,
+      "sha256": "6200406bb87f370ac553bed606dcaff511ae2234a61157de50f912afb2468332",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Polish_male_2_sample3",
+      "websiteVoiceId": "266817760882882",
+      "name": "Male Anchor - 清亮,节奏极快,热情洋溢",
+      "sourceUrl": "https://filecdn.minimax.chat/public/0bdb3141-3d10-441c-bc0a-1a1edbf6ccb9.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/32245604952c5462a7a94740.mp3",
+      "bytes": 299908,
+      "sha256": "b849f30d04323b16c27a115bef615f8b6509eb93739e903196783869da731623",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Polish_female_1_sample1",
+      "websiteVoiceId": "266817760882881",
+      "name": "Calm Woman - 清晰柔和,娓娓道来,富有知识涵养",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8580e4a2-8d8c-4f89-b1f4-76025ca6157c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/c159dfde464dd86fa19db5d1.mp3",
+      "bytes": 319990,
+      "sha256": "b7e885c9e3100774bbd227ab5af47cab55c4be7a06e0de578a9cc3a6bde5df85",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Polish_female_2_sample3",
+      "websiteVoiceId": "266817760882880",
+      "name": "Casual Woman - 温暖且自然,如同日常交谈,富有生活气息",
+      "sourceUrl": "https://filecdn.minimax.chat/public/f8b6cd72-f4ab-442c-bb42-d7a00a240f30.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/9ef39ed417ff9699d4358820.mp3",
+      "bytes": 377726,
+      "sha256": "1444b9fd2dbd74d53ee197f824aaddee6da4f861564c37ca0210cd8166cd0c6d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Romanian_male_1_sample2",
+      "websiteVoiceId": "266817219186883",
+      "name": "Reliable Man - 沉稳厚实,铿锵有力,权威感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e66775ac-ef1d-42c5-9eaf-2b03f82b6a53.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/7d2b7d0ffe5092b6023bc168.mp3",
+      "bytes": 297397,
+      "sha256": "c6853afc5556c3b47eb3e66d627e5fd079dfdd899cd147d1edfb4737446d7581",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Romanian_male_2_sample1",
+      "websiteVoiceId": "266817219186882",
+      "name": "Energetic Youth - 清亮且略带沙哑质感,流畅自然,亲切且富有知识性",
+      "sourceUrl": "https://filecdn.minimax.chat/public/e6786d01-7e54-45bf-9e46-bdc89c18a85f.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/97e2c140df0115973afc05bd.mp3",
+      "bytes": 319990,
+      "sha256": "0b65b877914b47780e39031f9f8972f75f9e807aa7ff083bd00e9668e0ff4572",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Romanian_female_1_sample4",
+      "websiteVoiceId": "266817219186881",
+      "name": "Optimistic Youth - 清脆明亮,轻快活泼,热情",
+      "sourceUrl": "https://filecdn.minimax.chat/public/199a38e4-e329-4452-b919-3dd5b74c60d8.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/e5586128c3dc1bf683549637.mp3",
+      "bytes": 304091,
+      "sha256": "618308ec4190b0c66df14da17b0447a61bac51c5e3006bb3510632dbceb7dc0d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Romanian_female_2_sample1",
+      "websiteVoiceId": "266817219186880",
+      "name": "Gentle Woman - 清亮悦耳,轻快流畅,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/7ab36669-d35e-494c-91f0-81bc5f9c8c3c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/fd6a6cace7eda548af1d2f4e.mp3",
+      "bytes": 332541,
+      "sha256": "9f89264fd9a91f0f8c26ed4b0bd2a14eaf84660e8d0f7ba60760e0f1e5144876",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "greek_male_1a_v1",
+      "websiteVoiceId": "266814302085314",
+      "name": "Thoughtful Mentor - 清亮亲切,自然流畅,轻松活泼",
+      "sourceUrl": "https://filecdn.minimax.chat/public/bae967fe-f880-4ec6-a799-7bc6f4ffaf8c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5bcf1d832194088a741a62b9.mp3",
+      "bytes": 339427,
+      "sha256": "3466cdae11fdb6e3b20d4a8c780f2b98bb1be085206092fc52fecd3fcc5bf3af",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Greek_female_1_sample1",
+      "websiteVoiceId": "266814302085313",
+      "name": "Gentle Lady - 柔和细腻,娓娓道来,叙述感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/4c7193b5-96dd-44f4-b223-8fb5b3b30d6c.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/985ba73680394aa9294bd861.mp3",
+      "bytes": 358654,
+      "sha256": "92e1a4929fc95747b34576b86654df06806b2388325820b83e290c518c2d8d54",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "Greek_female_2_sample3",
+      "websiteVoiceId": "266814302085312",
+      "name": "Girl Next Door - 清亮自然,语速轻快,随性幽默",
+      "sourceUrl": "https://filecdn.minimax.chat/public/8047f7f5-0370-4d72-b7d5-d85be04c989a.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/d333739a2e8ab50cd037599b.mp3",
+      "bytes": 331068,
+      "sha256": "993e1f0e3ae4c5d7c4bbece55dc29c33f5df406a512fd0bed6e07cef0e5bab78",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "czech_male_1_v1",
+      "websiteVoiceId": "266813788348610",
+      "name": "Assured Presenter - 浑厚有力,抑扬顿挫,新闻现场感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/1d7e9834-23cb-4b06-8088-63511c2496ba.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/6369080f1591a264b0306170.mp3",
+      "bytes": 337562,
+      "sha256": "a6bf2ef9e42cb1e18d0687efd8aaf5e1db81c62f86013f54628348cf7db515de",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "czech_female_5_v7",
+      "websiteVoiceId": "266813788348609",
+      "name": "Steadfast Narrator - 清晰明亮,紧凑流畅,现场报道感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/3491beeb-fc39-4a30-bd99-bef10d3a5def.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/81bbc5b8059ff20a8a59c4e8.mp3",
+      "bytes": 336725,
+      "sha256": "3363318cc40550aa5af4256596e0085cd9ca2654eae930e8604556b098c3fcdd",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "czech_female_2_v2",
+      "websiteVoiceId": "266813788348608",
+      "name": "Elegant Lady - 清脆明亮,轻快流畅,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/292c35bf-5967-436a-abd9-5d6a9de68a94.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/bcf624c6bb857578da7b7c92.mp3",
+      "bytes": 351786,
+      "sha256": "5298cbf71c132880aed777a79abcb0ce905a21657da43202dab87c1b58c7fe08",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "finnish_male_3_v1",
+      "websiteVoiceId": "266813216358594",
+      "name": "Upbeat Man - 清亮自然,轻快流畅,日常交谈感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/b7a45acc-aec4-4ea1-b9ae-22c441315a26.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/db48b90d0da455ed4365bbf8.mp3",
+      "bytes": 209538,
+      "sha256": "d4e7dfa4dcd8115b980595f4765e6db7a163ccf92e7f1befb7c346fef7e4a784",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "finnish_male_1_v2",
+      "websiteVoiceId": "266813216358593",
+      "name": "Friendly Boy - 明朗亲切,轻快流畅,邻家朋友感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/34672944-c20e-4bfe-86b8-290ac1f59ee4.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/824e3e2217659eaed7d8b802.mp3",
+      "bytes": 213722,
+      "sha256": "6ac976a46aa1c318aa3fefa79a2d811dc73d8cac5993d20f5a7f6d8c4700c99d",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "finnish_female_4_v1",
+      "websiteVoiceId": "266813216358592",
+      "name": "Assertive Woman - 清脆有力,节奏紧凑,新闻现场感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/05ba21cc-96d8-4bf5-9dfe-c84cb38382c5.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/5bf21428fd78fbf751b3d5f3.mp3",
+      "bytes": 253049,
+      "sha256": "22e6e44c5279b016c5c70ecefe97b3b61968f354ab75cdcc1da60c9e0f5726c8",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "hindi_male_1_v2",
+      "websiteVoiceId": "266812295090369",
+      "name": "Trustworthy Advisor - 厚实,娓娓道来,亲切自然",
+      "sourceUrl": "https://filecdn.minimax.chat/public/fdf81334-36cc-49a6-a3c9-50b20cfe1707.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cd4a61ce76241a2d3d83e207.mp3",
+      "bytes": 381073,
+      "sha256": "d91db1182e6acc2a68bcc0cf16c6a06fc379c87ea7d29e137b10491072113a67",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "hindi_female_2_v1",
+      "websiteVoiceId": "266812295090370",
+      "name": "Tranquil Woman - 温暖沉静,娓娓道来,极具画面感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/ef89146f-ab70-411c-9325-5ae0a2a0f6c1.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/fc778d49259cf385bce10fb7.mp3",
+      "bytes": 362664,
+      "sha256": "06807df058476c41b400ecf21cc60f10948678e1acd7118c8d99260d2bdbca56",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "voiceId": "hindi_female_1_v2",
+      "websiteVoiceId": "266812295090368",
+      "name": "News Anchor - 清晰明亮,字正腔圆,新闻播报感",
+      "sourceUrl": "https://filecdn.minimax.chat/public/427f758d-dba6-41b4-b50c-49f2294c96bf.mp3",
+      "status": "downloaded",
+      "localUrl": "./audio/minimax/cec369b496aab23a8f46a184.mp3",
+      "bytes": 378563,
+      "sha256": "7fa84b0a78dd52360deb664ce0195f677b4739f9cca32aae892e5fda7ac348e9",
+      "contentType": "audio/mpeg"
+    }
+  ]
+}

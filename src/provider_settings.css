@@ -1,0 +1,157 @@
+/* 服务商选择与配置并列；按内容可用宽度排版，不受预览宿主参数限制。 */
+.provider-settings{container-type:inline-size}
+.provider-settings-layout{display:grid;grid-template-columns:304px minmax(0,1fr);gap:12px;height:calc(100dvh - 112px);min-height:540px}
+.provider-browser,.provider-detail{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.provider-browser{display:flex;flex-direction:column}
+.provider-browser-filters{padding:12px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.provider-browser-filters>div{display:flex;align-items:center;gap:10px}
+.provider-browser-filters .ant-select{flex:1;min-width:0}
+.provider-browser-filters label{display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px;color:var(--muted)}
+.provider-browser-list{flex:1;overflow:auto;min-height:0;padding:6px;scrollbar-width:thin;scrollbar-color:transparent transparent;overscroll-behavior:contain}
+.provider-browser-list:hover{scrollbar-color:var(--line) transparent}
+.provider-list-item{display:block;width:100%;border:1px solid transparent;border-radius:7px;background:transparent;color:var(--text);padding:8px;text-align:left;cursor:pointer;margin-bottom:4px;font:inherit}
+.provider-list-item:hover{background:var(--surface-2)}
+.provider-list-item[aria-pressed=true]{border-color:var(--accent);background:var(--soft)}
+.provider-list-item:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.provider-category-select{width:100%;min-width:0}.provider-category-label{display:flex;gap:4px;flex-wrap:wrap;margin:3px 0 5px}.provider-category-label .ant-tag{margin:0;font-size:10px;line-height:17px;padding:0 4px;color:var(--muted);background:var(--surface-2);border:0}.provider-model-compact-row>div>span{font-size:11px;color:var(--muted)}
+.provider-list-item header{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.provider-mark{height:28px;width:28px;flex:none;display:grid;place-items:center;background:var(--surface-2);color:var(--accent);border:1px solid var(--line);border-radius:7px;font-size:12px;line-height:1;font-weight:600;overflow:hidden}
+.provider-mark-bedrock{font-size:9px}
+.provider-list-item header strong{min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;font-weight:600}
+.provider-list-item header .ant-tag{font-size:10px;padding:0 4px;line-height:19px;margin:0;border:0;flex:none;background:var(--surface-2);color:var(--muted)}
+.provider-list-item p{margin:0 0 2px;font-size:11px;line-height:1.5;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.provider-list-item .provider-summary{font-size:12px}
+.provider-specialties>span,.provider-model-peek>span{margin-right:6px;color:var(--muted)}
+.provider-list-item footer{display:flex;gap:10px;font-size:10px;line-height:1.6;color:var(--muted);font-variant-numeric:tabular-nums}
+.provider-list-item[aria-pressed=true] footer{color:var(--text)}
+.provider-detail{display:flex;flex-direction:column}
+.provider-detail-heading{display:flex;gap:12px;align-items:center;padding:12px 16px}
+.provider-detail-identity{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.provider-detail-identity>div{min-width:0}
+.provider-detail-heading h2{font-size:16px;font-weight:600;margin:0 0 4px;line-height:1.5}
+.provider-detail-heading h2 .ant-tag{margin-left:8px;font-size:10px;font-weight:400;vertical-align:middle}
+.provider-detail-heading p{font-size:12px;color:var(--muted);margin:0;line-height:1.6}
+.provider-detail-tabs{flex:none;padding:0 16px}
+.provider-detail-tabs .ant-tabs-nav{margin:0}
+.provider-detail-tabs .ant-tabs-tab{padding-block:9px;font-size:12px}
+.provider-detail-tabs .ant-tabs-content-holder{display:none}
+.provider-detail-content{flex:1;min-height:0;overflow:auto;padding:12px 16px 20px;overscroll-behavior:contain}
+.provider-connection-select{display:flex;align-items:center;gap:10px;font-size:12px;margin-bottom:12px}
+.provider-connection-select>span{flex:none;color:var(--muted)}
+.provider-connection-select .ant-select{min-width:0;flex:1;max-width:400px}
+.provider-list-back{display:none}
+.provider-catalog-note{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-bottom:12px}
+.provider-saved-connection{margin-bottom:10px}
+.provider-saved-connection header{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:8px}
+.provider-saved-connection p{font-size:12px;color:var(--muted);margin-bottom:8px;overflow-wrap:anywhere}
+.provider-connection-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.buddy-shell .model-config-embedded .model-config-layout{display:flex;flex-direction:column;gap:12px;margin:0}
+.buddy-shell .model-config-embedded .model-config-main{width:100%;min-width:0}
+.buddy-shell .model-config-embedded .model-config-review{width:100%;position:static;top:auto}
+.buddy-shell .provider-settings .model-config-embedded .config-field-grid,.buddy-shell .provider-settings .model-config-embedded .config-auth-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px}
+.buddy-shell .model-config-embedded .config-save-actions{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.buddy-shell .model-config-embedded .ant-form-item{margin-bottom:12px}
+.buddy-shell .model-config-embedded .ant-card{box-shadow:none;background:transparent;border:0;border-radius:0}
+.buddy-shell .provider-detail .model-config-embedded .ant-card .ant-card-head{padding:0;min-height:34px;border-bottom:1px solid var(--line)}
+.buddy-shell .provider-detail .model-config-embedded .ant-card .ant-card-body{padding:12px 0 0}
+.buddy-shell .model-config-embedded .model-config-review .ant-card-head{display:none}
+.buddy-shell .model-config-embedded .model-config-main .ant-card h3{font-size:13px;font-weight:600;margin:4px 0 12px}
+.buddy-shell .model-config-embedded .config-step-number{display:none}
+.buddy-shell .model-config-embedded .model-config-review .setting-row{margin:8px 0}
+.buddy-shell .model-config-embedded .model-config-review .small-text{margin-bottom:8px}
+.buddy-shell .model-config-embedded .config-save-actions>.ant-btn{width:auto}
+.provider-detail .preserve-text{overflow-wrap:anywhere;white-space:normal}
+/* 中等可用宽度为列表让出适当空间；宽屏不再把手机条目拉满整页。 */
+@container (640px <= width < 800px){
+ .provider-settings-layout{grid-template-columns:228px minmax(0,1fr);gap:10px}
+ .provider-detail-heading{flex-wrap:wrap;padding:12px}
+ .provider-detail-heading>.ant-btn{margin-left:auto}
+ .provider-detail-content,.provider-detail-tabs{padding-inline:12px}
+ .provider-list-item header{gap:6px;flex-wrap:wrap}
+ .provider-list-item header strong{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.4}
+ .provider-list-item header .ant-tag{margin-left:34px;flex-basis:calc(100% - 34px);background:transparent;line-height:14px}
+ .provider-list-item footer{gap:6px;flex-wrap:wrap}
+}
+@container (width >= 640px){
+ .buddy-shell .provider-settings .provider-detail .model-config-embedded .ant-btn{min-height:30px}
+ .buddy-shell .provider-settings .provider-detail .model-config-embedded .ant-segmented-item-label{min-height:0}
+ .buddy-shell .provider-settings .provider-detail .model-config-embedded .ant-form-item{margin-bottom:12px}
+ .provider-settings .provider-connection-select{align-items:center;flex-direction:row}
+}
+@container (width < 640px){
+ .provider-settings-layout{display:block;height:auto;min-height:0}
+ .provider-browser-list{max-height:none;overflow:visible}
+ .provider-detail{display:none}
+ .show-provider-detail .provider-browser{display:none}
+ .show-provider-detail .provider-detail{display:flex}
+ .provider-detail-content{overflow:visible;padding:12px}
+ .provider-list-back{display:inline-flex;padding-inline:0}
+ .provider-detail-heading{flex-wrap:wrap;padding:10px 12px;gap:8px}
+ .provider-detail-heading>.provider-list-back{flex-basis:100%;justify-content:flex-start}
+ .provider-detail-identity .provider-mark{display:none}
+ .provider-detail-heading h2{font-size:15px}
+ .provider-detail-heading p{font-size:11px}
+ .provider-detail-tabs{padding-inline:12px}
+ .buddy-shell .provider-settings .model-config-embedded .config-field-grid,.buddy-shell .provider-settings .model-config-embedded .config-auth-grid{grid-template-columns:1fr}
+ .provider-connection-select{align-items:flex-start;flex-direction:column;gap:6px}
+ .provider-connection-select .ant-select{width:100%;min-height:40px}
+ .buddy-shell .provider-settings .model-config-embedded .config-save-actions>.ant-btn{min-height:40px;flex:1}
+}
+@media(prefers-reduced-motion:no-preference){.provider-list-item{transition:background-color 140ms ease,border-color 140ms ease}}
+/* 2.08：厂商行保持紧凑，详情只在选中项展开。 */
+.provider-search-row>.ant-input-affix-wrapper{min-width:0;flex:1}
+.provider-search-row>.ant-btn{flex:none}
+.provider-list-item:not([aria-pressed=true]){min-height:44px;padding:7px 8px}
+.provider-list-item:not([aria-pressed=true]) header{margin-bottom:0}
+.provider-list-item:not([aria-pressed=true]) p,.provider-list-item:not([aria-pressed=true]) footer,.provider-list-item:not([aria-pressed=true]) header .ant-tag{display:none}
+.provider-connection-dot{width:6px;height:6px;border-radius:50%;background:var(--line);flex:none;margin-left:3px}
+.provider-connection-dot.is-available{background:#4ca68b}
+.provider-connection-dot.is-configured{background:#c39c4c}
+.provider-model-section{border-top:1px solid var(--line);margin-top:16px;padding-top:12px;min-width:0}
+.provider-model-toolbar{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.provider-model-toolbar h3{margin:0;font-size:13px;font-weight:600;flex:1;white-space:nowrap}
+.provider-model-toolbar h3 span{font-size:11px;color:var(--muted);margin-left:4px;font-weight:400}
+.provider-model-toolbar>.ant-input-affix-wrapper{width:200px;min-width:0}
+.buddy-shell .provider-settings .provider-model-table .ant-table-tbody>tr>td{padding:7px 8px;font-size:12px}
+.buddy-shell .provider-settings .provider-model-table .ant-table-thead>tr>th{padding:7px 8px;font-size:11px}
+.provider-model-table .ant-tag{margin:0;font-size:10px}
+.provider-model-note{font-size:10px;line-height:1.5;margin:8px 0 0;color:var(--muted)}
+.config-scope-disclosure{margin-bottom:10px}
+.config-scope-summary{display:flex;align-items:center;gap:8px;min-width:0}
+.config-scope-summary strong{font-weight:500;flex:none}
+.config-scope-summary>span{font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.config-model-label{display:inline-flex;align-items:center;gap:8px}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .config-model-label .ant-btn{min-height:0;height:18px;line-height:18px;padding:0;font-size:10px}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .config-scope-disclosure>.ant-collapse-item>.ant-collapse-header,.buddy-shell .provider-settings .provider-detail .model-config-embedded .config-parameters-disclosure>.ant-collapse-item>.ant-collapse-header{padding:7px 10px!important;font-size:12px}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .ant-card-body{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:0}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .setting-row{padding:0;margin:0;min-height:0;border:0;display:flex;align-items:center;gap:8px;font-size:11px}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .config-save-actions{margin:0 0 0 auto}
+.buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .config-save-actions>.ant-btn{flex:none}
+.model-config-embedded .model-config-review .ant-alert{flex-basis:100%;order:3}
+@container (width < 640px){
+ .provider-model-toolbar>.ant-input-affix-wrapper{width:180px}
+ .buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .config-save-actions{width:100%;margin:4px 0 0}
+ .buddy-shell .provider-settings .provider-detail .model-config-embedded .model-config-review .config-save-actions>.ant-btn{flex:1}
+}
+/* 配置面板较窄时，同一模型数据改用紧凑行，操作无需横向拖动。 */
+.provider-model-section{container-type:inline-size}
+.provider-model-compact-list{display:none}
+@container (width < 430px){
+ .provider-model-table{display:none}
+ .provider-model-compact-list{display:flex;flex-direction:column}
+ .provider-model-compact-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);min-width:0}
+ .provider-model-compact-row>div{min-width:0;flex:1;display:flex;align-items:flex-start;flex-direction:column;gap:4px}
+ .provider-model-compact-row code{font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+ .provider-model-compact-row .ant-tag{margin:0;font-size:10px}
+ .provider-model-compact-row>.ant-btn{flex:none;min-height:40px}
+ .provider-model-compact-list>.ant-pagination{margin-top:10px;align-self:flex-end}
+}
+@container (640px <= width < 800px){
+ .provider-list-item[aria-pressed=true] header{display:grid;grid-template-columns:28px minmax(0,1fr) 6px;gap:4px 6px}
+ .provider-list-item[aria-pressed=true] header .provider-mark{grid-row:1;grid-column:1}
+ .provider-list-item[aria-pressed=true] header strong{grid-row:1;grid-column:2}
+ .provider-list-item[aria-pressed=true] header .provider-connection-dot{grid-row:1;grid-column:3;margin:0}
+ .provider-list-item[aria-pressed=true] header .ant-tag{grid-row:2;grid-column:2/4;justify-self:start;margin:0}
+}
+/* 窄模型面板继续使用原紧凑列表，不残留隐藏表格的空边框。 */
+@container (width < 430px){.provider-model-table-frame{display:none}}

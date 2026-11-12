@@ -1,0 +1,687 @@
+{
+  "candidate": "console-ui-candidate-1.47",
+  "authority": "console-plan-1.0",
+  "maturity": "interactive-prototype; user visual approval pending",
+  "platforms": [
+    {
+      "name": "Desktop",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "name": "Tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "Mobile Web",
+      "width": 390,
+      "height": 884
+    }
+  ],
+  "pages": [
+    {
+      "id": "CON-P00",
+      "name": "登录与首次准备",
+      "phase": "P0",
+      "source": "src/pages/Home.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P00-A01",
+        "CON-P00-A02",
+        "CON-P00-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P01",
+      "name": "工作台",
+      "phase": "P0",
+      "source": "src/pages/Home.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P01-A01",
+        "CON-P01-A02",
+        "CON-P01-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P02",
+      "name": "机器人试聊",
+      "phase": "P0 文本/引用；P1 语音/视觉",
+      "source": "src/pages/Chat.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P02-A01",
+        "CON-P02-A02",
+        "CON-P02-A03",
+        "CON-P02-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P03",
+      "name": "我的角色",
+      "phase": "P0",
+      "source": "src/pages/Agents.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P03-A01",
+        "CON-P03-A02",
+        "CON-P03-A03",
+        "CON-P03-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P04",
+      "name": "角色面板与试聊",
+      "phase": "P0 核心组合；P1 完整版本/快照",
+      "source": "src/pages/RolePanel.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P04-A01",
+        "CON-P04-A02",
+        "CON-P04-A03",
+        "CON-P04-A04",
+        "CON-P04-A05",
+        "CON-P04-A06",
+        "CON-P04-A07",
+        "CON-P04-A08"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P05",
+      "name": "角色市场",
+      "phase": "P0",
+      "source": "src/pages/RoleMarket.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P05-A01",
+        "CON-P05-A02"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P06",
+      "name": "模型中心",
+      "phase": "P0 首组合；P1 全适配",
+      "source": "src/pages/Models.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P06-A01",
+        "CON-P06-A02",
+        "CON-P06-A03",
+        "CON-P06-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P07",
+      "name": "模型连接配置与测试",
+      "phase": "P0",
+      "source": "src/pages/Models.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P07-A01",
+        "CON-P07-A02",
+        "CON-P07-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P08",
+      "name": "知识库中心",
+      "phase": "P0 内置基础；P1 外部/高级",
+      "source": "src/pages/Knowledge.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P08-A01",
+        "CON-P08-A02",
+        "CON-P08-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P09",
+      "name": "知识库文档与设置",
+      "phase": "P0",
+      "source": "src/pages/Knowledge.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P09-A01",
+        "CON-P09-A02",
+        "CON-P09-A03",
+        "CON-P09-A04",
+        "CON-P09-A05"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P10",
+      "name": "文档解析与切片详情",
+      "phase": "P0",
+      "source": "src/pages/Knowledge.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P10-A01",
+        "CON-P10-A02",
+        "CON-P10-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P11",
+      "name": "知识检索测试",
+      "phase": "P0",
+      "source": "src/pages/Knowledge.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P11-A01",
+        "CON-P11-A02"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P12",
+      "name": "设备中心",
+      "phase": "P0",
+      "source": "src/pages/Devices.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P12-A01",
+        "CON-P12-A02",
+        "CON-P12-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P13",
+      "name": "设备详情与能力",
+      "phase": "P0 基础；P1 完整",
+      "source": "src/pages/Devices.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P13-A01",
+        "CON-P13-A02",
+        "CON-P13-A03",
+        "CON-P13-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P14",
+      "name": "设备发现、绑定与配网",
+      "phase": "P0 绑定；P1 配网",
+      "source": "src/pages/Devices.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P14-A01",
+        "CON-P14-A02",
+        "CON-P14-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P15",
+      "name": "手动控制与交接",
+      "phase": "P0 首次物理操作前；P1 完整",
+      "source": "src/pages/Devices.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P15-A01",
+        "CON-P15-A02",
+        "CON-P15-A03",
+        "CON-P15-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P16",
+      "name": "任务与计划",
+      "phase": "P0 任务；P1 定时",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P16-A01",
+        "CON-P16-A02",
+        "CON-P16-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P17",
+      "name": "任务审批、执行与结果",
+      "phase": "P0",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P17-A01",
+        "CON-P17-A02",
+        "CON-P17-A03",
+        "CON-P17-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P18",
+      "name": "运行中心",
+      "phase": "P0 基础；P1 完整",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P18-A01",
+        "CON-P18-A02",
+        "CON-P18-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P19",
+      "name": "运行链路与诊断详情",
+      "phase": "P0",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P19-A01",
+        "CON-P19-A02",
+        "CON-P19-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P20",
+      "name": "扩展中心",
+      "phase": "P0 基础工具；P1 完整",
+      "source": "src/pages/Extensions.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P20-A01",
+        "CON-P20-A02",
+        "CON-P20-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P21",
+      "name": "扩展配置、授权与版本",
+      "phase": "P1",
+      "source": "src/pages/Extensions.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P21-A01",
+        "CON-P21-A02",
+        "CON-P21-A03",
+        "CON-P21-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P22",
+      "name": "声音资产与克隆",
+      "phase": "P1",
+      "source": "src/pages/Media.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P22-A01",
+        "CON-P22-A02",
+        "CON-P22-A03",
+        "CON-P22-A04"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P23",
+      "name": "声纹与成员识别",
+      "phase": "P1",
+      "source": "src/pages/Media.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P23-A01",
+        "CON-P23-A02",
+        "CON-P23-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P24",
+      "name": "历史与记忆",
+      "phase": "P0 历史；P1 长期记忆；P2 图谱",
+      "source": "src/pages/Media.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P24-A01",
+        "CON-P24-A02",
+        "CON-P24-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P25",
+      "name": "固件与设备更新",
+      "phase": "P1",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P25-A01",
+        "CON-P25-A02"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P26",
+      "name": "升级计划与批次",
+      "phase": "P1 单次；P2 批次窗口",
+      "source": "src/pages/Operations.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P26-A01",
+        "CON-P26-A02",
+        "CON-P26-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P27",
+      "name": "成员与权限",
+      "phase": "P0 最小权限；P1 完整",
+      "source": "src/pages/Settings.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P27-A01",
+        "CON-P27-A02",
+        "CON-P27-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P28",
+      "name": "存储与保留策略",
+      "phase": "P1",
+      "source": "src/pages/Settings.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P28-A01",
+        "CON-P28-A02",
+        "CON-P28-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P29",
+      "name": "服务与资源诊断",
+      "phase": "P0 基础；P1 完整",
+      "source": "src/pages/Settings.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P29-A01",
+        "CON-P29-A02",
+        "CON-P29-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P30",
+      "name": "工作空间与偏好",
+      "phase": "P0 基础；P1 完整",
+      "source": "src/pages/Settings.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P30-A01",
+        "CON-P30-A02",
+        "CON-P30-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P31",
+      "name": "通讯录与设备呼叫",
+      "phase": "P1",
+      "source": "src/pages/Media.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P31-A01",
+        "CON-P31-A02",
+        "CON-P31-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P32",
+      "name": "音乐与媒体资源",
+      "phase": "P1",
+      "source": "src/pages/Media.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P32-A01",
+        "CON-P32-A02",
+        "CON-P32-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P33",
+      "name": "语音链路配置",
+      "phase": "P0 首链；P1 完整",
+      "source": "src/pages/Models.tsx",
+      "prototype": "rendered",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P33-A01",
+        "CON-P33-A02",
+        "CON-P33-A03"
+      ],
+      "contractActionsAcceptance": "not exhaustively accepted; rendered page is not acceptance of every contract action"
+    },
+    {
+      "id": "CON-P34",
+      "name": "表情定制",
+      "phase": "P0 原型",
+      "source": "src/pages/CharacterLab.tsx",
+      "prototype": "responsive character studio, 89 expressions active",
+      "production": "not verified",
+      "contractActions": [
+        "CON-P34-A01",
+        "CON-P34-A02",
+        "CON-P34-A03"
+      ],
+      "contractActionsAcceptance": "local browser: desktop/tablet/mobile studio and extended expression save/reload/export; native/device not verified"
+    }
+  ],
+  "pageFamilyPolish": {
+    "contract": "PAGE-FAMILY-POLISH.md",
+    "theme": "tinybot-buddy-shell-1.0",
+    "pages": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "31",
+      "32",
+      "33"
+    ],
+    "evidence": "evidence/buddy-pages/VERIFICATION.md",
+    "acceptance": "browser layout and selected interactions checked; user visual acceptance pending; native and real services not verified"
+  },
+  "xiaozhiCompletion": {
+    "contract": "XIAOZHI-UI-COMPLETION.md",
+    "evidence": "evidence/xiaozhi-completion/VERIFICATION.md",
+    "pageChecks": 102,
+    "interactionCheckpoints": 65,
+    "testsPassed": 53,
+    "acceptance": "frontend browser checks; user visual approval pending; real services and native devices not verified"
+  },
+  "rolePanel": {
+    "contract": "pages/CON-P04.md",
+    "evidence": "evidence/role-panel/VERIFICATION.md",
+    "abilitySlots": [
+      "VAD",
+      "ASR",
+      "LLM",
+      "SLM",
+      "VLLM",
+      "Intent",
+      "Mem",
+      "TTS",
+      "Lang",
+      "Voice"
+    ],
+    "scope": "frontend only; device detail opens the same role id; production/native/user visual approval pending",
+    "pageChecks": 102,
+    "interactionCheckpoints": 111,
+    "testsPassed": 63
+  },
+  "roleMarket": {
+    "source": "src/pages/RoleMarket.tsx",
+    "templates": 8,
+    "prompt": "agent.instructions; separate editor and effective preview",
+    "flow": "market -> customization -> current-config simulation -> publish -> bind -> same role",
+    "evidence": "evidence/role-market/VERIFICATION.md",
+    "maturity": "frontend only; native, real models and devices not verified",
+    "testsPassed": 68,
+    "completeFlows": 3,
+    "affectedPageChecks": 18,
+    "interactionCheckpoints": 56
+  },
+  "grokExpressions": {
+    "upstream": 25,
+    "extensions": 64,
+    "total": 89,
+    "allSelectable": true,
+    "geometry": "circle / oval / rounded capsule; no heart/star/cross eyes",
+    "firmware": "not integrated",
+    "upstreamDisplayNames": "25 Chinese display names; original ids, indices, geometry and pools unchanged"
+  },
+  "grokCustomizer": {
+    "layout": "fixed preview + appearance/expression/motion editor; compact preview above controls on mobile",
+    "expressionSources": [
+      "all:89",
+      "upstream:25",
+      "tinybot:64"
+    ],
+    "filter": "source, category and name search; stable indices",
+    "sharedEditor": "src/pages/GrokCustomizer.tsx"
+  },
+  "compactLayout": {
+    "contract": "PAGE-FAMILY-POLISH.md",
+    "baseline": "12px card padding; 10-12px gaps; 28px desktop / 38-40px touch controls",
+    "trial": "device and microphone controls beside each other; readable conversation panel; narrow screens stack",
+    "entry": "one Shape and expression button opens shared character selection",
+    "evidence": "evidence/compact-layout-1.28/README.md",
+    "pageChecks": 24,
+    "entryChecks": 6,
+    "testsPassed": 119,
+    "acceptance": "local browser only; native, real services and user visual approval pending"
+  },
+  "pageHeader": {
+    "layout": "title, description and action text share typographic baseline; narrow layouts wrap",
+    "removed": "decorative English eyebrow and page-header back links",
+    "fontSizes": {
+      "desktop": 22,
+      "tablet": 22,
+      "mobile": 20
+    },
+    "browserChecks": 9,
+    "evidence": "evidence/page-headers-1.30/README.md"
+  },
+  "characterUnification": {
+    "renderer": "grok in character editor and robot trial; marketplace keeps original template portraits",
+    "legacyInputs": "minimal accepted on read, normalized to grok; no automatic storage overwrite",
+    "legacyMappings": 48,
+    "expressions": 89,
+    "actions": 9,
+    "evidence": "evidence/unified-character-1.32/README.md",
+    "scope": "local frontend; semantic mapping is not complete tears/effects or real model/device acceptance"
+  },
+  "studioSpacing": {
+    "tabContentTop": 12,
+    "selector": "actual Ant Design tabpanel and body-holder",
+    "evidence": "evidence/studio-spacing-1.33/README.md"
+  },
+  "systemThemes": {
+    "contract": "CON-P30",
+    "source": "src/pages/ThemeCenter.tsx",
+    "defaults": 1,
+    "traditionalPresets": 10,
+    "modes": [
+      "light",
+      "dark",
+      "system"
+    ],
+    "storageKey": "tinybot.system-theme.v1",
+    "independentRobotStorage": true,
+    "evidence": "evidence/system-themes-1.44/README.md",
+    "maturity": "local browser prototype; native OS controls and ESP32 not integrated; user visual approval pending",
+    "defaultPreset": "jilan",
+    "legacyClassicPreset": "default"
+  },
+  "chinesePaletteCatalogs": {
+    "traditional": 742,
+    "gugong": 384,
+    "legacyTraditional": "158 read-only compatibility; not selectable",
+    "selectableRecords": 1529,
+    "uniqueSwatches": 1518,
+    "evidence": "evidence/chinese-catalog-1.45/README.md"
+  },
+  "themeCustomizationDrawer": {
+    "source": "src/pages/ThemeCenter.tsx",
+    "palette": "shared CharacterPalette; theme usage stores HEX",
+    "layout": "920px desktop drawer, full-width tablet/mobile, fixed footer",
+    "selectors": "single-choice radio buttons for library, family and solar term; no color-list dropdown",
+    "targets": [
+      "primary",
+      "background",
+      "sidebar"
+    ],
+    "evidence": "evidence/theme-drawer-1.46/README.md",
+    "maturity": "browser prototype; no real services or native hardware acceptance"
+  }
+}

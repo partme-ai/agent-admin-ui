@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "palette-red-01",
+    "name": "红色系 · 01",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c80c05",
+      "background": "#effafa",
+      "sidebar": "#442722",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-02",
+    "name": "红色系 · 02",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#290c05",
+      "background": "#f2e5dd",
+      "sidebar": "#fcf7f2",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-03",
+    "name": "红色系 · 03",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#da1603",
+      "background": "#fdf7f1",
+      "sidebar": "#e89d90",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-04",
+    "name": "红色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#2b0d0a",
+      "background": "#fbf0e4",
+      "sidebar": "#d32b43",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-05",
+    "name": "红色系 · 05",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#270e0b",
+      "background": "#dceff0",
+      "sidebar": "#0d0708",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-06",
+    "name": "红色系 · 06",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#783930",
+      "background": "#ebe7e6",
+      "sidebar": "#7f686c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-07",
+    "name": "红色系 · 07",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#93374b",
+      "background": "#f0e4ed",
+      "sidebar": "#f7f6f6",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-08",
+    "name": "红色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#660118",
+      "background": "#f7e4dc",
+      "sidebar": "#ec9dc9",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-09",
+    "name": "红色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#551212",
+      "background": "#faf8f7",
+      "sidebar": "#671524",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-10",
+    "name": "红色系 · 10",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d7273b",
+      "background": "#fdfefe",
+      "sidebar": "#ae2865",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-11",
+    "name": "红色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#8a1c2f",
+      "background": "#fae3dc",
+      "sidebar": "#100307",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-12",
+    "name": "红色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#84111c",
+      "background": "#fefbfb",
+      "sidebar": "#dd2541",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-13",
+    "name": "红色系 · 13",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#25120f",
+      "background": "#cbeff5",
+      "sidebar": "#eba573",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-14",
+    "name": "红色系 · 14",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#2f0f0a",
+      "background": "#f6e6cb",
+      "sidebar": "#6d645b",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-15",
+    "name": "红色系 · 15",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c53c1f",
+      "background": "#fbf9f9",
+      "sidebar": "#a3713c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-16",
+    "name": "红色系 · 16",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#862811",
+      "background": "#f6f0ef",
+      "sidebar": "#e29250",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-17",
+    "name": "红色系 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#9f1725",
+      "background": "#f1e5e7",
+      "sidebar": "#8f161a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-18",
+    "name": "红色系 · 18",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#ac3851",
+      "background": "#ebe7e2",
+      "sidebar": "#c673a2",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-19",
+    "name": "红色系 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d71e3f",
+      "background": "#f8fefd",
+      "sidebar": "#150409",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-20",
+    "name": "红色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#570605",
+      "background": "#fef8fc",
+      "sidebar": "#b57383",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-21",
+    "name": "红色系 · 21",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#670d03",
+      "background": "#fcf4eb",
+      "sidebar": "#e9dfe0",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-22",
+    "name": "红色系 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d70d0e",
+      "background": "#ddfafa",
+      "sidebar": "#e6dcdd",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-23",
+    "name": "红色系 · 23",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#91503c",
+      "background": "#e5f5f9",
+      "sidebar": "#e5b7ba",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-24",
+    "name": "红色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#6f0b21",
+      "background": "#eee5e9",
+      "sidebar": "#a12d70",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-25",
+    "name": "红色系 · 25",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#240b0e",
+      "background": "#d9fcf7",
+      "sidebar": "#382824",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-26",
+    "name": "红色系 · 26",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#840d17",
+      "background": "#ece6eb",
+      "sidebar": "#4b4240",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-27",
+    "name": "红色系 · 27",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#2c080f",
+      "background": "#dcf1ed",
+      "sidebar": "#e37cb2",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-28",
+    "name": "红色系 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c31414",
+      "background": "#f9e2e2",
+      "sidebar": "#675753",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-29",
+    "name": "红色系 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#620a0f",
+      "background": "#cbf0ee",
+      "sidebar": "#2c141e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-red-30",
+    "name": "红色系 · 30",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "red",
+    "palette": {
+      "primary": "#260b0e",
+      "background": "#caf0ec",
+      "sidebar": "#782449",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-01",
+    "name": "橙色系 · 01",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#4e2507",
+      "background": "#fbf9f6",
+      "sidebar": "#958d7d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-02",
+    "name": "橙色系 · 02",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#c93c06",
+      "background": "#fbf8f9",
+      "sidebar": "#130707",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-03",
+    "name": "橙色系 · 03",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#9c6414",
+      "background": "#fefefe",
+      "sidebar": "#fcf9ef",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-04",
+    "name": "橙色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#22160c",
+      "background": "#f3edc6",
+      "sidebar": "#251f0c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-05",
+    "name": "橙色系 · 05",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#cb3e08",
+      "background": "#fefcfa",
+      "sidebar": "#b01e1a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-06",
+    "name": "橙色系 · 06",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#25140c",
+      "background": "#dceef7",
+      "sidebar": "#f8f5f1",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-07",
+    "name": "橙色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#70551f",
+      "background": "#dfe8fb",
+      "sidebar": "#463d1d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-08",
+    "name": "橙色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#976515",
+      "background": "#fdfdf6",
+      "sidebar": "#cca22b",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-09",
+    "name": "橙色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#22140e",
+      "background": "#fde7ef",
+      "sidebar": "#9b2520",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-10",
+    "name": "橙色系 · 10",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#403210",
+      "background": "#f9f9f4",
+      "sidebar": "#ced531",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-11",
+    "name": "橙色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#584524",
+      "background": "#e0eaeb",
+      "sidebar": "#0e0a06",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-12",
+    "name": "橙色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#865b13",
+      "background": "#fae5c2",
+      "sidebar": "#817164",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-13",
+    "name": "橙色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#732e06",
+      "background": "#fefdfd",
+      "sidebar": "#db352c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-14",
+    "name": "橙色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7f2d06",
+      "background": "#f2edeb",
+      "sidebar": "#cac4bf",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-15",
+    "name": "橙色系 · 15",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#402b07",
+      "background": "#f5e7d0",
+      "sidebar": "#615e1d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-16",
+    "name": "橙色系 · 16",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#2b1306",
+      "background": "#faf3f5",
+      "sidebar": "#eaad8c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-17",
+    "name": "橙色系 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#512c1d",
+      "background": "#f3ead3",
+      "sidebar": "#621012",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-18",
+    "name": "橙色系 · 18",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#835b06",
+      "background": "#efe5e5",
+      "sidebar": "#e3e05f",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-19",
+    "name": "橙色系 · 19",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#b24108",
+      "background": "#e5eef3",
+      "sidebar": "#ea7c76",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-20",
+    "name": "橙色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#261a08",
+      "background": "#fdfdec",
+      "sidebar": "#d45e31",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-21",
+    "name": "橙色系 · 21",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#543b09",
+      "background": "#f9fbdd",
+      "sidebar": "#f8f3e5",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-22",
+    "name": "橙色系 · 22",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#89300c",
+      "background": "#e1e9eb",
+      "sidebar": "#912515",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-23",
+    "name": "橙色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#866214",
+      "background": "#f0f6c3",
+      "sidebar": "#202018",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-24",
+    "name": "橙色系 · 24",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#c3490d",
+      "background": "#fffefc",
+      "sidebar": "#d0bcb9",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-25",
+    "name": "橙色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#5c441d",
+      "background": "#e6ebf4",
+      "sidebar": "#e49a4d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-26",
+    "name": "橙色系 · 26",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#b55314",
+      "background": "#fdfefe",
+      "sidebar": "#663711",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-27",
+    "name": "橙色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#241b0f",
+      "background": "#fefdfc",
+      "sidebar": "#444238",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-28",
+    "name": "橙色系 · 28",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7a5e29",
+      "background": "#f6e3e3",
+      "sidebar": "#d35f2d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-29",
+    "name": "橙色系 · 29",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#28210f",
+      "background": "#dee9f9",
+      "sidebar": "#a89a1d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-orange-30",
+    "name": "橙色系 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7b5d29",
+      "background": "#ece6e6",
+      "sidebar": "#ada099",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-01",
+    "name": "黄色系 · 01",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#686e21",
+      "background": "#fbfbfc",
+      "sidebar": "#0f1104",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-02",
+    "name": "黄色系 · 02",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#241e0e",
+      "background": "#e9ecf5",
+      "sidebar": "#fdfcf0",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-03",
+    "name": "黄色系 · 03",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#66770a",
+      "background": "#f9fcf6",
+      "sidebar": "#67a01e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-04",
+    "name": "黄色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#211e0e",
+      "background": "#eef6d4",
+      "sidebar": "#57511e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-05",
+    "name": "黄色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#817014",
+      "background": "#fdfcfb",
+      "sidebar": "#e7e8de",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-06",
+    "name": "黄色系 · 06",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#302b0a",
+      "background": "#fdfcfc",
+      "sidebar": "#d19c20",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-07",
+    "name": "黄色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#876102",
+      "background": "#eaeef8",
+      "sidebar": "#803f1a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-08",
+    "name": "黄色系 · 08",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#25230f",
+      "background": "#fcfae7",
+      "sidebar": "#0d0b06",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-09",
+    "name": "黄色系 · 09",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#705c28",
+      "background": "#ebe7e6",
+      "sidebar": "#db7836",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-10",
+    "name": "黄色系 · 10",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#544d19",
+      "background": "#f3e5e1",
+      "sidebar": "#d0e13c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-11",
+    "name": "黄色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#424b04",
+      "background": "#f8eadd",
+      "sidebar": "#6c7851",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-12",
+    "name": "黄色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#4d420c",
+      "background": "#eae8e3",
+      "sidebar": "#332f29",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-13",
+    "name": "黄色系 · 13",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#54471f",
+      "background": "#f3e4e2",
+      "sidebar": "#bcb8b0",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-14",
+    "name": "黄色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#866610",
+      "background": "#f1fac6",
+      "sidebar": "#e5b955",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-15",
+    "name": "黄色系 · 15",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#221c0e",
+      "background": "#f6e4e1",
+      "sidebar": "#867c6c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-16",
+    "name": "黄色系 · 16",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#434a10",
+      "background": "#ecf0cd",
+      "sidebar": "#f8fcec",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-17",
+    "name": "黄色系 · 17",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#46460b",
+      "background": "#e7e7f4",
+      "sidebar": "#7fb228",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-18",
+    "name": "黄色系 · 18",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#627114",
+      "background": "#f2f6d7",
+      "sidebar": "#3e6712",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-19",
+    "name": "黄色系 · 19",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#282a06",
+      "background": "#f3f6c2",
+      "sidebar": "#cbd3b6",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-20",
+    "name": "黄色系 · 20",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#787020",
+      "background": "#fefdfd",
+      "sidebar": "#857c6f",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-21",
+    "name": "黄色系 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6b6e18",
+      "background": "#f7f9c2",
+      "sidebar": "#3c331a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-22",
+    "name": "黄色系 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#65770b",
+      "background": "#fdfffc",
+      "sidebar": "#97df4b",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-23",
+    "name": "黄色系 · 23",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6b7414",
+      "background": "#fbfbf8",
+      "sidebar": "#a7af9d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-24",
+    "name": "黄色系 · 24",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#252608",
+      "background": "#efeffd",
+      "sidebar": "#c7e764",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-25",
+    "name": "黄色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#2b300e",
+      "background": "#f8fce1",
+      "sidebar": "#72931a",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-26",
+    "name": "黄色系 · 26",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#4d4418",
+      "background": "#e7e8ec",
+      "sidebar": "#0e0f04",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-27",
+    "name": "黄色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#55471c",
+      "background": "#faf9f8",
+      "sidebar": "#5b4e15",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-28",
+    "name": "黄色系 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#241f0e",
+      "background": "#f9f8f3",
+      "sidebar": "#36281a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-29",
+    "name": "黄色系 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#3e3201",
+      "background": "#eef2e1",
+      "sidebar": "#b36b31",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-yellow-30",
+    "name": "黄色系 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#776203",
+      "background": "#e1e8f9",
+      "sidebar": "#aeb31d",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-01",
+    "name": "绿色系 · 01",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0a6216",
+      "background": "#e4e9df",
+      "sidebar": "#060d06",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-02",
+    "name": "绿色系 · 02",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0c291d",
+      "background": "#e5f2e4",
+      "sidebar": "#f0fcf6",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-03",
+    "name": "绿色系 · 03",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0e7d07",
+      "background": "#eafcf1",
+      "sidebar": "#299d1a",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-04",
+    "name": "绿色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#13250d",
+      "background": "#dff1e2",
+      "sidebar": "#505f3a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-05",
+    "name": "绿色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#108314",
+      "background": "#fdfdfd",
+      "sidebar": "#bdf4c2",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-06",
+    "name": "绿色系 · 06",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#11260e",
+      "background": "#f9fcef",
+      "sidebar": "#1ec942",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-07",
+    "name": "绿色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1f7b5a",
+      "background": "#f5fcf5",
+      "sidebar": "#3f4d48",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-08",
+    "name": "绿色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#035429",
+      "background": "#f2eef0",
+      "sidebar": "#94a7a1",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-09",
+    "name": "绿色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#17220e",
+      "background": "#fafef9",
+      "sidebar": "#191a14",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-10",
+    "name": "绿色系 · 10",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#477028",
+      "background": "#c2f7c1",
+      "sidebar": "#3de12f",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-11",
+    "name": "绿色系 · 11",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#29480d",
+      "background": "#eff8ee",
+      "sidebar": "#c6e67c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-12",
+    "name": "绿色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#214b0a",
+      "background": "#ebe6eb",
+      "sidebar": "#113f0e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-13",
+    "name": "绿色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1b441c",
+      "background": "#e8fae9",
+      "sidebar": "#228f21",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-14",
+    "name": "绿色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0e250d",
+      "background": "#fafef0",
+      "sidebar": "#b2beb4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-15",
+    "name": "绿色系 · 15",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#147d5b",
+      "background": "#f7fdfe",
+      "sidebar": "#33888b",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-16",
+    "name": "绿色系 · 16",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#147d40",
+      "background": "#f4fbfa",
+      "sidebar": "#24cba8",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-17",
+    "name": "绿色系 · 17",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1d7256",
+      "background": "#c6f6c5",
+      "sidebar": "#f7f9f8",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-18",
+    "name": "绿色系 · 18",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#4b6f32",
+      "background": "#bffabf",
+      "sidebar": "#496d15",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-19",
+    "name": "绿色系 · 19",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0e2212",
+      "background": "#caf5d2",
+      "sidebar": "#69987c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-20",
+    "name": "绿色系 · 20",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1e7703",
+      "background": "#cef9c0",
+      "sidebar": "#272c22",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-21",
+    "name": "绿色系 · 21",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#064229",
+      "background": "#d8ebeb",
+      "sidebar": "#2ce0cd",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-22",
+    "name": "绿色系 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#496e0a",
+      "background": "#e9e7e3",
+      "sidebar": "#bec54c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-23",
+    "name": "绿色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1c5133",
+      "background": "#fbeef6",
+      "sidebar": "#4f6a57",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-24",
+    "name": "绿色系 · 24",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#2e6e56",
+      "background": "#f5e3eb",
+      "sidebar": "#c2cbca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-25",
+    "name": "绿色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#095706",
+      "background": "#eee5ef",
+      "sidebar": "#3acd49",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-26",
+    "name": "绿色系 · 26",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#385015",
+      "background": "#fbfafd",
+      "sidebar": "#f6f7f5",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-27",
+    "name": "绿色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#14740a",
+      "background": "#f5e2f7",
+      "sidebar": "#1b6d2f",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-28",
+    "name": "绿色系 · 28",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#2b7125",
+      "background": "#cbf2c7",
+      "sidebar": "#7c9973",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-29",
+    "name": "绿色系 · 29",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#102910",
+      "background": "#f8e0f8",
+      "sidebar": "#9cdd7e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-green-30",
+    "name": "绿色系 · 30",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "green",
+    "palette": {
+      "primary": "#307456",
+      "background": "#f9eaf1",
+      "sidebar": "#072811",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-01",
+    "name": "青色系 · 01",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#1b3d47",
+      "background": "#f8e4d8",
+      "sidebar": "#32d3ca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-02",
+    "name": "青色系 · 02",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#187d6a",
+      "background": "#f9fdfa",
+      "sidebar": "#090b0a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-03",
+    "name": "青色系 · 03",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0b1d23",
+      "background": "#edf3f1",
+      "sidebar": "#324c49",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-04",
+    "name": "青色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#117b98",
+      "background": "#fdfefe",
+      "sidebar": "#5c6d6e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-05",
+    "name": "青色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#1a7d74",
+      "background": "#fbfdfe",
+      "sidebar": "#f3fbfd",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-06",
+    "name": "青色系 · 06",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#052b2e",
+      "background": "#f1ecec",
+      "sidebar": "#060b0c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-07",
+    "name": "青色系 · 07",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0d2725",
+      "background": "#d8ebeb",
+      "sidebar": "#f3fcfb",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-08",
+    "name": "青色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#097e65",
+      "background": "#fafafb",
+      "sidebar": "#1fc36c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-09",
+    "name": "青色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0d2931",
+      "background": "#f7e4df",
+      "sidebar": "#206fdb",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-10",
+    "name": "青色系 · 10",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0d7189",
+      "background": "#e9f3f6",
+      "sidebar": "#74a8ea",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-11",
+    "name": "青色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0b5a68",
+      "background": "#e3e8ec",
+      "sidebar": "#113a47",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-12",
+    "name": "青色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#083636",
+      "background": "#ebe7e7",
+      "sidebar": "#1e8e65",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-13",
+    "name": "青色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#1e5a67",
+      "background": "#e0eaeb",
+      "sidebar": "#1f64b3",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-14",
+    "name": "青色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0c6f6e",
+      "background": "#caf5d8",
+      "sidebar": "#74e6e0",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-15",
+    "name": "青色系 · 15",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0d2022",
+      "background": "#f5e4e1",
+      "sidebar": "#93a0a6",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-16",
+    "name": "青色系 · 16",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2b695f",
+      "background": "#bff9c9",
+      "sidebar": "#5f948c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-17",
+    "name": "青色系 · 17",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#06424d",
+      "background": "#fbfcfc",
+      "sidebar": "#499cd0",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-18",
+    "name": "青色系 · 18",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0e4b55",
+      "background": "#f5faf8",
+      "sidebar": "#d8dfde",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-19",
+    "name": "青色系 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#094a44",
+      "background": "#fdf2f3",
+      "sidebar": "#525f61",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-20",
+    "name": "青色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0a2125",
+      "background": "#f8fcfa",
+      "sidebar": "#acd8d0",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-21",
+    "name": "青色系 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#023d32",
+      "background": "#c4f6cb",
+      "sidebar": "#0e3d27",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-22",
+    "name": "青色系 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#1d4e44",
+      "background": "#fceef1",
+      "sidebar": "#25bb67",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-23",
+    "name": "青色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0d7d65",
+      "background": "#fcfdfd",
+      "sidebar": "#234e45",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-24",
+    "name": "青色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#035547",
+      "background": "#f1e4e9",
+      "sidebar": "#091619",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-25",
+    "name": "青色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#05525a",
+      "background": "#d8fae7",
+      "sidebar": "#a6afb6",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-26",
+    "name": "青色系 · 26",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a6e60",
+      "background": "#deeaeb",
+      "sidebar": "#1b8148",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-27",
+    "name": "青色系 · 27",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0b2722",
+      "background": "#eafbf8",
+      "sidebar": "#20bc8a",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-28",
+    "name": "青色系 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#057898",
+      "background": "#fcfcfd",
+      "sidebar": "#257fe0",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-29",
+    "name": "青色系 · 29",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#147d67",
+      "background": "#fdf8f9",
+      "sidebar": "#b4c1bc",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-cyan-30",
+    "name": "青色系 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#316672",
+      "background": "#cdf2fa",
+      "sidebar": "#2bc0af",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "jilan",
+    "name": "霁蓝",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1E5A8F",
+      "background": "#F1F4F7",
+      "sidebar": "#162635",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-02",
+    "name": "蓝色系 · 02",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#03013d",
+      "background": "#fdfef8",
+      "sidebar": "#f7f7fa",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-03",
+    "name": "蓝色系 · 03",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0f61ea",
+      "background": "#e3f9f8",
+      "sidebar": "#7ba2df",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-04",
+    "name": "蓝色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0f0925",
+      "background": "#e4eaf1",
+      "sidebar": "#7d2ed0",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-05",
+    "name": "蓝色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#346980",
+      "background": "#f9e3d9",
+      "sidebar": "#f6f8f9",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-06",
+    "name": "蓝色系 · 06",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#09022d",
+      "background": "#eae8f4",
+      "sidebar": "#0a0a0f",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-07",
+    "name": "蓝色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#402cc5",
+      "background": "#e9e5fc",
+      "sidebar": "#4122de",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-08",
+    "name": "蓝色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#07273b",
+      "background": "#fbfcfd",
+      "sidebar": "#3ba8be",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-09",
+    "name": "蓝色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#316a81",
+      "background": "#f9fefc",
+      "sidebar": "#117772",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-10",
+    "name": "蓝色系 · 10",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#060360",
+      "background": "#f9facf",
+      "sidebar": "#384256",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-11",
+    "name": "蓝色系 · 11",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#2203b1",
+      "background": "#ebe5f9",
+      "sidebar": "#d0d0e5",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-12",
+    "name": "蓝色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#2712e7",
+      "background": "#eff3c9",
+      "sidebar": "#554d64",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-13",
+    "name": "蓝色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#443786",
+      "background": "#fefefb",
+      "sidebar": "#9f65db",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-14",
+    "name": "蓝色系 · 14",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0921fb",
+      "background": "#ebe6ec",
+      "sidebar": "#080516",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-15",
+    "name": "蓝色系 · 15",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#296074",
+      "background": "#edf1fa",
+      "sidebar": "#45d2d4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-16",
+    "name": "蓝色系 · 16",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1a4662",
+      "background": "#f4fdfb",
+      "sidebar": "#1d44a1",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-17",
+    "name": "蓝色系 · 17",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#160747",
+      "background": "#e8ecf0",
+      "sidebar": "#d5acf2",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-18",
+    "name": "蓝色系 · 18",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#08052a",
+      "background": "#ebe6ef",
+      "sidebar": "#181689",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-19",
+    "name": "蓝色系 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0a0691",
+      "background": "#fcfafd",
+      "sidebar": "#150c51",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-20",
+    "name": "蓝色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#102d37",
+      "background": "#deeae5",
+      "sidebar": "#94e8eb",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-21",
+    "name": "蓝色系 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0d0974",
+      "background": "#ebe6eb",
+      "sidebar": "#5373bb",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-22",
+    "name": "蓝色系 · 22",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0366df",
+      "background": "#f7f8fe",
+      "sidebar": "#3167b4",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-23",
+    "name": "蓝色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#143fe6",
+      "background": "#dfeff2",
+      "sidebar": "#231870",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-24",
+    "name": "蓝色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#233562",
+      "background": "#e4e8eb",
+      "sidebar": "#030310",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-25",
+    "name": "蓝色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0e08c8",
+      "background": "#f3f9fc",
+      "sidebar": "#8d879c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-26",
+    "name": "蓝色系 · 26",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1562f3",
+      "background": "#fdf9f2",
+      "sidebar": "#f4f5f9",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-27",
+    "name": "蓝色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0c0c22",
+      "background": "#f7f7fe",
+      "sidebar": "#6a617c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-28",
+    "name": "蓝色系 · 28",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#23586d",
+      "background": "#fcfaf9",
+      "sidebar": "#4291df",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-29",
+    "name": "蓝色系 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1c0c76",
+      "background": "#f1f6d7",
+      "sidebar": "#3026db",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-blue-30",
+    "name": "蓝色系 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#100d23",
+      "background": "#eff4c7",
+      "sidebar": "#8d85d9",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-01",
+    "name": "紫色系 · 01",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#84048e",
+      "background": "#f9fbf9",
+      "sidebar": "#342c38",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-02",
+    "name": "紫色系 · 02",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#120a26",
+      "background": "#f0e3f9",
+      "sidebar": "#f6f4fc",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-03",
+    "name": "紫色系 · 03",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#c812a5",
+      "background": "#fefbfc",
+      "sidebar": "#ef98e4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-04",
+    "name": "紫色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#1f0b27",
+      "background": "#f1e3f6",
+      "sidebar": "#bc2dbb",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-05",
+    "name": "紫色系 · 05",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#15022f",
+      "background": "#ebe4fa",
+      "sidebar": "#090614",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-06",
+    "name": "紫色系 · 06",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#5722d8",
+      "background": "#ebe6eb",
+      "sidebar": "#7464d4",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-07",
+    "name": "紫色系 · 07",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#5b05e8",
+      "background": "#e2e8f7",
+      "sidebar": "#f7f6f8",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-08",
+    "name": "紫色系 · 08",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#170542",
+      "background": "#e6f2c8",
+      "sidebar": "#1c22a6",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-09",
+    "name": "紫色系 · 09",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#530a5a",
+      "background": "#f8e9fa",
+      "sidebar": "#b1a1b1",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-10",
+    "name": "紫色系 · 10",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#a7148a",
+      "background": "#fdeffa",
+      "sidebar": "#b11b86",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-11",
+    "name": "紫色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#3e03d9",
+      "background": "#ebe6f0",
+      "sidebar": "#0c080f",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-12",
+    "name": "紫色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#2e0273",
+      "background": "#ebe4fa",
+      "sidebar": "#656077",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-13",
+    "name": "紫色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#9006f4",
+      "background": "#f9f7fb",
+      "sidebar": "#331798",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-14",
+    "name": "紫色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#ae11bc",
+      "background": "#caf7c6",
+      "sidebar": "#8b7c96",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-15",
+    "name": "紫色系 · 15",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#72025d",
+      "background": "#e2eae3",
+      "sidebar": "#f6e8f7",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-16",
+    "name": "紫色系 · 16",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#3d1036",
+      "background": "#e0fae5",
+      "sidebar": "#5b1a43",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-17",
+    "name": "紫色系 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#ae08f2",
+      "background": "#f9f9fd",
+      "sidebar": "#0c070c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-18",
+    "name": "紫色系 · 18",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#7b03fa",
+      "background": "#ebe6eb",
+      "sidebar": "#b5aebc",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-19",
+    "name": "紫色系 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#542164",
+      "background": "#e8e6f7",
+      "sidebar": "#7624dc",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-20",
+    "name": "紫色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#692160",
+      "background": "#fbfefc",
+      "sidebar": "#db5ce6",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-21",
+    "name": "紫色系 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#5e055d",
+      "background": "#cdf6ce",
+      "sidebar": "#0f0411",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-22",
+    "name": "紫色系 · 22",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#c114bc",
+      "background": "#fdf8fb",
+      "sidebar": "#f5eef7",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-23",
+    "name": "紫色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#4206a8",
+      "background": "#efe4f5",
+      "sidebar": "#351475",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-24",
+    "name": "紫色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#aa0df0",
+      "background": "#f2f9f0",
+      "sidebar": "#ae31d3",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-25",
+    "name": "紫色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#290290",
+      "background": "#e0e9f1",
+      "sidebar": "#d5cef1",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-26",
+    "name": "紫色系 · 26",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#13052c",
+      "background": "#fdfcfe",
+      "sidebar": "#c39ae4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-27",
+    "name": "紫色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#7a3f9a",
+      "background": "#e2f3d8",
+      "sidebar": "#661780",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-28",
+    "name": "紫色系 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#c50fc4",
+      "background": "#fbfffb",
+      "sidebar": "#58425e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-29",
+    "name": "紫色系 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#6e2f64",
+      "background": "#e3eae4",
+      "sidebar": "#8c6a7c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-purple-30",
+    "name": "紫色系 · 30",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#170139",
+      "background": "#f6faef",
+      "sidebar": "#625ec8",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-01",
+    "name": "粉色系 · 01",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#821462",
+      "background": "#f8e2eb",
+      "sidebar": "#ee9adf",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-02",
+    "name": "粉色系 · 02",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#2c0715",
+      "background": "#f3fdf9",
+      "sidebar": "#100408",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-03",
+    "name": "粉色系 · 03",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#d50b85",
+      "background": "#fefdfe",
+      "sidebar": "#592251",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-04",
+    "name": "粉色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#270711",
+      "background": "#fbdffa",
+      "sidebar": "#a32f61",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-05",
+    "name": "粉色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#230e17",
+      "background": "#f3e4e5",
+      "sidebar": "#fbf2f3",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-06",
+    "name": "粉色系 · 06",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#da0946",
+      "background": "#fcf9fa",
+      "sidebar": "#fdf2f3",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-07",
+    "name": "粉色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#951f4f",
+      "background": "#f1e4eb",
+      "sidebar": "#ca2930",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-08",
+    "name": "粉色系 · 08",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#8d3c71",
+      "background": "#f0e4eb",
+      "sidebar": "#0b090a",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-09",
+    "name": "粉色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#651d44",
+      "background": "#c5f7dc",
+      "sidebar": "#5a1a52",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-10",
+    "name": "粉色系 · 10",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#cc1b97",
+      "background": "#fdfafb",
+      "sidebar": "#cd29bb",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-11",
+    "name": "粉色系 · 11",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#240f1d",
+      "background": "#d4f6e0",
+      "sidebar": "#dc86d5",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-12",
+    "name": "粉色系 · 12",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#d22457",
+      "background": "#e9fdf7",
+      "sidebar": "#b49095",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-13",
+    "name": "粉色系 · 13",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#5b0c2e",
+      "background": "#fefcfc",
+      "sidebar": "#937e84",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-14",
+    "name": "粉色系 · 14",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#780356",
+      "background": "#e5f5ea",
+      "sidebar": "#faf6f9",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-15",
+    "name": "粉色系 · 15",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#6f0f50",
+      "background": "#fefdfd",
+      "sidebar": "#bb33be",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-16",
+    "name": "粉色系 · 16",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#240f16",
+      "background": "#f8e2eb",
+      "sidebar": "#482b32",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-17",
+    "name": "粉色系 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#b80f86",
+      "background": "#ebe5f5",
+      "sidebar": "#746269",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-18",
+    "name": "粉色系 · 18",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#ce1393",
+      "background": "#f6faf8",
+      "sidebar": "#eeb6e4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-19",
+    "name": "粉色系 · 19",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#53011d",
+      "background": "#fae8ee",
+      "sidebar": "#d6bcc5",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-20",
+    "name": "粉色系 · 20",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#350a19",
+      "background": "#fdf7f7",
+      "sidebar": "#e55350",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-21",
+    "name": "粉色系 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#d10448",
+      "background": "#d6fbef",
+      "sidebar": "#340d0f",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-22",
+    "name": "粉色系 · 22",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#a24383",
+      "background": "#d4f5df",
+      "sidebar": "#951b5b",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-23",
+    "name": "粉色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#5c0943",
+      "background": "#f9e2eb",
+      "sidebar": "#24161c",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-24",
+    "name": "粉色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#531140",
+      "background": "#c0f9d1",
+      "sidebar": "#bc4171",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-25",
+    "name": "粉色系 · 25",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#810d32",
+      "background": "#ebe6eb",
+      "sidebar": "#6f5363",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-26",
+    "name": "粉色系 · 26",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#b0274f",
+      "background": "#f6e4f6",
+      "sidebar": "#e559a4",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-27",
+    "name": "粉色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#370d2a",
+      "background": "#ede5eb",
+      "sidebar": "#d824dd",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-28",
+    "name": "粉色系 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#903c5e",
+      "background": "#f7e0fb",
+      "sidebar": "#521833",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-29",
+    "name": "粉色系 · 29",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#9f0733",
+      "background": "#fcfafa",
+      "sidebar": "#dfc1bf",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-pink-30",
+    "name": "粉色系 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#700d2c",
+      "background": "#ebe7e6",
+      "sidebar": "#e86a7c",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-01",
+    "name": "棕色系 · 01",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#a8521f",
+      "background": "#f9f1f3",
+      "sidebar": "#ded2ca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-02",
+    "name": "棕色系 · 02",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#24120b",
+      "background": "#f6e6ec",
+      "sidebar": "#100405",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-03",
+    "name": "棕色系 · 03",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#211811",
+      "background": "#fbfbf7",
+      "sidebar": "#da3e30",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-04",
+    "name": "棕色系 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#be4917",
+      "background": "#fcfcfc",
+      "sidebar": "#563828",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-05",
+    "name": "棕色系 · 05",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#23150f",
+      "background": "#eee6df",
+      "sidebar": "#fbf5f5",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-06",
+    "name": "棕色系 · 06",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#77623d",
+      "background": "#ecefcd",
+      "sidebar": "#c36a1e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-07",
+    "name": "棕色系 · 07",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#312715",
+      "background": "#f6f8ce",
+      "sidebar": "#4a4725",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-08",
+    "name": "棕色系 · 08",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#3d311e",
+      "background": "#ecf0f7",
+      "sidebar": "#bdb837",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-09",
+    "name": "棕色系 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#795e39",
+      "background": "#f8e3e5",
+      "sidebar": "#0c0907",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-10",
+    "name": "棕色系 · 10",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#722b0f",
+      "background": "#f0e7d1",
+      "sidebar": "#ee8d93",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-11",
+    "name": "棕色系 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#4e3111",
+      "background": "#f1f3f5",
+      "sidebar": "#847a5d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-12",
+    "name": "棕色系 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#762a0d",
+      "background": "#f9eccc",
+      "sidebar": "#b62328",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-13",
+    "name": "棕色系 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#772b0e",
+      "background": "#f4ebd6",
+      "sidebar": "#50140e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-14",
+    "name": "棕色系 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#86652f",
+      "background": "#f7f9d4",
+      "sidebar": "#bcb733",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-15",
+    "name": "棕色系 · 15",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#5c442f",
+      "background": "#f3f1db",
+      "sidebar": "#fcfaf3",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-16",
+    "name": "棕色系 · 16",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#290f05",
+      "background": "#f5f1ef",
+      "sidebar": "#c7a09f",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-17",
+    "name": "棕色系 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#b93e14",
+      "background": "#e9f3f7",
+      "sidebar": "#8c7067",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-18",
+    "name": "棕色系 · 18",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#6e4f3c",
+      "background": "#d2ebfa",
+      "sidebar": "#544f46",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-19",
+    "name": "棕色系 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#63260e",
+      "background": "#fefcfd",
+      "sidebar": "#110203",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-20",
+    "name": "棕色系 · 20",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#312019",
+      "background": "#f1e7eb",
+      "sidebar": "#912621",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-21",
+    "name": "棕色系 · 21",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#c34517",
+      "background": "#f8fbfc",
+      "sidebar": "#d9873e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-22",
+    "name": "棕色系 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#532711",
+      "background": "#f2f8fb",
+      "sidebar": "#d9cac6",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-23",
+    "name": "棕色系 · 23",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#915f3c",
+      "background": "#fdf5f7",
+      "sidebar": "#9c3228",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-24",
+    "name": "棕色系 · 24",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#32180d",
+      "background": "#e0eaeb",
+      "sidebar": "#47150e",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-25",
+    "name": "棕色系 · 25",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#835411",
+      "background": "#e3e8eb",
+      "sidebar": "#a59c90",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-26",
+    "name": "棕色系 · 26",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#493b25",
+      "background": "#eee6e6",
+      "sidebar": "#d95d26",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-27",
+    "name": "棕色系 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#816841",
+      "background": "#f6f8d5",
+      "sidebar": "#352916",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-28",
+    "name": "棕色系 · 28",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#58401a",
+      "background": "#f5e4e5",
+      "sidebar": "#e7e47a",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-29",
+    "name": "棕色系 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#20140f",
+      "background": "#fef7f3",
+      "sidebar": "#826b63",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-brown-30",
+    "name": "棕色系 · 30",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8c631f",
+      "background": "#f3f4e8",
+      "sidebar": "#e9e773",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-01",
+    "name": "黑白灰 · 01",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#000000",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-02",
+    "name": "黑白灰 · 02",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#090909",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-03",
+    "name": "黑白灰 · 03",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#292929",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-04",
+    "name": "黑白灰 · 04",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#4d4d4d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-05",
+    "name": "黑白灰 · 05",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#747474",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-06",
+    "name": "黑白灰 · 06",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#9e9e9e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-07",
+    "name": "黑白灰 · 07",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#cacaca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-08",
+    "name": "黑白灰 · 08",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#000000",
+      "background": "#F4F6F8",
+      "sidebar": "#f8f8f8",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-09",
+    "name": "黑白灰 · 09",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#000000",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-10",
+    "name": "黑白灰 · 10",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#090909",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-11",
+    "name": "黑白灰 · 11",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#292929",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-12",
+    "name": "黑白灰 · 12",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#4d4d4d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-13",
+    "name": "黑白灰 · 13",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#747474",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-14",
+    "name": "黑白灰 · 14",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#9e9e9e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-15",
+    "name": "黑白灰 · 15",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#cacaca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-16",
+    "name": "黑白灰 · 16",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#171717",
+      "background": "#F4F6F8",
+      "sidebar": "#f8f8f8",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-17",
+    "name": "黑白灰 · 17",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#000000",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-18",
+    "name": "黑白灰 · 18",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#090909",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-19",
+    "name": "黑白灰 · 19",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#292929",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-20",
+    "name": "黑白灰 · 20",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#4d4d4d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-21",
+    "name": "黑白灰 · 21",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#747474",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-22",
+    "name": "黑白灰 · 22",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#9e9e9e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-23",
+    "name": "黑白灰 · 23",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#cacaca",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-24",
+    "name": "黑白灰 · 24",
+    "description": "清浅侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#414141",
+      "background": "#F4F6F8",
+      "sidebar": "#f8f8f8",
+      "sidebar_style": "light",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-25",
+    "name": "黑白灰 · 25",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#000000",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-26",
+    "name": "黑白灰 · 26",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#090909",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-27",
+    "name": "黑白灰 · 27",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#292929",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-28",
+    "name": "黑白灰 · 28",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#4d4d4d",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-29",
+    "name": "黑白灰 · 29",
+    "description": "深色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#747474",
+      "sidebar_style": "dark",
+      "palette_version": 2
+    }
+  },
+  {
+    "id": "palette-neutral-30",
+    "name": "黑白灰 · 30",
+    "description": "柔和彩色侧栏 · 深主色 / 浅底色",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6e6e6e",
+      "background": "#F4F6F8",
+      "sidebar": "#9e9e9e",
+      "sidebar_style": "tinted",
+      "palette_version": 2
+    }
+  }
+]

@@ -1,0 +1,3915 @@
+[
+  {
+    "id": "morandi",
+    "name": "莫兰迪",
+    "description": "低饱和灰调，TinyBot 精选参考配色。",
+    "colors": [
+      {
+        "id": "morandi-01",
+        "name": "灰粉",
+        "hex": "#C8A5A8",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-02",
+        "name": "灰绿",
+        "hex": "#A3B2A4",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-03",
+        "name": "灰蓝",
+        "hex": "#9EAFBD",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-04",
+        "name": "烟灰紫",
+        "hex": "#AAA0B4",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-05",
+        "name": "燕麦色",
+        "hex": "#D8CDBA",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-06",
+        "name": "豆沙色",
+        "hex": "#B58E8A",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-07",
+        "name": "雾霾蓝",
+        "hex": "#8EA5B3",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-08",
+        "name": "干枯玫瑰色",
+        "hex": "#B58B91",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-09",
+        "name": "奶茶色",
+        "hex": "#C5AA94",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-10",
+        "name": "灰米色",
+        "hex": "#BCB4A7",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-11",
+        "name": "鼠尾草绿",
+        "hex": "#9CA88F",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-12",
+        "name": "烟熏紫",
+        "hex": "#94879E",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-13",
+        "name": "灰橘",
+        "hex": "#C4A08B",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-14",
+        "name": "灰杏",
+        "hex": "#D2B7A4",
+        "group": "灰调精选",
+        "reference": "curated"
+      },
+      {
+        "id": "morandi-15",
+        "name": "灰棕",
+        "hex": "#A89B91",
+        "group": "灰调精选",
+        "reference": "curated"
+      }
+    ]
+  },
+  {
+    "id": "international",
+    "name": "通用色名",
+    "description": "支持中文与英文色名搜索，色值采用屏幕参考。",
+    "colors": [
+      {
+        "id": "international-001",
+        "name": "深红",
+        "hex": "#8c000f",
+        "group": "红色与粉色",
+        "aliases": [
+          "crimson"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-002",
+        "name": "猩红",
+        "hex": "#ff2400",
+        "group": "红色与粉色",
+        "aliases": [
+          "scarlet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-003",
+        "name": "勃艮第红",
+        "hex": "#900020",
+        "group": "红色与粉色",
+        "aliases": [
+          "burgundy"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-004",
+        "name": "宝石红",
+        "hex": "#ca0147",
+        "group": "红色与粉色",
+        "aliases": [
+          "ruby"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-005",
+        "name": "珊瑚色",
+        "hex": "#ff7f50",
+        "group": "红色与粉色",
+        "aliases": [
+          "coral"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-006",
+        "name": "朱红",
+        "hex": "#f4320c",
+        "group": "红色与粉色",
+        "aliases": [
+          "vermillion",
+          "vermilion"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-007",
+        "name": "栗红",
+        "hex": "#800000",
+        "group": "红色与粉色",
+        "aliases": [
+          "maroon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-008",
+        "name": "樱桃红",
+        "hex": "#cf0234",
+        "group": "红色与粉色",
+        "aliases": [
+          "cherry"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-009",
+        "name": "铁锈红",
+        "hex": "#a83c09",
+        "group": "红色与粉色",
+        "aliases": [
+          "rust"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-010",
+        "name": "砖红",
+        "hex": "#a03623",
+        "group": "红色与粉色",
+        "aliases": [
+          "brick"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-011",
+        "name": "石榴石红",
+        "hex": "#733635",
+        "group": "红色与粉色",
+        "aliases": [
+          "garnet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-012",
+        "name": "玫瑰色",
+        "hex": "#ff007f",
+        "group": "红色与粉色",
+        "aliases": [
+          "rose"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-013",
+        "name": "腮红粉",
+        "hex": "#f29e8e",
+        "group": "红色与粉色",
+        "aliases": [
+          "blush"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-014",
+        "name": "鲑鱼粉",
+        "hex": "#ff796c",
+        "group": "红色与粉色",
+        "aliases": [
+          "salmon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-015",
+        "name": "紫红",
+        "hex": "#ed0dd9",
+        "group": "红色与粉色",
+        "aliases": [
+          "fuchsia"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-016",
+        "name": "品红",
+        "hex": "#ff00ff",
+        "group": "红色与粉色",
+        "aliases": [
+          "magenta"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-017",
+        "name": "枢机红",
+        "hex": "#c41e3a",
+        "group": "红色与粉色",
+        "aliases": [
+          "cardinal"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-018",
+        "name": "罂粟红",
+        "hex": "#c23c47",
+        "group": "红色与粉色",
+        "aliases": [
+          "poppy"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-019",
+        "name": "酒红",
+        "hex": "#80013f",
+        "group": "红色与粉色",
+        "aliases": [
+          "wine"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-020",
+        "name": "莓红",
+        "hex": "#990f4b",
+        "group": "红色与粉色",
+        "aliases": [
+          "berry"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-021",
+        "name": "柑橘橙",
+        "hex": "#ff9300",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "tangerine"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-022",
+        "name": "蜜桃色",
+        "hex": "#ffb07c",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "peach"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-023",
+        "name": "杏色",
+        "hex": "#ffb16d",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "apricot"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-024",
+        "name": "铜色",
+        "hex": "#b87333",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "copper"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-025",
+        "name": "南瓜橙",
+        "hex": "#ff7518",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "pumpkin"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-026",
+        "name": "金盏菊橙",
+        "hex": "#fcc006",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "marigold"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-027",
+        "name": "陶土橙",
+        "hex": "#cb6843",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "terracotta"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-028",
+        "name": "赭色",
+        "hex": "#a9561e",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "sienna"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-029",
+        "name": "柿子橙",
+        "hex": "#e59b34",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "persimmon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-030",
+        "name": "木瓜橙",
+        "hex": "#fe985c",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "papaya"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-031",
+        "name": "果酱橙",
+        "hex": "#d46f14",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "marmalade"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-032",
+        "name": "姜色",
+        "hex": "#b06500",
+        "group": "橙色与珊瑚",
+        "aliases": [
+          "ginger"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-033",
+        "name": "金色",
+        "hex": "#ffd700",
+        "group": "黄色与金色",
+        "aliases": [
+          "gold"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-034",
+        "name": "琥珀色",
+        "hex": "#ffbf00",
+        "group": "黄色与金色",
+        "aliases": [
+          "amber"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-035",
+        "name": "蜂蜜色",
+        "hex": "#ae8934",
+        "group": "黄色与金色",
+        "aliases": [
+          "honey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-036",
+        "name": "芥末黄",
+        "hex": "#ceb301",
+        "group": "黄色与金色",
+        "aliases": [
+          "mustard"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-037",
+        "name": "柠檬黄",
+        "hex": "#fff700",
+        "group": "黄色与金色",
+        "aliases": [
+          "lemon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-038",
+        "name": "藏红花黄",
+        "hex": "#f4c430",
+        "group": "黄色与金色",
+        "aliases": [
+          "saffron"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-039",
+        "name": "香槟色",
+        "hex": "#e9d2ac",
+        "group": "黄色与金色",
+        "aliases": [
+          "champagne"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-040",
+        "name": "毛茛黄",
+        "hex": "#da9429",
+        "group": "黄色与金色",
+        "aliases": [
+          "buttercup"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-041",
+        "name": "金丝雀黄",
+        "hex": "#fdff63",
+        "group": "黄色与金色",
+        "aliases": [
+          "canary"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-042",
+        "name": "赭石黄",
+        "hex": "#cc7722",
+        "group": "黄色与金色",
+        "aliases": [
+          "ochre"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-043",
+        "name": "玉米黄",
+        "hex": "#f4d054",
+        "group": "黄色与金色",
+        "aliases": [
+          "maize"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-044",
+        "name": "报春花黄",
+        "hex": "#d6859f",
+        "group": "黄色与金色",
+        "aliases": [
+          "primrose"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-045",
+        "name": "水仙黄",
+        "hex": "#ffff31",
+        "group": "黄色与金色",
+        "aliases": [
+          "daffodil"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-046",
+        "name": "稻草黄",
+        "hex": "#e4d96f",
+        "group": "黄色与金色",
+        "aliases": [
+          "straw"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-047",
+        "name": "祖母绿",
+        "hex": "#028f1e",
+        "group": "绿色",
+        "aliases": [
+          "emerald"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-048",
+        "name": "鼠尾草绿",
+        "hex": "#87ae73",
+        "group": "绿色",
+        "aliases": [
+          "sage"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-049",
+        "name": "橄榄绿",
+        "hex": "#808010",
+        "group": "绿色",
+        "aliases": [
+          "olive"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-050",
+        "name": "森林绿",
+        "hex": "#0b5509",
+        "group": "绿色",
+        "aliases": [
+          "forest"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-051",
+        "name": "薄荷绿",
+        "hex": "#3eb489",
+        "group": "绿色",
+        "aliases": [
+          "mint"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-052",
+        "name": "翡翠绿",
+        "hex": "#00a86b",
+        "group": "绿色",
+        "aliases": [
+          "jade"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-053",
+        "name": "猎人绿",
+        "hex": "#33534b",
+        "group": "绿色",
+        "aliases": [
+          "hunter"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-054",
+        "name": "青柠绿",
+        "hex": "#aaff32",
+        "group": "绿色",
+        "aliases": [
+          "lime"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-055",
+        "name": "苔藓绿",
+        "hex": "#009051",
+        "group": "绿色",
+        "aliases": [
+          "moss"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-056",
+        "name": "荨麻酒绿",
+        "hex": "#c1f80a",
+        "group": "绿色",
+        "aliases": [
+          "chartreuse"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-057",
+        "name": "海沫绿",
+        "hex": "#87e0cf",
+        "group": "绿色",
+        "aliases": [
+          "seafoam",
+          "sea foam"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-058",
+        "name": "铬绿",
+        "hex": "#1e9167",
+        "group": "绿色",
+        "aliases": [
+          "viridian"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-059",
+        "name": "开心果绿",
+        "hex": "#93c572",
+        "group": "绿色",
+        "aliases": [
+          "pistachio"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-060",
+        "name": "青瓷绿",
+        "hex": "#ace1af",
+        "group": "绿色",
+        "aliases": [
+          "celadon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-061",
+        "name": "孔雀石绿",
+        "hex": "#0bda51",
+        "group": "绿色",
+        "aliases": [
+          "malachite"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-062",
+        "name": "蕨绿",
+        "hex": "#548d44",
+        "group": "绿色",
+        "aliases": [
+          "fern"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-063",
+        "name": "尤加利绿",
+        "hex": "#329760",
+        "group": "绿色",
+        "aliases": [
+          "eucalyptus"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-064",
+        "name": "抹茶绿",
+        "hex": "#d8d458",
+        "group": "绿色",
+        "aliases": [
+          "matcha"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-065",
+        "name": "海军蓝",
+        "hex": "#01153e",
+        "group": "蓝色",
+        "aliases": [
+          "navy"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-066",
+        "name": "钴蓝",
+        "hex": "#030aa7",
+        "group": "蓝色",
+        "aliases": [
+          "cobalt"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-067",
+        "name": "蔚蓝",
+        "hex": "#55aaee",
+        "group": "蓝色",
+        "aliases": [
+          "cerulean"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-068",
+        "name": "宝石蓝",
+        "hex": "#0f52ba",
+        "group": "蓝色",
+        "aliases": [
+          "sapphire"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-069",
+        "name": "靛蓝",
+        "hex": "#4b0082",
+        "group": "蓝色",
+        "aliases": [
+          "indigo"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-070",
+        "name": "凫蓝",
+        "hex": "#008080",
+        "group": "蓝色",
+        "aliases": [
+          "teal"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-071",
+        "name": "天蓝",
+        "hex": "#007fff",
+        "group": "蓝色",
+        "aliases": [
+          "azure"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-072",
+        "name": "午夜蓝",
+        "hex": "#03012d",
+        "group": "蓝色",
+        "aliases": [
+          "midnight"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-073",
+        "name": "粉蓝",
+        "hex": "#b0e0e6",
+        "group": "蓝色",
+        "aliases": [
+          "powder",
+          "powder blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-074",
+        "name": "钢蓝",
+        "hex": "#797979",
+        "group": "蓝色",
+        "aliases": [
+          "steel"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-075",
+        "name": "群青",
+        "hex": "#1805db",
+        "group": "蓝色",
+        "aliases": [
+          "ultramarine"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-076",
+        "name": "青",
+        "hex": "#00ffff",
+        "group": "蓝色",
+        "aliases": [
+          "cyan"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-077",
+        "name": "皇家蓝",
+        "hex": "#4169e1",
+        "group": "蓝色",
+        "aliases": [
+          "royal blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-078",
+        "name": "牛仔蓝",
+        "hex": "#2243b6",
+        "group": "蓝色",
+        "aliases": [
+          "denim"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-079",
+        "name": "石板蓝",
+        "hex": "#516572",
+        "group": "蓝色",
+        "aliases": [
+          "slate"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-080",
+        "name": "冰蓝",
+        "hex": "#739bd0",
+        "group": "蓝色",
+        "aliases": [
+          "ice blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-081",
+        "name": "长春花蓝",
+        "hex": "#8e82fe",
+        "group": "蓝色",
+        "aliases": [
+          "periwinkle"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-082",
+        "name": "矢车菊蓝",
+        "hex": "#5170d7",
+        "group": "蓝色",
+        "aliases": [
+          "cornflower"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-083",
+        "name": "婴儿蓝",
+        "hex": "#a2cffe",
+        "group": "蓝色",
+        "aliases": [
+          "baby blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-084",
+        "name": "紫罗兰",
+        "hex": "#9a0eea",
+        "group": "紫色",
+        "aliases": [
+          "violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-085",
+        "name": "薰衣草紫",
+        "hex": "#b56edc",
+        "group": "紫色",
+        "aliases": [
+          "lavender"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-086",
+        "name": "李子紫",
+        "hex": "#66386a",
+        "group": "紫色",
+        "aliases": [
+          "plum"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-087",
+        "name": "紫水晶",
+        "hex": "#9966cc",
+        "group": "紫色",
+        "aliases": [
+          "amethyst"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-088",
+        "name": "淡紫",
+        "hex": "#e0b0ff",
+        "group": "紫色",
+        "aliases": [
+          "mauve"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-089",
+        "name": "兰花紫",
+        "hex": "#7a81ff",
+        "group": "紫色",
+        "aliases": [
+          "orchid"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-090",
+        "name": "丁香紫",
+        "hex": "#cea2fd",
+        "group": "紫色",
+        "aliases": [
+          "lilac"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-091",
+        "name": "茄紫",
+        "hex": "#430541",
+        "group": "紫色",
+        "aliases": [
+          "eggplant"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-092",
+        "name": "葡萄紫",
+        "hex": "#6c3461",
+        "group": "紫色",
+        "aliases": [
+          "grape"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-093",
+        "name": "蓟紫",
+        "hex": "#d8bfd8",
+        "group": "紫色",
+        "aliases": [
+          "thistle"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-094",
+        "name": "紫藤",
+        "hex": "#a87dc2",
+        "group": "紫色",
+        "aliases": [
+          "wisteria"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-095",
+        "name": "天芥紫",
+        "hex": "#d94ff5",
+        "group": "紫色",
+        "aliases": [
+          "heliotrope"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-096",
+        "name": "桑葚紫",
+        "hex": "#920a4e",
+        "group": "紫色",
+        "aliases": [
+          "mulberry"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-097",
+        "name": "鸢尾紫",
+        "hex": "#5a4fcf",
+        "group": "紫色",
+        "aliases": [
+          "iris"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-098",
+        "name": "巧克力棕",
+        "hex": "#d2691e",
+        "group": "棕色与大地",
+        "aliases": [
+          "chocolate"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-099",
+        "name": "咖啡色",
+        "hex": "#6f4e37",
+        "group": "棕色与大地",
+        "aliases": [
+          "coffee"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-100",
+        "name": "灰棕",
+        "hex": "#b9a281",
+        "group": "棕色与大地",
+        "aliases": [
+          "taupe"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-101",
+        "name": "米色",
+        "hex": "#e6daa6",
+        "group": "棕色与大地",
+        "aliases": [
+          "beige"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-102",
+        "name": "棕褐",
+        "hex": "#d1b26f",
+        "group": "棕色与大地",
+        "aliases": [
+          "tan"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-103",
+        "name": "驼色",
+        "hex": "#c69f59",
+        "group": "棕色与大地",
+        "aliases": [
+          "camel"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-104",
+        "name": "赭棕",
+        "hex": "#b26400",
+        "group": "棕色与大地",
+        "aliases": [
+          "umber"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-105",
+        "name": "墨棕",
+        "hex": "#704214",
+        "group": "棕色与大地",
+        "aliases": [
+          "sepia"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-106",
+        "name": "栗棕",
+        "hex": "#742802",
+        "group": "棕色与大地",
+        "aliases": [
+          "chestnut"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-107",
+        "name": "肉桂色",
+        "hex": "#d26911",
+        "group": "棕色与大地",
+        "aliases": [
+          "cinnamon"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-108",
+        "name": "摩卡色",
+        "hex": "#9d7651",
+        "group": "棕色与大地",
+        "aliases": [
+          "mocha"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-109",
+        "name": "可可色",
+        "hex": "#875f42",
+        "group": "棕色与大地",
+        "aliases": [
+          "cocoa"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-110",
+        "name": "浓缩咖啡",
+        "hex": "#4e312d",
+        "group": "棕色与大地",
+        "aliases": [
+          "espresso"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-111",
+        "name": "焦糖色",
+        "hex": "#af6f09",
+        "group": "棕色与大地",
+        "aliases": [
+          "caramel"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-112",
+        "name": "榛子色",
+        "hex": "#a36b4b",
+        "group": "棕色与大地",
+        "aliases": [
+          "hazel"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-113",
+        "name": "胡桃棕",
+        "hex": "#773f1a",
+        "group": "棕色与大地",
+        "aliases": [
+          "walnut"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-114",
+        "name": "桃花心木棕",
+        "hex": "#c04000",
+        "group": "棕色与大地",
+        "aliases": [
+          "mahogany"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-115",
+        "name": "古铜色",
+        "hex": "#a87900",
+        "group": "棕色与大地",
+        "aliases": [
+          "bronze"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-116",
+        "name": "象牙白",
+        "hex": "#fffff0",
+        "group": "中性色与灰度",
+        "aliases": [
+          "ivory"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-117",
+        "name": "奶油色",
+        "hex": "#ffffc2",
+        "group": "中性色与灰度",
+        "aliases": [
+          "cream"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-118",
+        "name": "珍珠白",
+        "hex": "#eae0c8",
+        "group": "中性色与灰度",
+        "aliases": [
+          "pearl"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-119",
+        "name": "雪花石膏白",
+        "hex": "#f3e7db",
+        "group": "中性色与灰度",
+        "aliases": [
+          "alabaster"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-120",
+        "name": "炭灰色",
+        "hex": "#343837",
+        "group": "中性色与灰度",
+        "aliases": [
+          "charcoal"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-121",
+        "name": "石灰色",
+        "hex": "#516572",
+        "group": "中性色与灰度",
+        "aliases": [
+          "slate"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-122",
+        "name": "石墨色",
+        "hex": "#383428",
+        "group": "中性色与灰度",
+        "aliases": [
+          "graphite"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-123",
+        "name": "银色",
+        "hex": "#c0c0c0",
+        "group": "中性色与灰度",
+        "aliases": [
+          "silver"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-124",
+        "name": "铂金色",
+        "hex": "#e5e4e2",
+        "group": "中性色与灰度",
+        "aliases": [
+          "platinum"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-125",
+        "name": "骨白",
+        "hex": "#e0d7c6",
+        "group": "中性色与灰度",
+        "aliases": [
+          "bone"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-126",
+        "name": "本白",
+        "hex": "#c2b280",
+        "group": "中性色与灰度",
+        "aliases": [
+          "ecru"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-127",
+        "name": "米白",
+        "hex": "#ffffe4",
+        "group": "中性色与灰度",
+        "aliases": [
+          "off-white",
+          "off white"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-128",
+        "name": "鸽灰",
+        "hex": "#6d6c6c",
+        "group": "中性色与灰度",
+        "aliases": [
+          "dove grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-129",
+        "name": "雾灰",
+        "hex": "#d6d7d2",
+        "group": "中性色与灰度",
+        "aliases": [
+          "fog"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-130",
+        "name": "灰烬色",
+        "hex": "#bebaa7",
+        "group": "中性色与灰度",
+        "aliases": [
+          "ash"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "international-131",
+        "name": "锡灰色",
+        "hex": "#91a092",
+        "group": "中性色与灰度",
+        "aliases": [
+          "pewter"
+        ],
+        "reference": "screen"
+      }
+    ]
+  },
+  {
+    "id": "pantone",
+    "name": "Pantone 参考",
+    "description": "屏幕参考：32 项匹配色号，另 10 项为设计近似。",
+    "colors": [
+      {
+        "id": "pantone-01",
+        "name": "经典蓝",
+        "hex": "#0f4c81",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Classic Blue"
+        ],
+        "reference": "screen",
+        "code": "19-4052 TCX"
+      },
+      {
+        "id": "pantone-02",
+        "name": "深邃暗蓝",
+        "hex": "#343148",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Eclipse"
+        ],
+        "reference": "screen",
+        "code": "19-3810 TCX"
+      },
+      {
+        "id": "pantone-03",
+        "name": "牡丹蓝",
+        "hex": "#223a5e",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Navy Peony"
+        ],
+        "reference": "screen",
+        "code": "19-4029 TCX"
+      },
+      {
+        "id": "pantone-04",
+        "name": "皇冠蓝",
+        "hex": "#464b65",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Crown Blue"
+        ],
+        "reference": "screen",
+        "code": "19-3926 TCX"
+      },
+      {
+        "id": "pantone-05",
+        "name": "花岗岩蓝灰",
+        "hex": "#717388",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Blue Granite"
+        ],
+        "reference": "screen",
+        "code": "18-3933 TCX"
+      },
+      {
+        "id": "pantone-06",
+        "name": "午夜海军蓝",
+        "hex": "#34414e",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Midnight Navy"
+        ],
+        "reference": "screen",
+        "code": "19-4110 TCX"
+      },
+      {
+        "id": "pantone-07",
+        "name": "里昂蓝",
+        "hex": "#005871",
+        "group": "经典蓝与深色调",
+        "aliases": [
+          "Lyons Blue"
+        ],
+        "reference": "screen",
+        "code": "19-4340 TCX"
+      },
+      {
+        "id": "pantone-08",
+        "name": "活珊瑚",
+        "hex": "#ff6f61",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Living Coral"
+        ],
+        "reference": "screen",
+        "code": "16-1546 TCX"
+      },
+      {
+        "id": "pantone-09",
+        "name": "落日珊瑚",
+        "hex": "#F28C79",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Sunset Coral"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-10",
+        "name": "白兰地蜜瓜",
+        "hex": "#ce7b5b",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Brandied Melon"
+        ],
+        "reference": "screen",
+        "code": "16-1340 TCX"
+      },
+      {
+        "id": "pantone-11",
+        "name": "沙漠之日",
+        "hex": "#c87629",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Desert Sun"
+        ],
+        "reference": "screen",
+        "code": "16-1149 TCX"
+      },
+      {
+        "id": "pantone-12",
+        "name": "辣椒油红",
+        "hex": "#8e3c36",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Chili Oil"
+        ],
+        "reference": "screen",
+        "code": "18-1440 TCX"
+      },
+      {
+        "id": "pantone-13",
+        "name": "柑橘橙",
+        "hex": "#f88f58",
+        "group": "珊瑚与暖橙",
+        "aliases": [
+          "Tangerine"
+        ],
+        "reference": "screen",
+        "code": "15-1247 TCX"
+      },
+      {
+        "id": "pantone-14",
+        "name": "摩卡慕斯",
+        "hex": "#a47864",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Mocha Mousse"
+        ],
+        "reference": "screen",
+        "code": "17-1230 TCX"
+      },
+      {
+        "id": "pantone-15",
+        "name": "朗姆葡萄干",
+        "hex": "#583432",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Rum Raisin"
+        ],
+        "reference": "screen",
+        "code": "19-1321 TCX"
+      },
+      {
+        "id": "pantone-16",
+        "name": "热巧克力",
+        "hex": "#683b39",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Hot Chocolate"
+        ],
+        "reference": "screen",
+        "code": "19-1325 TCX"
+      },
+      {
+        "id": "pantone-17",
+        "name": "古铜棕",
+        "hex": "#825e2f",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Bronze Brown"
+        ],
+        "reference": "screen",
+        "code": "18-0937 TCX"
+      },
+      {
+        "id": "pantone-18",
+        "name": "法式烘焙",
+        "hex": "#58423f",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "French Roast"
+        ],
+        "reference": "screen",
+        "code": "19-1012 TCX"
+      },
+      {
+        "id": "pantone-19",
+        "name": "巧克力马天尼",
+        "hex": "#56453D",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Chocolate Martini"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-20",
+        "name": "焦糖",
+        "hex": "#c37c54",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Caramel"
+        ],
+        "reference": "screen",
+        "code": "16-1439 TCX"
+      },
+      {
+        "id": "pantone-21",
+        "name": "咖啡石英",
+        "hex": "#8A6F62",
+        "group": "摩卡与大地色",
+        "aliases": [
+          "Coffee Quartz"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-22",
+        "name": "柠檬草绿",
+        "hex": "#dcd494",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Lemon Grass"
+        ],
+        "reference": "screen",
+        "code": "12-0626 TCX"
+      },
+      {
+        "id": "pantone-23",
+        "name": "咸柠绿",
+        "hex": "#B7C878",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Salted Lime"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-24",
+        "name": "番红花紫",
+        "hex": "#c67fae",
+        "group": "花卉与紫色",
+        "aliases": [
+          "Crocus",
+          "番红花绿"
+        ],
+        "reference": "screen",
+        "code": "16-3115 TCX"
+      },
+      {
+        "id": "pantone-25",
+        "name": "克什米尔绿",
+        "hex": "#6f8d6a",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Kashmir"
+        ],
+        "reference": "screen",
+        "code": "17-6319 TCX"
+      },
+      {
+        "id": "pantone-26",
+        "name": "莳萝绿",
+        "hex": "#91A765",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Green Aneth"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-27",
+        "name": "抹茶绿",
+        "hex": "#A5B58A",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Matcha"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-28",
+        "name": "开心果绿",
+        "hex": "#B5C99A",
+        "group": "草绿与生机色调",
+        "aliases": [
+          "Pistachio"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-29",
+        "name": "西洋李子紫",
+        "hex": "#854c65",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Damson"
+        ],
+        "reference": "screen",
+        "code": "18-1716 TCX"
+      },
+      {
+        "id": "pantone-30",
+        "name": "冬莓红",
+        "hex": "#BE394F",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Winterberry"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-31",
+        "name": "葡萄酒紫红",
+        "hex": "#5b3644",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Mauve Wine"
+        ],
+        "reference": "screen",
+        "code": "19-1716 TCX"
+      },
+      {
+        "id": "pantone-32",
+        "name": "无花果紫",
+        "hex": "#532d3b",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Fig"
+        ],
+        "reference": "screen",
+        "code": "19-1718 TCX"
+      },
+      {
+        "id": "pantone-33",
+        "name": "报春花粉",
+        "hex": "#eed4d9",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Primrose Pink"
+        ],
+        "reference": "screen",
+        "code": "12-2904 TCX"
+      },
+      {
+        "id": "pantone-34",
+        "name": "薰衣草蓝",
+        "hex": "#c5c0d0",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Lavender Blue"
+        ],
+        "reference": "screen",
+        "code": "14-3905 TCX"
+      },
+      {
+        "id": "pantone-35",
+        "name": "卡特兰紫",
+        "hex": "#C96BC2",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Cattleya Orchid"
+        ],
+        "reference": "curated"
+      },
+      {
+        "id": "pantone-36",
+        "name": "歌剧紫红",
+        "hex": "#ca80b1",
+        "group": "浆果与花卉",
+        "aliases": [
+          "Opera Mauve"
+        ],
+        "reference": "screen",
+        "code": "16-3116 TCX"
+      },
+      {
+        "id": "pantone-37",
+        "name": "古典白",
+        "hex": "#ede3d2",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Antique White"
+        ],
+        "reference": "screen",
+        "code": "11-0105 TCX"
+      },
+      {
+        "id": "pantone-38",
+        "name": "月光灰",
+        "hex": "#cdc6bd",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Moonbeam"
+        ],
+        "reference": "screen",
+        "code": "13-0000 TCX"
+      },
+      {
+        "id": "pantone-39",
+        "name": "蒸汽蓝",
+        "hex": "#bebdbd",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Vapor Blue"
+        ],
+        "reference": "screen",
+        "code": "14-4203 TCX"
+      },
+      {
+        "id": "pantone-40",
+        "name": "亮白",
+        "hex": "#f4f5f0",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Bright White"
+        ],
+        "reference": "screen",
+        "code": "11-0601 TCX"
+      },
+      {
+        "id": "pantone-41",
+        "name": "深鸥灰",
+        "hex": "#625d5d",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Dark Gull Gray"
+        ],
+        "reference": "screen",
+        "code": "18-0403 TCX"
+      },
+      {
+        "id": "pantone-42",
+        "name": "云絮白",
+        "hex": "#F1F0EB",
+        "group": "中性色与灰调",
+        "aliases": [
+          "Wispy Clouds"
+        ],
+        "reference": "curated"
+      }
+    ]
+  },
+  {
+    "id": "ral",
+    "name": "RAL 工业色",
+    "description": "按工业色号选色，屏幕颜色仅供参考。",
+    "colors": [
+      {
+        "id": "ral-1000",
+        "name": "米绿色",
+        "hex": "#CDBA88",
+        "group": "黄色系",
+        "code": "RAL 1000",
+        "aliases": [
+          "Green Beige"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1001",
+        "name": "米灰黄",
+        "hex": "#D0B084",
+        "group": "黄色系",
+        "code": "RAL 1001",
+        "aliases": [
+          "Beige"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1002",
+        "name": "沙黄色",
+        "hex": "#D2AA6D",
+        "group": "黄色系",
+        "code": "RAL 1002",
+        "aliases": [
+          "Sand Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1003",
+        "name": "信号黄",
+        "hex": "#F9A800",
+        "group": "黄色系",
+        "code": "RAL 1003",
+        "aliases": [
+          "Signal Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1004",
+        "name": "金黄色",
+        "hex": "#E49E00",
+        "group": "黄色系",
+        "code": "RAL 1004",
+        "aliases": [
+          "Golden Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1005",
+        "name": "蜜黄色",
+        "hex": "#CB8E00",
+        "group": "黄色系",
+        "code": "RAL 1005",
+        "aliases": [
+          "Honey Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1006",
+        "name": "玉米黄",
+        "hex": "#E29000",
+        "group": "黄色系",
+        "code": "RAL 1006",
+        "aliases": [
+          "Maize Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1007",
+        "name": "灰黄色",
+        "hex": "#E88C00",
+        "group": "黄色系",
+        "code": "RAL 1007",
+        "aliases": [
+          "Daffodil Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1011",
+        "name": "米褐色",
+        "hex": "#AF804F",
+        "group": "黄色系",
+        "code": "RAL 1011",
+        "aliases": [
+          "Brown Beige"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1012",
+        "name": "柠檬黄",
+        "hex": "#DDAF27",
+        "group": "黄色系",
+        "code": "RAL 1012",
+        "aliases": [
+          "Lemon Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1013",
+        "name": "浅灰",
+        "hex": "#E3D9C6",
+        "group": "黄色系",
+        "code": "RAL 1013",
+        "aliases": [
+          "Oyster White"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1014",
+        "name": "象牙色",
+        "hex": "#DDC49A",
+        "group": "黄色系",
+        "code": "RAL 1014",
+        "aliases": [
+          "Ivory"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1015",
+        "name": "亮象牙",
+        "hex": "#E6D2B5",
+        "group": "黄色系",
+        "code": "RAL 1015",
+        "aliases": [
+          "Light Ivory"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1016",
+        "name": "硫磺色",
+        "hex": "#F1DD38",
+        "group": "黄色系",
+        "code": "RAL 1016",
+        "aliases": [
+          "Sulfur Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1017",
+        "name": "深黄色",
+        "hex": "#F6A950",
+        "group": "黄色系",
+        "code": "RAL 1017",
+        "aliases": [
+          "Saffron Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1018",
+        "name": "绿黄色",
+        "hex": "#FACA30",
+        "group": "黄色系",
+        "code": "RAL 1018",
+        "aliases": [
+          "Zinc Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1019",
+        "name": "米灰色",
+        "hex": "#A48F7A",
+        "group": "黄色系",
+        "code": "RAL 1019",
+        "aliases": [
+          "Grey Beige"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1020",
+        "name": "橄榄黄",
+        "hex": "#A08F65",
+        "group": "黄色系",
+        "code": "RAL 1020",
+        "aliases": [
+          "Olive Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1021",
+        "name": "油菜黄",
+        "hex": "#F6B600",
+        "group": "黄色系",
+        "code": "RAL 1021",
+        "aliases": [
+          "Rape Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1023",
+        "name": "交通黄",
+        "hex": "#F7B500",
+        "group": "黄色系",
+        "code": "RAL 1023",
+        "aliases": [
+          "Traffic Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1024",
+        "name": "赭黄色",
+        "hex": "#BA8F4C",
+        "group": "黄色系",
+        "code": "RAL 1024",
+        "aliases": [
+          "Ochre Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1027",
+        "name": "咖喱色",
+        "hex": "#A77F0E",
+        "group": "黄色系",
+        "code": "RAL 1027",
+        "aliases": [
+          "Curry"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1028",
+        "name": "浅橙黄",
+        "hex": "#FF9B00",
+        "group": "黄色系",
+        "code": "RAL 1028",
+        "aliases": [
+          "Melon Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1032",
+        "name": "金雀花黄",
+        "hex": "#E2A300",
+        "group": "黄色系",
+        "code": "RAL 1032",
+        "aliases": [
+          "Broom Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1033",
+        "name": "大丽花黄",
+        "hex": "#F99A1C",
+        "group": "黄色系",
+        "code": "RAL 1033",
+        "aliases": [
+          "Dahlia Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-1034",
+        "name": "粉黄色",
+        "hex": "#EB9C52",
+        "group": "黄色系",
+        "code": "RAL 1034",
+        "aliases": [
+          "Pastel Yellow"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2000",
+        "name": "黄橙色",
+        "hex": "#DD7907",
+        "group": "橙色系",
+        "code": "RAL 2000",
+        "aliases": [
+          "Yellow Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2001",
+        "name": "橘红",
+        "hex": "#BE4E20",
+        "group": "橙色系",
+        "code": "RAL 2001",
+        "aliases": [
+          "Red Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2002",
+        "name": "朱红",
+        "hex": "#C63927",
+        "group": "橙色系",
+        "code": "RAL 2002",
+        "aliases": [
+          "Vermilion"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2003",
+        "name": "淡橙",
+        "hex": "#FA842B",
+        "group": "橙色系",
+        "code": "RAL 2003",
+        "aliases": [
+          "Pastel Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2004",
+        "name": "纯橙",
+        "hex": "#E75B12",
+        "group": "橙色系",
+        "code": "RAL 2004",
+        "aliases": [
+          "Pure Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2008",
+        "name": "浅红橙",
+        "hex": "#F3752C",
+        "group": "橙色系",
+        "code": "RAL 2008",
+        "aliases": [
+          "Bright Red Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2009",
+        "name": "交通橙",
+        "hex": "#E15501",
+        "group": "橙色系",
+        "code": "RAL 2009",
+        "aliases": [
+          "Traffic Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2010",
+        "name": "信号橙",
+        "hex": "#D4652F",
+        "group": "橙色系",
+        "code": "RAL 2010",
+        "aliases": [
+          "Signal Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2011",
+        "name": "深橙色",
+        "hex": "#EC7C25",
+        "group": "橙色系",
+        "code": "RAL 2011",
+        "aliases": [
+          "Deep Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-2012",
+        "name": "鲑鱼橙",
+        "hex": "#DB6A50",
+        "group": "橙色系",
+        "code": "RAL 2012",
+        "aliases": [
+          "Salmon Orange"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3000",
+        "name": "火焰红",
+        "hex": "#AB2524",
+        "group": "红色系",
+        "code": "RAL 3000",
+        "aliases": [
+          "Flame Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3001",
+        "name": "信号红",
+        "hex": "#A02128",
+        "group": "红色系",
+        "code": "RAL 3001",
+        "aliases": [
+          "Signal Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3002",
+        "name": "胭脂红",
+        "hex": "#A1232B",
+        "group": "红色系",
+        "code": "RAL 3002",
+        "aliases": [
+          "Carmine Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3003",
+        "name": "宝石红",
+        "hex": "#8D1D2C",
+        "group": "红色系",
+        "code": "RAL 3003",
+        "aliases": [
+          "Ruby Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3004",
+        "name": "紫红色",
+        "hex": "#701F29",
+        "group": "红色系",
+        "code": "RAL 3004",
+        "aliases": [
+          "Purple Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3005",
+        "name": "葡萄酒红",
+        "hex": "#5E2028",
+        "group": "红色系",
+        "code": "RAL 3005",
+        "aliases": [
+          "Wine Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3007",
+        "name": "黑红色",
+        "hex": "#402225",
+        "group": "红色系",
+        "code": "RAL 3007",
+        "aliases": [
+          "Black Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3009",
+        "name": "氧化红",
+        "hex": "#703731",
+        "group": "红色系",
+        "code": "RAL 3009",
+        "aliases": [
+          "Oxide Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3011",
+        "name": "红玄武土",
+        "hex": "#7E292C",
+        "group": "红色系",
+        "code": "RAL 3011",
+        "aliases": [
+          "Brown Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3012",
+        "name": "米红色",
+        "hex": "#CB8D73",
+        "group": "红色系",
+        "code": "RAL 3012",
+        "aliases": [
+          "Beige Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3013",
+        "name": "番茄红",
+        "hex": "#9C322E",
+        "group": "红色系",
+        "code": "RAL 3013",
+        "aliases": [
+          "Tomato Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3014",
+        "name": "古粉红",
+        "hex": "#D47479",
+        "group": "红色系",
+        "code": "RAL 3014",
+        "aliases": [
+          "Antique Pink"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3015",
+        "name": "淡粉红",
+        "hex": "#E1A6AD",
+        "group": "红色系",
+        "code": "RAL 3015",
+        "aliases": [
+          "Light Pink"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3016",
+        "name": "珊瑚红",
+        "hex": "#AC4034",
+        "group": "红色系",
+        "code": "RAL 3016",
+        "aliases": [
+          "Coral Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3017",
+        "name": "玫瑰色",
+        "hex": "#D3545F",
+        "group": "红色系",
+        "code": "RAL 3017",
+        "aliases": [
+          "Rose"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3018",
+        "name": "草莓红",
+        "hex": "#D14152",
+        "group": "红色系",
+        "code": "RAL 3018",
+        "aliases": [
+          "Strawberry Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3020",
+        "name": "交通红",
+        "hex": "#C1121C",
+        "group": "红色系",
+        "code": "RAL 3020",
+        "aliases": [
+          "Traffic Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3022",
+        "name": "鲑鱼粉红",
+        "hex": "#D56D56",
+        "group": "红色系",
+        "code": "RAL 3022",
+        "aliases": [
+          "Salmon Pink"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3027",
+        "name": "悬钩子红",
+        "hex": "#B42041",
+        "group": "红色系",
+        "code": "RAL 3027",
+        "aliases": [
+          "Raspberry Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-3031",
+        "name": "戈亚红",
+        "hex": "#AC323B",
+        "group": "红色系",
+        "code": "RAL 3031",
+        "aliases": [
+          "Orient Red"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4001",
+        "name": "丁香红",
+        "hex": "#8A5A83",
+        "group": "紫色/粉色系",
+        "code": "RAL 4001",
+        "aliases": [
+          "Red Lilac"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4002",
+        "name": "紫红色",
+        "hex": "#933D50",
+        "group": "紫色/粉色系",
+        "code": "RAL 4002",
+        "aliases": [
+          "Red Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4003",
+        "name": "石南紫",
+        "hex": "#D15B8F",
+        "group": "紫色/粉色系",
+        "code": "RAL 4003",
+        "aliases": [
+          "Heather Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4004",
+        "name": "酒红紫",
+        "hex": "#691639",
+        "group": "紫色/粉色系",
+        "code": "RAL 4004",
+        "aliases": [
+          "Claret Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4005",
+        "name": "丁香蓝",
+        "hex": "#83639D",
+        "group": "紫色/粉色系",
+        "code": "RAL 4005",
+        "aliases": [
+          "Blue Lilac"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4006",
+        "name": "交通紫",
+        "hex": "#992572",
+        "group": "紫色/粉色系",
+        "code": "RAL 4006",
+        "aliases": [
+          "Traffic Purple"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4007",
+        "name": "紫红蓝色",
+        "hex": "#4A203B",
+        "group": "紫色/粉色系",
+        "code": "RAL 4007",
+        "aliases": [
+          "Purple Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4008",
+        "name": "信号紫罗兰",
+        "hex": "#904684",
+        "group": "紫色/粉色系",
+        "code": "RAL 4008",
+        "aliases": [
+          "Signal Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-4009",
+        "name": "崧蓝紫色",
+        "hex": "#A38995",
+        "group": "紫色/粉色系",
+        "code": "RAL 4009",
+        "aliases": [
+          "Pastel Violet"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5000",
+        "name": "紫蓝色",
+        "hex": "#384C70",
+        "group": "蓝色系",
+        "code": "RAL 5000",
+        "aliases": [
+          "Violet Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5001",
+        "name": "蓝绿色",
+        "hex": "#1F4764",
+        "group": "蓝色系",
+        "code": "RAL 5001",
+        "aliases": [
+          "Green Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5002",
+        "name": "群青蓝",
+        "hex": "#2B2C7C",
+        "group": "蓝色系",
+        "code": "RAL 5002",
+        "aliases": [
+          "Ultramarine Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5003",
+        "name": "蓝宝石蓝",
+        "hex": "#2A3756",
+        "group": "蓝色系",
+        "code": "RAL 5003",
+        "aliases": [
+          "Sapphire Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5004",
+        "name": "蓝黑色",
+        "hex": "#1D1F2A",
+        "group": "蓝色系",
+        "code": "RAL 5004",
+        "aliases": [
+          "Black Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5005",
+        "name": "信号蓝",
+        "hex": "#154889",
+        "group": "蓝色系",
+        "code": "RAL 5005",
+        "aliases": [
+          "Signal Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5007",
+        "name": "亮蓝色",
+        "hex": "#41678D",
+        "group": "蓝色系",
+        "code": "RAL 5007",
+        "aliases": [
+          "Brilliant Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5008",
+        "name": "灰蓝色",
+        "hex": "#313C48",
+        "group": "蓝色系",
+        "code": "RAL 5008",
+        "aliases": [
+          "Grey Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5009",
+        "name": "天青蓝",
+        "hex": "#2E5978",
+        "group": "蓝色系",
+        "code": "RAL 5009",
+        "aliases": [
+          "Azure Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5010",
+        "name": "龙胆蓝",
+        "hex": "#13447C",
+        "group": "蓝色系",
+        "code": "RAL 5010",
+        "aliases": [
+          "Gentian Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5011",
+        "name": "钢蓝色",
+        "hex": "#232C3F",
+        "group": "蓝色系",
+        "code": "RAL 5011",
+        "aliases": [
+          "Steel Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5012",
+        "name": "淡蓝色",
+        "hex": "#3481B8",
+        "group": "蓝色系",
+        "code": "RAL 5012",
+        "aliases": [
+          "Light Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5013",
+        "name": "钴蓝色",
+        "hex": "#232D53",
+        "group": "蓝色系",
+        "code": "RAL 5013",
+        "aliases": [
+          "Cobalt Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5014",
+        "name": "鸽蓝色",
+        "hex": "#6C7C98",
+        "group": "蓝色系",
+        "code": "RAL 5014",
+        "aliases": [
+          "Pigeon Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5015",
+        "name": "天蓝色",
+        "hex": "#2874B2",
+        "group": "蓝色系",
+        "code": "RAL 5015",
+        "aliases": [
+          "Sky Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5017",
+        "name": "交通蓝",
+        "hex": "#0E518D",
+        "group": "蓝色系",
+        "code": "RAL 5017",
+        "aliases": [
+          "Traffic Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5018",
+        "name": "绿松石蓝",
+        "hex": "#21888F",
+        "group": "蓝色系",
+        "code": "RAL 5018",
+        "aliases": [
+          "Turquoise Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5019",
+        "name": "卡布里蓝",
+        "hex": "#1A5784",
+        "group": "蓝色系",
+        "code": "RAL 5019",
+        "aliases": [
+          "Capri Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5020",
+        "name": "海蓝色",
+        "hex": "#0B4151",
+        "group": "蓝色系",
+        "code": "RAL 5020",
+        "aliases": [
+          "Ocean Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5021",
+        "name": "不来梅蓝",
+        "hex": "#07737A",
+        "group": "蓝色系",
+        "code": "RAL 5021",
+        "aliases": [
+          "Water Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5022",
+        "name": "夜蓝色",
+        "hex": "#2F2A5A",
+        "group": "蓝色系",
+        "code": "RAL 5022",
+        "aliases": [
+          "Night Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5023",
+        "name": "冷蓝色",
+        "hex": "#4D668E",
+        "group": "蓝色系",
+        "code": "RAL 5023",
+        "aliases": [
+          "Distant Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-5024",
+        "name": "崧蓝蓝色",
+        "hex": "#6A93B0",
+        "group": "蓝色系",
+        "code": "RAL 5024",
+        "aliases": [
+          "Pastel Blue"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6000",
+        "name": "铜锈绿",
+        "hex": "#327662",
+        "group": "绿色系",
+        "code": "RAL 6000",
+        "aliases": [
+          "Patina Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6001",
+        "name": "翡翠绿",
+        "hex": "#28713E",
+        "group": "绿色系",
+        "code": "RAL 6001",
+        "aliases": [
+          "Emerald Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6002",
+        "name": "叶绿色",
+        "hex": "#276235",
+        "group": "绿色系",
+        "code": "RAL 6002",
+        "aliases": [
+          "Leaf Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6003",
+        "name": "橄榄绿",
+        "hex": "#4B573E",
+        "group": "绿色系",
+        "code": "RAL 6003",
+        "aliases": [
+          "Olive Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6004",
+        "name": "蓝绿色",
+        "hex": "#0E4243",
+        "group": "绿色系",
+        "code": "RAL 6004",
+        "aliases": [
+          "Blue Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6005",
+        "name": "苔藓绿",
+        "hex": "#0F4336",
+        "group": "绿色系",
+        "code": "RAL 6005",
+        "aliases": [
+          "Moss Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6006",
+        "name": "橄榄灰绿",
+        "hex": "#40433B",
+        "group": "绿色系",
+        "code": "RAL 6006",
+        "aliases": [
+          "Grey Olive"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6007",
+        "name": "瓶绿色",
+        "hex": "#283424",
+        "group": "绿色系",
+        "code": "RAL 6007",
+        "aliases": [
+          "Bottle Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6008",
+        "name": "褐绿色",
+        "hex": "#35382E",
+        "group": "绿色系",
+        "code": "RAL 6008",
+        "aliases": [
+          "Brown Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6009",
+        "name": "冷杉绿",
+        "hex": "#26392F",
+        "group": "绿色系",
+        "code": "RAL 6009",
+        "aliases": [
+          "Fir Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6010",
+        "name": "草绿色",
+        "hex": "#3E753B",
+        "group": "绿色系",
+        "code": "RAL 6010",
+        "aliases": [
+          "Grass Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6011",
+        "name": "淡橄榄绿",
+        "hex": "#68825B",
+        "group": "绿色系",
+        "code": "RAL 6011",
+        "aliases": [
+          "Reseda Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6012",
+        "name": "墨绿色",
+        "hex": "#31403D",
+        "group": "绿色系",
+        "code": "RAL 6012",
+        "aliases": [
+          "Black Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6013",
+        "name": "芦苇绿",
+        "hex": "#797C5A",
+        "group": "绿色系",
+        "code": "RAL 6013",
+        "aliases": [
+          "Reed Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6014",
+        "name": "橄榄黄",
+        "hex": "#444337",
+        "group": "绿色系",
+        "code": "RAL 6014",
+        "aliases": [
+          "Yellow Olive"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6015",
+        "name": "黑齐墩果色",
+        "hex": "#3D403A",
+        "group": "绿色系",
+        "code": "RAL 6015",
+        "aliases": [
+          "Black Olive"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6016",
+        "name": "绿松石绿",
+        "hex": "#026A52",
+        "group": "绿色系",
+        "code": "RAL 6016",
+        "aliases": [
+          "Turquoise Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6017",
+        "name": "五月绿",
+        "hex": "#468641",
+        "group": "绿色系",
+        "code": "RAL 6017",
+        "aliases": [
+          "May Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6018",
+        "name": "黄绿色",
+        "hex": "#48A43F",
+        "group": "绿色系",
+        "code": "RAL 6018",
+        "aliases": [
+          "Yellow Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6019",
+        "name": "崧蓝绿",
+        "hex": "#B7D9B1",
+        "group": "绿色系",
+        "code": "RAL 6019",
+        "aliases": [
+          "Pastel Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6020",
+        "name": "铬绿色",
+        "hex": "#354733",
+        "group": "绿色系",
+        "code": "RAL 6020",
+        "aliases": [
+          "Chrome Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6021",
+        "name": "浅绿色",
+        "hex": "#86A47C",
+        "group": "绿色系",
+        "code": "RAL 6021",
+        "aliases": [
+          "Pale Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6022",
+        "name": "橄榄土褐",
+        "hex": "#3E3C32",
+        "group": "绿色系",
+        "code": "RAL 6022",
+        "aliases": [
+          "Olive Drab"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6024",
+        "name": "交通绿",
+        "hex": "#008754",
+        "group": "绿色系",
+        "code": "RAL 6024",
+        "aliases": [
+          "Traffic Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6025",
+        "name": "蕨绿色",
+        "hex": "#53753C",
+        "group": "绿色系",
+        "code": "RAL 6025",
+        "aliases": [
+          "Fern Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6026",
+        "name": "蛋白石绿",
+        "hex": "#005D52",
+        "group": "绿色系",
+        "code": "RAL 6026",
+        "aliases": [
+          "Opal Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6027",
+        "name": "浅绿色",
+        "hex": "#81C0BB",
+        "group": "绿色系",
+        "code": "RAL 6027",
+        "aliases": [
+          "Light Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6028",
+        "name": "松绿色",
+        "hex": "#2D5546",
+        "group": "绿色系",
+        "code": "RAL 6028",
+        "aliases": [
+          "Pine Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6029",
+        "name": "薄荷绿",
+        "hex": "#007243",
+        "group": "绿色系",
+        "code": "RAL 6029",
+        "aliases": [
+          "Mint Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6032",
+        "name": "信号绿",
+        "hex": "#0F8558",
+        "group": "绿色系",
+        "code": "RAL 6032",
+        "aliases": [
+          "Signal Green"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6033",
+        "name": "薄荷绿蓝",
+        "hex": "#478A84",
+        "group": "绿色系",
+        "code": "RAL 6033",
+        "aliases": [
+          "Mint Turquoise"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-6034",
+        "name": "崧蓝绿松石",
+        "hex": "#7FB0B2",
+        "group": "绿色系",
+        "code": "RAL 6034",
+        "aliases": [
+          "Pastel Turquoise"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7000",
+        "name": "松鼠灰",
+        "hex": "#7E8B92",
+        "group": "灰色系",
+        "code": "RAL 7000",
+        "aliases": [
+          "Squirrel Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7001",
+        "name": "银灰色",
+        "hex": "#8F999F",
+        "group": "灰色系",
+        "code": "RAL 7001",
+        "aliases": [
+          "Silver Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7002",
+        "name": "橄榄灰",
+        "hex": "#817F68",
+        "group": "灰色系",
+        "code": "RAL 7002",
+        "aliases": [
+          "Olive Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7003",
+        "name": "苔藓灰",
+        "hex": "#7A7B6D",
+        "group": "灰色系",
+        "code": "RAL 7003",
+        "aliases": [
+          "Moss Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7004",
+        "name": "信号灰",
+        "hex": "#9EA0A1",
+        "group": "灰色系",
+        "code": "RAL 7004",
+        "aliases": [
+          "Signal Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7005",
+        "name": "鼠灰色",
+        "hex": "#6B716F",
+        "group": "灰色系",
+        "code": "RAL 7005",
+        "aliases": [
+          "Mouse Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7006",
+        "name": "米灰色",
+        "hex": "#756F61",
+        "group": "灰色系",
+        "code": "RAL 7006",
+        "aliases": [
+          "Beige Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7008",
+        "name": "土黄灰",
+        "hex": "#746643",
+        "group": "灰色系",
+        "code": "RAL 7008",
+        "aliases": [
+          "Khaki Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7009",
+        "name": "绿灰色",
+        "hex": "#5B6259",
+        "group": "灰色系",
+        "code": "RAL 7009",
+        "aliases": [
+          "Green Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7010",
+        "name": "油布灰",
+        "hex": "#575D57",
+        "group": "灰色系",
+        "code": "RAL 7010",
+        "aliases": [
+          "Tarpaulin Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7011",
+        "name": "铁灰色",
+        "hex": "#555D61",
+        "group": "灰色系",
+        "code": "RAL 7011",
+        "aliases": [
+          "Iron Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7012",
+        "name": "玄武石灰",
+        "hex": "#596163",
+        "group": "灰色系",
+        "code": "RAL 7012",
+        "aliases": [
+          "Basalt Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7013",
+        "name": "褐灰色",
+        "hex": "#555548",
+        "group": "灰色系",
+        "code": "RAL 7013",
+        "aliases": [
+          "Brown Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7015",
+        "name": "浅橄榄灰",
+        "hex": "#51565C",
+        "group": "灰色系",
+        "code": "RAL 7015",
+        "aliases": [
+          "Slate Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7016",
+        "name": "煤灰色",
+        "hex": "#373F43",
+        "group": "灰色系",
+        "code": "RAL 7016",
+        "aliases": [
+          "Anthracite Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7021",
+        "name": "黑灰色",
+        "hex": "#2E3234",
+        "group": "灰色系",
+        "code": "RAL 7021",
+        "aliases": [
+          "Black Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7022",
+        "name": "暗灰色",
+        "hex": "#4B4D46",
+        "group": "灰色系",
+        "code": "RAL 7022",
+        "aliases": [
+          "Umbra Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7023",
+        "name": "混凝土灰",
+        "hex": "#818479",
+        "group": "灰色系",
+        "code": "RAL 7023",
+        "aliases": [
+          "Concrete Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7024",
+        "name": "石墨灰",
+        "hex": "#474A50",
+        "group": "灰色系",
+        "code": "RAL 7024",
+        "aliases": [
+          "Graphite Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7026",
+        "name": "花岗灰",
+        "hex": "#374447",
+        "group": "灰色系",
+        "code": "RAL 7026",
+        "aliases": [
+          "Granite Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7030",
+        "name": "石灰色",
+        "hex": "#939388",
+        "group": "灰色系",
+        "code": "RAL 7030",
+        "aliases": [
+          "Stone Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7031",
+        "name": "蓝灰色",
+        "hex": "#5D6970",
+        "group": "灰色系",
+        "code": "RAL 7031",
+        "aliases": [
+          "Blue Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7032",
+        "name": "卵石灰",
+        "hex": "#B9B9A8",
+        "group": "灰色系",
+        "code": "RAL 7032",
+        "aliases": [
+          "Pebble Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7033",
+        "name": "水泥灰",
+        "hex": "#818979",
+        "group": "灰色系",
+        "code": "RAL 7033",
+        "aliases": [
+          "Cement Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7034",
+        "name": "黄灰色",
+        "hex": "#939176",
+        "group": "灰色系",
+        "code": "RAL 7034",
+        "aliases": [
+          "Yellow Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7035",
+        "name": "浅灰色",
+        "hex": "#CBD0CC",
+        "group": "灰色系",
+        "code": "RAL 7035",
+        "aliases": [
+          "Light Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7036",
+        "name": "铂灰色",
+        "hex": "#9A9697",
+        "group": "灰色系",
+        "code": "RAL 7036",
+        "aliases": [
+          "Platinum Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7037",
+        "name": "土灰色",
+        "hex": "#7C7F7E",
+        "group": "灰色系",
+        "code": "RAL 7037",
+        "aliases": [
+          "Dusty Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7038",
+        "name": "玛瑙灰",
+        "hex": "#B4B8B0",
+        "group": "灰色系",
+        "code": "RAL 7038",
+        "aliases": [
+          "Agate Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7039",
+        "name": "石英灰",
+        "hex": "#6B695F",
+        "group": "灰色系",
+        "code": "RAL 7039",
+        "aliases": [
+          "Quartz Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7040",
+        "name": "窗灰色",
+        "hex": "#9DA3A6",
+        "group": "灰色系",
+        "code": "RAL 7040",
+        "aliases": [
+          "Window Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7042",
+        "name": "交通灰 A",
+        "hex": "#8F9695",
+        "group": "灰色系",
+        "code": "RAL 7042",
+        "aliases": [
+          "Traffic Grey A"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7043",
+        "name": "交通灰 B",
+        "hex": "#4E5451",
+        "group": "灰色系",
+        "code": "RAL 7043",
+        "aliases": [
+          "Traffic Grey B"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-7044",
+        "name": "深铭灰色",
+        "hex": "#BDBDB2",
+        "group": "灰色系",
+        "code": "RAL 7044",
+        "aliases": [
+          "Silk Grey"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8000",
+        "name": "绿褐色",
+        "hex": "#887142",
+        "group": "棕色系",
+        "code": "RAL 8000",
+        "aliases": [
+          "Green Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8001",
+        "name": "赭石棕",
+        "hex": "#9C6B30",
+        "group": "棕色系",
+        "code": "RAL 8001",
+        "aliases": [
+          "Ochre Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8002",
+        "name": "信号褐",
+        "hex": "#7B5141",
+        "group": "棕色系",
+        "code": "RAL 8002",
+        "aliases": [
+          "Signal Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8003",
+        "name": "土棕褐",
+        "hex": "#80542F",
+        "group": "棕色系",
+        "code": "RAL 8003",
+        "aliases": [
+          "Clay Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8004",
+        "name": "铜棕色",
+        "hex": "#8F4E35",
+        "group": "棕色系",
+        "code": "RAL 8004",
+        "aliases": [
+          "Copper Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8007",
+        "name": "鹿褐色",
+        "hex": "#6F4A2F",
+        "group": "棕色系",
+        "code": "RAL 8007",
+        "aliases": [
+          "Fawn Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8008",
+        "name": "橄榄棕",
+        "hex": "#6F4F28",
+        "group": "棕色系",
+        "code": "RAL 8008",
+        "aliases": [
+          "Olive Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8011",
+        "name": "深棕色",
+        "hex": "#5A3A29",
+        "group": "棕色系",
+        "code": "RAL 8011",
+        "aliases": [
+          "Nut Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8012",
+        "name": "红褐色",
+        "hex": "#673831",
+        "group": "棕色系",
+        "code": "RAL 8012",
+        "aliases": [
+          "Red Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8014",
+        "name": "乌贼棕",
+        "hex": "#49392D",
+        "group": "棕色系",
+        "code": "RAL 8014",
+        "aliases": [
+          "Sepia Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8015",
+        "name": "栗棕色",
+        "hex": "#633A34",
+        "group": "棕色系",
+        "code": "RAL 8015",
+        "aliases": [
+          "Chestnut Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8016",
+        "name": "桃花心木褐",
+        "hex": "#4C2F26",
+        "group": "棕色系",
+        "code": "RAL 8016",
+        "aliases": [
+          "Mahogany Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8017",
+        "name": "巧克力棕",
+        "hex": "#44322D",
+        "group": "棕色系",
+        "code": "RAL 8017",
+        "aliases": [
+          "Chocolate Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8019",
+        "name": "灰褐色",
+        "hex": "#3F3A3A",
+        "group": "棕色系",
+        "code": "RAL 8019",
+        "aliases": [
+          "Grey Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8022",
+        "name": "黑褐色",
+        "hex": "#211F20",
+        "group": "棕色系",
+        "code": "RAL 8022",
+        "aliases": [
+          "Black Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8023",
+        "name": "橘黄褐",
+        "hex": "#A65E2F",
+        "group": "棕色系",
+        "code": "RAL 8023",
+        "aliases": [
+          "Orange Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8024",
+        "name": "哔叽棕",
+        "hex": "#79553C",
+        "group": "棕色系",
+        "code": "RAL 8024",
+        "aliases": [
+          "Beige Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8025",
+        "name": "浅褐色",
+        "hex": "#755C49",
+        "group": "棕色系",
+        "code": "RAL 8025",
+        "aliases": [
+          "Pale Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-8028",
+        "name": "浅灰褐",
+        "hex": "#4E3B2B",
+        "group": "棕色系",
+        "code": "RAL 8028",
+        "aliases": [
+          "Terra Brown"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9001",
+        "name": "彩黄色",
+        "hex": "#EFEBDC",
+        "group": "黑白色系",
+        "code": "RAL 9001",
+        "aliases": [
+          "Cream"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9002",
+        "name": "灰白色",
+        "hex": "#DDDED4",
+        "group": "黑白色系",
+        "code": "RAL 9002",
+        "aliases": [
+          "Grey White"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9003",
+        "name": "信号白",
+        "hex": "#F4F8F4",
+        "group": "黑白色系",
+        "code": "RAL 9003",
+        "aliases": [
+          "Signal White"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9004",
+        "name": "信号黑",
+        "hex": "#2E3032",
+        "group": "黑白色系",
+        "code": "RAL 9004",
+        "aliases": [
+          "Signal Black"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9005",
+        "name": "墨黑色",
+        "hex": "#0A0A0D",
+        "group": "黑白色系",
+        "code": "RAL 9005",
+        "aliases": [
+          "Jet Black"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9010",
+        "name": "纯白色",
+        "hex": "#F7F9EF",
+        "group": "黑白色系",
+        "code": "RAL 9010",
+        "aliases": [
+          "Pure White"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9011",
+        "name": "石墨黑",
+        "hex": "#292C2F",
+        "group": "黑白色系",
+        "code": "RAL 9011",
+        "aliases": [
+          "Graphite Black"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9016",
+        "name": "交通白",
+        "hex": "#F7FBF5",
+        "group": "黑白色系",
+        "code": "RAL 9016",
+        "aliases": [
+          "Traffic White"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9017",
+        "name": "交通黑",
+        "hex": "#2A2D2F",
+        "group": "黑白色系",
+        "code": "RAL 9017",
+        "aliases": [
+          "Traffic Black"
+        ],
+        "reference": "screen"
+      },
+      {
+        "id": "ral-9018",
+        "name": "草纸白",
+        "hex": "#CFD3CD",
+        "group": "黑白色系",
+        "code": "RAL 9018",
+        "aliases": [
+          "Papyrus White"
+        ],
+        "reference": "screen"
+      }
+    ]
+  }
+]

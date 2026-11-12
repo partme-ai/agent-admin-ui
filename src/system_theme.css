@@ -1,0 +1,26 @@
+/* 只覆盖控制台主题角色；机器人 Canvas / SVG 的资源颜色保持独立。 */
+:root[data-system-theme] .buddy-shell .topbar{background:var(--topbar-surface,var(--bg))}
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .account .account-avatar{background:var(--soft);color:var(--accent);border-color:var(--line)}
+
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .brand-mark{color:var(--primary-text)}
+/* 主题中心窄屏标题与导出入口同排，设置标签横向浏览，保留触控高度。 */
+.buddy-shell.device-mobile .theme-center .page-header{flex-wrap:nowrap;align-items:baseline}
+.buddy-shell.device-mobile .theme-center .page-actions{width:auto;flex-wrap:nowrap}
+.buddy-shell .theme-center .settings-tabs{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;padding-bottom:3px}
+.buddy-shell .theme-center .settings-tabs>.ant-btn{flex:none}
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .sidebar .brand>strong,
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .sidebar .account,
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .sidebar .account strong,
+:root[data-system-theme]:not([data-system-theme=default]) .buddy-shell .sidebar .sidebar-toggle{color:var(--sidebar-ink)}
+/* 可选高级外观只作用于控制台组件，不重着色机器人SVG/Canvas。 */
+:root[data-theme-customized] .buddy-shell .ant-card{border-radius:var(--console-card-radius);border-width:var(--console-line-width);border-style:var(--console-line-style)}
+:root[data-theme-customized] .buddy-shell .page-header h1,:root[data-theme-customized] .buddy-shell .ant-card h3{color:var(--heading)}
+:root[data-theme-shadow] .buddy-shell .ant-card{box-shadow:var(--console-card-shadow)}
+:root[data-theme-density] .buddy-shell .ant-card .ant-card-body{padding:var(--console-card-padding)}
+:root[data-theme-density] .buddy-shell .ant-table-cell{padding-block:var(--console-table-padding)}
+:root[data-theme-typography] .buddy-shell .page-content{font-size:var(--console-font-size);line-height:var(--console-line-height)}
+:root[data-theme-typography] .buddy-shell .page-header h1{font-size:calc(var(--console-font-size)*1.7)}
+:root[data-theme-typography] .buddy-shell .page-content p,:root[data-theme-typography] .buddy-shell .ant-form-item-label>label{font-size:calc(var(--console-font-size) - 1px);line-height:var(--console-line-height)}
+
+
+body code,body pre,body .code-font{font-family:var(--console-code-font-family,"JetBrains Mono",monospace)}

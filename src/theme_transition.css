@@ -1,0 +1,23 @@
+/* 完整新页面从左上角揭开；旧页面保持原样，不绘制光带或透明遮罩。 */
+:root[data-theme-transition=page] *,
+:root[data-theme-transition=page] *::before,
+:root[data-theme-transition=page] *::after{transition:none!important}
+:root[data-theme-transition=page]::view-transition{pointer-events:none}
+:root[data-theme-transition=page]::view-transition-group(root){animation:none}
+:root[data-theme-transition=page]::view-transition-image-pair(root){isolation:auto}
+:root[data-theme-transition=page]::view-transition-old(root),
+:root[data-theme-transition=page]::view-transition-new(root){opacity:1;mix-blend-mode:normal;display:block}
+:root[data-theme-transition=page]::view-transition-old(root){animation:none;z-index:1}
+:root[data-theme-transition=page]::view-transition-new(root){
+ z-index:2;animation:tinybot-theme-page-reveal 1100ms cubic-bezier(.4,0,.2,1) both;
+}
+/* circle百分比以视口对角线/√2计算；141.5%刚好越过最远角，避免提前铺满。 */
+@keyframes tinybot-theme-page-reveal{
+ from{clip-path:circle(0% at 0 0)}
+ to{clip-path:circle(141.5% at 0 0)}
+}
+@media(prefers-reduced-motion:reduce){
+ :root[data-theme-transition=page]::view-transition-group(root),
+ :root[data-theme-transition=page]::view-transition-old(root),
+ :root[data-theme-transition=page]::view-transition-new(root){animation:none!important}
+}

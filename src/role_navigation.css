@@ -1,0 +1,40 @@
+/* Menu 的颜色、尺寸、选中态和动效由组件 Token 管理，这里仅保留外壳排版。 */
+/* 实际滚动与覆盖滑块分离，避免系统滚动槽挤占菜单宽度。 */
+.shell-navigation{position:relative;flex:1;min-height:0;overflow:hidden}
+/* 展开菜单的背景边缘与 Logo 的 16px 左侧留白对齐。 */
+.buddy-shell.device-desktop:not(.shell-sidebar-collapsed) .shell-navigation{margin-inline:4px}
+.shell-menu-viewport{height:100%;min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:none;overscroll-behavior-y:contain}
+.shell-menu-viewport::-webkit-scrollbar{display:none;width:0;height:0}
+.shell-menu-viewport:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.shell-scroll-track{position:absolute;inset-block:0;right:0;width:8px;opacity:0;transition:opacity 160ms ease;touch-action:none;pointer-events:none}
+.shell-scroll-thumb{position:absolute;right:0;top:0;width:3px;border-radius:999px;background:color-mix(in srgb,var(--sidebar-ink) 40%,transparent)}
+.shell-navigation:hover>.shell-scroll-track,.shell-navigation:focus-within>.shell-scroll-track,.shell-navigation.is-scrolling>.shell-scroll-track{opacity:1;pointer-events:auto}
+.shell-navigation-drawer .shell-scroll-thumb{background:color-mix(in srgb,var(--text) 40%,transparent)}
+.shell-nav-drawer .ant-drawer-body{display:flex;flex-direction:column;overflow:hidden}
+@media(prefers-reduced-motion:reduce){.shell-scroll-track{transition:none}}
+.shell-menu.ant-menu{border-inline-end:0!important;min-width:0}
+/* 导航用于点击选择，避免拖动或连续点击时把多项文字选成蓝色。 */
+:is(.shell-menu,.shell-menu-popup){-webkit-user-select:none;user-select:none}
+.shell-menu .ant-menu-item-group-title{padding:14px 8px 6px;font-weight:500;letter-spacing:.5px}
+.shell-menu>.ant-menu-item-group:first-child>.ant-menu-item-group-title{padding-top:0}
+.shell-menu-label{display:flex;flex:1;align-items:center;gap:8px;min-width:0}
+.shell-menu-label>span{flex:1;min-width:0}
+.shell-menu-count{font-size:9px;font-weight:550;min-width:16px;text-align:center;opacity:.8}
+/* 子项类随 Menu items 进入 Portal，展开/折叠弹层/触控抽屉共用同一排版。 */
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry.ant-menu-item,
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry>.ant-menu-submenu-title{display:flex;align-items:center;font-size:inherit}
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry.ant-menu-item>.ant-menu-item-icon,
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry>.ant-menu-submenu-title>.ant-menu-item-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 15px;width:15px;min-width:15px;height:15px;font-size:15px;color:inherit}
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry.ant-menu-item>.ant-menu-title-content,
+:is(.shell-menu,.shell-menu-popup) .shell-submenu-entry>.ant-menu-submenu-title>.ant-menu-title-content{display:flex;align-items:center;min-width:0;height:100%;font-size:inherit;color:inherit}
+.shell-navigation-rail{overflow-x:hidden}
+.shell-navigation-rail .shell-menu{width:40px;margin-inline:auto}
+.shell-navigation-drawer{height:100%;overflow:hidden}
+.shell-navigation-drawer .shell-menu .ant-menu-item-group-title{padding-top:16px}
+.account-menu-identity{display:flex;gap:9px;align-items:center;padding:5px 2px;min-width:160px}.account-menu-identity strong{display:block;font-size:12px}.account-menu-identity small{display:block;color:var(--muted);font-size:10px;margin-top:2px}.buddy-shell .mobile-account-menu{display:grid;place-items:center;width:30px;height:32px;padding:0;border:0;border-radius:7px;background:transparent;cursor:pointer}.buddy-shell .mobile-account-menu .ant-avatar{background:var(--soft);color:var(--text);font-size:11px}
+
+/* 头像菜单的展开箭头按整行外框居中，避免受文字基线影响。 */
+.account-dropdown-menu .ant-dropdown-menu-submenu-expand-icon{top:50%;transform:translateY(-50%);display:flex;align-items:center}
+
+/* 当前值标记由受控 Menu 选中键决定；父级仅显示摘要，不重复着色。 */
+.account-dropdown-menu.ant-dropdown-menu.ant-dropdown-menu-root>.ant-dropdown-menu-submenu-selected>.ant-dropdown-menu-submenu-title{color:var(--text)}

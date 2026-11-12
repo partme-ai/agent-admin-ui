@@ -1,0 +1,84 @@
+{
+  "skill_reference": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/dreamina-skills/skills/dreamina-prompt-text2image/references",
+  "skill_sha256": {
+    "gugong-384-colors.md": "cb17109eddcba2723fef3a28da368800cf408f1d548ba5f6a93cb080b0b4843f",
+    "color-library/chinese-traditional.md": "db77f47454b3ec05ca62ee83582ee339305d23248f51722161d49838aebf958d"
+  },
+  "supplement_url": "https://raw.githubusercontent.com/zhiming-chen/chinacolor/c64b9ed6c38375c75943baf414784b6b1b98bb50/inst/extdata/chinacolor.json",
+  "supplement_commit": "c64b9ed6c38375c75943baf414784b6b1b98bb50",
+  "supplement_sha256": "65da763398d41e934b96b95bb4d3fc3d9b6130b181e11233a1d2235705ced6d5",
+  "rule": "Retain skill names and its 20 explicit HEX values; fill other slots from the matching ordered 384-color dataset. No computed approximations.",
+  "name_differences": [
+    {
+      "slot": 44,
+      "skill_name": "枳黄",
+      "dataset_name": "柘黄"
+    },
+    {
+      "slot": 293,
+      "skill_name": "葱犗",
+      "dataset_name": "繱犗"
+    }
+  ],
+  "hex_overrides": [
+    {
+      "name": "桃夭",
+      "skill_hex": "#F6B0B8",
+      "dataset_hex": "#F6BEC8"
+    },
+    {
+      "name": "朱颜酡",
+      "skill_hex": "#F29B76",
+      "dataset_hex": "#F29A76"
+    },
+    {
+      "name": "石榴裙",
+      "skill_hex": "#E6394A",
+      "dataset_hex": "#B13B2E"
+    },
+    {
+      "name": "天水碧",
+      "skill_hex": "#8FCEC4",
+      "dataset_hex": "#5AA4AE"
+    },
+    {
+      "name": "千山翠",
+      "skill_hex": "#6B8E6E",
+      "dataset_hex": "#6B7D73"
+    },
+    {
+      "name": "藕丝秋半",
+      "skill_hex": "#C9BEB1",
+      "dataset_hex": "#D3CBC5"
+    },
+    {
+      "name": "东方既白",
+      "skill_hex": "#8AA4C5",
+      "dataset_hex": "#8BA3C7"
+    },
+    {
+      "name": "月白",
+      "skill_hex": "#D6ECF0",
+      "dataset_hex": "#D4E5EF"
+    },
+    {
+      "name": "美人祭",
+      "skill_hex": "#B33B40",
+      "dataset_hex": "#C35C6A"
+    },
+    {
+      "name": "暮山紫",
+      "skill_hex": "#67547E",
+      "dataset_hex": "#A4ABD6"
+    },
+    {
+      "name": "霁红",
+      "skill_hex": "#C63D3B",
+      "dataset_hex": "#7C4449"
+    }
+  ],
+  "counts": {
+    "gugong": 384,
+    "traditional": 158
+  }
+}

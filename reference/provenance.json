@@ -1,0 +1,73 @@
+{
+  "source_root": "/Users/wandl/workspaces/workspace-agent-fabric/tinyclaw",
+  "source_commit": "27ca6d56468e82b024222e79f8c284ccf427767d",
+  "reuse": "device_presets.js copied and imported; comparison toolbar/rulers/grid/device controls adapted from TinyClaw Compare.jsx, compare.css and compare_state.js; TinyBot business pages preserved; no ZCode/Buddy business component copying",
+  "files": [
+    {
+      "path": "ui/shared/WorkspaceApp.jsx",
+      "sha256": "68067f78e249c1f6c46a6a07890a7a05f1b63b5a483afac64d8a566c57c09c98"
+    },
+    {
+      "path": "ui/shared/ant_controls.jsx",
+      "sha256": "8f76414c2594eaff76e61beee48fe81ef1cefca2616e3f13c244be7bcf8f1f41"
+    },
+    {
+      "path": "ui/shared/reference_workspace.css",
+      "sha256": "384db948c55ce974f149ec916a2cf07da2b6d33113326a3df319315c650a27d9"
+    },
+    {
+      "path": "ui/device_presets.js",
+      "sha256": "3d3f013a3d927512c183da7eed96be621e053c9a7189f198a85e816688800ac4"
+    },
+    {
+      "path": "ui/package.json",
+      "sha256": "3b19182effae66fa231e1aba904680af48fd3ab0d9a3660b6afc6b54e0dc78fb"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "347cedf8314fd7c8f98569b0b43c9dd5b29c4c8fa12c2bcf83babb9d72203351"
+    },
+    {
+      "path": "ui/Compare.jsx",
+      "sha256": "bd1bd11e8430fed879680f7c8fc5113ebaabab0446ed560521ca06fd99e94ec9"
+    },
+    {
+      "path": "ui/compare.css",
+      "sha256": "e5c60686c77335e7aba4b04631c1754bc5c6f3cb8844329b1842c6223dd6cf46"
+    },
+    {
+      "path": "ui/compare_state.js",
+      "sha256": "18ba36faa6c7563a17d0252bf84e57e09387618c6787559f898e381d9d3b0d4b"
+    }
+  ],
+  "comparison_correction": {
+    "date": "2026-11-05",
+    "basis": "User screenshot and TinyClaw ui/Compare.jsx + compare.css",
+    "targets": [
+      "src/compare.tsx",
+      "src/compare.css",
+      "src/compare_state.ts",
+      "src/CanvasRuler.tsx"
+    ],
+    "license": "TinyClaw-LICENSE"
+  },
+  "style_correction": {
+    "date": "2026-11-05",
+    "basis": "TinyClaw neutral surfaces and ZCode palette; user requested replacement of the blue-heavy TinyBot treatment",
+    "sources": [
+      {
+        "path": "ui/shared/styles/styles.css",
+        "sha256": "c386e51204dfc0b6aaffd97169070df2005d20442018732d213a2050832b36be"
+      },
+      {
+        "path": "ui/shared/zcode/adaptation.css",
+        "sha256": "a90964c75efa10fdc6b069099d405b8dfe2bf0046e66e95acf186ffd5a7d5dbb"
+      },
+      {
+        "path": "ui/shared/WorkspaceApp.jsx",
+        "sha256": "68067f78e249c1f6c46a6a07890a7a05f1b63b5a483afac64d8a566c57c09c98"
+      }
+    ],
+    "scope": "color/font/border/icon/illustration treatment only; no upstream business component copying"
+  }
+}

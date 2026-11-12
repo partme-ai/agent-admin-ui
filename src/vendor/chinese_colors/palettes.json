@@ -1,0 +1,3266 @@
+[
+  {
+    "id": "gugong",
+    "name": "故宫中国色",
+    "colors": [
+      {
+        "id": "gugong-001",
+        "name": "黄白游",
+        "hex": "#FFF799",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-002",
+        "name": "松花",
+        "hex": "#FFEE6F",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-003",
+        "name": "缃叶",
+        "hex": "#ECD452",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-004",
+        "name": "苍黄",
+        "hex": "#B6A014",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-005",
+        "name": "天缥",
+        "hex": "#D5EBE1",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-006",
+        "name": "沧浪",
+        "hex": "#B1D5C8",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-007",
+        "name": "苍筤",
+        "hex": "#99BCAC",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-008",
+        "name": "缥碧",
+        "hex": "#80A492",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-009",
+        "name": "流黄",
+        "hex": "#8B7042",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-010",
+        "name": "栗壳",
+        "hex": "#775039",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-011",
+        "name": "龙战",
+        "hex": "#5F4321",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-012",
+        "name": "青骊",
+        "hex": "#422517",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-013",
+        "name": "海天霞",
+        "hex": "#F3A694",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-014",
+        "name": "缙云",
+        "hex": "#EE7959",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-015",
+        "name": "纁黄",
+        "hex": "#BA5140",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-016",
+        "name": "珊瑚赫",
+        "hex": "#C12C1F",
+        "group": "立春"
+      },
+      {
+        "id": "gugong-017",
+        "name": "盈盈",
+        "hex": "#F9D3E3",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-018",
+        "name": "水红",
+        "hex": "#ECB0C1",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-019",
+        "name": "苏梅",
+        "hex": "#DD7694",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-020",
+        "name": "紫茎屏风",
+        "hex": "#A76283",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-021",
+        "name": "葭灰",
+        "hex": "#BEB1AA",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-022",
+        "name": "黄埃",
+        "hex": "#B49273",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-023",
+        "name": "老僧衣",
+        "hex": "#A46244",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-024",
+        "name": "玄天",
+        "hex": "#6B5458",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-025",
+        "name": "黄河琉璃",
+        "hex": "#E5A84B",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-026",
+        "name": "库金",
+        "hex": "#E18A3B",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-027",
+        "name": "缊韨",
+        "hex": "#984F31",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-028",
+        "name": "紫瓯",
+        "hex": "#7C461E",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-029",
+        "name": "欧碧",
+        "hex": "#C0D695",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-030",
+        "name": "春辰",
+        "hex": "#A9BE7B",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-031",
+        "name": "碧山",
+        "hex": "#779649",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-032",
+        "name": "青青",
+        "hex": "#4F6F46",
+        "group": "雨水"
+      },
+      {
+        "id": "gugong-033",
+        "name": "赤缇",
+        "hex": "#BA5B49",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-034",
+        "name": "朱草",
+        "hex": "#A64036",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-035",
+        "name": "綪茷",
+        "hex": "#9E2A22",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-036",
+        "name": "顺圣",
+        "hex": "#7C191E",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-037",
+        "name": "桃夭",
+        "hex": "#F6B0B8",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-038",
+        "name": "杨妃",
+        "hex": "#F091A0",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-039",
+        "name": "长春",
+        "hex": "#DC6B82",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-040",
+        "name": "牙绯",
+        "hex": "#C35C5D",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-041",
+        "name": "黄栗留",
+        "hex": "#FEDC5E",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-042",
+        "name": "栀子",
+        "hex": "#FAC03D",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-043",
+        "name": "黄不老",
+        "hex": "#DB9B34",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-044",
+        "name": "枳黄",
+        "hex": "#C67915",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-045",
+        "name": "青鸾",
+        "hex": "#9AA7B1",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-046",
+        "name": "菘蓝",
+        "hex": "#6B798E",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-047",
+        "name": "青黛",
+        "hex": "#45465E",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-048",
+        "name": "绀蝶",
+        "hex": "#2C2F3B",
+        "group": "惊蛰"
+      },
+      {
+        "id": "gugong-049",
+        "name": "皦玉",
+        "hex": "#EBEEE8",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-050",
+        "name": "吉量",
+        "hex": "#EBEDDF",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-051",
+        "name": "韶粉",
+        "hex": "#E0E0D0",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-052",
+        "name": "霜地",
+        "hex": "#C7C6B6",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-053",
+        "name": "夏籥",
+        "hex": "#D2AF9D",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-054",
+        "name": "紫磨金",
+        "hex": "#BC836B",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-055",
+        "name": "檀色",
+        "hex": "#B26D5D",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-056",
+        "name": "赭罗",
+        "hex": "#9A6655",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-057",
+        "name": "黄丹",
+        "hex": "#EA5514",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-058",
+        "name": "洛神珠",
+        "hex": "#D23918",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-059",
+        "name": "丹雘",
+        "hex": "#C8161D",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-060",
+        "name": "水华朱",
+        "hex": "#A72126",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-061",
+        "name": "青冥",
+        "hex": "#3271AE",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-062",
+        "name": "青雘",
+        "hex": "#007175",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-063",
+        "name": "青緺",
+        "hex": "#284852",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-064",
+        "name": "骐驎",
+        "hex": "#12264F",
+        "group": "春分"
+      },
+      {
+        "id": "gugong-065",
+        "name": "紫蒲",
+        "hex": "#A6559D",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-066",
+        "name": "赪紫",
+        "hex": "#8A1874",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-067",
+        "name": "齐紫",
+        "hex": "#6C216D",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-068",
+        "name": "凝夜紫",
+        "hex": "#422256",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-069",
+        "name": "冻缥",
+        "hex": "#BEC2B3",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-070",
+        "name": "春碧",
+        "hex": "#9D9D82",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-071",
+        "name": "执大象",
+        "hex": "#919177",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-072",
+        "name": "苔古",
+        "hex": "#79836C",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-073",
+        "name": "香炉紫烟",
+        "hex": "#D3CCD6",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-074",
+        "name": "紫菂",
+        "hex": "#9B8EA9",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-075",
+        "name": "拂紫绵",
+        "hex": "#7E527F",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-076",
+        "name": "三公子",
+        "hex": "#663D74",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-077",
+        "name": "琅玕紫",
+        "hex": "#CB5C83",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-078",
+        "name": "红踯躅",
+        "hex": "#B83570",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-079",
+        "name": "魏红",
+        "hex": "#A73766",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-080",
+        "name": "魏紫",
+        "hex": "#903754",
+        "group": "清明"
+      },
+      {
+        "id": "gugong-081",
+        "name": "昌荣",
+        "hex": "#DCC7E1",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-082",
+        "name": "紫薄汗",
+        "hex": "#BBA1CB",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-083",
+        "name": "茈藐",
+        "hex": "#A67EB7",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-084",
+        "name": "紫紶",
+        "hex": "#7D5284",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-085",
+        "name": "苍葭",
+        "hex": "#A8BF8F",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-086",
+        "name": "庭芜绿",
+        "hex": "#68945C",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-087",
+        "name": "翠微",
+        "hex": "#4C8045",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-088",
+        "name": "翠虬",
+        "hex": "#446A37",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-089",
+        "name": "碧落",
+        "hex": "#AED0EE",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-090",
+        "name": "挼蓝",
+        "hex": "#6E9BC5",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-091",
+        "name": "青雀头黛",
+        "hex": "#354E6B",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-092",
+        "name": "螺子黛",
+        "hex": "#13393E",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-093",
+        "name": "露褐",
+        "hex": "#BD8253",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-094",
+        "name": "檀褐",
+        "hex": "#945635",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-095",
+        "name": "緅絺",
+        "hex": "#804C2E",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-096",
+        "name": "目童子",
+        "hex": "#5B3222",
+        "group": "谷雨"
+      },
+      {
+        "id": "gugong-097",
+        "name": "青粲",
+        "hex": "#C3D94E",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-098",
+        "name": "翠缥",
+        "hex": "#B7D332",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-099",
+        "name": "人籁",
+        "hex": "#9EBC19",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-100",
+        "name": "水龙吟",
+        "hex": "#84A729",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-101",
+        "name": "地籁",
+        "hex": "#DFCEB4",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-102",
+        "name": "大块",
+        "hex": "#BFA782",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-103",
+        "name": "养生主",
+        "hex": "#B49B7F",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-104",
+        "name": "大云",
+        "hex": "#94784F",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-105",
+        "name": "溶溶月",
+        "hex": "#BEC2BC",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-106",
+        "name": "绍衣",
+        "hex": "#A8A19C",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-107",
+        "name": "石莲褐",
+        "hex": "#92897B",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-108",
+        "name": "黑朱",
+        "hex": "#70695D",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-109",
+        "name": "朱颜酡",
+        "hex": "#F29B76",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-110",
+        "name": "苕荣",
+        "hex": "#ED6D3D",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-111",
+        "name": "檎丹",
+        "hex": "#E94829",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-112",
+        "name": "丹罽",
+        "hex": "#E60012",
+        "group": "立夏"
+      },
+      {
+        "id": "gugong-113",
+        "name": "彤管",
+        "hex": "#E2A2AC",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-114",
+        "name": "渥赭",
+        "hex": "#DD6B7B",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-115",
+        "name": "唇脂",
+        "hex": "#C25160",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-116",
+        "name": "朱孔阳",
+        "hex": "#B81A35",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-117",
+        "name": "石发",
+        "hex": "#6A8D52",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-118",
+        "name": "漆姑",
+        "hex": "#5D8351",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-119",
+        "name": "芰荷",
+        "hex": "#4F794A",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-120",
+        "name": "官绿",
+        "hex": "#2A6E3F",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-121",
+        "name": "仙米",
+        "hex": "#D4C9AA",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-122",
+        "name": "黄螺",
+        "hex": "#B4A379",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-123",
+        "name": "降真香",
+        "hex": "#9E8358",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-124",
+        "name": "远志",
+        "hex": "#81663B",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-125",
+        "name": "嫩鹅黄",
+        "hex": "#F2C867",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-126",
+        "name": "鞠衣",
+        "hex": "#D3A237",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-127",
+        "name": "郁金裙",
+        "hex": "#D08635",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-128",
+        "name": "黄流",
+        "hex": "#9F6027",
+        "group": "小满"
+      },
+      {
+        "id": "gugong-129",
+        "name": "筠雾",
+        "hex": "#D5D1AE",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-130",
+        "name": "瓷秘",
+        "hex": "#BFC096",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-131",
+        "name": "琬琰",
+        "hex": "#A9A886",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-132",
+        "name": "青圭",
+        "hex": "#92905D",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-133",
+        "name": "鸣珂",
+        "hex": "#B3B59C",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-134",
+        "name": "青玉案",
+        "hex": "#A8B092",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-135",
+        "name": "出岫",
+        "hex": "#A9A773",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-136",
+        "name": "风入松",
+        "hex": "#868C4E",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-137",
+        "name": "如梦令",
+        "hex": "#DDBB99",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-138",
+        "name": "芸黄",
+        "hex": "#D2A36C",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-139",
+        "name": "金埒",
+        "hex": "#BE9457",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-140",
+        "name": "雌黄",
+        "hex": "#B4884D",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-141",
+        "name": "曾青",
+        "hex": "#535164",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-142",
+        "name": "䒌靘",
+        "hex": "#454659",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-143",
+        "name": "璆琳",
+        "hex": "#343041",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-144",
+        "name": "瑾瑜",
+        "hex": "#1E2732",
+        "group": "芒种"
+      },
+      {
+        "id": "gugong-145",
+        "name": "赩炽",
+        "hex": "#CB523E",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-146",
+        "name": "石榴裙",
+        "hex": "#E6394A",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-147",
+        "name": "朱湛",
+        "hex": "#95302E",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-148",
+        "name": "大繎",
+        "hex": "#822327",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-149",
+        "name": "月魄",
+        "hex": "#B2B6B6",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-150",
+        "name": "不皂",
+        "hex": "#A7AAA1",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-151",
+        "name": "雷雨垂",
+        "hex": "#7A7B78",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-152",
+        "name": "石涅",
+        "hex": "#686A67",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-153",
+        "name": "扶光",
+        "hex": "#F0C2A2",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-154",
+        "name": "椒房",
+        "hex": "#DB9C5E",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-155",
+        "name": "红友",
+        "hex": "#D9883D",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-156",
+        "name": "光明砂",
+        "hex": "#CC5D20",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-157",
+        "name": "山矾",
+        "hex": "#F5F3F2",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-158",
+        "name": "玉頩",
+        "hex": "#EAE5E3",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-159",
+        "name": "二目鱼",
+        "hex": "#DFE0D9",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-160",
+        "name": "明月珰",
+        "hex": "#D4D3CA",
+        "group": "夏至"
+      },
+      {
+        "id": "gugong-161",
+        "name": "骍刚",
+        "hex": "#F5B087",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-162",
+        "name": "赪霞",
+        "hex": "#F18F60",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-163",
+        "name": "赪尾",
+        "hex": "#EF845D",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-164",
+        "name": "朱柿",
+        "hex": "#ED6D46",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-165",
+        "name": "天球",
+        "hex": "#E0DFC6",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-166",
+        "name": "行香子",
+        "hex": "#BFB99C",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-167",
+        "name": "王刍",
+        "hex": "#A99F70",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-168",
+        "name": "荩箧",
+        "hex": "#877D52",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-169",
+        "name": "赤灵",
+        "hex": "#954024",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-170",
+        "name": "丹秫",
+        "hex": "#873424",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-171",
+        "name": "木兰",
+        "hex": "#662B1F",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-172",
+        "name": "麒麟竭",
+        "hex": "#4C1E1A",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-173",
+        "name": "柔蓝",
+        "hex": "#106898",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-174",
+        "name": "碧城",
+        "hex": "#12507B",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-175",
+        "name": "蓝采和",
+        "hex": "#06436F",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-176",
+        "name": "帝释青",
+        "hex": "#003460",
+        "group": "小暑"
+      },
+      {
+        "id": "gugong-177",
+        "name": "夕岚",
+        "hex": "#E3ADB9",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-178",
+        "name": "雌霓",
+        "hex": "#CF929E",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-179",
+        "name": "绛纱",
+        "hex": "#B27777",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-180",
+        "name": "茹藘",
+        "hex": "#A35F65",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-181",
+        "name": "葱青",
+        "hex": "#EDF1BB",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-182",
+        "name": "少艾",
+        "hex": "#E3EB98",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-183",
+        "name": "绮钱",
+        "hex": "#D8DE8A",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-184",
+        "name": "翠樽",
+        "hex": "#CDD171",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-185",
+        "name": "石蜜",
+        "hex": "#D4BF89",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-186",
+        "name": "沙饧",
+        "hex": "#BFA670",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-187",
+        "name": "巨吕",
+        "hex": "#AA8E59",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-188",
+        "name": "吉金",
+        "hex": "#896D47",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-189",
+        "name": "山岚",
+        "hex": "#BED2BB",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-190",
+        "name": "渌波",
+        "hex": "#9BB496",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-191",
+        "name": "青楸",
+        "hex": "#81A380",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-192",
+        "name": "菉竹",
+        "hex": "#698E6A",
+        "group": "大暑"
+      },
+      {
+        "id": "gugong-193",
+        "name": "窃蓝",
+        "hex": "#88ABDA",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-194",
+        "name": "监德",
+        "hex": "#6F94CD",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-195",
+        "name": "苍苍",
+        "hex": "#5976BA",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-196",
+        "name": "群青",
+        "hex": "#2E59A7",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-197",
+        "name": "白青",
+        "hex": "#98B6C2",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-198",
+        "name": "竹月",
+        "hex": "#7F9FAF",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-199",
+        "name": "空青",
+        "hex": "#66889E",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-200",
+        "name": "太师青",
+        "hex": "#547689",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-201",
+        "name": "缟羽",
+        "hex": "#EFEFEF",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-202",
+        "name": "香皮",
+        "hex": "#D8D1C5",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-203",
+        "name": "云母",
+        "hex": "#C6BEB1",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-204",
+        "name": "佩玖",
+        "hex": "#AC9F8A",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-205",
+        "name": "麹尘",
+        "hex": "#C0D09D",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-206",
+        "name": "绿沈",
+        "hex": "#938F4C",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-207",
+        "name": "绞衣",
+        "hex": "#7F754C",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-208",
+        "name": "素綦",
+        "hex": "#595333",
+        "group": "立秋"
+      },
+      {
+        "id": "gugong-209",
+        "name": "退红",
+        "hex": "#F0CFE3",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-210",
+        "name": "樱花",
+        "hex": "#E4B8D5",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-211",
+        "name": "丁香",
+        "hex": "#CE93BF",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-212",
+        "name": "木槿",
+        "hex": "#BA79B1",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-213",
+        "name": "余白",
+        "hex": "#C9CFC1",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-214",
+        "name": "兰苕",
+        "hex": "#A8B78C",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-215",
+        "name": "碧滋",
+        "hex": "#90A07D",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-216",
+        "name": "葱倩",
+        "hex": "#6C8650",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-217",
+        "name": "云门",
+        "hex": "#A2D2E2",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-218",
+        "name": "西子",
+        "hex": "#87C0CA",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-219",
+        "name": "天水碧",
+        "hex": "#8FCEC4",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-220",
+        "name": "法翠",
+        "hex": "#108B96",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-221",
+        "name": "桑蕾",
+        "hex": "#EAD89A",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-222",
+        "name": "太一余粮",
+        "hex": "#D5B45C",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-223",
+        "name": "秋香",
+        "hex": "#BF9C46",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-224",
+        "name": "老茯神",
+        "hex": "#AA8534",
+        "group": "处暑"
+      },
+      {
+        "id": "gugong-225",
+        "name": "凝脂",
+        "hex": "#F5F2E9",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-226",
+        "name": "玉色",
+        "hex": "#EAE4D1",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-227",
+        "name": "黄润",
+        "hex": "#DFD6B8",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-228",
+        "name": "缣缃",
+        "hex": "#D5C8A0",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-229",
+        "name": "蕉月",
+        "hex": "#86908A",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-230",
+        "name": "千山翠",
+        "hex": "#6B8E6E",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-231",
+        "name": "结绿",
+        "hex": "#555F4D",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-232",
+        "name": "绿云",
+        "hex": "#45493D",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-233",
+        "name": "藕丝秋半",
+        "hex": "#C9BEB1",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-234",
+        "name": "苍烟落照",
+        "hex": "#C8B5B3",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-235",
+        "name": "红藤杖",
+        "hex": "#928187",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-236",
+        "name": "紫鼠",
+        "hex": "#594C57",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-237",
+        "name": "黄粱",
+        "hex": "#C4B798",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-238",
+        "name": "蒸栗",
+        "hex": "#A58A5F",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-239",
+        "name": "射干",
+        "hex": "#7C623F",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-240",
+        "name": "油葫芦",
+        "hex": "#644D31",
+        "group": "白露"
+      },
+      {
+        "id": "gugong-241",
+        "name": "卵色",
+        "hex": "#D5E3D4",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-242",
+        "name": "葭菼",
+        "hex": "#CAD7C5",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-243",
+        "name": "冰台",
+        "hex": "#BECAB7",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-244",
+        "name": "青古",
+        "hex": "#B3BDA9",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-245",
+        "name": "栾华",
+        "hex": "#C0AD5E",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-246",
+        "name": "大赤",
+        "hex": "#AA9649",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-247",
+        "name": "佛赤",
+        "hex": "#8F3D2C",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-248",
+        "name": "蜜褐",
+        "hex": "#683632",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-249",
+        "name": "孔雀蓝",
+        "hex": "#4994C4",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-250",
+        "name": "吐绶蓝",
+        "hex": "#4182A4",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-251",
+        "name": "鱼师青",
+        "hex": "#32788A",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-252",
+        "name": "软翠",
+        "hex": "#006D87",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-253",
+        "name": "浅云",
+        "hex": "#EAEEF1",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-254",
+        "name": "素采",
+        "hex": "#D4DDE1",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-255",
+        "name": "影青",
+        "hex": "#BDCBD2",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-256",
+        "name": "逍遥游",
+        "hex": "#B2BFC3",
+        "group": "秋分"
+      },
+      {
+        "id": "gugong-257",
+        "name": "醽醁",
+        "hex": "#A6BAB1",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-258",
+        "name": "翠涛",
+        "hex": "#819D8E",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-259",
+        "name": "青梅",
+        "hex": "#778A77",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-260",
+        "name": "翕赩",
+        "hex": "#5F766A",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-261",
+        "name": "九斤黄",
+        "hex": "#DDB078",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-262",
+        "name": "杏子",
+        "hex": "#DA9233",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-263",
+        "name": "媚蝶",
+        "hex": "#BC6E37",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-264",
+        "name": "韎韐",
+        "hex": "#9F5221",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-265",
+        "name": "东方既白",
+        "hex": "#8AA4C5",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-266",
+        "name": "绀宇",
+        "hex": "#003D74",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-267",
+        "name": "佛头青",
+        "hex": "#19325F",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-268",
+        "name": "花青",
+        "hex": "#1A2847",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-269",
+        "name": "弗肯红",
+        "hex": "#ECD9C7",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-270",
+        "name": "赤璋",
+        "hex": "#E1C199",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-271",
+        "name": "茧色",
+        "hex": "#C6A268",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-272",
+        "name": "密陀僧",
+        "hex": "#B3934B",
+        "group": "寒露"
+      },
+      {
+        "id": "gugong-273",
+        "name": "银朱",
+        "hex": "#D12920",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-274",
+        "name": "胭脂虫",
+        "hex": "#AB1D22",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-275",
+        "name": "朱樱",
+        "hex": "#8F1D22",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-276",
+        "name": "爵头",
+        "hex": "#631216",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-277",
+        "name": "甘石",
+        "hex": "#BDB2B2",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-278",
+        "name": "迷楼灰",
+        "hex": "#91828F",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-279",
+        "name": "鸦雏",
+        "hex": "#6A5B6D",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-280",
+        "name": "烟墨",
+        "hex": "#5C4F55",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-281",
+        "name": "十样锦",
+        "hex": "#F8C6B5",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-282",
+        "name": "檀唇",
+        "hex": "#DA9E8C",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-283",
+        "name": "琼琚",
+        "hex": "#D77F66",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-284",
+        "name": "棠梨",
+        "hex": "#B15A43",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-285",
+        "name": "蜜合",
+        "hex": "#DFD7C2",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-286",
+        "name": "假山南",
+        "hex": "#D4C1A6",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-287",
+        "name": "紫花布",
+        "hex": "#BEA78B",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-288",
+        "name": "沉香",
+        "hex": "#99806C",
+        "group": "霜降"
+      },
+      {
+        "id": "gugong-289",
+        "name": "半见",
+        "hex": "#FFFBC7",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-290",
+        "name": "女贞黄",
+        "hex": "#F7EEAD",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-291",
+        "name": "绢纨",
+        "hex": "#ECE093",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-292",
+        "name": "姜黄",
+        "hex": "#D6C560",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-293",
+        "name": "葱犗",
+        "hex": "#88BFB8",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-294",
+        "name": "二绿",
+        "hex": "#5DA39D",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-295",
+        "name": "铜青",
+        "hex": "#3D8E86",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-296",
+        "name": "石绿",
+        "hex": "#206864",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-297",
+        "name": "黄琮",
+        "hex": "#9E8C6B",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-298",
+        "name": "茶色",
+        "hex": "#887657",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-299",
+        "name": "伽罗",
+        "hex": "#6D5C3D",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-300",
+        "name": "苍艾",
+        "hex": "#5A4B3B",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-301",
+        "name": "藕丝褐",
+        "hex": "#A88787",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-302",
+        "name": "葡萄褐",
+        "hex": "#9E696D",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-303",
+        "name": "苏方",
+        "hex": "#81474C",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-304",
+        "name": "福色",
+        "hex": "#662B2F",
+        "group": "立冬"
+      },
+      {
+        "id": "gugong-305",
+        "name": "龙膏烛",
+        "hex": "#DE82A7",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-306",
+        "name": "黪紫",
+        "hex": "#CC73A0",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-307",
+        "name": "胭脂水",
+        "hex": "#B95A89",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-308",
+        "name": "胭脂紫",
+        "hex": "#B0436F",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-309",
+        "name": "小红",
+        "hex": "#E67762",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-310",
+        "name": "岱赭",
+        "hex": "#DD6B4F",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-311",
+        "name": "鹤顶红",
+        "hex": "#D24735",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-312",
+        "name": "朱殷",
+        "hex": "#B93A26",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-313",
+        "name": "月白",
+        "hex": "#D6ECF0",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-314",
+        "name": "星郎",
+        "hex": "#BCD4E7",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-315",
+        "name": "晴山",
+        "hex": "#A3BBDB",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-316",
+        "name": "品月",
+        "hex": "#8AABCC",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-317",
+        "name": "明茶褐",
+        "hex": "#9E8368",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-318",
+        "name": "荆褐",
+        "hex": "#906C4A",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-319",
+        "name": "驼褐",
+        "hex": "#7C5B3E",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-320",
+        "name": "椒褐",
+        "hex": "#72453A",
+        "group": "小雪"
+      },
+      {
+        "id": "gugong-321",
+        "name": "粉米",
+        "hex": "#EFC4CE",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-322",
+        "name": "縓缘",
+        "hex": "#CE8892",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-323",
+        "name": "美人祭",
+        "hex": "#B33B40",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-324",
+        "name": "鞓红",
+        "hex": "#B04552",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-325",
+        "name": "米汤娇",
+        "hex": "#EEEAD9",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-326",
+        "name": "草白",
+        "hex": "#BFC1A9",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-327",
+        "name": "玄校",
+        "hex": "#A9A082",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-328",
+        "name": "綟绶",
+        "hex": "#756C4B",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-329",
+        "name": "雀梅",
+        "hex": "#788A6F",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-330",
+        "name": "油绿",
+        "hex": "#5D7259",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-331",
+        "name": "莓莓",
+        "hex": "#4E6548",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-332",
+        "name": "螺青",
+        "hex": "#3F503B",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-333",
+        "name": "暮山紫",
+        "hex": "#67547E",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-334",
+        "name": "紫苑",
+        "hex": "#757CBB",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-335",
+        "name": "优昙瑞",
+        "hex": "#615EA8",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-336",
+        "name": "延维",
+        "hex": "#4A4B9D",
+        "group": "大雪"
+      },
+      {
+        "id": "gugong-337",
+        "name": "银红",
+        "hex": "#E7CAD3",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-338",
+        "name": "莲红",
+        "hex": "#D9A0B3",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-339",
+        "name": "紫梅",
+        "hex": "#BB7A8C",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-340",
+        "name": "紫矿",
+        "hex": "#9E4E56",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-341",
+        "name": "咸池",
+        "hex": "#DAA9A9",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-342",
+        "name": "红䵂",
+        "hex": "#CD7372",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-343",
+        "name": "蚩尤旗",
+        "hex": "#A85858",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-344",
+        "name": "霁红",
+        "hex": "#C63D3B",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-345",
+        "name": "莺儿",
+        "hex": "#EBE1A9",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-346",
+        "name": "禹余粮",
+        "hex": "#E1D279",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-347",
+        "name": "姚黄",
+        "hex": "#D6BC46",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-348",
+        "name": "蛾黄",
+        "hex": "#BE8A2F",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-349",
+        "name": "濯绛",
+        "hex": "#796860",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-350",
+        "name": "墨黪",
+        "hex": "#585248",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-351",
+        "name": "驖骊",
+        "hex": "#46433B",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-352",
+        "name": "京元",
+        "hex": "#31322C",
+        "group": "冬至"
+      },
+      {
+        "id": "gugong-353",
+        "name": "酂白",
+        "hex": "#F6F9E4",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-354",
+        "name": "断肠",
+        "hex": "#ECEBC2",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-355",
+        "name": "田赤",
+        "hex": "#E1D384",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-356",
+        "name": "黄封",
+        "hex": "#CAB272",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-357",
+        "name": "丁香褐",
+        "hex": "#BD9683",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-358",
+        "name": "棠梨褐",
+        "hex": "#955A42",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-359",
+        "name": "朱石栗",
+        "hex": "#81492C",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-360",
+        "name": "枣褐",
+        "hex": "#68361A",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-361",
+        "name": "秋蓝",
+        "hex": "#7D929F",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-362",
+        "name": "育阳染",
+        "hex": "#576470",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-363",
+        "name": "霁蓝",
+        "hex": "#3C4654",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-364",
+        "name": "獭见",
+        "hex": "#151D29",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-365",
+        "name": "井天",
+        "hex": "#A4C9CC",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-366",
+        "name": "正青",
+        "hex": "#6CA8AF",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-367",
+        "name": "扁青",
+        "hex": "#509296",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-368",
+        "name": "䌦色",
+        "hex": "#226B68",
+        "group": "小寒"
+      },
+      {
+        "id": "gugong-369",
+        "name": "紫府",
+        "hex": "#995D7F",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-370",
+        "name": "地血",
+        "hex": "#814662",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-371",
+        "name": "芥拾紫",
+        "hex": "#602641",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-372",
+        "name": "油紫",
+        "hex": "#420B2F",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-373",
+        "name": "骨缥",
+        "hex": "#EBE3C7",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-374",
+        "name": "青白玉",
+        "hex": "#CAC5A0",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-375",
+        "name": "绿豆褐",
+        "hex": "#92896B",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-376",
+        "name": "冥色",
+        "hex": "#665F4D",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-377",
+        "name": "肉红",
+        "hex": "#DDC5B8",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-378",
+        "name": "珠子褐",
+        "hex": "#BEA89D",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-379",
+        "name": "鹰背褐",
+        "hex": "#8F6D5F",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-380",
+        "name": "麝香褐",
+        "hex": "#694B3C",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-381",
+        "name": "石英",
+        "hex": "#C8B6BB",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-382",
+        "name": "银褐",
+        "hex": "#9C8D9B",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-383",
+        "name": "烟红",
+        "hex": "#9D858F",
+        "group": "大寒"
+      },
+      {
+        "id": "gugong-384",
+        "name": "紫诰",
+        "hex": "#76555D",
+        "group": "大寒"
+      }
+    ]
+  },
+  {
+    "id": "traditional",
+    "name": "中国传统色",
+    "colors": [
+      {
+        "id": "traditional-001",
+        "name": "粉红",
+        "hex": "#ffb3a7",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-002",
+        "name": "妃色",
+        "hex": "#ed5736",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-003",
+        "name": "桃红",
+        "hex": "#f47983",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-004",
+        "name": "海棠红",
+        "hex": "#db5a6b",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-005",
+        "name": "石榴红",
+        "hex": "#f20c00",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-006",
+        "name": "樱桃红",
+        "hex": "#c93756",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-007",
+        "name": "银红",
+        "hex": "#f05654",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-008",
+        "name": "大红",
+        "hex": "#ff2121",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-009",
+        "name": "绛紫",
+        "hex": "#8c4356",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-010",
+        "name": "绯红",
+        "hex": "#c83c23",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-011",
+        "name": "胭脂",
+        "hex": "#9d2933",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-012",
+        "name": "朱红",
+        "hex": "#ff4c00",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-013",
+        "name": "丹",
+        "hex": "#ff4e20",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-014",
+        "name": "彤",
+        "hex": "#f35336",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-015",
+        "name": "茜色",
+        "hex": "#cb3a56",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-016",
+        "name": "火红",
+        "hex": "#ff2d51",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-017",
+        "name": "赫赤",
+        "hex": "#c91f37",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-018",
+        "name": "嫣红",
+        "hex": "#ef7a82",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-019",
+        "name": "炎",
+        "hex": "#ff3300",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-020",
+        "name": "赤",
+        "hex": "#c3272b",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-021",
+        "name": "绾",
+        "hex": "#a98175",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-022",
+        "name": "枣红",
+        "hex": "#c32136",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-023",
+        "name": "檀",
+        "hex": "#b36d61",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-024",
+        "name": "殷红",
+        "hex": "#be002f",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-025",
+        "name": "酡红",
+        "hex": "#dc3023",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-026",
+        "name": "酡颜",
+        "hex": "#f9906f",
+        "group": "红色系"
+      },
+      {
+        "id": "traditional-027",
+        "name": "鹅黄",
+        "hex": "#fff143",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-028",
+        "name": "鸭黄",
+        "hex": "#faff72",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-029",
+        "name": "樱草色",
+        "hex": "#eaff56",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-030",
+        "name": "杏黄",
+        "hex": "#ffa631",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-031",
+        "name": "杏红",
+        "hex": "#ff8c31",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-032",
+        "name": "橘黄",
+        "hex": "#ff8936",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-033",
+        "name": "橙黄",
+        "hex": "#ffa400",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-034",
+        "name": "橘红",
+        "hex": "#ff7500",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-035",
+        "name": "姜黄",
+        "hex": "#ffc773",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-036",
+        "name": "缃色",
+        "hex": "#f0c239",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-037",
+        "name": "橙色",
+        "hex": "#fa8c35",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-038",
+        "name": "茶色",
+        "hex": "#b35c44",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-039",
+        "name": "驼色",
+        "hex": "#a88462",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-040",
+        "name": "昏黄",
+        "hex": "#c89b40",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-041",
+        "name": "栗色",
+        "hex": "#60281e",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-042",
+        "name": "棕色",
+        "hex": "#b25d25",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-043",
+        "name": "棕绿",
+        "hex": "#827100",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-044",
+        "name": "棕黑",
+        "hex": "#7c4b00",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-045",
+        "name": "棕红",
+        "hex": "#9b4400",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-046",
+        "name": "棕黄",
+        "hex": "#ae7000",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-047",
+        "name": "赭",
+        "hex": "#9c5333",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-048",
+        "name": "赭色",
+        "hex": "#955539",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-049",
+        "name": "琥珀",
+        "hex": "#ca6924",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-050",
+        "name": "褐色",
+        "hex": "#6e511e",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-051",
+        "name": "枯黄",
+        "hex": "#d3b17d",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-052",
+        "name": "黄栌",
+        "hex": "#e29c45",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-053",
+        "name": "秋色",
+        "hex": "#896c39",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-054",
+        "name": "秋香色",
+        "hex": "#d9b611",
+        "group": "黄色系"
+      },
+      {
+        "id": "traditional-055",
+        "name": "嫩绿",
+        "hex": "#bddd22",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-056",
+        "name": "柳黄",
+        "hex": "#c9dd22",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-057",
+        "name": "柳绿",
+        "hex": "#afdd22",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-058",
+        "name": "竹青",
+        "hex": "#789262",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-059",
+        "name": "葱黄",
+        "hex": "#a3d900",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-060",
+        "name": "葱绿",
+        "hex": "#9ed900",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-061",
+        "name": "葱青",
+        "hex": "#0eb83a",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-062",
+        "name": "葱倩",
+        "hex": "#0eb840",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-063",
+        "name": "青葱",
+        "hex": "#0aa344",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-064",
+        "name": "油绿",
+        "hex": "#00bc12",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-065",
+        "name": "绿沈",
+        "hex": "#0c8918",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-066",
+        "name": "碧色",
+        "hex": "#1bd1a5",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-067",
+        "name": "碧绿",
+        "hex": "#2add9c",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-068",
+        "name": "青碧",
+        "hex": "#48c0a3",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-069",
+        "name": "翡翠色",
+        "hex": "#3de1ad",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-070",
+        "name": "草绿",
+        "hex": "#40de5a",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-071",
+        "name": "青色",
+        "hex": "#00e09e",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-072",
+        "name": "青翠",
+        "hex": "#00e079",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-073",
+        "name": "青白",
+        "hex": "#c0ebd7",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-074",
+        "name": "鸭卵青",
+        "hex": "#e0eee8",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-075",
+        "name": "蟹壳青",
+        "hex": "#bbcdc5",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-076",
+        "name": "鸦青",
+        "hex": "#424c50",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-077",
+        "name": "豆绿",
+        "hex": "#9ed048",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-078",
+        "name": "豆青",
+        "hex": "#96ce54",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-079",
+        "name": "石青",
+        "hex": "#7bcfa6",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-080",
+        "name": "玉色",
+        "hex": "#2edfa3",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-081",
+        "name": "缥",
+        "hex": "#7fecad",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-082",
+        "name": "艾绿",
+        "hex": "#a4e2c6",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-083",
+        "name": "松柏绿",
+        "hex": "#21a675",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-084",
+        "name": "松花绿",
+        "hex": "#057748",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-085",
+        "name": "松花色",
+        "hex": "#bce672",
+        "group": "绿色系"
+      },
+      {
+        "id": "traditional-086",
+        "name": "蓝",
+        "hex": "#44cef6",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-087",
+        "name": "靛青",
+        "hex": "#177cb0",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-088",
+        "name": "靛蓝",
+        "hex": "#065279",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-089",
+        "name": "碧蓝",
+        "hex": "#3eede7",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-090",
+        "name": "蔚蓝",
+        "hex": "#70f3ff",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-091",
+        "name": "宝蓝",
+        "hex": "#4b5cc4",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-092",
+        "name": "蓝灰色",
+        "hex": "#a1afc9",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-093",
+        "name": "藏青",
+        "hex": "#2e4e7e",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-094",
+        "name": "藏蓝",
+        "hex": "#3b2e7e",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-095",
+        "name": "黛",
+        "hex": "#4a4266",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-096",
+        "name": "黛绿",
+        "hex": "#426666",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-097",
+        "name": "黛蓝",
+        "hex": "#425066",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-098",
+        "name": "黛紫",
+        "hex": "#574266",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-099",
+        "name": "紫色",
+        "hex": "#8d4bbb",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-100",
+        "name": "紫酱",
+        "hex": "#815463",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-101",
+        "name": "酱紫",
+        "hex": "#815476",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-102",
+        "name": "紫檀",
+        "hex": "#4c221b",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-103",
+        "name": "绀紫",
+        "hex": "#003371",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-104",
+        "name": "紫棠",
+        "hex": "#56004f",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-105",
+        "name": "青莲",
+        "hex": "#801dae",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-106",
+        "name": "群青",
+        "hex": "#4c8dae",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-107",
+        "name": "雪青",
+        "hex": "#b0a4e3",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-108",
+        "name": "丁香色",
+        "hex": "#cca4e3",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-109",
+        "name": "藕色",
+        "hex": "#edd1d8",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-110",
+        "name": "藕荷色",
+        "hex": "#e4c6d0",
+        "group": "蓝色系 / 紫色系"
+      },
+      {
+        "id": "traditional-111",
+        "name": "苍色",
+        "hex": "#75878a",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-112",
+        "name": "苍翠",
+        "hex": "#519a73",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-113",
+        "name": "苍黄",
+        "hex": "#a29b7c",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-114",
+        "name": "苍青",
+        "hex": "#7397ab",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-115",
+        "name": "苍黑",
+        "hex": "#395260",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-116",
+        "name": "苍白",
+        "hex": "#d1d9e0",
+        "group": "苍色系"
+      },
+      {
+        "id": "traditional-117",
+        "name": "水色",
+        "hex": "#88ada6",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-118",
+        "name": "水红",
+        "hex": "#f3d3e7",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-119",
+        "name": "水绿",
+        "hex": "#d4f2e7",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-120",
+        "name": "水蓝",
+        "hex": "#d2f0f4",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-121",
+        "name": "淡青",
+        "hex": "#d3e0f3",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-122",
+        "name": "湖蓝",
+        "hex": "#30dff3",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-123",
+        "name": "湖绿",
+        "hex": "#25f8cb",
+        "group": "水色系"
+      },
+      {
+        "id": "traditional-124",
+        "name": "精白",
+        "hex": "#ffffff",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-125",
+        "name": "象牙白",
+        "hex": "#fffbf0",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-126",
+        "name": "雪白",
+        "hex": "#f2fdff",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-127",
+        "name": "月白",
+        "hex": "#d6ecf0",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-128",
+        "name": "缟",
+        "hex": "#f2ecde",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-129",
+        "name": "素",
+        "hex": "#e0f0e9",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-130",
+        "name": "荼白",
+        "hex": "#f3f9f1",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-131",
+        "name": "霜色",
+        "hex": "#e9f1f6",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-132",
+        "name": "花白",
+        "hex": "#c2ccd0",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-133",
+        "name": "鱼肚白",
+        "hex": "#fcefe8",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-134",
+        "name": "莹白",
+        "hex": "#e3f9fd",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-135",
+        "name": "牙色",
+        "hex": "#eedeb0",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-136",
+        "name": "铅白",
+        "hex": "#f0f0f4",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-137",
+        "name": "灰色",
+        "hex": "#808080",
+        "group": "白色系"
+      },
+      {
+        "id": "traditional-138",
+        "name": "玄色",
+        "hex": "#622a1d",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-139",
+        "name": "玄青",
+        "hex": "#3d3b4f",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-140",
+        "name": "乌色",
+        "hex": "#725e82",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-141",
+        "name": "乌黑",
+        "hex": "#392f41",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-142",
+        "name": "漆黑",
+        "hex": "#161823",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-143",
+        "name": "墨色",
+        "hex": "#50616d",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-144",
+        "name": "墨灰",
+        "hex": "#758a99",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-145",
+        "name": "黑色",
+        "hex": "#000000",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-146",
+        "name": "缁色",
+        "hex": "#493131",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-147",
+        "name": "煤黑",
+        "hex": "#312520",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-148",
+        "name": "黧",
+        "hex": "#5d513c",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-149",
+        "name": "黎",
+        "hex": "#75664d",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-150",
+        "name": "黝",
+        "hex": "#6b6882",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-151",
+        "name": "黝黑",
+        "hex": "#665757",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-152",
+        "name": "黯",
+        "hex": "#41555d",
+        "group": "黑色系"
+      },
+      {
+        "id": "traditional-153",
+        "name": "赤金",
+        "hex": "#f2be45",
+        "group": "金属色系"
+      },
+      {
+        "id": "traditional-154",
+        "name": "金色",
+        "hex": "#eacd76",
+        "group": "金属色系"
+      },
+      {
+        "id": "traditional-155",
+        "name": "银白",
+        "hex": "#e9e7ef",
+        "group": "金属色系"
+      },
+      {
+        "id": "traditional-156",
+        "name": "老银",
+        "hex": "#bacac6",
+        "group": "金属色系"
+      },
+      {
+        "id": "traditional-157",
+        "name": "乌金",
+        "hex": "#a78e44",
+        "group": "金属色系"
+      },
+      {
+        "id": "traditional-158",
+        "name": "铜绿",
+        "hex": "#549688",
+        "group": "金属色系"
+      }
+    ]
+  }
+]

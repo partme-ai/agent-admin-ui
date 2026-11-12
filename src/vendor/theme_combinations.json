@@ -1,0 +1,7799 @@
+[
+  {
+    "id": "curated-red-01",
+    "name": "朱砂",
+    "description": "朱红映雪，暖意从容",
+    "color_family": "red",
+    "palette": {
+      "primary": "#A14646",
+      "background": "#FFF8F0",
+      "sidebar": "#36272C",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/a14646da6556eb895bfdb773",
+      "colors": [
+        "#A14646",
+        "#DA6556",
+        "#EB895B",
+        "#FDB773"
+      ],
+      "likes": 1085,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot首屏精选；原始四色按后台用途适配，收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-02",
+    "name": "丹霞",
+    "description": "绯色明快，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#8d5c56",
+      "background": "#fff7ea",
+      "sidebar": "#fbead6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/b77466ffe1afe2b59a957c62",
+      "colors": [
+        "#B77466",
+        "#FFE1AF",
+        "#E2B59A",
+        "#957C62"
+      ],
+      "likes": 6596,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-03",
+    "name": "赤陶",
+    "description": "丹霞映雪，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#4B2E2B",
+      "background": "#fffdfb",
+      "sidebar": "#f5f0ec",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fff8f0c085528c5a3c4b2e2b",
+      "colors": [
+        "#FFF8F0",
+        "#C08552",
+        "#8C5A3C",
+        "#4B2E2B"
+      ],
+      "likes": 5971,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-04",
+    "name": "绯云",
+    "description": "暖红含光，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#9A3F3F",
+      "background": "#fefdf3",
+      "sidebar": "#3f2830",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9a3f3fc1856de6cfa9fbf9d1",
+      "colors": [
+        "#9A3F3F",
+        "#C1856D",
+        "#E6CFA9",
+        "#FBF9D1"
+      ],
+      "likes": 5330,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-05",
+    "name": "海棠",
+    "description": "绛色雅致，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#703B3B",
+      "background": "#f7f4ec",
+      "sidebar": "#e3e6e2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9bb4c0e1d0b3a18d6d703b3b",
+      "colors": [
+        "#9BB4C0",
+        "#E1D0B3",
+        "#A18D6D",
+        "#703B3B"
+      ],
+      "likes": 4275,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-06",
+    "name": "朱颜",
+    "description": "赤陶温润，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#800020",
+      "background": "#fffdfc",
+      "sidebar": "#f7edec",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/800020f3e6d5fff9f2d45060",
+      "colors": [
+        "#800020",
+        "#F3E6D5",
+        "#FFF9F2",
+        "#D45060"
+      ],
+      "likes": 2524,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-07",
+    "name": "胭脂",
+    "description": "海棠微红，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#7B2525",
+      "background": "#fbf7f2",
+      "sidebar": "#352028",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/607456eee0ccba6a4c7b2525",
+      "colors": [
+        "#607456",
+        "#EEE0CC",
+        "#BA6A4C",
+        "#7B2525"
+      ],
+      "likes": 2877,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-08",
+    "name": "石榴",
+    "description": "红枫映白，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d40808",
+      "background": "#fcfcfc",
+      "sidebar": "#faecec",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f5f5dff1f1bbd5daff0000",
+      "colors": [
+        "#F5F5F5",
+        "#DFF1F1",
+        "#BBD5DA",
+        "#FF0000"
+      ],
+      "likes": 2115,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-09",
+    "name": "榴火",
+    "description": "胭脂入画，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c62f1c",
+      "background": "#fffbf3",
+      "sidebar": "#fdecdd",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/df301cff9100fff1d100b7cd",
+      "colors": [
+        "#DF301C",
+        "#FF9100",
+        "#FFF1D1",
+        "#00B7CD"
+      ],
+      "likes": 2025,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-10",
+    "name": "赤霞",
+    "description": "锦色生辉，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#aa4c36",
+      "background": "#fff3d9",
+      "sidebar": "#171935",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1e104e452e5aff653fffc85c",
+      "colors": [
+        "#1E104E",
+        "#452E5A",
+        "#FF653F",
+        "#FFC85C"
+      ],
+      "likes": 1937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-11",
+    "name": "山丹",
+    "description": "朱红点睛，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#60241E",
+      "background": "#f9f3ec",
+      "sidebar": "#eacec7",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/60241e95271db34a44e77b49",
+      "colors": [
+        "#60241E",
+        "#95271D",
+        "#B34A44",
+        "#E77B49"
+      ],
+      "likes": 1987,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-12",
+    "name": "彤云",
+    "description": "绯色明快，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#b54242",
+      "background": "#fbf6f0",
+      "sidebar": "#f6eade",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/bd4444f1dec473976a677e61",
+      "colors": [
+        "#BD4444",
+        "#F1DEC4",
+        "#73976A",
+        "#677E61"
+      ],
+      "likes": 1956,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-13",
+    "name": "霜叶",
+    "description": "丹霞映雪，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c1371e",
+      "background": "#fff6e5",
+      "sidebar": "#582825",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e73f1efb6c00f9b637ffdd9c",
+      "colors": [
+        "#E73F1E",
+        "#FB6C00",
+        "#F9B637",
+        "#FFDD9C"
+      ],
+      "likes": 1923,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-14",
+    "name": "红枫",
+    "description": "暖红含光，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#830000",
+      "background": "#fff1f1",
+      "sidebar": "#c7bcbc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/000000830000bc0202ff0000",
+      "colors": [
+        "#000000",
+        "#830000",
+        "#BC0202",
+        "#FF0000"
+      ],
+      "likes": 1754,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-15",
+    "name": "茜草",
+    "description": "绛色雅致，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d40808",
+      "background": "#fff1f1",
+      "sidebar": "#c4b4b4",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/000080ff00009e2a3a3a2525",
+      "colors": [
+        "#000080",
+        "#FF0000",
+        "#9E2A3A",
+        "#3A2525"
+      ],
+      "likes": 1455,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-16",
+    "name": "玫瑰",
+    "description": "赤陶温润，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#b24722",
+      "background": "#fcfcfc",
+      "sidebar": "#1d2631",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f5f576abae303841ff5722",
+      "colors": [
+        "#F5F5F5",
+        "#76ABAE",
+        "#303841",
+        "#FF5722"
+      ],
+      "likes": 1852,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-17",
+    "name": "朱雀",
+    "description": "海棠微红，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#6C1A1A",
+      "background": "#fdf7e7",
+      "sidebar": "#f8ecd2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/31aaa9f8e0a4a820206c1a1a",
+      "colors": [
+        "#31AAA9",
+        "#F8E0A4",
+        "#A82020",
+        "#6C1A1A"
+      ],
+      "likes": 1396,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-18",
+    "name": "锦绣",
+    "description": "红枫映白，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#af4949",
+      "background": "#f7f3f3",
+      "sidebar": "#c1b9d8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e05454c13383792ca2443199",
+      "colors": [
+        "#E05454",
+        "#C13383",
+        "#792CA2",
+        "#443199"
+      ],
+      "likes": 1383,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-19",
+    "name": "暖阳",
+    "description": "胭脂入画，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#c82437",
+      "background": "#fffefc",
+      "sidebar": "#5c1f30",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fffaf3fff2dbffe5bff62440",
+      "colors": [
+        "#FFFAF3",
+        "#FFF2DB",
+        "#FFE5BF",
+        "#F62440"
+      ],
+      "likes": 1687,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-20",
+    "name": "蔷薇",
+    "description": "锦色生辉，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#cb1c37",
+      "background": "#ffface",
+      "sidebar": "#ffd8b6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/760031d51c39ff6060feec41",
+      "colors": [
+        "#760031",
+        "#D51C39",
+        "#FF6060",
+        "#FEEC41"
+      ],
+      "likes": 1326,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-21",
+    "name": "樱桃",
+    "description": "朱红点睛，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#a25254",
+      "background": "#fdf8e5",
+      "sidebar": "#d9e6d9",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ba5a5af7e49ba4ce8b86bcbd",
+      "colors": [
+        "#BA5A5A",
+        "#F7E49B",
+        "#A4CE8B",
+        "#86BCBD"
+      ],
+      "likes": 1192,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-22",
+    "name": "绛雪",
+    "description": "绯色明快，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#af4949",
+      "background": "#f7f3f3",
+      "sidebar": "#23234d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/443199792ca2c13383e05454",
+      "colors": [
+        "#443199",
+        "#792CA2",
+        "#C13383",
+        "#E05454"
+      ],
+      "likes": 1344,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-23",
+    "name": "晚霞",
+    "description": "丹霞映雪，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#972828",
+      "background": "#fef3de",
+      "sidebar": "#f8d1bc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/972828e45742eb7f31fcad38",
+      "colors": [
+        "#972828",
+        "#E45742",
+        "#EB7F31",
+        "#FCAD38"
+      ],
+      "likes": 1142,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-24",
+    "name": "红玉",
+    "description": "暖红含光，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#a25256",
+      "background": "#fcfcfc",
+      "sidebar": "#f7f1f1",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d96868f2f2f291ae6e689d4b",
+      "colors": [
+        "#D96868",
+        "#F2F2F2",
+        "#91AE6E",
+        "#689D4B"
+      ],
+      "likes": 1136,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-25",
+    "name": "珊瑚",
+    "description": "绛色雅致，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#d40101",
+      "background": "#fffae3",
+      "sidebar": "#0e141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d90000ffea938db355000000",
+      "colors": [
+        "#D90000",
+        "#FFEA93",
+        "#8DB355",
+        "#000000"
+      ],
+      "likes": 1247,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-26",
+    "name": "丹桂",
+    "description": "赤陶温润，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#8B1E2D",
+      "background": "#fcf4d5",
+      "sidebar": "#d4d9c9",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8b1e2de63946f4d35e457b9d",
+      "colors": [
+        "#8B1E2D",
+        "#E63946",
+        "#F4D35E",
+        "#457B9D"
+      ],
+      "likes": 1036,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-27",
+    "name": "朱槿",
+    "description": "海棠微红，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#ca2240",
+      "background": "#fffcf8",
+      "sidebar": "#fdeee8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d92243f69d39e0c375fff5e5",
+      "colors": [
+        "#D92243",
+        "#F69D39",
+        "#E0C375",
+        "#FFF5E5"
+      ],
+      "likes": 979,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-28",
+    "name": "莓果",
+    "description": "红枫映白，沉静有序",
+    "color_family": "red",
+    "palette": {
+      "primary": "#a15341",
+      "background": "#fefbf4",
+      "sidebar": "#19464a",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/249d8fe9c46ae76f51fdf0d5",
+      "colors": [
+        "#249D8F",
+        "#E9C46A",
+        "#E76F51",
+        "#FDF0D5"
+      ],
+      "likes": 1031,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-29",
+    "name": "夕照",
+    "description": "胭脂入画，清爽留白",
+    "color_family": "red",
+    "palette": {
+      "primary": "#be3737",
+      "background": "#f4fed6",
+      "sidebar": "#edf1b4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/39b1d1d6fb61f6850cde3e3e",
+      "colors": [
+        "#39B1D1",
+        "#D6FB61",
+        "#F6850C",
+        "#DE3E3E"
+      ],
+      "likes": 941,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-red-30",
+    "name": "红棉",
+    "description": "锦色生辉，层次舒展",
+    "color_family": "red",
+    "palette": {
+      "primary": "#ae4836",
+      "background": "#fff5d0",
+      "sidebar": "#d9b9af",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/421454802c62ff5b42ffd749",
+      "colors": [
+        "#421454",
+        "#802C62",
+        "#FF5B42",
+        "#FFD749"
+      ],
+      "likes": 303,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-01",
+    "name": "琥珀",
+    "description": "橘光明快，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7e6554",
+      "background": "#fffaf6",
+      "sidebar": "#4b4240",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffeddbedcdbbe3b7a0bf9270",
+      "colors": [
+        "#FFEDDB",
+        "#EDCDBB",
+        "#E3B7A0",
+        "#BF9270"
+      ],
+      "likes": 30328,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-02",
+    "name": "橘光",
+    "description": "暖橙映雪，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7f6255",
+      "background": "#fef6ef",
+      "sidebar": "#faebdd",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/7d5a50b4846ce5b299fcdec0",
+      "colors": [
+        "#7D5A50",
+        "#B4846C",
+        "#E5B299",
+        "#FCDEC0"
+      ],
+      "likes": 28879,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-03",
+    "name": "落日",
+    "description": "秋意澄明，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#905f0f",
+      "background": "#fff3da",
+      "sidebar": "#ffe8bb",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/7b542fb6771dff9d00ffcf71",
+      "colors": [
+        "#7B542F",
+        "#B6771D",
+        "#FF9D00",
+        "#FFCF71"
+      ],
+      "likes": 3949,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-04",
+    "name": "杏林",
+    "description": "杏色温润，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7e6350",
+      "background": "#f6f5f1",
+      "sidebar": "#1c252e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9",
+      "colors": [
+        "#2C3639",
+        "#3F4E4F",
+        "#A27B5C",
+        "#DCD7C9"
+      ],
+      "likes": 27877,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-05",
+    "name": "柑橘",
+    "description": "夕照留光，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#905d37",
+      "background": "#fafbfb",
+      "sidebar": "#f6f2ee",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/eaefefbfc9d125343fff9b51",
+      "colors": [
+        "#EAEFEF",
+        "#BFC9D1",
+        "#25343F",
+        "#FF9B51"
+      ],
+      "likes": 3160,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-06",
+    "name": "金秋",
+    "description": "橙香入画，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#8a5f52",
+      "background": "#fff1ea",
+      "sidebar": "#ffc1d4",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-07",
+    "name": "暖橙",
+    "description": "暖陶雅致，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#995843",
+      "background": "#fbf7f2",
+      "sidebar": "#352028",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/607456eee0ccba6a4c7b2525",
+      "colors": [
+        "#607456",
+        "#EEE0CC",
+        "#BA6A4C",
+        "#7B2525"
+      ],
+      "likes": 2877,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-08",
+    "name": "赭石",
+    "description": "金橘生辉，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#9d5631",
+      "background": "#fdf2e9",
+      "sidebar": "#f6c2c9",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1a05a28f0177de1a58f67d31",
+      "colors": [
+        "#1A05A2",
+        "#8F0177",
+        "#DE1A58",
+        "#F67D31"
+      ],
+      "likes": 2046,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-09",
+    "name": "南瓜",
+    "description": "落日余温，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#7b673b",
+      "background": "#fff3d9",
+      "sidebar": "#c7b8b3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1e104e452e5aff653fffc85c",
+      "colors": [
+        "#1E104E",
+        "#452E5A",
+        "#FF653F",
+        "#FFC85C"
+      ],
+      "likes": 1937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-10",
+    "name": "秋实",
+    "description": "秋实盈庭，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#965b0f",
+      "background": "#fffbf3",
+      "sidebar": "#552325",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/df301cff9100fff1d100b7cd",
+      "colors": [
+        "#DF301C",
+        "#FF9100",
+        "#FFF1D1",
+        "#00B7CD"
+      ],
+      "likes": 2025,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-11",
+    "name": "晨橘",
+    "description": "橘光明快，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#816536",
+      "background": "#fff6e5",
+      "sidebar": "#ffebc7",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e73f1efb6c00f9b637ffdd9c",
+      "colors": [
+        "#E73F1E",
+        "#FB6C00",
+        "#F9B637",
+        "#FFDD9C"
+      ],
+      "likes": 1923,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-12",
+    "name": "赤金",
+    "description": "暖橙映雪，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#8f5c4c",
+      "background": "#ecf8f2",
+      "sidebar": "#dbeee3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/b7e5cd8abeb9305669c1785a",
+      "colors": [
+        "#B7E5CD",
+        "#8ABEB9",
+        "#305669",
+        "#C1785A"
+      ],
+      "likes": 1899,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-13",
+    "name": "铜铃",
+    "description": "秋意澄明，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#9f562d",
+      "background": "#fafafb",
+      "sidebar": "#0e141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/000000233d4dfe7f2deaecf0",
+      "colors": [
+        "#000000",
+        "#233D4D",
+        "#FE7F2D",
+        "#EAECF0"
+      ],
+      "likes": 1822,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-14",
+    "name": "日落",
+    "description": "杏色温润，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#995b0f",
+      "background": "#fcfcf6",
+      "sidebar": "#faf1db",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f5dcfbc02dff8f00c62828",
+      "colors": [
+        "#F5F5DC",
+        "#FBC02D",
+        "#FF8F00",
+        "#C62828"
+      ],
+      "likes": 1588,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-15",
+    "name": "夕橙",
+    "description": "夕照留光，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#81670f",
+      "background": "#fffde1",
+      "sidebar": "#bfc4a8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffbf00fff78d467235283f24",
+      "colors": [
+        "#FFBF00",
+        "#FFF78D",
+        "#467235",
+        "#283F24"
+      ],
+      "likes": 1301,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-16",
+    "name": "桂香",
+    "description": "橙香入画，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#87640f",
+      "background": "#fdf9e8",
+      "sidebar": "#26211c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f9e6a8f2a900cc6f004d2a00",
+      "colors": [
+        "#F9E6A8",
+        "#F2A900",
+        "#CC6F00",
+        "#4D2A00"
+      ],
+      "likes": 1327,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-17",
+    "name": "杏月",
+    "description": "暖陶雅致，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#74674f",
+      "background": "#fff4e1",
+      "sidebar": "#e3cdc8",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/522d6080426ef2a67bffd38b",
+      "colors": [
+        "#522D60",
+        "#80426E",
+        "#F2A67B",
+        "#FFD38B"
+      ],
+      "likes": 1157,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-18",
+    "name": "柿红",
+    "description": "金橘生辉，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#856236",
+      "background": "#fef3de",
+      "sidebar": "#f6c4af",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/972828e45742eb7f31fcad38",
+      "colors": [
+        "#972828",
+        "#E45742",
+        "#EB7F31",
+        "#FCAD38"
+      ],
+      "likes": 1142,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-19",
+    "name": "暖砂",
+    "description": "落日余温，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#72694a",
+      "background": "#fdfae9",
+      "sidebar": "#4a1c24",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/be1a1ad0311ef7d87ff8ebab",
+      "colors": [
+        "#BE1A1A",
+        "#D0311E",
+        "#F7D87F",
+        "#F8EBAB"
+      ],
+      "likes": 1310,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-20",
+    "name": "橘颂",
+    "description": "秋实盈庭，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#84660f",
+      "background": "#fff4d1",
+      "sidebar": "#eebfb4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/007dccffb900d10056b2054c",
+      "colors": [
+        "#007DCC",
+        "#FFB900",
+        "#D10056",
+        "#B2054C"
+      ],
+      "likes": 1098,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-21",
+    "name": "金柑",
+    "description": "橘光明快，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#766836",
+      "background": "#fffcd0",
+      "sidebar": "#d8eaaa",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fed24ffff449b2d9597ec151",
+      "colors": [
+        "#FED24F",
+        "#FFF449",
+        "#B2D959",
+        "#7EC151"
+      ],
+      "likes": 1044,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-22",
+    "name": "陶土",
+    "description": "暖橙映雪，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#aa4e1c",
+      "background": "#fff5d6",
+      "sidebar": "#5f3625",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff6a1cffda62ffae56f5788b",
+      "colors": [
+        "#FF6A1C",
+        "#FFDA62",
+        "#FFAE56",
+        "#F5788B"
+      ],
+      "likes": 1229,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-23",
+    "name": "焦糖",
+    "description": "秋意澄明，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#786836",
+      "background": "#fffdcd",
+      "sidebar": "#fff49b",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2391fffff83fffcd54f70063",
+      "colors": [
+        "#2391FF",
+        "#FFF83F",
+        "#FFCD54",
+        "#F70063"
+      ],
+      "likes": 625,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-24",
+    "name": "蜜橘",
+    "description": "杏色温润，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#9f563b",
+      "background": "#fff3d7",
+      "sidebar": "#ffe9b5",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff7f50ffd16606d6a0118ab2",
+      "colors": [
+        "#FF7F50",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2"
+      ],
+      "likes": 874,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-25",
+    "name": "橙花",
+    "description": "夕照留光，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#a94f30",
+      "background": "#fff8f8",
+      "sidebar": "#59342b",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ec6530ffae6effe3e38fdddf",
+      "colors": [
+        "#EC6530",
+        "#FFAE6E",
+        "#FFE3E3",
+        "#8FDDDF"
+      ],
+      "likes": 1186,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-26",
+    "name": "朝霞",
+    "description": "橙香入画，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#b24822",
+      "background": "#fcfdfc",
+      "sidebar": "#faf1ee",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f3f6f47d8d395b6e2cff5a22",
+      "colors": [
+        "#F3F6F4",
+        "#7D8D39",
+        "#5B6E2C",
+        "#FF5A22"
+      ],
+      "likes": 100,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-27",
+    "name": "橘焰",
+    "description": "暖陶雅致，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#9f5525",
+      "background": "#fffde7",
+      "sidebar": "#e4e8ca",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/a4b885d46d25fdc086fff6a1",
+      "colors": [
+        "#A4B885",
+        "#D46D25",
+        "#FDC086",
+        "#FFF6A1"
+      ],
+      "likes": 805,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-28",
+    "name": "秋叶",
+    "description": "金橘生辉，沉静有序",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#8d610f",
+      "background": "#fefefe",
+      "sidebar": "#113b3f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0a7c6ef59e0bff6b35fafafa",
+      "colors": [
+        "#0A7C6E",
+        "#F59E0B",
+        "#FF6B35",
+        "#FAFAFA"
+      ],
+      "likes": 1057,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-29",
+    "name": "暖陶",
+    "description": "落日余温，清爽留白",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#ab500f",
+      "background": "#fff6e5",
+      "sidebar": "#ffe9c9",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e73f1efb6c00f9b637ffdd9c",
+      "colors": [
+        "#E73F1E",
+        "#FB6C00",
+        "#F9B637",
+        "#FFDD9C"
+      ],
+      "likes": 1923,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-orange-30",
+    "name": "砂金",
+    "description": "秋实盈庭，层次舒展",
+    "color_family": "orange",
+    "palette": {
+      "primary": "#99582f",
+      "background": "#fcf2e8",
+      "sidebar": "#c5c5cc",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/253c6d30497d455b8af2842f",
+      "colors": [
+        "#253C6D",
+        "#30497D",
+        "#455B8A",
+        "#F2842F"
+      ],
+      "likes": 787,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-01",
+    "name": "秋香",
+    "description": "暖金点睛，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#766b14",
+      "background": "#fcfdfd",
+      "sidebar": "#242a34",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f7f8f4ce14495e5745474b",
+      "colors": [
+        "#F5F7F8",
+        "#F4CE14",
+        "#495E57",
+        "#45474B"
+      ],
+      "likes": 23840,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-02",
+    "name": "金桂",
+    "description": "麦色温润，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#666d4d",
+      "background": "#fcf8f1",
+      "sidebar": "#f6f0dc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8a5f41a77f60f3e4c9ccd67f",
+      "colors": [
+        "#8A5F41",
+        "#A77F60",
+        "#F3E4C9",
+        "#CCD67F"
+      ],
+      "likes": 2419,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-03",
+    "name": "麦田",
+    "description": "金桂飘香，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6b6e0f",
+      "background": "#f7f7c0",
+      "sidebar": "#b8ca8b",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/063b0026621090b800e1e100",
+      "colors": [
+        "#063B00",
+        "#266210",
+        "#90B800",
+        "#E1E100"
+      ],
+      "likes": 1548,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-04",
+    "name": "杏仁",
+    "description": "秋光映雪，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#76690f",
+      "background": "#fff5c0",
+      "sidebar": "#0e2f62",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff0052ffd40000c68d0055da",
+      "colors": [
+        "#FF0052",
+        "#FFD400",
+        "#00C68D",
+        "#0055DA"
+      ],
+      "likes": 1495,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-05",
+    "name": "蜂蜜",
+    "description": "浅金留白，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#78690f",
+      "background": "#fff5c3",
+      "sidebar": "#ffcbb5",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00e0ba91008dff3483ffcf00",
+      "colors": [
+        "#00E0BA",
+        "#91008D",
+        "#FF3483",
+        "#FFCF00"
+      ],
+      "likes": 1473,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-06",
+    "name": "金穗",
+    "description": "日色清朗，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#7e680f",
+      "background": "#fef9eb",
+      "sidebar": "#fef0c2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fde7b3ffc50f63a3615b532c",
+      "colors": [
+        "#FDE7B3",
+        "#FFC50F",
+        "#63A361",
+        "#5B532C"
+      ],
+      "likes": 1386,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-07",
+    "name": "流金",
+    "description": "金穗含光，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#76691e",
+      "background": "#fff5c8",
+      "sidebar": "#271559",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5003c0ab03a9ff467affd51e",
+      "colors": [
+        "#5003C0",
+        "#AB03A9",
+        "#FF467A",
+        "#FFD51E"
+      ],
+      "likes": 1472,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-08",
+    "name": "姜黄",
+    "description": "杏仁暖意，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6e6b36",
+      "background": "#ffface",
+      "sidebar": "#ffd8b6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/760031d51c39ff6060feec41",
+      "colors": [
+        "#760031",
+        "#D51C39",
+        "#FF6060",
+        "#FEEC41"
+      ],
+      "likes": 1326,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-09",
+    "name": "日光",
+    "description": "金菊映窗，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6a6b4b",
+      "background": "#fffde1",
+      "sidebar": "#bfc4a8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffbf00fff78d467235283f24",
+      "colors": [
+        "#FFBF00",
+        "#FFF78D",
+        "#467235",
+        "#283F24"
+      ],
+      "likes": 1301,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-10",
+    "name": "松花",
+    "description": "流金入画，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6e694b",
+      "background": "#fffae0",
+      "sidebar": "#263547",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f599c6ffea887dccad4d6787",
+      "colors": [
+        "#F599C6",
+        "#FFEA88",
+        "#7DCCAD",
+        "#4D6787"
+      ],
+      "likes": 1328,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-11",
+    "name": "金沙",
+    "description": "暖金点睛，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#766936",
+      "background": "#fcfad9",
+      "sidebar": "#e3f1e0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0061998acff8f4eb6cffd444",
+      "colors": [
+        "#006199",
+        "#8ACFF8",
+        "#F4EB6C",
+        "#FFD444"
+      ],
+      "likes": 1293,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-12",
+    "name": "稻香",
+    "description": "麦色温润，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#706b47",
+      "background": "#fffbe6",
+      "sidebar": "#fff78d",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffe97dffef9fe13f7cff537b",
+      "colors": [
+        "#FFE97D",
+        "#FFEF9F",
+        "#E13F7C",
+        "#FF537B"
+      ],
+      "likes": 1280,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-13",
+    "name": "香槟",
+    "description": "金桂飘香，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#726a4c",
+      "background": "#fff7df",
+      "sidebar": "#3c142e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/92003af62477ffadeeffe185",
+      "colors": [
+        "#92003A",
+        "#F62477",
+        "#FFADEE",
+        "#FFE185"
+      ],
+      "likes": 1322,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-14",
+    "name": "暖金",
+    "description": "秋光映雪，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6e6b29",
+      "background": "#f8f6cd",
+      "sidebar": "#d1debf",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0d0b61294669478b8de4d329",
+      "colors": [
+        "#0D0B61",
+        "#294669",
+        "#478B8D",
+        "#E4D329"
+      ],
+      "likes": 1180,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-15",
+    "name": "金盏",
+    "description": "浅金留白，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#706a4f",
+      "background": "#fffcec",
+      "sidebar": "#d5dbc6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/15370d728e6de5cd82fff2b4",
+      "colors": [
+        "#15370D",
+        "#728E6D",
+        "#E5CD82",
+        "#FFF2B4"
+      ],
+      "likes": 697,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-16",
+    "name": "麦芽",
+    "description": "日色清朗，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6e694f",
+      "background": "#fffae3",
+      "sidebar": "#0e141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d90000ffea938db355000000",
+      "colors": [
+        "#D90000",
+        "#FFEA93",
+        "#8DB355",
+        "#000000"
+      ],
+      "likes": 1247,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-17",
+    "name": "秋麦",
+    "description": "金穗含光，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#766a36",
+      "background": "#fef8e5",
+      "sidebar": "#feefc3",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/218dae2bbbd7fce59affd758",
+      "colors": [
+        "#218DAE",
+        "#2BBBD7",
+        "#FCE59A",
+        "#FFD758"
+      ],
+      "likes": 1189,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-18",
+    "name": "竹黄",
+    "description": "杏仁暖意，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#766a36",
+      "background": "#fff5d0",
+      "sidebar": "#d9b9af",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/421454802c62ff5b42ffd749",
+      "colors": [
+        "#421454",
+        "#802C62",
+        "#FF5B42",
+        "#FFD749"
+      ],
+      "likes": 303,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-19",
+    "name": "藤黄",
+    "description": "金菊映窗，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#74693c",
+      "background": "#fff5d6",
+      "sidebar": "#5f3625",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff6a1cffda62ffae56f5788b",
+      "colors": [
+        "#FF6A1C",
+        "#FFDA62",
+        "#FFAE56",
+        "#F5788B"
+      ],
+      "likes": 1229,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-20",
+    "name": "玉米",
+    "description": "流金入画，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#5e7012",
+      "background": "#f5f6d6",
+      "sidebar": "#c8d8b0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/499a13bbdc128eca3c276f27",
+      "colors": [
+        "#499A13",
+        "#BBDC12",
+        "#8ECA3C",
+        "#276F27"
+      ],
+      "likes": 1046,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-21",
+    "name": "晨曦",
+    "description": "暖金点睛，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#76690f",
+      "background": "#fff5c0",
+      "sidebar": "#ffac9f",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff0052ffd40000c68d0055da",
+      "colors": [
+        "#FF0052",
+        "#FFD400",
+        "#00C68D",
+        "#0055DA"
+      ],
+      "likes": 1495,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-22",
+    "name": "金茶",
+    "description": "麦色温润，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#706b3f",
+      "background": "#fffee8",
+      "sidebar": "#5f336b",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffea6cfffba7ffa6fbff61f8",
+      "colors": [
+        "#FFEA6C",
+        "#FFFBA7",
+        "#FFA6FB",
+        "#FF61F8"
+      ],
+      "likes": 1111,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-23",
+    "name": "琉璃",
+    "description": "金桂飘香，清爽留白",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6c6b36",
+      "background": "#fffcd0",
+      "sidebar": "#e3efb4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fed24ffff449b2d9597ec151",
+      "colors": [
+        "#FED24F",
+        "#FFF449",
+        "#B2D959",
+        "#7EC151"
+      ],
+      "likes": 1044,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-24",
+    "name": "燕麦",
+    "description": "秋光映雪，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#686d21",
+      "background": "#fefded",
+      "sidebar": "#f5f5d3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/133458838921d99b21faf7bb",
+      "colors": [
+        "#133458",
+        "#838921",
+        "#D99B21",
+        "#FAF7BB"
+      ],
+      "likes": 992,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-25",
+    "name": "金菊",
+    "description": "浅金留白，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#626f2f",
+      "background": "#fffefb",
+      "sidebar": "#552835",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fffaf0e03f4f81912ff8c463",
+      "colors": [
+        "#FFFAF0",
+        "#E03F4F",
+        "#81912F",
+        "#F8C463"
+      ],
+      "likes": 967,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-26",
+    "name": "柠檬",
+    "description": "日色清朗，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#666d4d",
+      "background": "#fcf8f1",
+      "sidebar": "#3a3231",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8a5f41a77f60f3e4c9ccd67f",
+      "colors": [
+        "#8A5F41",
+        "#A77F60",
+        "#F3E4C9",
+        "#CCD67F"
+      ],
+      "likes": 2419,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-27",
+    "name": "银杏",
+    "description": "金穗含光，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#686b4a",
+      "background": "#fffee1",
+      "sidebar": "#d4fedd",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/70ffd2fffc8cffcc4dff9137",
+      "colors": [
+        "#70FFD2",
+        "#FFFC8C",
+        "#FFCC4D",
+        "#FF9137"
+      ],
+      "likes": 906,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-28",
+    "name": "琥金",
+    "description": "杏仁暖意，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#726936",
+      "background": "#fff6d1",
+      "sidebar": "#334428",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/769826a1cb35ffde4eff9d4d",
+      "colors": [
+        "#769826",
+        "#A1CB35",
+        "#FFDE4E",
+        "#FF9D4D"
+      ],
+      "likes": 952,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-29",
+    "name": "杏露",
+    "description": "金菊映窗，沉静有序",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6b6e0f",
+      "background": "#f7f7c0",
+      "sidebar": "#10271c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/063b0026621090b800e1e100",
+      "colors": [
+        "#063B00",
+        "#266210",
+        "#90B800",
+        "#E1E100"
+      ],
+      "likes": 1548,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-yellow-30",
+    "name": "金缕",
+    "description": "流金入画，层次舒展",
+    "color_family": "yellow",
+    "palette": {
+      "primary": "#6c6b4d",
+      "background": "#f9f7df",
+      "sidebar": "#bfbcca",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0301643631992d7495e8e085",
+      "colors": [
+        "#030164",
+        "#363199",
+        "#2D7495",
+        "#E8E085"
+      ],
+      "likes": 897,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-01",
+    "name": "官绿",
+    "description": "草木青绿，素白相映",
+    "color_family": "green",
+    "palette": {
+      "primary": "#477443",
+      "background": "#FBFCF5",
+      "sidebar": "#40513B",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/edf1d69dc08b60996640513b",
+      "colors": [
+        "#EDF1D6",
+        "#9DC08B",
+        "#609966",
+        "#40513B"
+      ],
+      "likes": 26480,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot首屏精选；原始四色按后台用途适配，收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-02",
+    "name": "竹影",
+    "description": "竹影疏朗，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#306D29",
+      "background": "#fefcf6",
+      "sidebar": "#f1f2e5",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fbf5dde7e1b1306d290d530e",
+      "colors": [
+        "#FBF5DD",
+        "#E7E1B1",
+        "#306D29",
+        "#0D530E"
+      ],
+      "likes": 3171,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-03",
+    "name": "松林",
+    "description": "翠色生机，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#2a7759",
+      "background": "#edf6ee",
+      "sidebar": "#d0e4d2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/09232812544f2a835f8bbb92",
+      "colors": [
+        "#092328",
+        "#12544F",
+        "#2A835F",
+        "#8BBB92"
+      ],
+      "likes": 3112,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-04",
+    "name": "苔青",
+    "description": "松林静谧，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#44734c",
+      "background": "#f9fcf9",
+      "sidebar": "#163226",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e8f5e9a5d6a766bb6a1b5e20",
+      "colors": [
+        "#E8F5E9",
+        "#A5D6A7",
+        "#66BB6A",
+        "#1B5E20"
+      ],
+      "likes": 2632,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-05",
+    "name": "碧叶",
+    "description": "茶意清雅，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#43735a",
+      "background": "#fbfbfb",
+      "sidebar": "#ecf5ef",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1f6f5f2fa0846fcf97eeeeee",
+      "colors": [
+        "#1F6F5F",
+        "#2FA084",
+        "#6FCF97",
+        "#EEEEEE"
+      ],
+      "likes": 2321,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-06",
+    "name": "青禾",
+    "description": "绿野清朗，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#626e3b",
+      "background": "#fafafa",
+      "sidebar": "#f0f0ec",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ececec84934a656d3f492828",
+      "colors": [
+        "#ECECEC",
+        "#84934A",
+        "#656D3F",
+        "#492828"
+      ],
+      "likes": 2276,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-07",
+    "name": "茶山",
+    "description": "碧叶含光，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#507236",
+      "background": "#f9fcee",
+      "sidebar": "#4c2a32",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5b7e3ca2cb8be8f5bdc44545",
+      "colors": [
+        "#5B7E3C",
+        "#A2CB8B",
+        "#E8F5BD",
+        "#C44545"
+      ],
+      "likes": 1805,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-08",
+    "name": "翡翠",
+    "description": "青禾映雪，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#1D4533",
+      "background": "#fdfaf7",
+      "sidebar": "#f5f1ec",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1d4533f7eae0f9d2ba5e3122",
+      "colors": [
+        "#1D4533",
+        "#F7EAE0",
+        "#F9D2BA",
+        "#5E3122"
+      ],
+      "likes": 1742,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-09",
+    "name": "苔庭",
+    "description": "苔青入画，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#266210",
+      "background": "#f7f7c0",
+      "sidebar": "#afbf86",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/063b0026621090b800e1e100",
+      "colors": [
+        "#063B00",
+        "#266210",
+        "#90B800",
+        "#E1E100"
+      ],
+      "likes": 1548,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-10",
+    "name": "绿野",
+    "description": "春山明净，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#3f7362",
+      "background": "#fef9f1",
+      "sidebar": "#5e3545",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/59b292ffc94dfae7cbfa6781",
+      "colors": [
+        "#59B292",
+        "#FFC94D",
+        "#FAE7CB",
+        "#FA6781"
+      ],
+      "likes": 1744,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-11",
+    "name": "薄荷",
+    "description": "草木清新，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#03775b",
+      "background": "#fff5c0",
+      "sidebar": "#ffbfa8",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff0052ffd40000c68d0055da",
+      "colors": [
+        "#FF0052",
+        "#FFD400",
+        "#00C68D",
+        "#0055DA"
+      ],
+      "likes": 1495,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-12",
+    "name": "竹溪",
+    "description": "竹影疏朗，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#467235",
+      "background": "#fffde1",
+      "sidebar": "#bfc4a8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffbf00fff78d467235283f24",
+      "colors": [
+        "#FFBF00",
+        "#FFF78D",
+        "#467235",
+        "#283F24"
+      ],
+      "likes": 1301,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-13",
+    "name": "青柠",
+    "description": "翠色生机，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#254F22",
+      "background": "#faf8ef",
+      "sidebar": "#192d27",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/254f22a03a13f5824aede4c2",
+      "colors": [
+        "#254F22",
+        "#A03A13",
+        "#F5824A",
+        "#EDE4C2"
+      ],
+      "likes": 1585,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-14",
+    "name": "松石",
+    "description": "松林静谧，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#2C5745",
+      "background": "#faf8e8",
+      "sidebar": "#f1eed6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2e29102c5745ebe3a7eb7d00",
+      "colors": [
+        "#2E2910",
+        "#2C5745",
+        "#EBE3A7",
+        "#EB7D00"
+      ],
+      "likes": 1153,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-15",
+    "name": "山岚",
+    "description": "茶意清雅，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#3c7713",
+      "background": "#f5f6d6",
+      "sidebar": "#b7cea2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/499a13bbdc128eca3c276f27",
+      "colors": [
+        "#499A13",
+        "#BBDC12",
+        "#8ECA3C",
+        "#276F27"
+      ],
+      "likes": 1046,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-16",
+    "name": "柳色",
+    "description": "绿野清朗，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#397711",
+      "background": "#fdfbfb",
+      "sidebar": "#193525",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/25671e48a111f2b50bf7f0f0",
+      "colors": [
+        "#25671E",
+        "#48A111",
+        "#F2B50B",
+        "#F7F0F0"
+      ],
+      "likes": 1309,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-17",
+    "name": "翠微",
+    "description": "碧叶含光，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#5c7139",
+      "background": "#fffcd0",
+      "sidebar": "#e3efb4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fed24ffff449b2d9597ec151",
+      "colors": [
+        "#FED24F",
+        "#FFF449",
+        "#B2D959",
+        "#7EC151"
+      ],
+      "likes": 1044,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-18",
+    "name": "苔原",
+    "description": "青禾映雪，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#5e7038",
+      "background": "#f4fed6",
+      "sidebar": "#edc4a8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/39b1d1d6fb61f6850cde3e3e",
+      "colors": [
+        "#39B1D1",
+        "#D6FB61",
+        "#F6850C",
+        "#DE3E3E"
+      ],
+      "likes": 941,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-19",
+    "name": "森语",
+    "description": "苔青入画，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#58713e",
+      "background": "#fffae3",
+      "sidebar": "#0e141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d90000ffea938db355000000",
+      "colors": [
+        "#D90000",
+        "#FFEA93",
+        "#8DB355",
+        "#000000"
+      ],
+      "likes": 1247,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-20",
+    "name": "抹茶",
+    "description": "春山明净，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#3b7366",
+      "background": "#fffee1",
+      "sidebar": "#dafece",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/70ffd2fffc8cffcc4dff9137",
+      "colors": [
+        "#70FFD2",
+        "#FFFC8C",
+        "#FFCC4D",
+        "#FF9137"
+      ],
+      "likes": 906,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-21",
+    "name": "豆青",
+    "description": "草木清新，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#06775f",
+      "background": "#fff3d7",
+      "sidebar": "#ffe9b5",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff7f50ffd16606d6a0118ab2",
+      "colors": [
+        "#FF7F50",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2"
+      ],
+      "likes": 874,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-22",
+    "name": "苔石",
+    "description": "竹影疏朗，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#5d6f4c",
+      "background": "#fefaf5",
+      "sidebar": "#312521",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/6e351191ac67597928fcecd8",
+      "colors": [
+        "#6E3511",
+        "#91AC67",
+        "#597928",
+        "#FCECD8"
+      ],
+      "likes": 1228,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-23",
+    "name": "荷叶",
+    "description": "翠色生机，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#0D530E",
+      "background": "#fefcf6",
+      "sidebar": "#eff0e3",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fbf5dde7e1b1306d290d530e",
+      "colors": [
+        "#FBF5DD",
+        "#E7E1B1",
+        "#306D29",
+        "#0D530E"
+      ],
+      "likes": 3171,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-24",
+    "name": "碧潭",
+    "description": "松林静谧，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#2B5748",
+      "background": "#f1f6ec",
+      "sidebar": "#d8e1cc",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9cb0806187642b5748273338",
+      "colors": [
+        "#9CB080",
+        "#618764",
+        "#2B5748",
+        "#273338"
+      ],
+      "likes": 3454,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-25",
+    "name": "柏影",
+    "description": "茶意清雅，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#5C6F2B",
+      "background": "#fbfbfb",
+      "sidebar": "#2b372a",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5c6f2bde802bd8c9a7eeeeee",
+      "colors": [
+        "#5C6F2B",
+        "#DE802B",
+        "#D8C9A7",
+        "#EEEEEE"
+      ],
+      "likes": 1178,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-26",
+    "name": "青瓷",
+    "description": "绿野清朗，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#58710f",
+      "background": "#f7f7c0",
+      "sidebar": "#c9d699",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/063b0026621090b800e1e100",
+      "colors": [
+        "#063B00",
+        "#266210",
+        "#90B800",
+        "#E1E100"
+      ],
+      "likes": 1548,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-27",
+    "name": "玉竹",
+    "description": "碧叶含光，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#507236",
+      "background": "#f9fcee",
+      "sidebar": "#ebf2d5",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5b7e3ca2cb8be8f5bdc44545",
+      "colors": [
+        "#5B7E3C",
+        "#A2CB8B",
+        "#E8F5BD",
+        "#C44545"
+      ],
+      "likes": 1805,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-28",
+    "name": "橄榄",
+    "description": "青禾映雪，沉静有序",
+    "color_family": "green",
+    "palette": {
+      "primary": "#587126",
+      "background": "#fff6d1",
+      "sidebar": "#334428",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/769826a1cb35ffde4eff9d4d",
+      "colors": [
+        "#769826",
+        "#A1CB35",
+        "#FFDE4E",
+        "#FF9D4D"
+      ],
+      "likes": 952,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-29",
+    "name": "芽绿",
+    "description": "苔青入画，清爽留白",
+    "color_family": "green",
+    "palette": {
+      "primary": "#283F24",
+      "background": "#fffde1",
+      "sidebar": "#f3f1c5",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffbf00fff78d467235283f24",
+      "colors": [
+        "#FFBF00",
+        "#FFF78D",
+        "#467235",
+        "#283F24"
+      ],
+      "likes": 1301,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-green-30",
+    "name": "春山",
+    "description": "春山明净，层次舒展",
+    "color_family": "green",
+    "palette": {
+      "primary": "#58713e",
+      "background": "#fffae3",
+      "sidebar": "#b3af9f",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d90000ffea938db355000000",
+      "colors": [
+        "#D90000",
+        "#FFEA93",
+        "#8DB355",
+        "#000000"
+      ],
+      "likes": 1247,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-01",
+    "name": "海青",
+    "description": "碧水澄明，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#447076",
+      "background": "#f8fefe",
+      "sidebar": "#32545e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e3fdfdcbf1f5a6e3e971c9ce",
+      "colors": [
+        "#E3FDFD",
+        "#CBF1F5",
+        "#A6E3E9",
+        "#71C9CE"
+      ],
+      "likes": 47887,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-02",
+    "name": "青碧",
+    "description": "青汐轻盈，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#087578",
+      "background": "#fafafa",
+      "sidebar": "#e8f4f4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea",
+      "colors": [
+        "#08D9D6",
+        "#252A34",
+        "#FF2E63",
+        "#EAEAEA"
+      ],
+      "likes": 35498,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-03",
+    "name": "湖光",
+    "description": "湖光映雪，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#3f7174",
+      "background": "#fef8f5",
+      "sidebar": "#f3f0eb",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffb6b9fae3d9bbded661c0bf",
+      "colors": [
+        "#FFB6B9",
+        "#FAE3D9",
+        "#BBDED6",
+        "#61C0BF"
+      ],
+      "likes": 30595,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-04",
+    "name": "碧泉",
+    "description": "海风清朗，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a747c",
+      "background": "#fcfcfc",
+      "sidebar": "#1f2d3e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185",
+      "colors": [
+        "#364F6B",
+        "#3FC1C9",
+        "#F5F5F5",
+        "#FC5185"
+      ],
+      "likes": 27974,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-05",
+    "name": "青汐",
+    "description": "碧波舒展，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#0D7377",
+      "background": "#c5fffa",
+      "sidebar": "#a1ceca",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2121213232320d737714ffec",
+      "colors": [
+        "#212121",
+        "#323232",
+        "#0D7377",
+        "#14FFEC"
+      ],
+      "likes": 24758,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-06",
+    "name": "蓝湾",
+    "description": "青石温润，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#005461",
+      "background": "#fcfcfc",
+      "sidebar": "#ecf0f1",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00546101879000b7b5f4f4f4",
+      "colors": [
+        "#005461",
+        "#018790",
+        "#00B7B5",
+        "#F4F4F4"
+      ],
+      "likes": 3716,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-07",
+    "name": "碧水",
+    "description": "水色清雅，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#427178",
+      "background": "#d5fdf5",
+      "sidebar": "#10273a",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/093c5d3b75976fd1d75df8d8",
+      "colors": [
+        "#093C5D",
+        "#3B7597",
+        "#6FD1D7",
+        "#5DF8D8"
+      ],
+      "likes": 3205,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-08",
+    "name": "海盐",
+    "description": "潮声入画，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#12544F",
+      "background": "#edf6ee",
+      "sidebar": "#d7e9da",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/09232812544f2a835f8bbb92",
+      "colors": [
+        "#092328",
+        "#12544F",
+        "#2A835F",
+        "#8BBB92"
+      ],
+      "likes": 3112,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-09",
+    "name": "晴川",
+    "description": "晴川含光，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a7471",
+      "background": "#eaf6f6",
+      "sidebar": "#b2c6d6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/121358232f722f578a36ada3",
+      "colors": [
+        "#121358",
+        "#232F72",
+        "#2F578A",
+        "#36ADA3"
+      ],
+      "likes": 2208,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-10",
+    "name": "碧波",
+    "description": "碧海明净，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#037584",
+      "background": "#fffbf3",
+      "sidebar": "#552325",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/df301cff9100fff1d100b7cd",
+      "colors": [
+        "#DF301C",
+        "#FF9100",
+        "#FFF1D1",
+        "#00B7CD"
+      ],
+      "likes": 2025,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-11",
+    "name": "潮声",
+    "description": "碧水澄明，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#496f7a",
+      "background": "#f5fff0",
+      "sidebar": "#d2fdef",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/30afff92eeffd8ffc5c4f7ca",
+      "colors": [
+        "#30AFFF",
+        "#92EEFF",
+        "#D8FFC5",
+        "#C4F7CA"
+      ],
+      "likes": 1984,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-12",
+    "name": "薄雾",
+    "description": "青汐轻盈，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#03776a",
+      "background": "#fff5c3",
+      "sidebar": "#ffbbb0",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00e0ba91008dff3483ffcf00",
+      "colors": [
+        "#00E0BA",
+        "#91008D",
+        "#FF3483",
+        "#FFCF00"
+      ],
+      "likes": 1473,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-13",
+    "name": "清泉",
+    "description": "湖光映雪，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#027575",
+      "background": "#fffbf8",
+      "sidebar": "#0e3a43",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00797924b1b1fff0e4ffe0c5",
+      "colors": [
+        "#007979",
+        "#24B1B1",
+        "#FFF0E4",
+        "#FFE0C5"
+      ],
+      "likes": 1813,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-14",
+    "name": "竹海",
+    "description": "海风清朗，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#17433F",
+      "background": "#fbfaed",
+      "sidebar": "#f1f1dd",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/4b142617433f558467efeabb",
+      "colors": [
+        "#4B1426",
+        "#17433F",
+        "#558467",
+        "#EFEABB"
+      ],
+      "likes": 1564,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-15",
+    "name": "海风",
+    "description": "碧波舒展，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#077679",
+      "background": "#fefae6",
+      "sidebar": "#f7f2ce",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fdeb9e7ae2cf077a7d06202b",
+      "colors": [
+        "#FDEB9E",
+        "#7AE2CF",
+        "#077A7D",
+        "#06202B"
+      ],
+      "likes": 1246,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-16",
+    "name": "青霭",
+    "description": "青石温润，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#397368",
+      "background": "#fbf7ec",
+      "sidebar": "#312d2d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5dd3b66e5034cdb885efe1b5",
+      "colors": [
+        "#5DD3B6",
+        "#6E5034",
+        "#CDB885",
+        "#EFE1B5"
+      ],
+      "likes": 1620,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-17",
+    "name": "沧澜",
+    "description": "水色清雅，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#3c7174",
+      "background": "#f8f6cd",
+      "sidebar": "#cacfb7",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0d0b61294669478b8de4d329",
+      "colors": [
+        "#0D0B61",
+        "#294669",
+        "#478B8D",
+        "#E4D329"
+      ],
+      "likes": 1180,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-18",
+    "name": "翠湖",
+    "description": "潮声入画，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#3a7469",
+      "background": "#f3f4fb",
+      "sidebar": "#adaeb2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0b09092e4540408175b5b9f0",
+      "colors": [
+        "#0B0909",
+        "#2E4540",
+        "#408175",
+        "#B5B9F0"
+      ],
+      "likes": 1017,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-19",
+    "name": "青石",
+    "description": "晴川含光，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#46716e",
+      "background": "#fefcea",
+      "sidebar": "#1e4248",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fdf4afa5e9dd6fbeb234908b",
+      "colors": [
+        "#FDF4AF",
+        "#A5E9DD",
+        "#6FBEB2",
+        "#34908B"
+      ],
+      "likes": 1351,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-20",
+    "name": "碧海",
+    "description": "碧海明净，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#157768",
+      "background": "#eaf6f6",
+      "sidebar": "#c7e4e9",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2f39a92e6fa049a4bb15d8b3",
+      "colors": [
+        "#2F39A9",
+        "#2E6FA0",
+        "#49A4BB",
+        "#15D8B3"
+      ],
+      "likes": 1122,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-21",
+    "name": "水镜",
+    "description": "碧水澄明，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a7286",
+      "background": "#f4fed6",
+      "sidebar": "#e1f9b5",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/39b1d1d6fb61f6850cde3e3e",
+      "colors": [
+        "#39B1D1",
+        "#D6FB61",
+        "#F6850C",
+        "#DE3E3E"
+      ],
+      "likes": 941,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-22",
+    "name": "冰川",
+    "description": "青汐轻盈，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#215E61",
+      "background": "#fcfcfc",
+      "sidebar": "#171e29",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff9e20215e611d2128f4f2f2",
+      "colors": [
+        "#FF9E20",
+        "#215E61",
+        "#1D2128",
+        "#F4F2F2"
+      ],
+      "likes": 1289,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-23",
+    "name": "青湾",
+    "description": "湖光映雪，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a756e",
+      "background": "#f8fdfc",
+      "sidebar": "#ddf8f6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e4f9f530e3ca11999e40514e",
+      "colors": [
+        "#E4F9F5",
+        "#30E3CA",
+        "#11999E",
+        "#40514E"
+      ],
+      "likes": 22722,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-24",
+    "name": "湖心",
+    "description": "海风清朗，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#117293",
+      "background": "#fff3d7",
+      "sidebar": "#ffe9b5",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff7f50ffd16606d6a0118ab2",
+      "colors": [
+        "#FF7F50",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2"
+      ],
+      "likes": 874,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-25",
+    "name": "藻青",
+    "description": "碧波舒展，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#21728d",
+      "background": "#fef8e5",
+      "sidebar": "#184154",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/218dae2bbbd7fce59affd758",
+      "colors": [
+        "#218DAE",
+        "#2BBBD7",
+        "#FCE59A",
+        "#FFD758"
+      ],
+      "likes": 1189,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-26",
+    "name": "碧空",
+    "description": "青石温润，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#427178",
+      "background": "#d5fdf5",
+      "sidebar": "#b3dfe0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/093c5d3b75976fd1d75df8d8",
+      "colors": [
+        "#093C5D",
+        "#3B7597",
+        "#6FD1D7",
+        "#5DF8D8"
+      ],
+      "likes": 3205,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-27",
+    "name": "涧水",
+    "description": "水色清雅，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#30737c",
+      "background": "#eaf6f6",
+      "sidebar": "#f0d5e4",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff3e9bff88ba3a8b9566d0bc",
+      "colors": [
+        "#FF3E9B",
+        "#FF88BA",
+        "#3A8B95",
+        "#66D0BC"
+      ],
+      "likes": 2408,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-28",
+    "name": "潭影",
+    "description": "潮声入画，沉静有序",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#123F36",
+      "background": "#f9f6f0",
+      "sidebar": "#13282d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/123f362a6b5cc49a45e8dcc4",
+      "colors": [
+        "#123F36",
+        "#2A6B5C",
+        "#C49A45",
+        "#E8DCC4"
+      ],
+      "likes": 1038,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-29",
+    "name": "青岚",
+    "description": "晴川含光，清爽留白",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#32736a",
+      "background": "#d5fdf5",
+      "sidebar": "#bff3ee",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/093c5d3b75976fd1d75df8d8",
+      "colors": [
+        "#093C5D",
+        "#3B7597",
+        "#6FD1D7",
+        "#5DF8D8"
+      ],
+      "likes": 3205,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-cyan-30",
+    "name": "海月",
+    "description": "碧海明净，层次舒展",
+    "color_family": "cyan",
+    "palette": {
+      "primary": "#2a7375",
+      "background": "#fdf7e7",
+      "sidebar": "#f6eed2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/31aaa9f8e0a4a820206c1a1a",
+      "colors": [
+        "#31AAA9",
+        "#F8E0A4",
+        "#A82020",
+        "#6C1A1A"
+      ],
+      "likes": 1396,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "jilan",
+    "name": "霁蓝",
+    "description": "澄澈蓝意，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1E5A8F",
+      "background": "#F1F4F7",
+      "sidebar": "#162635",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "TinyBot霁蓝",
+      "url": "https://ant.design/docs/spec/colors-cn/",
+      "colors": [
+        "#1E5A8F",
+        "#F1F4F7",
+        "#162635"
+      ],
+      "adaptation": "保留TinyBot既有默认主题；Ant Design用于层级规范参考"
+    }
+  },
+  {
+    "id": "curated-blue-02",
+    "name": "海湾",
+    "description": "远海澄蓝，素白相映",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#3F72AF",
+      "background": "#F9F7F7",
+      "sidebar": "#DBE2EF",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e",
+      "colors": [
+        "#F9F7F7",
+        "#DBE2EF",
+        "#3F72AF",
+        "#112D4E"
+      ],
+      "likes": 46937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot首屏精选；原始四色按后台用途适配，收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-03",
+    "name": "远山",
+    "description": "海蓝沉静，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0F4C75",
+      "background": "#edf7fe",
+      "sidebar": "#d8ebf9",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa",
+      "colors": [
+        "#1B262C",
+        "#0F4C75",
+        "#3282B8",
+        "#BBE1FA"
+      ],
+      "likes": 36486,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-04",
+    "name": "靛海",
+    "description": "靛色雅致，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#27374D",
+      "background": "#f6f9fa",
+      "sidebar": "#1a2535",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/27374d526d829db2bfdde6ed",
+      "colors": [
+        "#27374D",
+        "#526D82",
+        "#9DB2BF",
+        "#DDE6ED"
+      ],
+      "likes": 36392,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-05",
+    "name": "晴空",
+    "description": "晴空映雪，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#496e83",
+      "background": "#fbf9f5",
+      "sidebar": "#efefeb",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/6096b493bfcfbdcdd6eee9da",
+      "colors": [
+        "#6096B4",
+        "#93BFCF",
+        "#BDCDD6",
+        "#EEE9DA"
+      ],
+      "likes": 32035,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-06",
+    "name": "星河",
+    "description": "星河疏朗，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#355C7D",
+      "background": "#fdf1f3",
+      "sidebar": "#d2c4cf",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f67280c06c846c5b7b355c7d",
+      "colors": [
+        "#F67280",
+        "#C06C84",
+        "#6C5B7B",
+        "#355C7D"
+      ],
+      "likes": 25367,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-07",
+    "name": "云海",
+    "description": "蔚蓝含光，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#364F6B",
+      "background": "#fcfcfc",
+      "sidebar": "#1f2d3e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185",
+      "colors": [
+        "#364F6B",
+        "#3FC1C9",
+        "#F5F5F5",
+        "#FC5185"
+      ],
+      "likes": 27974,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-08",
+    "name": "碧空",
+    "description": "霜蓝明净，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#476aa0",
+      "background": "#fbfaf8",
+      "sidebar": "#c4c3c1",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/efece38fabd44a70a9000000",
+      "colors": [
+        "#EFECE3",
+        "#8FABD4",
+        "#4A70A9",
+        "#000000"
+      ],
+      "likes": 7564,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-09",
+    "name": "夜航",
+    "description": "云海入画，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1B3C53",
+      "background": "#f8f8f8",
+      "sidebar": "#eceded",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1b3c53234c6a456882e3e3e3",
+      "colors": [
+        "#1B3C53",
+        "#234C6A",
+        "#456882",
+        "#E3E3E3"
+      ],
+      "likes": 5668,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-10",
+    "name": "湖蓝",
+    "description": "蓝墨映白，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#506c89",
+      "background": "#fdfefe",
+      "sidebar": "#33475d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f7fbfcd6e6f2b9d7ea769fcd",
+      "colors": [
+        "#F7FBFC",
+        "#D6E6F2",
+        "#B9D7EA",
+        "#769FCD"
+      ],
+      "likes": 25781,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-11",
+    "name": "蓝墨",
+    "description": "澄澈蓝意，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#5559db",
+      "background": "#fff6fe",
+      "sidebar": "#f5e8fe",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/6367ff8494ffc9beffffdbfd",
+      "colors": [
+        "#6367FF",
+        "#8494FF",
+        "#C9BEFF",
+        "#FFDBFD"
+      ],
+      "likes": 5438,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-12",
+    "name": "晴岚",
+    "description": "远山清朗，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#216caa",
+      "background": "#f8fcfe",
+      "sidebar": "#e6f3fe",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e3f2fd90caf92196f30d47a1",
+      "colors": [
+        "#E3F2FD",
+        "#90CAF9",
+        "#2196F3",
+        "#0D47A1"
+      ],
+      "likes": 5212,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-13",
+    "name": "海雾",
+    "description": "海蓝沉静，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1D546D",
+      "background": "#fcfcfc",
+      "sidebar": "#101d29",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/061e291d546d5f9598f3f4f4",
+      "colors": [
+        "#061E29",
+        "#1D546D",
+        "#5F9598",
+        "#F3F4F4"
+      ],
+      "likes": 4467,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-14",
+    "name": "蔚蓝",
+    "description": "靛色雅致，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#093C5D",
+      "background": "#d5fdf5",
+      "sidebar": "#bff3ee",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/093c5d3b75976fd1d75df8d8",
+      "colors": [
+        "#093C5D",
+        "#3B7597",
+        "#6FD1D7",
+        "#5DF8D8"
+      ],
+      "likes": 3205,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-15",
+    "name": "潮蓝",
+    "description": "晴空映雪，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#462C7D",
+      "background": "#fff0f6",
+      "sidebar": "#ffcae6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/462c7d831c91d552a3ff70bf",
+      "colors": [
+        "#462C7D",
+        "#831C91",
+        "#D552A3",
+        "#FF70BF"
+      ],
+      "likes": 2838,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-16",
+    "name": "北辰",
+    "description": "星河疏朗，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#2d6d9f",
+      "background": "#fdfdf0",
+      "sidebar": "#234b6d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fe9ec7f9f6c489d4ff44acff",
+      "colors": [
+        "#FE9EC7",
+        "#F9F6C4",
+        "#89D4FF",
+        "#44ACFF"
+      ],
+      "likes": 4071,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-17",
+    "name": "山海",
+    "description": "蔚蓝含光，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1B2CC1",
+      "background": "#ebf5fe",
+      "sidebar": "#ddedfd",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0915401b2cc17692ffabd2fa",
+      "colors": [
+        "#091540",
+        "#1B2CC1",
+        "#7692FF",
+        "#ABD2FA"
+      ],
+      "likes": 2405,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-18",
+    "name": "月海",
+    "description": "霜蓝明净，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#232F72",
+      "background": "#eaf6f6",
+      "sidebar": "#b2c6d6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/121358232f722f578a36ada3",
+      "colors": [
+        "#121358",
+        "#232F72",
+        "#2F578A",
+        "#36ADA3"
+      ],
+      "likes": 2208,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-19",
+    "name": "霜蓝",
+    "description": "云海入画，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#403D88",
+      "background": "#fdf1f1",
+      "sidebar": "#222747",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f8b2b2af719d8b639b403d88",
+      "colors": [
+        "#F8B2B2",
+        "#AF719D",
+        "#8B639B",
+        "#403D88"
+      ],
+      "likes": 2730,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-20",
+    "name": "晨海",
+    "description": "蓝墨映白，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#4647AE",
+      "background": "#edf6f6",
+      "sidebar": "#deedef",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/112e814647ae4382dfaaccd6",
+      "colors": [
+        "#112E81",
+        "#4647AE",
+        "#4382DF",
+        "#AACCD6"
+      ],
+      "likes": 1936,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-21",
+    "name": "碧霄",
+    "description": "澄澈蓝意，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#305669",
+      "background": "#ecf8f2",
+      "sidebar": "#d7ede3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/b7e5cd8abeb9305669c1785a",
+      "colors": [
+        "#B7E5CD",
+        "#8ABEB9",
+        "#305669",
+        "#C1785A"
+      ],
+      "likes": 1899,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-22",
+    "name": "深空",
+    "description": "远山清朗，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#526b8a",
+      "background": "#fffbf8",
+      "sidebar": "#5f3e57",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff84baffdf8299c2ffffefe3",
+      "colors": [
+        "#FF84BA",
+        "#FFDF82",
+        "#99C2FF",
+        "#FFEFE3"
+      ],
+      "likes": 1944,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-23",
+    "name": "星蓝",
+    "description": "海蓝沉静，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#233D4D",
+      "background": "#fafafb",
+      "sidebar": "#c3c3c4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/000000233d4dfe7f2deaecf0",
+      "colors": [
+        "#000000",
+        "#233D4D",
+        "#FE7F2D",
+        "#EAECF0"
+      ],
+      "likes": 1822,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-24",
+    "name": "澄空",
+    "description": "靛色雅致，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#4d68aa",
+      "background": "#fcfcfc",
+      "sidebar": "#f0f1f7",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f2f2feb05d5a7acd2b2a2a",
+      "colors": [
+        "#F5F2F2",
+        "#FEB05D",
+        "#5A7ACD",
+        "#2B2A2A"
+      ],
+      "likes": 1670,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-25",
+    "name": "雨霁",
+    "description": "晴空映雪，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#425B9A",
+      "background": "#fffdf6",
+      "sidebar": "#23314d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/425b9a76c0ecfff6dcff95a5",
+      "colors": [
+        "#425B9A",
+        "#76C0EC",
+        "#FFF6DC",
+        "#FF95A5"
+      ],
+      "likes": 1577,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-26",
+    "name": "蓝玉",
+    "description": "星河疏朗，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#1B4EF5",
+      "background": "#fcf2ff",
+      "sidebar": "#f3e5ff",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1b4ef53874ff5996fff4ceff",
+      "colors": [
+        "#1B4EF5",
+        "#3874FF",
+        "#5996FF",
+        "#F4CEFF"
+      ],
+      "likes": 1522,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-27",
+    "name": "苍穹",
+    "description": "蔚蓝含光，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#0055DA",
+      "background": "#fff5c0",
+      "sidebar": "#ffac9f",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff0052ffd40000c68d0055da",
+      "colors": [
+        "#FF0052",
+        "#FFD400",
+        "#00C68D",
+        "#0055DA"
+      ],
+      "likes": 1495,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-28",
+    "name": "远帆",
+    "description": "霜蓝明净，沉静有序",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#086288",
+      "background": "#fffbf0",
+      "sidebar": "#103347",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0862884d8dba97d7ffffefc4",
+      "colors": [
+        "#086288",
+        "#4D8DBA",
+        "#97D7FF",
+        "#FFEFC4"
+      ],
+      "likes": 1423,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-29",
+    "name": "海天",
+    "description": "云海入画，清爽留白",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#443199",
+      "background": "#f7f3f3",
+      "sidebar": "#f2d0d0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e05454c13383792ca2443199",
+      "colors": [
+        "#E05454",
+        "#C13383",
+        "#792CA2",
+        "#443199"
+      ],
+      "likes": 1383,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-blue-30",
+    "name": "云帆",
+    "description": "蓝墨映白，层次舒展",
+    "color_family": "blue",
+    "palette": {
+      "primary": "#006199",
+      "background": "#fcfad9",
+      "sidebar": "#daede2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0061998acff8f4eb6cffd444",
+      "colors": [
+        "#006199",
+        "#8ACFF8",
+        "#F4EB6C",
+        "#FFD444"
+      ],
+      "likes": 1293,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-01",
+    "name": "暮山",
+    "description": "暮紫含光，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#982598",
+      "background": "#fbf9f9",
+      "sidebar": "#141b2f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/15173d982598e491c9f1e9e9",
+      "colors": [
+        "#15173D",
+        "#982598",
+        "#E491C9",
+        "#F1E9E9"
+      ],
+      "likes": 3528,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-02",
+    "name": "桔梗",
+    "description": "紫藤清雅，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#831C91",
+      "background": "#fff0f6",
+      "sidebar": "#ffd4ea",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/462c7d831c91d552a3ff70bf",
+      "colors": [
+        "#462C7D",
+        "#831C91",
+        "#D552A3",
+        "#FF70BF"
+      ],
+      "likes": 2838,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-03",
+    "name": "紫藤",
+    "description": "鸢尾雅致，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#5D1C6A",
+      "background": "#fffbf4",
+      "sidebar": "#faf1e6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fff1d3ffb090ca59955d1c6a",
+      "colors": [
+        "#FFF1D3",
+        "#FFB090",
+        "#CA5995",
+        "#5D1C6A"
+      ],
+      "likes": 2175,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-04",
+    "name": "鸢尾",
+    "description": "淡紫舒展，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8100D1",
+      "background": "#fff1ea",
+      "sidebar": "#37145f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-05",
+    "name": "星紫",
+    "description": "兰色宁静，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8F0177",
+      "background": "#fdf2e9",
+      "sidebar": "#fbd8c1",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1a05a28f0177de1a58f67d31",
+      "colors": [
+        "#1A05A2",
+        "#8F0177",
+        "#DE1A58",
+        "#F67D31"
+      ],
+      "likes": 2046,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-06",
+    "name": "丁香",
+    "description": "紫韵入画，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#452E5A",
+      "background": "#fff3d9",
+      "sidebar": "#ffe6b4",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1e104e452e5aff653fffc85c",
+      "colors": [
+        "#1E104E",
+        "#452E5A",
+        "#FF653F",
+        "#FFC85C"
+      ],
+      "likes": 1937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-07",
+    "name": "烟紫",
+    "description": "烟紫温润，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#9f2fd8",
+      "background": "#fefce8",
+      "sidebar": "#472369",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fbf5a7ff97d0ff62bbb331f1",
+      "colors": [
+        "#FBF5A7",
+        "#FF97D0",
+        "#FF62BB",
+        "#B331F1"
+      ],
+      "likes": 1897,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-08",
+    "name": "云紫",
+    "description": "星紫明净，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#744577",
+      "background": "#fbf9ec",
+      "sidebar": "#eaf0dc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/744577f0e9b6accfa384c5b1",
+      "colors": [
+        "#744577",
+        "#F0E9B6",
+        "#ACCFA3",
+        "#84C5B1"
+      ],
+      "likes": 1698,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-09",
+    "name": "紫晶",
+    "description": "紫霞映雪，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#7f5b99",
+      "background": "#fffcee",
+      "sidebar": "#fcf1e3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fff4bfffbefbdc95ff8c56d4",
+      "colors": [
+        "#FFF4BF",
+        "#FFBEFB",
+        "#DC95FF",
+        "#8C56D4"
+      ],
+      "likes": 1667,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-10",
+    "name": "紫罗",
+    "description": "幽兰疏朗，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#4E1F6E",
+      "background": "#e4f9f6",
+      "sidebar": "#271e3f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/4e1f6e3e3e7545a9a998e8de",
+      "colors": [
+        "#4E1F6E",
+        "#3E3E75",
+        "#45A9A9",
+        "#98E8DE"
+      ],
+      "likes": 1491,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-11",
+    "name": "兰庭",
+    "description": "暮紫含光，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#91008D",
+      "background": "#fff5c3",
+      "sidebar": "#ffcbb5",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00e0ba91008dff3483ffcf00",
+      "colors": [
+        "#00E0BA",
+        "#91008D",
+        "#FF3483",
+        "#FFCF00"
+      ],
+      "likes": 1473,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-12",
+    "name": "薰衣",
+    "description": "紫藤清雅，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#5003C0",
+      "background": "#fff5c8",
+      "sidebar": "#ffc1b1",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5003c0ab03a9ff467affd51e",
+      "colors": [
+        "#5003C0",
+        "#AB03A9",
+        "#FF467A",
+        "#FFD51E"
+      ],
+      "likes": 1472,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-13",
+    "name": "绛紫",
+    "description": "鸢尾雅致，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#792CA2",
+      "background": "#f7f3f3",
+      "sidebar": "#23234d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e05454c13383792ca2443199",
+      "colors": [
+        "#E05454",
+        "#C13383",
+        "#792CA2",
+        "#443199"
+      ],
+      "likes": 1383,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-14",
+    "name": "紫苑",
+    "description": "淡紫舒展，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#792CA2",
+      "background": "#f7f3f3",
+      "sidebar": "#f2d0d0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/443199792ca2c13383e05454",
+      "colors": [
+        "#443199",
+        "#792CA2",
+        "#C13383",
+        "#E05454"
+      ],
+      "likes": 1344,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-15",
+    "name": "藕荷",
+    "description": "兰色宁静，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#9c499c",
+      "background": "#fff0f6",
+      "sidebar": "#ffe2ef",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8e1ea2c654c3ed96d7ffc0de",
+      "colors": [
+        "#8E1EA2",
+        "#C654C3",
+        "#ED96D7",
+        "#FFC0DE"
+      ],
+      "likes": 1301,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-16",
+    "name": "紫烟",
+    "description": "紫韵入画，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#522D60",
+      "background": "#fff4e1",
+      "sidebar": "#28223b",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/522d6080426ef2a67bffd38b",
+      "colors": [
+        "#522D60",
+        "#80426E",
+        "#F2A67B",
+        "#FFD38B"
+      ],
+      "likes": 1157,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-17",
+    "name": "幽兰",
+    "description": "烟紫温润，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8140DC",
+      "background": "#fff2e4",
+      "sidebar": "#fbe4d3",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffca95ff7873e22f808140dc",
+      "colors": [
+        "#FFCA95",
+        "#FF7873",
+        "#E22F80",
+        "#8140DC"
+      ],
+      "likes": 985,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-18",
+    "name": "夜紫",
+    "description": "星紫明净，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#723EC3",
+      "background": "#fffbf5",
+      "sidebar": "#f7edeb",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/333d6d723ec3ffcf95fff0d9",
+      "colors": [
+        "#333D6D",
+        "#723EC3",
+        "#FFCF95",
+        "#FFF0D9"
+      ],
+      "likes": 900,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-19",
+    "name": "紫岚",
+    "description": "紫霞映雪，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#9c469e",
+      "background": "#fffee8",
+      "sidebar": "#5f336b",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffea6cfffba7ffa6fbff61f8",
+      "colors": [
+        "#FFEA6C",
+        "#FFFBA7",
+        "#FFA6FB",
+        "#FF61F8"
+      ],
+      "likes": 1111,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-20",
+    "name": "苍紫",
+    "description": "幽兰疏朗，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#722F99",
+      "background": "#fff9f1",
+      "sidebar": "#f2ede6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/722f99c5c1c1fee7c8ff9292",
+      "colors": [
+        "#722F99",
+        "#C5C1C1",
+        "#FEE7C8",
+        "#FF9292"
+      ],
+      "likes": 732,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-21",
+    "name": "莓紫",
+    "description": "暮紫含光，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#542177",
+      "background": "#e4f9f6",
+      "sidebar": "#c9eeeb",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5421778e1ea2d552a398e8de",
+      "colors": [
+        "#542177",
+        "#8E1EA2",
+        "#D552A3",
+        "#98E8DE"
+      ],
+      "likes": 331,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-22",
+    "name": "紫霞",
+    "description": "紫藤清雅，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#7a54b7",
+      "background": "#fbfbfb",
+      "sidebar": "#211949",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/3e0f8d9564dde4da72eeeeee",
+      "colors": [
+        "#3E0F8D",
+        "#9564DD",
+        "#E4DA72",
+        "#EEEEEE"
+      ],
+      "likes": 830,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-23",
+    "name": "墨紫",
+    "description": "鸢尾雅致，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#982598",
+      "background": "#fbf9f9",
+      "sidebar": "#f6eff2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/15173d982598e491c9f1e9e9",
+      "colors": [
+        "#15173D",
+        "#982598",
+        "#E491C9",
+        "#F1E9E9"
+      ],
+      "likes": 3528,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-24",
+    "name": "紫玉",
+    "description": "淡紫舒展，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8100D1",
+      "background": "#fff1ea",
+      "sidebar": "#ffdaca",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-25",
+    "name": "琉紫",
+    "description": "兰色宁静，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8152ba",
+      "background": "#fff8fd",
+      "sidebar": "#31326d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff6082ffe4f6b26cff705eff",
+      "colors": [
+        "#FF6082",
+        "#FFE4F6",
+        "#B26CFF",
+        "#705EFF"
+      ],
+      "likes": 527,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-26",
+    "name": "云锦",
+    "description": "紫韵入画，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#B500B2",
+      "background": "#fff1ea",
+      "sidebar": "#ffe0d2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-27",
+    "name": "紫陌",
+    "description": "烟紫温润，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#9f2fd8",
+      "background": "#fefce8",
+      "sidebar": "#f9eed7",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fbf5a7ff97d0ff62bbb331f1",
+      "colors": [
+        "#FBF5A7",
+        "#FF97D0",
+        "#FF62BB",
+        "#B331F1"
+      ],
+      "likes": 1897,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-28",
+    "name": "晨紫",
+    "description": "星紫明净，沉静有序",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#8A2A78",
+      "background": "#fbf8ea",
+      "sidebar": "#1b1432",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2900445000718a2a78eee3b0",
+      "colors": [
+        "#290044",
+        "#500071",
+        "#8A2A78",
+        "#EEE3B0"
+      ],
+      "likes": 474,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-29",
+    "name": "绒紫",
+    "description": "紫霞映雪，清爽留白",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#AB03A9",
+      "background": "#fff5c8",
+      "sidebar": "#ffcfb7",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5003c0ab03a9ff467affd51e",
+      "colors": [
+        "#5003C0",
+        "#AB03A9",
+        "#FF467A",
+        "#FFD51E"
+      ],
+      "likes": 1472,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-purple-30",
+    "name": "紫穗",
+    "description": "幽兰疏朗，层次舒展",
+    "color_family": "purple",
+    "palette": {
+      "primary": "#4C2365",
+      "background": "#f6f3f6",
+      "sidebar": "#e7dbee",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/4c23657f5d999e7eb5c4a4da",
+      "colors": [
+        "#4C2365",
+        "#7F5D99",
+        "#9E7EB5",
+        "#C4A4DA"
+      ],
+      "likes": 1400,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-01",
+    "name": "樱粉",
+    "description": "玫瑰含光，柔白相衬",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#A34C69",
+      "background": "#FDF6F8",
+      "sidebar": "#EAD7DF",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f67280c06c846c5b7b355c7d",
+      "colors": [
+        "#F67280",
+        "#C06C84",
+        "#6C5B7B",
+        "#355C7D"
+      ],
+      "likes": 25367,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot首屏精选；原始四色按后台用途适配，收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-02",
+    "name": "桃夭",
+    "description": "桃色温润，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#c22e54",
+      "background": "#fafafa",
+      "sidebar": "#f6f0f2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea",
+      "colors": [
+        "#08D9D6",
+        "#252A34",
+        "#FF2E63",
+        "#EAEAEA"
+      ],
+      "likes": 35498,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-03",
+    "name": "玫瑰",
+    "description": "玫瑰雅致，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#a0515c",
+      "background": "#fdf1f3",
+      "sidebar": "#d2c4cf",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f67280c06c846c5b7b355c7d",
+      "colors": [
+        "#F67280",
+        "#C06C84",
+        "#6C5B7B",
+        "#355C7D"
+      ],
+      "likes": 25367,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-04",
+    "name": "藕粉",
+    "description": "浅樱映雪，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#b04165",
+      "background": "#fcfcfc",
+      "sidebar": "#1f2d3e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185",
+      "colors": [
+        "#364F6B",
+        "#3FC1C9",
+        "#F5F5F5",
+        "#FC5185"
+      ],
+      "likes": 27974,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-05",
+    "name": "莓果",
+    "description": "藕粉清雅，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#810B38",
+      "background": "#fbf7f3",
+      "sidebar": "#f5ebe7",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/810b38f1e2d1dcc3aa541a1a",
+      "colors": [
+        "#810B38",
+        "#F1E2D1",
+        "#DCC3AA",
+        "#541A1A"
+      ],
+      "likes": 4901,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-06",
+    "name": "蔷薇",
+    "description": "莓色含光，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#965383",
+      "background": "#fffaed",
+      "sidebar": "#feeae0",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fe81d4faacbffbc3c1ffeabb",
+      "colors": [
+        "#FE81D4",
+        "#FAACBF",
+        "#FBC3C1",
+        "#FFEABB"
+      ],
+      "likes": 3359,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-07",
+    "name": "浅樱",
+    "description": "蔷薇入画，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#bf2f62",
+      "background": "#fffcfd",
+      "sidebar": "#52243e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d6336cff4081ffb6c1fff5f8",
+      "colors": [
+        "#D6336C",
+        "#FF4081",
+        "#FFB6C1",
+        "#FFF5F8"
+      ],
+      "likes": 3481,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-08",
+    "name": "桃花",
+    "description": "粉黛柔美，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#b93276",
+      "background": "#fefff1",
+      "sidebar": "#fdf0e6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f13e93f891bbf9d0cdfaffcb",
+      "colors": [
+        "#F13E93",
+        "#F891BB",
+        "#F9D0CD",
+        "#FAFFCB"
+      ],
+      "likes": 3173,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-09",
+    "name": "芙蓉",
+    "description": "花色明净，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#853953",
+      "background": "#fcfcfc",
+      "sidebar": "#bebebe",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f3f4f4853953612d532c2c2c",
+      "colors": [
+        "#F3F4F4",
+        "#853953",
+        "#612D53",
+        "#2C2C2C"
+      ],
+      "likes": 3124,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-10",
+    "name": "粉黛",
+    "description": "春樱舒展，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#965576",
+      "background": "#fcfcfc",
+      "sidebar": "#0e1c37",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/021a54ff85bbffcee3f5f5f5",
+      "colors": [
+        "#021A54",
+        "#FF85BB",
+        "#FFCEE3",
+        "#F5F5F5"
+      ],
+      "likes": 3289,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-11",
+    "name": "海棠",
+    "description": "樱粉轻盈，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#601D49",
+      "background": "#fffaed",
+      "sidebar": "#faf0dc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/601d49bd5579ea9d9dffebb8",
+      "colors": [
+        "#601D49",
+        "#BD5579",
+        "#EA9D9D",
+        "#FFEBB8"
+      ],
+      "likes": 2732,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-12",
+    "name": "朝樱",
+    "description": "桃色温润，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#a64783",
+      "background": "#fff0f6",
+      "sidebar": "#ffcae6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/462c7d831c91d552a3ff70bf",
+      "colors": [
+        "#462C7D",
+        "#831C91",
+        "#D552A3",
+        "#FF70BF"
+      ],
+      "likes": 2838,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-13",
+    "name": "桃雪",
+    "description": "玫瑰雅致，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#ba3078",
+      "background": "#eaf6f6",
+      "sidebar": "#20404c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff3e9bff88ba3a8b9566d0bc",
+      "colors": [
+        "#FF3E9B",
+        "#FF88BA",
+        "#3A8B95",
+        "#66D0BC"
+      ],
+      "likes": 2408,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-14",
+    "name": "胭粉",
+    "description": "浅樱映雪，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#905b5d",
+      "background": "#f2fefe",
+      "sidebar": "#eaf4f4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f29191f7adadb1e5e6ccfbfa",
+      "colors": [
+        "#F29191",
+        "#F7ADAD",
+        "#B1E5E6",
+        "#CCFBFA"
+      ],
+      "likes": 2440,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-15",
+    "name": "雾玫",
+    "description": "藕粉清雅，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#ca1a54",
+      "background": "#fdf2e9",
+      "sidebar": "#fbcfb2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1a05a28f0177de1a58f67d31",
+      "colors": [
+        "#1A05A2",
+        "#8F0177",
+        "#DE1A58",
+        "#F67D31"
+      ],
+      "likes": 2046,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-16",
+    "name": "莲粉",
+    "description": "莓色含光，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#ae4175",
+      "background": "#fff1ea",
+      "sidebar": "#37145f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-17",
+    "name": "梅影",
+    "description": "蔷薇入画，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#9c5458",
+      "background": "#fffaed",
+      "sidebar": "#ffefdc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffedb9ffcb56ffa259ff7e7e",
+      "colors": [
+        "#FFEDB9",
+        "#FFCB56",
+        "#FFA259",
+        "#FF7E7E"
+      ],
+      "likes": 1872,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-18",
+    "name": "霞粉",
+    "description": "粉黛柔美，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#AA1C41",
+      "background": "#fff9ec",
+      "sidebar": "#fceed6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5e244eaa1c41e68457ffe8b4",
+      "colors": [
+        "#5E244E",
+        "#AA1C41",
+        "#E68457",
+        "#FFE8B4"
+      ],
+      "likes": 1824,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-19",
+    "name": "玫露",
+    "description": "花色明净，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#8d597b",
+      "background": "#fefce8",
+      "sidebar": "#472369",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fbf5a7ff97d0ff62bbb331f1",
+      "colors": [
+        "#FBF5A7",
+        "#FF97D0",
+        "#FF62BB",
+        "#B331F1"
+      ],
+      "likes": 1897,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-20",
+    "name": "藕丝",
+    "description": "春樱舒展，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#c62956",
+      "background": "#fbfbfb",
+      "sidebar": "#c4c4c4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/000000cb2957ddddddeeeeee",
+      "colors": [
+        "#000000",
+        "#CB2957",
+        "#DDDDDD",
+        "#EEEEEE"
+      ],
+      "likes": 1722,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-21",
+    "name": "粉锦",
+    "description": "樱粉轻盈，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#cf0849",
+      "background": "#fff5c0",
+      "sidebar": "#ffeb86",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff0052ffd40000c68d0055da",
+      "colors": [
+        "#FF0052",
+        "#FFD400",
+        "#00C68D",
+        "#0055DA"
+      ],
+      "likes": 1495,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-22",
+    "name": "樱露",
+    "description": "桃色温润，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#905966",
+      "background": "#fffdf6",
+      "sidebar": "#23314d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/425b9a76c0ecfff6dcff95a5",
+      "colors": [
+        "#425B9A",
+        "#76C0EC",
+        "#FFF6DC",
+        "#FF95A5"
+      ],
+      "likes": 1577,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-23",
+    "name": "杏粉",
+    "description": "玫瑰雅致，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#be2f69",
+      "background": "#fff5c3",
+      "sidebar": "#c7f0c1",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00e0ba91008dff3483ffcf00",
+      "colors": [
+        "#00E0BA",
+        "#91008D",
+        "#FF3483",
+        "#FFCF00"
+      ],
+      "likes": 1473,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-24",
+    "name": "浅绯",
+    "description": "浅樱映雪，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#ba385e",
+      "background": "#fff5c8",
+      "sidebar": "#ffeb95",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5003c0ab03a9ff467affd51e",
+      "colors": [
+        "#5003C0",
+        "#AB03A9",
+        "#FF467A",
+        "#FFD51E"
+      ],
+      "likes": 1472,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-25",
+    "name": "蔷露",
+    "description": "藕粉清雅，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#7C0E44",
+      "background": "#fcf5f2",
+      "sidebar": "#351832",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/7c0e44aa5e7ad49a9af2dace",
+      "colors": [
+        "#7C0E44",
+        "#AA5E7A",
+        "#D49A9A",
+        "#F2DACE"
+      ],
+      "likes": 1387,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-26",
+    "name": "桃月",
+    "description": "莓色含光，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#b9317f",
+      "background": "#f7f3f3",
+      "sidebar": "#f2d0d0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e05454c13383792ca2443199",
+      "colors": [
+        "#E05454",
+        "#C13383",
+        "#792CA2",
+        "#443199"
+      ],
+      "likes": 1383,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-27",
+    "name": "梅雪",
+    "description": "蔷薇入画，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#760031",
+      "background": "#ffface",
+      "sidebar": "#ffccad",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/760031d51c39ff6060feec41",
+      "colors": [
+        "#760031",
+        "#D51C39",
+        "#FF6060",
+        "#FEEC41"
+      ],
+      "likes": 1326,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-28",
+    "name": "莓雪",
+    "description": "粉黛柔美，沉静有序",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#853953",
+      "background": "#fcfcfc",
+      "sidebar": "#1c222a",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2c2c2c853953612d53f3f4f4",
+      "colors": [
+        "#2C2C2C",
+        "#853953",
+        "#612D53",
+        "#F3F4F4"
+      ],
+      "likes": 1341,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-29",
+    "name": "花信",
+    "description": "花色明净，清爽留白",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#9c5361",
+      "background": "#fff5d6",
+      "sidebar": "#ffebbb",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff6a1cffda62ffae56f5788b",
+      "colors": [
+        "#FF6A1C",
+        "#FFDA62",
+        "#FFAE56",
+        "#F5788B"
+      ],
+      "likes": 1229,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-pink-30",
+    "name": "春樱",
+    "description": "春樱舒展，层次舒展",
+    "color_family": "pink",
+    "palette": {
+      "primary": "#D10056",
+      "background": "#fff4d1",
+      "sidebar": "#e8aca9",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/007dccffb900d10056b2054c",
+      "colors": [
+        "#007DCC",
+        "#FFB900",
+        "#D10056",
+        "#B2054C"
+      ],
+      "likes": 1098,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-01",
+    "name": "檀香",
+    "description": "檀色温润，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#786557",
+      "background": "#fffef9",
+      "sidebar": "#454041",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ad8b73ceab93e3caa5fffbe9",
+      "colors": [
+        "#AD8B73",
+        "#CEAB93",
+        "#E3CAA5",
+        "#FFFBE9"
+      ],
+      "likes": 39071,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-02",
+    "name": "栗木",
+    "description": "栗木沉静，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#76655c",
+      "background": "#fffaf6",
+      "sidebar": "#fbefe8",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ffeddbedcdbbe3b7a0bf9270",
+      "colors": [
+        "#FFEDDB",
+        "#EDCDBB",
+        "#E3B7A0",
+        "#BF9270"
+      ],
+      "likes": 30328,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-03",
+    "name": "可可",
+    "description": "茶褐清雅，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8C5A3C",
+      "background": "#fffdfb",
+      "sidebar": "#f9f2ed",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fff8f0c085528c5a3c4b2e2b",
+      "colors": [
+        "#FFF8F0",
+        "#C08552",
+        "#8C5A3C",
+        "#4B2E2B"
+      ],
+      "likes": 5971,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-04",
+    "name": "胡桃",
+    "description": "可可暖意，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#746855",
+      "background": "#f7f4ec",
+      "sidebar": "#31272f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9bb4c0e1d0b3a18d6d703b3b",
+      "colors": [
+        "#9BB4C0",
+        "#E1D0B3",
+        "#A18D6D",
+        "#703B3B"
+      ],
+      "likes": 4275,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-05",
+    "name": "茶褐",
+    "description": "砂岩疏朗，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#7B542F",
+      "background": "#fff3da",
+      "sidebar": "#fbe6bf",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/7b542fb6771dff9d00ffcf71",
+      "colors": [
+        "#7B542F",
+        "#B6771D",
+        "#FF9D00",
+        "#FFCF71"
+      ],
+      "likes": 3949,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-06",
+    "name": "秋木",
+    "description": "焦糖含光，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#622B14",
+      "background": "#f8f4e9",
+      "sidebar": "#f2ebd6",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/622b14995f2f978f66e4d6a9",
+      "colors": [
+        "#622B14",
+        "#995F2F",
+        "#978F66",
+        "#E4D6A9"
+      ],
+      "likes": 3372,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-07",
+    "name": "咖啡",
+    "description": "秋木雅致，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8B5E3C",
+      "background": "#fcf8f1",
+      "sidebar": "#112133",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0a2947f3e4c9d3d4c08b5e3c",
+      "colors": [
+        "#0A2947",
+        "#F3E4C9",
+        "#D3D4C0",
+        "#8B5E3C"
+      ],
+      "likes": 3579,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-08",
+    "name": "焦糖",
+    "description": "陶棕入画，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#562F00",
+      "background": "#fffefb",
+      "sidebar": "#f5f2eb",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fffdf1ffce99ff9644562f00",
+      "colors": [
+        "#FFFDF1",
+        "#FFCE99",
+        "#FF9644",
+        "#562F00"
+      ],
+      "likes": 2639,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-09",
+    "name": "砂岩",
+    "description": "麦色柔和，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#726954",
+      "background": "#fff6e5",
+      "sidebar": "#fde3b1",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e73f1efb6c00f9b637ffdd9c",
+      "colors": [
+        "#E73F1E",
+        "#FB6C00",
+        "#F9B637",
+        "#FFDD9C"
+      ],
+      "likes": 1923,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-10",
+    "name": "陶棕",
+    "description": "胡桃明净，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8a5f52",
+      "background": "#fff1ea",
+      "sidebar": "#37145f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-11",
+    "name": "燕麦",
+    "description": "檀色温润，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#7b673b",
+      "background": "#fff3d9",
+      "sidebar": "#d6c8bd",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1e104e452e5aff653fffc85c",
+      "colors": [
+        "#1E104E",
+        "#452E5A",
+        "#FF653F",
+        "#FFC85C"
+      ],
+      "likes": 1937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-12",
+    "name": "橡木",
+    "description": "栗木沉静，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#6e6959",
+      "background": "#fff9ec",
+      "sidebar": "#cfb9bd",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5e244eaa1c41e68457ffe8b4",
+      "colors": [
+        "#5E244E",
+        "#AA1C41",
+        "#E68457",
+        "#FFE8B4"
+      ],
+      "likes": 1824,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-13",
+    "name": "栗壳",
+    "description": "茶褐清雅，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#5E3122",
+      "background": "#fdfaf7",
+      "sidebar": "#2c2327",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1d4533f7eae0f9d2ba5e3122",
+      "colors": [
+        "#1D4533",
+        "#F7EAE0",
+        "#F9D2BA",
+        "#5E3122"
+      ],
+      "likes": 1742,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-14",
+    "name": "枫糖",
+    "description": "可可暖意，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#A03A13",
+      "background": "#faf8ef",
+      "sidebar": "#f4eedf",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/254f22a03a13f5824aede4c2",
+      "colors": [
+        "#254F22",
+        "#A03A13",
+        "#F5824A",
+        "#EDE4C2"
+      ],
+      "likes": 1585,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-15",
+    "name": "沙丘",
+    "description": "砂岩疏朗，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#706957",
+      "background": "#fdf7e7",
+      "sidebar": "#c0e0d4",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/31aaa9f8e0a4a820206c1a1a",
+      "colors": [
+        "#31AAA9",
+        "#F8E0A4",
+        "#A82020",
+        "#6C1A1A"
+      ],
+      "likes": 1396,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-16",
+    "name": "乌木",
+    "description": "焦糖含光，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#6E5034",
+      "background": "#fbf7ec",
+      "sidebar": "#312d2d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/5dd3b66e5034cdb885efe1b5",
+      "colors": [
+        "#5DD3B6",
+        "#6E5034",
+        "#CDB885",
+        "#EFE1B5"
+      ],
+      "likes": 1620,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-17",
+    "name": "茶岩",
+    "description": "秋木雅致，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#5B532C",
+      "background": "#fef9eb",
+      "sidebar": "#f9f0da",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fde7b3ffc50f63a3615b532c",
+      "colors": [
+        "#FDE7B3",
+        "#FFC50F",
+        "#63A361",
+        "#5B532C"
+      ],
+      "likes": 1386,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-18",
+    "name": "麦咖",
+    "description": "陶棕入画，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#746855",
+      "background": "#f7f4ec",
+      "sidebar": "#dbe1df",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9bb4c0e1d0b3a18d6d703b3b",
+      "colors": [
+        "#9BB4C0",
+        "#E1D0B3",
+        "#A18D6D",
+        "#703B3B"
+      ],
+      "likes": 4275,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-19",
+    "name": "栗香",
+    "description": "麦色柔和，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#7e645b",
+      "background": "#fefff0",
+      "sidebar": "#5f3d5c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff80c7ffbda3ffe1bbfaffc4",
+      "colors": [
+        "#FF80C7",
+        "#FFBDA3",
+        "#FFE1BB",
+        "#FAFFC4"
+      ],
+      "likes": 1501,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-20",
+    "name": "深茶",
+    "description": "胡桃明净，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#935b2f",
+      "background": "#f8f4e9",
+      "sidebar": "#f1e9d6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/622b14995f2f978f66e4d6a9",
+      "colors": [
+        "#622B14",
+        "#995F2F",
+        "#978F66",
+        "#E4D6A9"
+      ],
+      "likes": 3372,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-21",
+    "name": "暖棕",
+    "description": "檀色温润，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#5E3122",
+      "background": "#fdfaf7",
+      "sidebar": "#f6efea",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1d4533f7eae0f9d2ba5e3122",
+      "colors": [
+        "#1D4533",
+        "#F7EAE0",
+        "#F9D2BA",
+        "#5E3122"
+      ],
+      "likes": 1742,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-22",
+    "name": "松栗",
+    "description": "栗木沉静，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#945b46",
+      "background": "#fef2e5",
+      "sidebar": "#412a32",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/a14646da6556eb895bfdb773",
+      "colors": [
+        "#A14646",
+        "#DA6556",
+        "#EB895B",
+        "#FDB773"
+      ],
+      "likes": 1085,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-23",
+    "name": "檀木",
+    "description": "茶褐清雅，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8a5f52",
+      "background": "#fff1ea",
+      "sidebar": "#ffceda",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/8100d1b500b2ff52a0ffa47f",
+      "colors": [
+        "#8100D1",
+        "#B500B2",
+        "#FF52A0",
+        "#FFA47F"
+      ],
+      "likes": 2049,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-24",
+    "name": "榛果",
+    "description": "可可暖意，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#7e6548",
+      "background": "#f9f6ec",
+      "sidebar": "#f3edd7",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/767f9edaa464dec384e8ddb4",
+      "colors": [
+        "#767F9E",
+        "#DAA464",
+        "#DEC384",
+        "#E8DDB4"
+      ],
+      "likes": 1342,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-25",
+    "name": "棕榈",
+    "description": "砂岩疏朗，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#766945",
+      "background": "#fefbf4",
+      "sidebar": "#19464a",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/249d8fe9c46ae76f51fdf0d5",
+      "colors": [
+        "#249D8F",
+        "#E9C46A",
+        "#E76F51",
+        "#FDF0D5"
+      ],
+      "likes": 1031,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-26",
+    "name": "泥金",
+    "description": "焦糖含光，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#8f5c4c",
+      "background": "#ecf8f2",
+      "sidebar": "#dff0e6",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/b7e5cd8abeb9305669c1785a",
+      "colors": [
+        "#B7E5CD",
+        "#8ABEB9",
+        "#305669",
+        "#C1785A"
+      ],
+      "likes": 1899,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-27",
+    "name": "赤褐",
+    "description": "秋木雅致，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#945b46",
+      "background": "#fef2e5",
+      "sidebar": "#fee0c3",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/a14646da6556eb895bfdb773",
+      "colors": [
+        "#A14646",
+        "#DA6556",
+        "#EB895B",
+        "#FDB773"
+      ],
+      "likes": 1085,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-28",
+    "name": "棕石",
+    "description": "陶棕入画，沉静有序",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#72694a",
+      "background": "#fffcf8",
+      "sidebar": "#531f31",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/d92243f69d39e0c375fff5e5",
+      "colors": [
+        "#D92243",
+        "#F69D39",
+        "#E0C375",
+        "#FFF5E5"
+      ],
+      "likes": 979,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-29",
+    "name": "茶棕",
+    "description": "麦色柔和，清爽留白",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#a15605",
+      "background": "#fdfaf6",
+      "sidebar": "#f6ece2",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/09251ca55704f3d2aff8eadc",
+      "colors": [
+        "#09251C",
+        "#A55704",
+        "#F3D2AF",
+        "#F8EADC"
+      ],
+      "likes": 511,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-brown-30",
+    "name": "麦棕",
+    "description": "胡桃明净，层次舒展",
+    "color_family": "brown",
+    "palette": {
+      "primary": "#7d6741",
+      "background": "#fbf9da",
+      "sidebar": "#e1ecc0",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e89951ecb65ff0e76fa5cf83",
+      "colors": [
+        "#E89951",
+        "#ECB65F",
+        "#F0E76F",
+        "#A5CF83"
+      ],
+      "likes": 959,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-01",
+    "name": "银灰",
+    "description": "素白留境，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#66696d",
+      "background": "#fdfdfd",
+      "sidebar": "#132235",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e",
+      "colors": [
+        "#F9F7F7",
+        "#DBE2EF",
+        "#3F72AF",
+        "#112D4E"
+      ],
+      "likes": 46937,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-02",
+    "name": "岩白",
+    "description": "银灰清雅，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#686a6e",
+      "background": "#fdfcfd",
+      "sidebar": "#fcf8fa",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f9f5f6f8e8eefdcedff2bed1",
+      "colors": [
+        "#F9F5F6",
+        "#F8E8EE",
+        "#FDCEDF",
+        "#F2BED1"
+      ],
+      "likes": 42354,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-03",
+    "name": "云灰",
+    "description": "石墨沉静，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#1B262C",
+      "background": "#edf7fe",
+      "sidebar": "#d8eaf7",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa",
+      "colors": [
+        "#1B262C",
+        "#0F4C75",
+        "#3282B8",
+        "#BBE1FA"
+      ],
+      "likes": 36486,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-04",
+    "name": "石墨",
+    "description": "云灰明净，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#686a68",
+      "background": "#fffef9",
+      "sidebar": "#454041",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ad8b73ceab93e3caa5fffbe9",
+      "colors": [
+        "#AD8B73",
+        "#CEAB93",
+        "#E3CAA5",
+        "#FFFBE9"
+      ],
+      "likes": 39071,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-05",
+    "name": "墨白",
+    "description": "墨白有序，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#66696e",
+      "background": "#fafafa",
+      "sidebar": "#cbccce",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea",
+      "colors": [
+        "#08D9D6",
+        "#252A34",
+        "#FF2E63",
+        "#EAEAEA"
+      ],
+      "likes": 35498,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-06",
+    "name": "雾银",
+    "description": "霜石疏朗，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#646a71",
+      "background": "#f6f9fa",
+      "sidebar": "#dbe4e8",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/27374d526d829db2bfdde6ed",
+      "colors": [
+        "#27374D",
+        "#526D82",
+        "#9DB2BF",
+        "#DDE6ED"
+      ],
+      "likes": 36392,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-07",
+    "name": "霜石",
+    "description": "素色雅致，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#646972",
+      "background": "#fbfbff",
+      "sidebar": "#464d6d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff",
+      "colors": [
+        "#B1B2FF",
+        "#AAC4FF",
+        "#D2DAFF",
+        "#EEF1FF"
+      ],
+      "likes": 33206,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-08",
+    "name": "月影",
+    "description": "灰阶克制，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#2C3639",
+      "background": "#f6f5f1",
+      "sidebar": "#eae8e3",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9",
+      "colors": [
+        "#2C3639",
+        "#3F4E4F",
+        "#A27B5C",
+        "#DCD7C9"
+      ],
+      "likes": 27877,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-09",
+    "name": "素墨",
+    "description": "岩色温润，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#212121",
+      "background": "#c5fffa",
+      "sidebar": "#99c2be",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2121213232320d737714ffec",
+      "colors": [
+        "#212121",
+        "#323232",
+        "#0D7377",
+        "#14FFEC"
+      ],
+      "likes": 24758,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-10",
+    "name": "炭灰",
+    "description": "雾银含光，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#45474B",
+      "background": "#fcfdfd",
+      "sidebar": "#242a34",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f7f8f4ce14495e5745474b",
+      "colors": [
+        "#F5F7F8",
+        "#F4CE14",
+        "#495E57",
+        "#45474B"
+      ],
+      "likes": 23840,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-11",
+    "name": "石白",
+    "description": "素白留境，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#40514E",
+      "background": "#f8fdfc",
+      "sidebar": "#eaf2f0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/e4f9f530e3ca11999e40514e",
+      "colors": [
+        "#E4F9F5",
+        "#30E3CA",
+        "#11999E",
+        "#40514E"
+      ],
+      "likes": 22722,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-12",
+    "name": "烟灰",
+    "description": "银灰清雅，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#666969",
+      "background": "#fbfaf8",
+      "sidebar": "#b0afae",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/efece38fabd44a70a9000000",
+      "colors": [
+        "#EFECE3",
+        "#8FABD4",
+        "#4A70A9",
+        "#000000"
+      ],
+      "likes": 7564,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-13",
+    "name": "岩墨",
+    "description": "石墨沉静，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#273338",
+      "background": "#f1f6ec",
+      "sidebar": "#1a242e",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9cb0806187642b5748273338",
+      "colors": [
+        "#9CB080",
+        "#618764",
+        "#2B5748",
+        "#273338"
+      ],
+      "likes": 3454,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-14",
+    "name": "铅白",
+    "description": "云灰明净，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#454040",
+      "background": "#f9fbdf",
+      "sidebar": "#d7d8c0",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/454040605b51d8d365e6f082",
+      "colors": [
+        "#454040",
+        "#605B51",
+        "#D8D365",
+        "#E6F082"
+      ],
+      "likes": 1244,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-15",
+    "name": "墨砚",
+    "description": "墨白有序，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#66696e",
+      "background": "#fefefe",
+      "sidebar": "#fed2c2",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/0a7c6ef59e0bff6b35fafafa",
+      "colors": [
+        "#0A7C6E",
+        "#F59E0B",
+        "#FF6B35",
+        "#FAFAFA"
+      ],
+      "likes": 1057,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-16",
+    "name": "静灰",
+    "description": "霜石疏朗，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#68696b",
+      "background": "#fffdfc",
+      "sidebar": "#371426",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/800020f3e6d5fff9f2d45060",
+      "colors": [
+        "#800020",
+        "#F3E6D5",
+        "#FFF9F2",
+        "#D45060"
+      ],
+      "likes": 2524,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-17",
+    "name": "银岩",
+    "description": "素色雅致，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#323232",
+      "background": "#c5fffa",
+      "sidebar": "#a1ceca",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2121213232320d737714ffec",
+      "colors": [
+        "#212121",
+        "#323232",
+        "#0D7377",
+        "#14FFEC"
+      ],
+      "likes": 24758,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-18",
+    "name": "素纸",
+    "description": "灰阶克制，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#57595B",
+      "background": "#fcf9f7",
+      "sidebar": "#f4efec",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/45282957595be8d1c5f3e8df",
+      "colors": [
+        "#452829",
+        "#57595B",
+        "#E8D1C5",
+        "#F3E8DF"
+      ],
+      "likes": 4842,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-19",
+    "name": "磐石",
+    "description": "岩色温润，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#666a6e",
+      "background": "#fcfcfc",
+      "sidebar": "#5f141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/f5f5f5dff1f1bbd5daff0000",
+      "colors": [
+        "#F5F5F5",
+        "#DFF1F1",
+        "#BBD5DA",
+        "#FF0000"
+      ],
+      "likes": 2115,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-20",
+    "name": "云墨",
+    "description": "雾银含光，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#676a6e",
+      "background": "#f9f9f9",
+      "sidebar": "#f9ebde",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/001f3ded985ff7b980e6e6e6",
+      "colors": [
+        "#001F3D",
+        "#ED985F",
+        "#F7B980",
+        "#E6E6E6"
+      ],
+      "likes": 1652,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-21",
+    "name": "玄青",
+    "description": "素白留境，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#66696e",
+      "background": "#fcfcfc",
+      "sidebar": "#b1d9dc",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/00546101879000b7b5f4f4f4",
+      "colors": [
+        "#005461",
+        "#018790",
+        "#00B7B5",
+        "#F4F4F4"
+      ],
+      "likes": 3716,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-22",
+    "name": "米灰",
+    "description": "银灰清雅，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#6a696e",
+      "background": "#fffcfc",
+      "sidebar": "#203f6d",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/3a86ffbdb2ffffd6e0fff4f4",
+      "colors": [
+        "#3A86FF",
+        "#BDB2FF",
+        "#FFD6E0",
+        "#FFF4F4"
+      ],
+      "likes": 1569,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-23",
+    "name": "冷石",
+    "description": "石墨沉静，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#1D2128",
+      "background": "#fcfcfc",
+      "sidebar": "#f3f3f4",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/ff9e20215e611d2128f4f2f2",
+      "colors": [
+        "#FF9E20",
+        "#215E61",
+        "#1D2128",
+        "#F4F2F2"
+      ],
+      "likes": 1289,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-24",
+    "name": "素岩",
+    "description": "云灰明净，层次舒展",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#273338",
+      "background": "#f1f6ec",
+      "sidebar": "#d8e1cc",
+      "sidebar_style": "tinted",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/9cb0806187642b5748273338",
+      "colors": [
+        "#9CB080",
+        "#618764",
+        "#2B5748",
+        "#273338"
+      ],
+      "likes": 3454,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-25",
+    "name": "灰阶",
+    "description": "墨白有序，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#68696a",
+      "background": "#fefdfb",
+      "sidebar": "#5c5352",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/fcd8d4fdf6f0f8e2cff5c6aa",
+      "colors": [
+        "#FCD8D4",
+        "#FDF6F0",
+        "#F8E2CF",
+        "#F5C6AA"
+      ],
+      "likes": 24850,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-26",
+    "name": "墨影",
+    "description": "霜石疏朗，清爽留白",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#605B51",
+      "background": "#f9fbdf",
+      "sidebar": "#d1d2bc",
+      "sidebar_style": "light",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/454040605b51d8d365e6f082",
+      "colors": [
+        "#454040",
+        "#605B51",
+        "#D8D365",
+        "#E6F082"
+      ],
+      "likes": 1244,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-27",
+    "name": "砚石",
+    "description": "素色雅致，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#212121",
+      "background": "#c5fffa",
+      "sidebar": "#181e26",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/2121213232320d737714ffec",
+      "colors": [
+        "#212121",
+        "#323232",
+        "#0D7377",
+        "#14FFEC"
+      ],
+      "likes": 24758,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-28",
+    "name": "瓷白",
+    "description": "灰阶克制，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#666969",
+      "background": "#fbfaf8",
+      "sidebar": "#0e141c",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/efece38fabd44a70a9000000",
+      "colors": [
+        "#EFECE3",
+        "#8FABD4",
+        "#4A70A9",
+        "#000000"
+      ],
+      "likes": 7564,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-29",
+    "name": "雾石",
+    "description": "岩色温润，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#57595B",
+      "background": "#fcf9f7",
+      "sidebar": "#242129",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/45282957595be8d1c5f3e8df",
+      "colors": [
+        "#452829",
+        "#57595B",
+        "#E8D1C5",
+        "#F3E8DF"
+      ],
+      "likes": 4842,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  },
+  {
+    "id": "curated-neutral-30",
+    "name": "霜灰",
+    "description": "雾银含光，沉静有序",
+    "color_family": "neutral",
+    "palette": {
+      "primary": "#68696a",
+      "background": "#fcfbf9",
+      "sidebar": "#1e354f",
+      "sidebar_style": "dark",
+      "palette_version": 3
+    },
+    "source": {
+      "label": "Color Hunt",
+      "url": "https://colorhunt.co/palette/3368a066a3bfc8dfdbf2efe7",
+      "colors": [
+        "#3368A0",
+        "#66A3BF",
+        "#C8DFDB",
+        "#F2EFE7"
+      ],
+      "likes": 4200,
+      "observed_at": "2026-11-07",
+      "adaptation": "TinyBot界面角色色适配；收藏量属于原始色板"
+    }
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "fileKey": "aY1J847duUbzRPxb0IPkRb",
+  "url": "https://www.figma.com/design/aY1J847duUbzRPxb0IPkRb/%E4%B8%AD%E5%9B%BD%E4%BC%A0%E7%BB%9F%E8%89%B2%EF%BC%9A%E6%95%85%E5%AE%AB%E9%87%8C%E7%9A%84%E8%89%B2%E5%BD%A9%E7%BE%8E%E5%AD%A6--Community-?node-id=7-5636",
+  "title": "中国传统色：故宫里的色彩美学 (Community)",
+  "capturedAt": "2026-11-06",
+  "method": "公开画布200%截图，逐色读取文本标注；RGB与HEX交叉核对，OCR歧义人工复核，不使用像素取色。",
+  "count": 384,
+  "classification": "24节气 × 16色；产品按立春至大寒排序，保留原板每组4×4次序。",
+  "validPrintedHex": 383,
+  "rgbDerivedCorrections": 1,
+  "changedHexCount": 11,
+  "nameCorrections": {
+    "枳黄": "柘黄",
+    "葱犗": "繱犗",
+    "筠雾": "筠雰",
+    "麹尘": "麴尘"
+  },
+  "changes": [
+    {
+      "oldId": "gugong-037",
+      "oldName": "桃夭",
+      "name": "桃夭",
+      "oldHex": "#F6B0B8",
+      "hex": "#F6BEC8"
+    },
+    {
+      "oldId": "gugong-044",
+      "oldName": "枳黄",
+      "name": "柘黄",
+      "oldHex": "#C67915",
+      "hex": "#C67915"
+    },
+    {
+      "oldId": "gugong-109",
+      "oldName": "朱颜酡",
+      "name": "朱颜酡",
+      "oldHex": "#F29B76",
+      "hex": "#F29A76"
+    },
+    {
+      "oldId": "gugong-129",
+      "oldName": "筠雾",
+      "name": "筠雰",
+      "oldHex": "#D5D1AE",
+      "hex": "#D5D1AE"
+    },
+    {
+      "oldId": "gugong-146",
+      "oldName": "石榴裙",
+      "name": "石榴裙",
+      "oldHex": "#E6394A",
+      "hex": "#B13B2E"
+    },
+    {
+      "oldId": "gugong-205",
+      "oldName": "麹尘",
+      "name": "麴尘",
+      "oldHex": "#C0D09D",
+      "hex": "#C0D09D"
+    },
+    {
+      "oldId": "gugong-219",
+      "oldName": "天水碧",
+      "name": "天水碧",
+      "oldHex": "#8FCEC4",
+      "hex": "#5AA4AE"
+    },
+    {
+      "oldId": "gugong-230",
+      "oldName": "千山翠",
+      "name": "千山翠",
+      "oldHex": "#6B8E6E",
+      "hex": "#6B7D73"
+    },
+    {
+      "oldId": "gugong-233",
+      "oldName": "藕丝秋半",
+      "name": "藕丝秋半",
+      "oldHex": "#C9BEB1",
+      "hex": "#D3CBC5"
+    },
+    {
+      "oldId": "gugong-265",
+      "oldName": "东方既白",
+      "name": "东方既白",
+      "oldHex": "#8AA4C5",
+      "hex": "#8BA3C7"
+    },
+    {
+      "oldId": "gugong-293",
+      "oldName": "葱犗",
+      "name": "繱犗",
+      "oldHex": "#88BFB8",
+      "hex": "#88BFB8"
+    },
+    {
+      "oldId": "gugong-313",
+      "oldName": "月白",
+      "name": "月白",
+      "oldHex": "#D6ECF0",
+      "hex": "#D4E5EF"
+    },
+    {
+      "oldId": "gugong-323",
+      "oldName": "美人祭",
+      "name": "美人祭",
+      "oldHex": "#B33B40",
+      "hex": "#C35C6A"
+    },
+    {
+      "oldId": "gugong-333",
+      "oldName": "暮山紫",
+      "name": "暮山紫",
+      "oldHex": "#67547E",
+      "hex": "#A4ABD6"
+    },
+    {
+      "oldId": "gugong-344",
+      "oldName": "霁红",
+      "name": "霁红",
+      "oldHex": "#C63D3B",
+      "hex": "#7C4449"
+    }
+  ],
+  "dataSha256": "aeaba690fff48d3966fc489c561b308ffe5b944a86700005456b2634fe637559",
+  "screenshots": {
+    "board-index-0.png": "b3a1dba13bb9daf39142d523461ad9375759d83e09e335d33d71f6b0f02b2938",
+    "board-index-1.png": "ba9122e692e2979c06ff6f4855a3375227d92d5aa560d78045cdb2d945da84d9",
+    "board-index-10.png": "c15d71b9f5d9c315376128553040c89cb1ab07584e689b15e76f538e816a74d4",
+    "board-index-11.png": "44c40d4e0a328255d793dd653eef3c38765dc6dd4e31492951e18905b012f7bf",
+    "board-index-12.png": "c8992dffa048c0b690e6b8d457fcaf205be27e21d5f54355125d5014fae3176c",
+    "board-index-13.png": "b2d84b74c96e4c0af59145065bb9e489984cfe5ce0279dd4771379d42a168139",
+    "board-index-14.png": "64228a314d5b864355ee65e5cb9cbdb144dec8c02c6809d2a1e2fae88f4377f6",
+    "board-index-15.png": "afce8114064d717024de530ce09e9e915cdb14c95cbf02c79c2af29bfabe9265",
+    "board-index-16.png": "cae6d27d5808b566e6e3be918d12cb3dccc4d428ceb9e09fcebf8f5455d46da8",
+    "board-index-17.png": "e98b560b997bc2ae4a4dcbefeb8f182e83d55be5045d229f541580c69b196e74",
+    "board-index-18.png": "9f60dc9b0f19e44c1f12e183810df04c0d711dc050d7499d9f6903fa558ec4a3",
+    "board-index-19.png": "6dc3df336d500e66b065e50a21c40398da3003d6e498d59a9025e3e42a083044",
+    "board-index-2.png": "fcea9ed84724c7f83fe0af723950811e608c36a3525ce1b3e45741c6a5f69185",
+    "board-index-20.png": "75744dff3f66ef44488fa03b3d3fbb550d617482643da3dbcb4b98e85208f7ad",
+    "board-index-21.png": "b9f524ee569ada2b50ba0034ddd14944979643d448dfa1b42a455ab125e775dd",
+    "board-index-22.png": "10e9b051c06363b45317eb8c827d2a349eeb8984df37a67de4a78448826e524a",
+    "board-index-23.png": "3b00055c620ccd3f1d14366411a7c0725eebb8dc06e83b4e13cd42a01b1adb3b",
+    "board-index-3.png": "03fe2d4c6460ed9cef49cc7b8d15f465a4f9d9a2a109157db5380e13de567b24",
+    "board-index-4.png": "01c07e384714a77eaea95f6756af7829f8391acdf2c6049351fe7854809c21dc",
+    "board-index-5.png": "71465ea34b7fde417190c6818003cdb6e8c3b53e2f1035e6b5547c434286a856",
+    "board-index-6.png": "b551eb454e4f8177fe646945968e52853563ca90d0441255dd8734608dcd1486",
+    "board-index-7.png": "0ba49862dc0484e386467965f74573e2e546b6f20aa33f39aeaa907cefc2320d",
+    "board-index-8.png": "4d57d24a20b8c68de318435046d6693878e16399a6bdf3d45df54a6f42106474",
+    "board-index-9.png": "395a42aa2932a10c23e7400dbe516f3f04f8fd7f6c6226f5baa33175c2f00f07"
+  },
+  "verifiedAt": "2026-11-07"
+}

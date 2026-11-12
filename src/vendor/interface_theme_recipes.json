@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "interface-modern-minimal",
+    "name": "晴空",
+    "description": "晴蓝映白，清晰轻快",
+    "upstream_id": "modern-minimal",
+    "source": {
+      "label": "tweakcn · Modern Minimal",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#3b82f6",
+        "#ffffff",
+        "#f9fafb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface2": "#f9fafb",
+        "text": "#333333",
+        "muted": "#6b7280",
+        "line": "#e5e7eb",
+        "soft": "#e0f2fe",
+        "primary": "#3472d8",
+        "primaryText": "#ffffff",
+        "sidebar": "#e5e6e7",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#e0f2fe",
+        "sidebarSelectedInk": "#1e3a8a",
+        "topbar": "#ffffff",
+        "anchor": "#3b82f6"
+      },
+      "dark": {
+        "bg": "#171717",
+        "surface": "#262626",
+        "surface2": "#1f1f1f",
+        "text": "#e5e5e5",
+        "muted": "#a3a3a3",
+        "line": "#404040",
+        "soft": "#1e3a8a",
+        "primary": "#478af7",
+        "primaryText": "#262626",
+        "sidebar": "#151515",
+        "sidebarInk": "#e5e5e5",
+        "sidebarSelected": "#1e3a8a",
+        "sidebarSelectedInk": "#bfdbfe",
+        "topbar": "#171717",
+        "anchor": "#3b82f6"
+      }
+    }
+  },
+  {
+    "id": "interface-nature",
+    "name": "林间",
+    "description": "林绿暖白，自然舒展",
+    "upstream_id": "nature",
+    "source": {
+      "label": "tweakcn · Nature",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#2e7d32",
+        "#f8f5f0",
+        "#f0e9e0"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f8f5f0",
+        "surface": "#f8f5f0",
+        "surface2": "#f0e9e0",
+        "text": "#3e2723",
+        "muted": "#6d4c41",
+        "line": "#e0d6c9",
+        "soft": "#c8e6c9",
+        "primary": "#2e7d32",
+        "primaryText": "#ffffff",
+        "sidebar": "#f0e9e0",
+        "sidebarInk": "#3e2723",
+        "sidebarSelected": "#c8e6c9",
+        "sidebarSelectedInk": "#1b5e20",
+        "topbar": "#f8f5f0",
+        "anchor": "#2e7d32"
+      },
+      "dark": {
+        "bg": "#1c2a1f",
+        "surface": "#2d3a2e",
+        "surface2": "#252f26",
+        "text": "#f0ebe5",
+        "muted": "#d7cfc4",
+        "line": "#3e4a3d",
+        "soft": "#388e3c",
+        "primary": "#55b359",
+        "primaryText": "#0a1f0c",
+        "sidebar": "#1a271d",
+        "sidebarInk": "#f0ebe5",
+        "sidebarSelected": "#388e3c",
+        "sidebarSelectedInk": "#131312",
+        "topbar": "#1c2a1f",
+        "anchor": "#4caf50"
+      }
+    }
+  },
+  {
+    "id": "interface-claude",
+    "name": "陶白",
+    "description": "陶橙暖纸，温和克制",
+    "upstream_id": "claude",
+    "source": {
+      "label": "tweakcn · Claude",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#c96442",
+        "#faf9f5",
+        "#f5f4ee"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#faf9f5",
+        "surface": "#faf9f5",
+        "surface2": "#ede9de",
+        "text": "#3d3929",
+        "muted": "#6a6965",
+        "line": "#dad9d4",
+        "soft": "#e9e6dc",
+        "primary": "#b3593b",
+        "primaryText": "#ffffff",
+        "sidebar": "#e1e0db",
+        "sidebarInk": "#3d3d3a",
+        "sidebarSelected": "#e9e6dc",
+        "sidebarSelectedInk": "#343434",
+        "topbar": "#faf9f5",
+        "anchor": "#c96442"
+      },
+      "dark": {
+        "bg": "#262624",
+        "surface": "#262624",
+        "surface2": "#1b1b19",
+        "text": "#c3c0b6",
+        "muted": "#b7b5a9",
+        "line": "#3e3e38",
+        "soft": "#1a1915",
+        "primary": "#d97757",
+        "primaryText": "#2b2b2b",
+        "sidebar": "#1f1e1d",
+        "sidebarInk": "#c3c0b6",
+        "sidebarSelected": "#0f0f0e",
+        "sidebarSelectedInk": "#c3c0b6",
+        "topbar": "#262624",
+        "anchor": "#d97757"
+      }
+    }
+  },
+  {
+    "id": "interface-starry-night",
+    "name": "星湾",
+    "description": "星蓝灰白，沉静有序",
+    "upstream_id": "starry-night",
+    "source": {
+      "label": "tweakcn · Starry Night",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#3a5ba0",
+        "#f5f7fa",
+        "#e3eaf2"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f5f7fa",
+        "surface": "#e3eaf2",
+        "surface2": "#e5e5df",
+        "text": "#1a2238",
+        "muted": "#3a5ba0",
+        "line": "#b0b8c1",
+        "soft": "#6ea3c1",
+        "primary": "#3a5ba0",
+        "primaryText": "#fffbe6",
+        "sidebar": "#e3eaf2",
+        "sidebarInk": "#1a2238",
+        "sidebarSelected": "#f7c873",
+        "sidebarSelectedInk": "#1a2238",
+        "topbar": "#f5f7fa",
+        "anchor": "#3a5ba0"
+      },
+      "dark": {
+        "bg": "#181a24",
+        "surface": "#23243a",
+        "surface2": "#1d1e2f",
+        "text": "#e6eaf3",
+        "muted": "#7f8da5",
+        "line": "#2d2e3e",
+        "soft": "#bccdf0",
+        "primary": "#758cbd",
+        "primaryText": "#292410",
+        "sidebar": "#171826",
+        "sidebarInk": "#e6eaf3",
+        "sidebarSelected": "#ffe066",
+        "sidebarSelectedInk": "#23243a",
+        "topbar": "#181a24",
+        "anchor": "#3a5ba0"
+      }
+    }
+  },
+  {
+    "id": "interface-clean-slate",
+    "name": "澄紫",
+    "description": "靛紫映灰，清爽利落",
+    "upstream_id": "clean-slate",
+    "source": {
+      "label": "tweakcn · Clean Slate",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#6366f1",
+        "#f8fafc",
+        "#f3f4f6"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f8fafc",
+        "surface": "#ffffff",
+        "surface2": "#f3f4f6",
+        "text": "#1e293b",
+        "muted": "#69707d",
+        "line": "#d1d5db",
+        "soft": "#e0e7ff",
+        "primary": "#5f62e7",
+        "primaryText": "#ffffff",
+        "sidebar": "#e0e0e2",
+        "sidebarInk": "#1e293b",
+        "sidebarSelected": "#e0e7ff",
+        "sidebarSelectedInk": "#374151",
+        "topbar": "#f8fafc",
+        "anchor": "#6366f1"
+      },
+      "dark": {
+        "bg": "#0f172a",
+        "surface": "#1e293b",
+        "surface2": "#152032",
+        "text": "#e2e8f0",
+        "muted": "#9ca3af",
+        "line": "#4b5563",
+        "soft": "#374151",
+        "primary": "#818cf8",
+        "primaryText": "#0f172a",
+        "sidebar": "#10151e",
+        "sidebarInk": "#e2e8f0",
+        "sidebarSelected": "#374151",
+        "sidebarSelectedInk": "#d1d5db",
+        "topbar": "#0f172a",
+        "anchor": "#818cf8"
+      }
+    }
+  },
+  {
+    "id": "interface-ocean-breeze",
+    "name": "海风",
+    "description": "草绿浅蓝，通透舒展",
+    "upstream_id": "ocean-breeze",
+    "source": {
+      "label": "tweakcn · Ocean Breeze",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#22c55e",
+        "#f0f8ff",
+        "#e0f2fe"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f0f8ff",
+        "surface": "#ffffff",
+        "surface2": "#f3f4f6",
+        "text": "#374151",
+        "muted": "#69707d",
+        "line": "#e5e7eb",
+        "soft": "#d1fae5",
+        "primary": "#16823e",
+        "primaryText": "#ffffff",
+        "sidebar": "#cedfea",
+        "sidebarInk": "#374151",
+        "sidebarSelected": "#d1fae5",
+        "sidebarSelectedInk": "#374151",
+        "topbar": "#f0f8ff",
+        "anchor": "#22c55e"
+      },
+      "dark": {
+        "bg": "#0f172a",
+        "surface": "#1e293b",
+        "surface2": "#19212e",
+        "text": "#d1d5db",
+        "muted": "#8a909b",
+        "line": "#4b5563",
+        "soft": "#374151",
+        "primary": "#34d399",
+        "primaryText": "#0f172a",
+        "sidebar": "#10151e",
+        "sidebarInk": "#d1d5db",
+        "sidebarSelected": "#374151",
+        "sidebarSelectedInk": "#ababb3",
+        "topbar": "#0f172a",
+        "anchor": "#34d399"
+      }
+    }
+  },
+  {
+    "id": "interface-solar-dusk",
+    "name": "暮金",
+    "description": "暖金米白，温润沉静",
+    "upstream_id": "solar-dusk",
+    "source": {
+      "label": "tweakcn · Solar Dusk",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#B45309",
+        "#FDFBF7",
+        "#F1E9DA"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#FDFBF7",
+        "surface": "#F8F4EE",
+        "surface2": "#F1E9DA",
+        "text": "#4A3B33",
+        "muted": "#6e6863",
+        "line": "#E4D9BC",
+        "soft": "#f2daba",
+        "primary": "#B45309",
+        "primaryText": "#FFFFFF",
+        "sidebar": "#F1E9DA",
+        "sidebarInk": "#4A3B33",
+        "sidebarSelected": "#A16207",
+        "sidebarSelectedInk": "#FFFFFF",
+        "topbar": "#FDFBF7",
+        "anchor": "#B45309"
+      },
+      "dark": {
+        "bg": "#1C1917",
+        "surface": "#292524",
+        "surface2": "#201d1a",
+        "text": "#F5F5F4",
+        "muted": "#A8A29E",
+        "line": "#44403C",
+        "soft": "#1e4252",
+        "primary": "#F97316",
+        "primaryText": "#333333",
+        "sidebar": "#191716",
+        "sidebarInk": "#F5F5F4",
+        "sidebarSelected": "#0EA5E9",
+        "sidebarSelectedInk": "#0C2A4D",
+        "topbar": "#1C1917",
+        "anchor": "#F97316"
+      }
+    }
+  },
+  {
+    "id": "interface-mocha-mousse",
+    "name": "摩卡",
+    "description": "咖啡奶白，柔和细腻",
+    "upstream_id": "mocha-mousse",
+    "source": {
+      "label": "tweakcn · Mocha Mousse",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#A37764",
+        "#F1F0E5",
+        "#ebd6cb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#F1F0E5",
+        "surface": "#F1F0E5",
+        "surface2": "#E4C7B8",
+        "text": "#56453F",
+        "muted": "#6d5047",
+        "line": "#BAAB92",
+        "soft": "#E4C7B8",
+        "primary": "#896454",
+        "primaryText": "#FFFFFF",
+        "sidebar": "#ebd6cb",
+        "sidebarInk": "#56453F",
+        "sidebarSelected": "#C39E88",
+        "sidebarSelectedInk": "#3b3b3b",
+        "topbar": "#F1F0E5",
+        "anchor": "#A37764"
+      },
+      "dark": {
+        "bg": "#2d2521",
+        "surface": "#3c332e",
+        "surface2": "#56453F",
+        "text": "#F1F0E5",
+        "muted": "#cbb3a5",
+        "line": "#56453F",
+        "soft": "#BAAB92",
+        "primary": "#C39E88",
+        "primaryText": "#2d2521",
+        "sidebar": "#1f1a17",
+        "sidebarInk": "#F1F0E5",
+        "sidebarSelected": "#BAAB92",
+        "sidebarSelectedInk": "#1f1a17",
+        "topbar": "#2d2521",
+        "anchor": "#C39E88"
+      }
+    }
+  },
+  {
+    "id": "interface-t3-chat",
+    "name": "莓语",
+    "description": "莓紫浅粉，亲切安静",
+    "upstream_id": "t3-chat",
+    "source": {
+      "label": "tweakcn · T3 Chat",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#a84370",
+        "#faf5fa",
+        "#f3e4f6"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#faf5fa",
+        "surface": "#faf5fa",
+        "surface2": "#f6e5f3",
+        "text": "#501854",
+        "muted": "#834588",
+        "line": "#efbdeb",
+        "soft": "#f1c4e6",
+        "primary": "#a84370",
+        "primaryText": "#ffffff",
+        "sidebar": "#f3e4f6",
+        "sidebarInk": "#ac1668",
+        "sidebarSelected": "#f8f8f7",
+        "sidebarSelectedInk": "#454554",
+        "topbar": "#faf5fa",
+        "anchor": "#a84370"
+      },
+      "dark": {
+        "bg": "#221d27",
+        "surface": "#2c2632",
+        "surface2": "#28222d",
+        "text": "#d2c4de",
+        "muted": "#c2b6cf",
+        "line": "#3b3237",
+        "soft": "#463753",
+        "primary": "#cc739d",
+        "primaryText": "#30262b",
+        "sidebar": "#181117",
+        "sidebarInk": "#e0cad6",
+        "sidebarSelected": "#261922",
+        "sidebarSelectedInk": "#f4f4f5",
+        "topbar": "#221d27",
+        "anchor": "#a3004c"
+      }
+    }
+  },
+  {
+    "id": "interface-graphite",
+    "name": "石墨",
+    "description": "石墨浅灰，简洁有序",
+    "upstream_id": "graphite",
+    "source": {
+      "label": "tweakcn · Graphite",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#606060",
+        "#f0f0f0",
+        "#eaeaea"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f0f0f0",
+        "surface": "#f5f5f5",
+        "surface2": "#d9d9d9",
+        "text": "#333333",
+        "muted": "#5f5f5f",
+        "line": "#d0d0d0",
+        "soft": "#c0c0c0",
+        "primary": "#606060",
+        "primaryText": "#ffffff",
+        "sidebar": "#d7d7d7",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#c0c0c0",
+        "sidebarSelectedInk": "#333333",
+        "topbar": "#f0f0f0",
+        "anchor": "#606060"
+      },
+      "dark": {
+        "bg": "#1a1a1a",
+        "surface": "#202020",
+        "surface2": "#2a2a2a",
+        "text": "#d9d9d9",
+        "muted": "#919191",
+        "line": "#353535",
+        "soft": "#404040",
+        "primary": "#a0a0a0",
+        "primaryText": "#1a1a1a",
+        "sidebar": "#171717",
+        "sidebarInk": "#d9d9d9",
+        "sidebarSelected": "#404040",
+        "sidebarSelectedInk": "#d9d9d9",
+        "topbar": "#1a1a1a",
+        "anchor": "#a0a0a0"
+      }
+    }
+  },
+  {
+    "id": "interface-perpetuity",
+    "name": "青瓷",
+    "description": "青碧灰白，清雅从容",
+    "upstream_id": "perpetuity",
+    "source": {
+      "label": "tweakcn · Perpetuity",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#06858e",
+        "#e8f0f0",
+        "#daebed"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#e8f0f0",
+        "surface": "#f2f7f7",
+        "surface2": "#e0eaea",
+        "text": "#0a4a55",
+        "muted": "#3d7074",
+        "line": "#cde0e2",
+        "soft": "#c9e5e7",
+        "primary": "#057880",
+        "primaryText": "#ffffff",
+        "sidebar": "#c9d8da",
+        "sidebarInk": "#0a4a55",
+        "sidebarSelected": "#c9e5e7",
+        "sidebarSelectedInk": "#0a4a55",
+        "topbar": "#e8f0f0",
+        "anchor": "#06858e"
+      },
+      "dark": {
+        "bg": "#0a1a20",
+        "surface": "#0c2025",
+        "surface2": "#0f3039",
+        "text": "#4de8e8",
+        "muted": "#36a5a5",
+        "line": "#164955",
+        "soft": "#164955",
+        "primary": "#4de8e8",
+        "primaryText": "#0a1a20",
+        "sidebar": "#09181d",
+        "sidebarInk": "#4de8e8",
+        "sidebarSelected": "#164955",
+        "sidebarSelectedInk": "#4de8e8",
+        "topbar": "#0a1a20",
+        "anchor": "#4de8e8"
+      }
+    }
+  },
+  {
+    "id": "interface-violet-bloom",
+    "name": "紫荧",
+    "description": "紫意微光，素白留境",
+    "upstream_id": "violet-bloom",
+    "source": {
+      "label": "tweakcn · Violet Bloom",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#7033ff",
+        "#fdfdfd",
+        "#f5f8fb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#fdfdfd",
+        "surface": "#fdfdfd",
+        "surface2": "#f5f5f5",
+        "text": "#000000",
+        "muted": "#525252",
+        "line": "#e7e7ee",
+        "soft": "#e2ebff",
+        "primary": "#7033ff",
+        "primaryText": "#ffffff",
+        "sidebar": "#e1e4e7",
+        "sidebarInk": "#000000",
+        "sidebarSelected": "#ebebeb",
+        "sidebarSelectedInk": "#000000",
+        "topbar": "#fdfdfd",
+        "anchor": "#7033ff"
+      },
+      "dark": {
+        "bg": "#1a1b1e",
+        "surface": "#222327",
+        "surface2": "#2a2c33",
+        "text": "#f0f0f0",
+        "muted": "#a0a0a0",
+        "line": "#33353a",
+        "soft": "#1e293b",
+        "primary": "#996eff",
+        "primaryText": "#212121",
+        "sidebar": "#161618",
+        "sidebarInk": "#f0f0f0",
+        "sidebarSelected": "#2a2c33",
+        "sidebarSelectedInk": "#a27bff",
+        "topbar": "#1a1b1e",
+        "anchor": "#8c5cff"
+      }
+    }
+  },
+  {
+    "id": "interface-amethyst-haze",
+    "name": "紫雾",
+    "description": "浅紫烟灰，安静柔和",
+    "upstream_id": "amethyst-haze",
+    "source": {
+      "label": "tweakcn · Amethyst Haze",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#8a79ab",
+        "#f8f7fa",
+        "#f1eff5"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f8f7fa",
+        "surface": "#ffffff",
+        "surface2": "#dcd9e3",
+        "text": "#3d3c4f",
+        "muted": "#605e73",
+        "line": "#cec9d9",
+        "soft": "#e6a5b8",
+        "primary": "#796a96",
+        "primaryText": "#f8f7fa",
+        "sidebar": "#dedce1",
+        "sidebarInk": "#3d3c4f",
+        "sidebarSelected": "#e6a5b8",
+        "sidebarSelectedInk": "#4b2e36",
+        "topbar": "#f8f7fa",
+        "anchor": "#8a79ab"
+      },
+      "dark": {
+        "bg": "#1a1823",
+        "surface": "#232030",
+        "surface2": "#242031",
+        "text": "#e0ddef",
+        "muted": "#a09aad",
+        "line": "#302c40",
+        "soft": "#372e3f",
+        "primary": "#a995c9",
+        "primaryText": "#1a1823",
+        "sidebar": "#16141e",
+        "sidebarInk": "#e0ddef",
+        "sidebarSelected": "#372e3f",
+        "sidebarSelectedInk": "#f2b8c6",
+        "topbar": "#1a1823",
+        "anchor": "#a995c9"
+      }
+    }
+  },
+  {
+    "id": "interface-notebook",
+    "name": "素笺",
+    "description": "墨灰纸白，清简自然",
+    "upstream_id": "notebook",
+    "source": {
+      "label": "tweakcn · Notebook",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#606060",
+        "#f9f9f9",
+        "#f0f0f0"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f9f9f9",
+        "surface": "#ffffff",
+        "surface2": "#e3e3e3",
+        "text": "#3a3a3a",
+        "muted": "#505050",
+        "line": "#747272",
+        "soft": "#f3eac8",
+        "primary": "#606060",
+        "primaryText": "#f0f0f0",
+        "sidebar": "#f0f0f0",
+        "sidebarInk": "#3a3a3a",
+        "sidebarSelected": "#f3eac8",
+        "sidebarSelectedInk": "#5d4037",
+        "topbar": "#f9f9f9",
+        "anchor": "#606060"
+      },
+      "dark": {
+        "bg": "#2b2b2b",
+        "surface": "#333333",
+        "surface2": "#454545",
+        "text": "#dcdcdc",
+        "muted": "#b2b2b2",
+        "line": "#4f4f4f",
+        "soft": "#e0e0e0",
+        "primary": "#b0b0b0",
+        "primaryText": "#2b2b2b",
+        "sidebar": "#212121",
+        "sidebarInk": "#dcdcdc",
+        "sidebarSelected": "#e0e0e0",
+        "sidebarSelectedInk": "#333333",
+        "topbar": "#2b2b2b",
+        "anchor": "#b0b0b0"
+      }
+    }
+  },
+  {
+    "id": "interface-catppuccin",
+    "name": "薰紫",
+    "description": "柔紫灰白，轻盈雅致",
+    "upstream_id": "catppuccin",
+    "source": {
+      "label": "tweakcn · Catppuccin",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#8839ef",
+        "#eff1f5",
+        "#e6e9ef"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#eff1f5",
+        "surface": "#ffffff",
+        "surface2": "#dce0e8",
+        "text": "#4c4f69",
+        "muted": "#5f6275",
+        "line": "#bcc0cc",
+        "soft": "#04a5e5",
+        "primary": "#8839ef",
+        "primaryText": "#ffffff",
+        "sidebar": "#e6e9ef",
+        "sidebarInk": "#4c4f69",
+        "sidebarSelected": "#04a5e5",
+        "sidebarSelectedInk": "#333333",
+        "topbar": "#eff1f5",
+        "anchor": "#8839ef"
+      },
+      "dark": {
+        "bg": "#181825",
+        "surface": "#1e1e2e",
+        "surface2": "#292c3c",
+        "text": "#cdd6f4",
+        "muted": "#a6adc8",
+        "line": "#313244",
+        "soft": "#89dceb",
+        "primary": "#cba6f7",
+        "primaryText": "#1e1e2e",
+        "sidebar": "#11111b",
+        "sidebarInk": "#cdd6f4",
+        "sidebarSelected": "#89dceb",
+        "sidebarSelectedInk": "#1e1e2e",
+        "topbar": "#181825",
+        "anchor": "#cba6f7"
+      }
+    }
+  },
+  {
+    "id": "interface-cosmic-night",
+    "name": "夜紫",
+    "description": "深紫淡白，理性安静",
+    "upstream_id": "cosmic-night",
+    "source": {
+      "label": "tweakcn · Cosmic Night",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#6e56cf",
+        "#f5f5ff",
+        "#f0f0fa"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f5f5ff",
+        "surface": "#ffffff",
+        "surface2": "#f0f0fa",
+        "text": "#2a2a4a",
+        "muted": "#6b6b89",
+        "line": "#e0e0f0",
+        "soft": "#d8e6ff",
+        "primary": "#6e56cf",
+        "primaryText": "#ffffff",
+        "sidebar": "#dddde6",
+        "sidebarInk": "#2a2a4a",
+        "sidebarSelected": "#d8e6ff",
+        "sidebarSelectedInk": "#2a2a4a",
+        "topbar": "#f5f5ff",
+        "anchor": "#6e56cf"
+      },
+      "dark": {
+        "bg": "#0f0f1a",
+        "surface": "#1a1a2e",
+        "surface2": "#222244",
+        "text": "#e2e2f5",
+        "muted": "#a0a0c0",
+        "line": "#303052",
+        "soft": "#303060",
+        "primary": "#a48fff",
+        "primaryText": "#0f0f1a",
+        "sidebar": "#0e0e18",
+        "sidebarInk": "#e2e2f5",
+        "sidebarSelected": "#303060",
+        "sidebarSelectedInk": "#e2e2f5",
+        "topbar": "#0f0f1a",
+        "anchor": "#a48fff"
+      }
+    }
+  },
+  {
+    "id": "interface-tangerine",
+    "name": "橘光",
+    "description": "橘红灰白，明快清晰",
+    "upstream_id": "tangerine",
+    "source": {
+      "label": "tweakcn · Tangerine",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#e05d38",
+        "#e8ebed",
+        "#dddfe2"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#e8ebed",
+        "surface": "#ffffff",
+        "surface2": "#f9fafb",
+        "text": "#333333",
+        "muted": "#646a77",
+        "line": "#dcdfe2",
+        "soft": "#d6e4f0",
+        "primary": "#b1492c",
+        "primaryText": "#ffffff",
+        "sidebar": "#dddfe2",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#d6e4f0",
+        "sidebarSelectedInk": "#1e3a8a",
+        "topbar": "#e8ebed",
+        "anchor": "#e05d38"
+      },
+      "dark": {
+        "bg": "#1c2433",
+        "surface": "#2a3040",
+        "surface2": "#2a303e",
+        "text": "#e5e5e5",
+        "muted": "#a3a3a3",
+        "line": "#3d4354",
+        "soft": "#2a3656",
+        "primary": "#e5795a",
+        "primaryText": "#303030",
+        "sidebar": "#1e222d",
+        "sidebarInk": "#e5e5e5",
+        "sidebarSelected": "#2a3656",
+        "sidebarSelectedInk": "#bfdbfe",
+        "topbar": "#1c2433",
+        "anchor": "#e05d38"
+      }
+    }
+  },
+  {
+    "id": "interface-elegant-luxury",
+    "name": "绯玉",
+    "description": "绯红暖白，克制雅致",
+    "upstream_id": "elegant-luxury",
+    "source": {
+      "label": "tweakcn · Elegant Luxury",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#9b2c2c",
+        "#faf7f5",
+        "#f0ebe8"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#faf7f5",
+        "surface": "#faf7f5",
+        "surface2": "#f0ebe8",
+        "text": "#1a1a1a",
+        "muted": "#57534e",
+        "line": "#f5e8d2",
+        "soft": "#fef3c7",
+        "primary": "#9b2c2c",
+        "primaryText": "#ffffff",
+        "sidebar": "#f0ebe8",
+        "sidebarInk": "#1a1a1a",
+        "sidebarSelected": "#fef3c7",
+        "sidebarSelectedInk": "#7f1d1d",
+        "topbar": "#faf7f5",
+        "anchor": "#9b2c2c"
+      },
+      "dark": {
+        "bg": "#1c1917",
+        "surface": "#292524",
+        "surface2": "#1f1c1a",
+        "text": "#f5f5f4",
+        "muted": "#d6d3d1",
+        "line": "#44403c",
+        "soft": "#b45309",
+        "primary": "#d37070",
+        "primaryText": "#262525",
+        "sidebar": "#1a1715",
+        "sidebarInk": "#f5f5f4",
+        "sidebarSelected": "#b45309",
+        "sidebarSelectedInk": "#fef3c7",
+        "topbar": "#1c1917",
+        "anchor": "#b91c1c"
+      }
+    }
+  },
+  {
+    "id": "interface-amber-minimal",
+    "name": "琥珀",
+    "description": "金橙映白，明亮有序",
+    "upstream_id": "amber-minimal",
+    "source": {
+      "label": "tweakcn · Amber Minimal",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#f59e0b",
+        "#ffffff",
+        "#f9fafb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface2": "#f9fafb",
+        "text": "#262626",
+        "muted": "#6b7280",
+        "line": "#e5e7eb",
+        "soft": "#fffbeb",
+        "primary": "#a46a07",
+        "primaryText": "#000000",
+        "sidebar": "#e5e6e7",
+        "sidebarInk": "#262626",
+        "sidebarSelected": "#fffbeb",
+        "sidebarSelectedInk": "#92400e",
+        "topbar": "#ffffff",
+        "anchor": "#f59e0b"
+      },
+      "dark": {
+        "bg": "#171717",
+        "surface": "#262626",
+        "surface2": "#1f1f1f",
+        "text": "#e5e5e5",
+        "muted": "#a3a3a3",
+        "line": "#404040",
+        "soft": "#92400e",
+        "primary": "#f59e0b",
+        "primaryText": "#000000",
+        "sidebar": "#0f0f0f",
+        "sidebarInk": "#e5e5e5",
+        "sidebarSelected": "#92400e",
+        "sidebarSelectedInk": "#fde68a",
+        "topbar": "#171717",
+        "anchor": "#f59e0b"
+      }
+    }
+  },
+  {
+    "id": "interface-caffeine",
+    "name": "深咖",
+    "description": "深咖素白，温润简净",
+    "upstream_id": "caffeine",
+    "source": {
+      "label": "tweakcn · Caffeine",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#644a40",
+        "#f9f9f9",
+        "#fbfbfb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f9f9f9",
+        "surface": "#fcfcfc",
+        "surface2": "#efefef",
+        "text": "#202020",
+        "muted": "#646464",
+        "line": "#d8d8d8",
+        "soft": "#e8e8e8",
+        "primary": "#644a40",
+        "primaryText": "#ffffff",
+        "sidebar": "#e7e7e7",
+        "sidebarInk": "#252525",
+        "sidebarSelected": "#f7f7f7",
+        "sidebarSelectedInk": "#343434",
+        "topbar": "#f9f9f9",
+        "anchor": "#644a40"
+      },
+      "dark": {
+        "bg": "#111111",
+        "surface": "#191919",
+        "surface2": "#222222",
+        "text": "#eeeeee",
+        "muted": "#b4b4b4",
+        "line": "#201e18",
+        "soft": "#2a2a2a",
+        "primary": "#ffe0c2",
+        "primaryText": "#081a1b",
+        "sidebar": "#101011",
+        "sidebarInk": "#f4f4f5",
+        "sidebarSelected": "#27272a",
+        "sidebarSelectedInk": "#f4f4f5",
+        "topbar": "#111111",
+        "anchor": "#ffe0c2"
+      }
+    }
+  },
+  {
+    "id": "interface-midnight-bloom",
+    "name": "月紫",
+    "description": "月紫浅灰，安静通透",
+    "upstream_id": "midnight-bloom",
+    "source": {
+      "label": "tweakcn · Midnight Bloom",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#6c5ce7",
+        "#f9f9f9",
+        "#f9f9f9"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f9f9f9",
+        "surface": "#ffffff",
+        "surface2": "#c9c4b5",
+        "text": "#333333",
+        "muted": "#515151",
+        "line": "#d4d4d4",
+        "soft": "#8b9467",
+        "primary": "#6c5ce7",
+        "primaryText": "#ffffff",
+        "sidebar": "#e5e5e5",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#8b9467",
+        "sidebarSelectedInk": "#292929",
+        "topbar": "#f9f9f9",
+        "anchor": "#6c5ce7"
+      },
+      "dark": {
+        "bg": "#1a1d23",
+        "surface": "#2f3436",
+        "surface2": "#444444",
+        "text": "#e5e5e5",
+        "muted": "#b1b1b1",
+        "line": "#444444",
+        "soft": "#6495ed",
+        "primary": "#9a8fee",
+        "primaryText": "#333333",
+        "sidebar": "#181b20",
+        "sidebarInk": "#e5e5e5",
+        "sidebarSelected": "#6495ed",
+        "sidebarSelectedInk": "#2e2e2e",
+        "topbar": "#1a1d23",
+        "anchor": "#6c5ce7"
+      }
+    }
+  },
+  {
+    "id": "interface-northern-lights",
+    "name": "青野",
+    "description": "鲜绿淡灰，自然轻快",
+    "upstream_id": "northern-lights",
+    "source": {
+      "label": "tweakcn · Northern Lights",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#34a85a",
+        "#f9f9fa",
+        "#f9f9fa"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f9f9fa",
+        "surface": "#ffffff",
+        "surface2": "#ddd9c4",
+        "text": "#333333",
+        "muted": "#5e5e5e",
+        "line": "#d4d4d4",
+        "soft": "#66d9ef",
+        "primary": "#298346",
+        "primaryText": "#ffffff",
+        "sidebar": "#e5e5e6",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#66d9ef",
+        "sidebarSelectedInk": "#333333",
+        "topbar": "#f9f9fa",
+        "anchor": "#34a85a"
+      },
+      "dark": {
+        "bg": "#1a1d23",
+        "surface": "#2f3436",
+        "surface2": "#444444",
+        "text": "#e5e5e5",
+        "muted": "#b1b1b1",
+        "line": "#444444",
+        "soft": "#6495ed",
+        "primary": "#44af67",
+        "primaryText": "#333333",
+        "sidebar": "#181b20",
+        "sidebarInk": "#e5e5e5",
+        "sidebarSelected": "#6495ed",
+        "sidebarSelectedInk": "#2e2e2e",
+        "topbar": "#1a1d23",
+        "anchor": "#34a85a"
+      }
+    }
+  },
+  {
+    "id": "interface-vintage-paper",
+    "name": "旧笺",
+    "description": "褐金暖纸，朴素温和",
+    "upstream_id": "vintage-paper",
+    "source": {
+      "label": "tweakcn · Vintage Paper",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#a67c52",
+        "#f5f1e6",
+        "#ece5d8"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f5f1e6",
+        "surface": "#fffcf5",
+        "surface2": "#ece5d8",
+        "text": "#4a3f35",
+        "muted": "#746450",
+        "line": "#dbd0ba",
+        "soft": "#d4c8aa",
+        "primary": "#8a6744",
+        "primaryText": "#ffffff",
+        "sidebar": "#ece5d8",
+        "sidebarInk": "#4a3f35",
+        "sidebarSelected": "#d4c8aa",
+        "sidebarSelectedInk": "#4a3f35",
+        "topbar": "#f5f1e6",
+        "anchor": "#a67c52"
+      },
+      "dark": {
+        "bg": "#2d2621",
+        "surface": "#3a322c",
+        "surface2": "#312b26",
+        "text": "#ece5d8",
+        "muted": "#c5bcac",
+        "line": "#4a4039",
+        "soft": "#59493e",
+        "primary": "#c0a080",
+        "primaryText": "#2d2621",
+        "sidebar": "#29231e",
+        "sidebarInk": "#ece5d8",
+        "sidebarSelected": "#59493e",
+        "sidebarSelectedInk": "#ece5d8",
+        "topbar": "#2d2621",
+        "anchor": "#c0a080"
+      }
+    }
+  },
+  {
+    "id": "interface-sunset-horizon",
+    "name": "晚霞",
+    "description": "珊瑚暖白，轻柔明快",
+    "upstream_id": "sunset-horizon",
+    "source": {
+      "label": "tweakcn · Sunset Horizon",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#ff7e5f",
+        "#fff9f5",
+        "#fff0eb"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#fff9f5",
+        "surface": "#ffffff",
+        "surface2": "#fff0eb",
+        "text": "#3d3436",
+        "muted": "#746e69",
+        "line": "#ffe0d6",
+        "soft": "#feb47b",
+        "primary": "#b35843",
+        "primaryText": "#ffffff",
+        "sidebar": "#ebddd8",
+        "sidebarInk": "#3d3436",
+        "sidebarSelected": "#feb47b",
+        "sidebarSelectedInk": "#3d3436",
+        "topbar": "#fff9f5",
+        "anchor": "#ff7e5f"
+      },
+      "dark": {
+        "bg": "#2a2024",
+        "surface": "#392f35",
+        "surface2": "#30272c",
+        "text": "#f2e9e4",
+        "muted": "#d7c6bc",
+        "line": "#463a41",
+        "soft": "#feb47b",
+        "primary": "#ff7e5f",
+        "primaryText": "#383838",
+        "sidebar": "#271d21",
+        "sidebarInk": "#f2e9e4",
+        "sidebarSelected": "#feb47b",
+        "sidebarSelectedInk": "#2a2024",
+        "topbar": "#2a2024",
+        "anchor": "#ff7e5f"
+      }
+    }
+  },
+  {
+    "id": "interface-twitter",
+    "name": "天蓝",
+    "description": "天蓝映白，清朗舒展",
+    "upstream_id": "twitter",
+    "source": {
+      "label": "tweakcn · Twitter",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#1e9df1",
+        "#ffffff",
+        "#f7f8f8"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#ffffff",
+        "surface": "#f7f8f8",
+        "surface2": "#E5E5E6",
+        "text": "#0f1419",
+        "muted": "#0f1419",
+        "line": "#e1eaef",
+        "soft": "#E3ECF6",
+        "primary": "#1777b7",
+        "primaryText": "#ffffff",
+        "sidebar": "#e3e4e4",
+        "sidebarInk": "#0f1419",
+        "sidebarSelected": "#E3ECF6",
+        "sidebarSelectedInk": "#156fab",
+        "topbar": "#ffffff",
+        "anchor": "#1e9df1"
+      },
+      "dark": {
+        "bg": "#101214",
+        "surface": "#17181c",
+        "surface2": "#181818",
+        "text": "#e7e9ea",
+        "muted": "#7d8185",
+        "line": "#242628",
+        "soft": "#061622",
+        "primary": "#1c9cf0",
+        "primaryText": "#2e2e2e",
+        "sidebar": "#0f1012",
+        "sidebarInk": "#d9d9d9",
+        "sidebarSelected": "#061622",
+        "sidebarSelectedInk": "#1c9cf0",
+        "topbar": "#101214",
+        "anchor": "#1c9cf0"
+      }
+    }
+  },
+  {
+    "id": "interface-darkmatter",
+    "name": "赤橙",
+    "description": "赤橙灰白，清晰利落",
+    "upstream_id": "darkmatter",
+    "source": {
+      "label": "tweakcn · Darkmatter",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#d87943",
+        "#ffffff",
+        "#f3f4f6"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface2": "#f3f4f6",
+        "text": "#111827",
+        "muted": "#69707d",
+        "line": "#e5e7eb",
+        "soft": "#eeeeee",
+        "primary": "#af6236",
+        "primaryText": "#ffffff",
+        "sidebar": "#f3f4f6",
+        "sidebarInk": "#111827",
+        "sidebarSelected": "#ffffff",
+        "sidebarSelectedInk": "#111827",
+        "topbar": "#ffffff",
+        "anchor": "#d87943"
+      },
+      "dark": {
+        "bg": "#121113",
+        "surface": "#121212",
+        "surface2": "#222222",
+        "text": "#c1c1c1",
+        "muted": "#898989",
+        "line": "#222222",
+        "soft": "#333333",
+        "primary": "#e78a53",
+        "primaryText": "#121113",
+        "sidebar": "#101010",
+        "sidebarInk": "#c1c1c1",
+        "sidebarSelected": "#333333",
+        "sidebarSelectedInk": "#c1c1c1",
+        "topbar": "#121113",
+        "anchor": "#e78a53"
+      }
+    }
+  },
+  {
+    "id": "interface-mono",
+    "name": "灰阶",
+    "description": "素灰纯白，简洁清晰",
+    "upstream_id": "mono",
+    "source": {
+      "label": "tweakcn · Mono",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#737373",
+        "#ffffff",
+        "#fafafa"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#ffffff",
+        "surface": "#ffffff",
+        "surface2": "#f5f5f5",
+        "text": "#0a0a0a",
+        "muted": "#707070",
+        "line": "#e5e5e5",
+        "soft": "#f5f5f5",
+        "primary": "#737373",
+        "primaryText": "#fafafa",
+        "sidebar": "#e6e6e6",
+        "sidebarInk": "#0a0a0a",
+        "sidebarSelected": "#f5f5f5",
+        "sidebarSelectedInk": "#171717",
+        "topbar": "#ffffff",
+        "anchor": "#737373"
+      },
+      "dark": {
+        "bg": "#0a0a0a",
+        "surface": "#191919",
+        "surface2": "#262626",
+        "text": "#fafafa",
+        "muted": "#a1a1a1",
+        "line": "#383838",
+        "soft": "#404040",
+        "primary": "#818181",
+        "primaryText": "#191919",
+        "sidebar": "#090909",
+        "sidebarInk": "#fafafa",
+        "sidebarSelected": "#262626",
+        "sidebarSelectedInk": "#fafafa",
+        "topbar": "#0a0a0a",
+        "anchor": "#737373"
+      }
+    }
+  },
+  {
+    "id": "interface-sage-garden",
+    "name": "鼠尾草",
+    "description": "草灰米白，柔和安宁",
+    "upstream_id": "sage-garden",
+    "source": {
+      "label": "tweakcn · Sage Garden",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#7c9082",
+        "#f8f7f4",
+        "#fafaf8"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f8f7f4",
+        "surface": "#ffffff",
+        "surface2": "#e8e6e1",
+        "text": "#1a1f2e",
+        "muted": "#616874",
+        "line": "#e8e6e1",
+        "soft": "#bfc9bb",
+        "primary": "#647569",
+        "primaryText": "#ffffff",
+        "sidebar": "#e6e6e4",
+        "sidebarInk": "#1a1f2e",
+        "sidebarSelected": "#e8e6e1",
+        "sidebarSelectedInk": "#1a1f2e",
+        "topbar": "#f8f7f4",
+        "anchor": "#7c9082"
+      },
+      "dark": {
+        "bg": "#0a0a0a",
+        "surface": "#121212",
+        "surface2": "#1a1a1a",
+        "text": "#f5f5f5",
+        "muted": "#a0a0a0",
+        "line": "#2a2a2a",
+        "soft": "#36443a",
+        "primary": "#7c9082",
+        "primaryText": "#000000",
+        "sidebar": "#090909",
+        "sidebarInk": "#f5f5f5",
+        "sidebarSelected": "#1a1a1a",
+        "sidebarSelectedInk": "#f5f5f5",
+        "topbar": "#0a0a0a",
+        "anchor": "#7c9082"
+      }
+    }
+  },
+  {
+    "id": "interface-quantum-rose",
+    "name": "玫瑰",
+    "description": "玫红浅粉，明快温柔",
+    "upstream_id": "quantum-rose",
+    "source": {
+      "label": "tweakcn · Quantum Rose",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#e6067a",
+        "#fff0f8",
+        "#ffedf6"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#fff0f8",
+        "surface": "#fff7fc",
+        "surface2": "#ffe3f2",
+        "text": "#91185c",
+        "muted": "#b33d7a",
+        "line": "#ffc7e6",
+        "soft": "#ffc1e3",
+        "primary": "#d80673",
+        "primaryText": "#ffffff",
+        "sidebar": "#ebdae2",
+        "sidebarInk": "#91185c",
+        "sidebarSelected": "#ffc1e3",
+        "sidebarSelectedInk": "#91185c",
+        "topbar": "#fff0f8",
+        "anchor": "#e6067a"
+      },
+      "dark": {
+        "bg": "#1a0922",
+        "surface": "#2a1435",
+        "surface2": "#331941",
+        "text": "#ffb3ff",
+        "muted": "#d67ad6",
+        "line": "#4a1b5f",
+        "soft": "#5a1f5d",
+        "primary": "#ff6bef",
+        "primaryText": "#180518",
+        "sidebar": "#160a1d",
+        "sidebarInk": "#ffb3ff",
+        "sidebarSelected": "#5a1f5d",
+        "sidebarSelectedInk": "#ffb3ff",
+        "topbar": "#1a0922",
+        "anchor": "#ff6bef"
+      }
+    }
+  },
+  {
+    "id": "interface-bubblegum",
+    "name": "樱糖",
+    "description": "樱粉暖白，轻甜柔和",
+    "upstream_id": "bubblegum",
+    "source": {
+      "label": "tweakcn · Bubblegum",
+      "url": "https://tweakcn.com/editor/theme",
+      "colors": [
+        "#d04f99",
+        "#f6e6ee",
+        "#f8d8ea"
+      ],
+      "adaptation": "完整界面主题映射到antd；保留配色角色，对比度不足时校正文字/按钮，侧栏仅在不深于页面时压低亮度。"
+    },
+    "modes": {
+      "light": {
+        "bg": "#f6e6ee",
+        "surface": "#fdedc9",
+        "surface2": "#b2e1eb",
+        "text": "#5b5b5b",
+        "muted": "#5f5f5f",
+        "line": "#d04f99",
+        "soft": "#fbe2a7",
+        "primary": "#ad427f",
+        "primaryText": "#ffffff",
+        "sidebar": "#f8d8ea",
+        "sidebarInk": "#333333",
+        "sidebarSelected": "#f9a8d4",
+        "sidebarSelectedInk": "#333333",
+        "topbar": "#f6e6ee",
+        "anchor": "#d04f99"
+      },
+      "dark": {
+        "bg": "#12242e",
+        "surface": "#1c2e38",
+        "surface2": "#24272b",
+        "text": "#f3e3ea",
+        "muted": "#e4a2b1",
+        "line": "#324859",
+        "soft": "#c67b96",
+        "primary": "#fbe2a7",
+        "primaryText": "#12242e",
+        "sidebar": "#101f28",
+        "sidebarInk": "#f3f4f6",
+        "sidebarSelected": "#f9a8d4",
+        "sidebarSelectedInk": "#1f2937",
+        "topbar": "#12242e",
+        "anchor": "#fbe2a7"
+      }
+    }
+  }
+]

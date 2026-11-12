@@ -1,0 +1,10 @@
+.buddy-shell .role-config-summary{margin:10px 0 12px;background:var(--panel);border-color:var(--line)}
+.role-config-summary .ant-collapse-header-text>span{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600}
+.role-config-summary .ant-tag{margin:0;font-size:10px;font-weight:400}
+.role-config-slots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.role-config-slots>div{min-width:0;padding:8px 9px;border:1px solid var(--line);border-radius:7px;display:flex;flex-direction:column;gap:3px}
+.role-config-slots small,.role-config-slots span,.role-config-params{font-size:11px;color:var(--muted)}
+.role-config-slots strong{font-size:12px;overflow-wrap:anywhere;font-weight:500}
+.role-config-summary pre{font-family:inherit;font-size:12px;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere;max-height:180px;overflow:auto;margin:0;padding:10px;background:var(--bg);border:1px solid var(--line);border-radius:7px}
+.role-config-summary h4{font-size:12px;margin:12px 0 7px}.role-config-params{margin:9px 0 0}
+@media(max-width:440px){.role-config-slots{gap:5px}.role-config-slots>div{padding:7px}}
