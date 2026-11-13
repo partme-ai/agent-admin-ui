@@ -27,19 +27,27 @@ export function readCompareState(storage?:StorageLike,query=''):CompareState {
 export function writeCompareState(storage:StorageLike,state:unknown):boolean {try{storage.setItem(COMPARISON_STATE_KEY,JSON.stringify(normalizeCompareState(state)));return true;}catch{return false;}}
 export function viewportFor(id:PreviewDevice,state:CompareState){return resolveDeviceViewport(id==='mobile'?'phone':id,state.presets[id]||'',state.landscape[id]);}
 export function entryFor(id:PreviewDevice,state:CompareState){return `./${id}/index.html?theme=${state.theme}#${pathFor(state.page,state.item)}${state.item?`?item=${encodeURIComponent(state.item)}`:''}`;}
+/** 保持预览顺序，每排最多两个端。 */
+export function previewRows(state:CompareState){
+ const visible=previewDevices.filter(d=>state.enabled[d.id]);
+ return Array.from({length:Math.ceil(visible.length/2)},(_,index)=>visible.slice(index*2,index*2+2));
+}
 /** 手机和平板在同屏对比时略放大，便于看清导航结构。 */
 export function deviceScale(id:PreviewDevice,scale:number){return Math.min(1,scale*(id==='mobile'?1.5:id==='tablet'?1.15:1));}
-/** 自动将可见设备排入画布；放大倍率仍由用户选择的缩放上限控制。 */
-export function fitScale(state:CompareState,availableWidth:number){
- const visible=previewDevices.filter(d=>state.enabled[d.id]);
- if(!visible.length)return state.scale;
- const weightedWidth=visible.reduce((sum,d)=>sum+viewportFor(d.id,state).width*(d.id==='mobile'?1.5:d.id==='tablet'?1.15:1),0);
- const fixedWidth=48+Math.max(0,visible.length-1)*12;
- return Math.min(state.scale,Math.max(.15,Math.floor(((availableWidth-fixedWidth)/weightedWidth)*100)/100));
+/** 每排独立适配画布；放大倍率仍由用户选择的缩放上限控制。 */
+export function fitRowScales(state:CompareState,availableWidth:number){
+ return previewRows(state).map(row=>{
+  const weightedWidth=row.reduce((sum,d)=>sum+viewportFor(d.id,state).width*(d.id==='mobile'?1.5:d.id==='tablet'?1.15:1),0);
+  return Math.min(state.scale,Math.max(.15,Math.floor(((availableWidth-60)/weightedWidth)*100)/100));
+ });
 }
+export function fitScale(state:CompareState,availableWidth:number){return Math.min(state.scale,...fitRowScales(state,availableWidth));}
 /** 刻度与方格使用画布坐标，设备尺寸仍为未缩放的 CSS viewport。 */
-export function canvasSize(state:CompareState,scale=state.scale){
- const visible=previewDevices.filter(d=>state.enabled[d.id]);
- return {width:Math.max(320,48+Math.max(0,visible.length-1)*12+visible.reduce((sum,d)=>sum+viewportFor(d.id,state).width*deviceScale(d.id,scale),0)),height:Math.max(216,...visible.map(d=>viewportFor(d.id,state).height*deviceScale(d.id,scale)+100))};
+export function canvasSize(state:CompareState,scales:number|readonly number[]=state.scale){
+ const rows=previewRows(state);
+ const rowScale=(index:number)=>typeof scales==='number'?scales:scales[index]??state.scale;
+ const rowWidth=(row:typeof rows[number],index:number)=>row.reduce((sum,d)=>sum+viewportFor(d.id,state).width*deviceScale(d.id,rowScale(index)),0)+Math.max(0,row.length-1)*12;
+ const rowHeight=(row:typeof rows[number],index:number)=>Math.max(...row.map(d=>viewportFor(d.id,state).height*deviceScale(d.id,rowScale(index))))+68;
+ return {width:Math.max(320,48,...rows.map((row,index)=>48+rowWidth(row,index))),height:Math.max(216,48+rows.reduce((sum,row,index)=>sum+rowHeight(row,index),0)+Math.max(0,rows.length-1)*16)};
 }
 export function surfaceFor(page:string,item=''):string {if(['00','01'].includes(page))return 'home';if(['27','28','29','30','48','49','50','51','52'].includes(page)||(page==='33'&&item==='basic-voice'))return 'settings';if(['02','24'].includes(page))return 'conversation';return 'work';}

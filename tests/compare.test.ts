@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {normalizeCompareState,readCompareState,writeCompareState,canvasSize,viewportFor,surfaceFor,fitScale,deviceScale,COMPARISON_STATE_KEY} from '../src/compare_state.ts';
+import {normalizeCompareState,readCompareState,writeCompareState,canvasSize,viewportFor,surfaceFor,fitScale,fitRowScales,deviceScale,previewRows,COMPARISON_STATE_KEY} from '../src/compare_state.ts';
 test('对比页四端尺寸与旋转使用真实 viewport',()=>{
  const state=normalizeCompareState(null);
  assert.equal(state.scale,.65);
@@ -12,14 +12,21 @@ test('对比页四端尺寸与旋转使用真实 viewport',()=>{
  assert.equal(viewportFor('web',{...state,landscape:{web:true}}).width,1024);
  assert.equal(viewportFor('mobile',{...state,presets:{mobile:'iphone-se'}}).height,667);
 });
-test('四端同屏按可见设备计算画布，并在桌面宽度内适配',()=>{
+test('四端分两排，按较宽一排适配画布',()=>{
  const state=normalizeCompareState(null),all=canvasSize(state);
  assert.deepEqual(state.enabled,{web:true,desktop:true,tablet:true,mobile:true});
- assert.ok(all.width>canvasSize({...state,enabled:{...state.enabled,mobile:false}}).width);
+ assert.deepEqual(previewRows(state).map(row=>row.map(d=>d.id)),[['web','desktop'],['tablet','mobile']]);
+ assert.ok(all.height>canvasSize({...state,enabled:{...state.enabled,mobile:false}}).height);
  const scale=fitScale(state,1280);
  assert.ok(scale<state.scale);
  assert.ok(canvasSize(state,scale).width<=1280);
  assert.ok(deviceScale('mobile',scale)>deviceScale('web',scale));
+ const rowScales=fitRowScales(state,1280);
+ assert.ok(rowScales[1]>rowScales[0]);
+ assert.ok(canvasSize(state,rowScales).width<=1280);
+ const wide={...state,presets:{desktop:'full-hd'}};
+ assert.ok(canvasSize(wide,fitRowScales(wide,1900)).width<=1900);
+ assert.deepEqual(previewRows({...state,enabled:{web:true,desktop:false,tablet:true,mobile:true}}).map(row=>row.map(d=>d.id)),[['web','tablet'],['mobile']]);
 });
 test('控制台恢复可见端、尺寸和旋转；只保存白名单字段',()=>{
  let saved='';const storage={getItem:()=>saved||null,setItem:(key:string,value:string)=>{assert.equal(key,COMPARISON_STATE_KEY);saved=value;}};

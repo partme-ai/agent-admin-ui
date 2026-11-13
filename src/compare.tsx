@@ -6,7 +6,7 @@ import {DEVICE_PRESETS} from '../reference/device_presets.js';
 import {pages} from './catalog';
 import {normalizePreview} from './state';
 import {CanvasRuler} from './CanvasRuler';
-import {previewDevices,previewScales,readCompareState,writeCompareState,viewportFor,canvasSize,fitScale,deviceScale,surfaceFor,entryFor,type PreviewDevice} from './compare_state';
+import {previewDevices,previewRows,previewScales,readCompareState,writeCompareState,viewportFor,canvasSize,fitRowScales,deviceScale,surfaceFor,entryFor,type PreviewDevice} from './compare_state';
 import './compare.css';
 // 以 TinyClaw 的控制栏、设备排序与标尺画布为布局基线，来源见 reference/provenance.json。
 function Compare(){
@@ -15,7 +15,7 @@ function Compare(){
  const [canvasWidth,setCanvasWidth]=useState(()=>innerWidth);
  const canvasRef=useRef<HTMLDivElement|null>(null);
  const refs=useRef<Record<string,HTMLIFrameElement|null>>({});const ready=useRef(new WeakSet<Window>());const current=useRef(controls);current.current=controls;
- const {page,item,theme,style,sync,scale,enabled,landscape}=controls;const fittedScale=fitScale(controls,canvasWidth);const board=canvasSize(controls,fittedScale);
+ const {page,item,theme,style,sync,scale,enabled,landscape}=controls;const rowScales=fitRowScales(controls,canvasWidth);const board=canvasSize(controls,rowScales);
  const change=<K extends keyof typeof controls>(key:K,value:typeof controls[K])=>setControls(s=>({...s,[key]:value}));
  const changeDevice=(key:'landscape'|'presets',id:PreviewDevice,value:boolean|string)=>setControls(s=>({...s,[key]:{...s[key],[id]:value}}));
  function send(frame:HTMLIFrameElement|null){if(!frame?.contentWindow)return;const {page,item,theme,style}=current.current;ready.current.delete(frame.contentWindow);frame.contentWindow.postMessage({type:'agent-admin-preview',page,item,theme,style},location.origin);}
@@ -39,13 +39,13 @@ function Compare(){
   <label className="comparison-toggle"><Switch aria-label="页面联动" checked={sync} onChange={v=>change('sync',v)}/><span>联动</span></label>
   <span className="comparison-device-switches">{previewDevices.map(d=><label className="comparison-toggle" key={d.id}><Switch size="small" aria-label={`显示 ${d.label}`} checked={enabled[d.id]} onChange={v=>setControls(s=>({...s,enabled:{...s.enabled,[d.id]:v}}))}/><span>{d.label}</span></label>)}</span>
  </Space>{storageError&&<small className="comparison-storage-error" role="status">浏览器未能保存控制台选择；刷新后可能恢复默认值。</small>}</header>
- <div className="comparison-canvas" ref={canvasRef}><div className="comparison-board" style={{minWidth:board.width}}><div className="ruler-corner" title="标尺单位：画布 CSS px">px</div><CanvasRuler length={board.width}/><CanvasRuler vertical length={board.height}/>
- <div className="comparison-devices">{previewDevices.filter(d=>enabled[d.id]).map(d=>{const view=viewportFor(d.id,controls),viewScale=deviceScale(d.id,fittedScale);return <section key={d.id} className="comparison-device" style={{width:view.width*viewScale}} aria-label={`${d.label} 预览区域`}>
+ <div className="comparison-canvas" ref={canvasRef}><div className="comparison-board" style={{minWidth:board.width}}><div className="ruler-corner" title="标尺单位：画布 CSS px">px</div><CanvasRuler length={board.width-24}/><CanvasRuler vertical length={board.height-24}/>
+ <div className="comparison-devices">{previewRows(controls).map((row,index)=><div className="comparison-device-row" key={index}>{row.map(d=>{const view=viewportFor(d.id,controls),viewScale=deviceScale(d.id,rowScales[index]);return <section key={d.id} className="comparison-device" style={{width:view.width*viewScale}} aria-label={`${d.label} 预览区域`}>
   <div className="device-label"><strong>{d.label}</strong><Button size="small" aria-label={`旋转 ${d.label}`} onClick={()=>changeDevice('landscape',d.id,!landscape[d.id])}>{view.width>view.height?'横屏':'竖屏'} ↻</Button><a href={entryFor(d.id,controls)} target="_blank" rel="noopener noreferrer" aria-label={`独立打开 ${d.label}`} title="独立打开"><ExportOutlined/></a></div>
   <Select className="device-preset" aria-label={`${d.label} 设备分辨率`} value={view.id} onChange={v=>changeDevice('presets',d.id,v)} options={DEVICE_PRESETS[d.id==='mobile'?'phone':d.id].map(p=>({value:p.id,label:`${p.name} · ${p.width} × ${p.height}`}))}/>
   <div className="device-metrics">{view.width} × {view.height} CSS px · {Math.round(viewScale*100)}%</div>
   <div className="device-window" style={{height:view.height*viewScale}}><iframe title={`${d.label} 交互界面`} ref={f=>{refs.current[d.id]=f;}} onLoad={()=>send(refs.current[d.id])} src={`./${d.id}/index.html`} style={{width:view.width,height:view.height,transform:`scale(${viewScale})`}}/></div>
- </section>;})}{!previewDevices.some(d=>enabled[d.id])&&<div className="comparison-empty"><strong>请选择预览端</strong><p>在顶部开启 Web、Desktop、Pad 或 Mobile。</p></div>}</div></div></div>
+ </section>;})}</div>)}{!previewDevices.some(d=>enabled[d.id])&&<div className="comparison-empty"><strong>请选择预览端</strong><p>在顶部开启 Web、Desktop、Pad 或 Mobile。</p></div>}</div></div></div>
  </main></ConfigProvider>;
 }
 createRoot(document.getElementById('root')!).render(<Compare/>);
