@@ -25,7 +25,7 @@ npm run build
 npm run preview -- --port 5188
 ```
 
-Open any entry independently, or use the comparison page to switch between the four host layouts:
+Open any entry independently, or compare the four host layouts side by side:
 
 | Surface | URL |
 | --- | --- |
@@ -33,9 +33,9 @@ Open any entry independently, or use the comparison page to switch between the f
 | Desktop | `http://127.0.0.1:5188/desktop/index.html#/w/demo/home` |
 | Pad | `http://127.0.0.1:5188/tablet/index.html#/w/demo/home` |
 | Mobile | `http://127.0.0.1:5188/mobile/index.html#/w/demo/home` |
-| Tabbed comparison | `http://127.0.0.1:5188/compare.html` |
+| Side-by-side comparison | `http://127.0.0.1:5188/compare.html` |
 
-The server reads generated `dist/` files on `127.0.0.1`; rebuild after source changes. The comparison page shows one host at a time in Web, Desktop, Pad, and Mobile tabs. It keeps the selected page and subview when switching tabs, and provides theme controls, viewport presets, and links to each independent entry. Port `5188` avoids a concurrent preview on the script's default port `5177`.
+The server reads generated `dist/` files on `127.0.0.1`; rebuild after source changes. The comparison page shows Web, Desktop, Pad, and Mobile together, fitting the visible previews to the available width. Each host can be shown or hidden, while page and subview changes can be linked across hosts. Theme controls, viewport presets, and independent entry links remain available. Port `5188` avoids a concurrent preview on the script's default port `5177`.
 
 ## Capabilities and boundaries
 
