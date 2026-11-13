@@ -23,8 +23,8 @@ test('回复读取所选文档与当前角色记忆，其他角色记忆不进�
  const env=fixture(),a=env.store.agents[0];a.runtime={...cloneAgentRuntime(),memoryMode:'本地独立记忆'};
  env.store.roleMemories.a1=[{id:'local',subject:'Alex',content:'喜欢蓝色',source:'手动',updated:'今天'}];
  env.store.roleMemories.a2=[{id:'private',subject:'其他人',content:'不应串用的记忆',source:'手动',updated:'今天'}];
- const run=simulateAgentTurn(a,'知识库',env);
- assert.ok(run.references.length);assert.match(run.request.instructions,/知识助手/);
+ const run=simulateAgentTurn(a,'退换货',env);
+ assert.ok(run.references.length);assert.match(run.request.instructions,/电商售后客服/);
  assert.match(JSON.stringify(run.request),/喜欢蓝色/);assert.doesNotMatch(JSON.stringify(run.request),/不应串用/);
  assert.equal(run.model.id,a.model);
  const memory=simulateAgentTurn(a,'请记住：我喜欢简短回答',env);assert.equal(memory.memoryWrite?.content,'我喜欢简短回答');

@@ -14,8 +14,8 @@ export type RoleProfile={
 export type RoleMemory={id:string;subject:string;content:string;source:string;updated:string;status?:import('./settings_integration.ts').MemoryStatus;replacedBy?:string};
 /** 创建互不共享引用的默认人物配置。 */
 export function defaultRoleProfile():RoleProfile{return {
- identity:'知识与生活伙伴',background:'陪伴你探索问题、整理知识，也帮助你推进工作。',values:'诚实、尊重隐私，区分事实与推测。',boundaries:'未经允许不执行写入操作，不编造执行结果。',address:'你',greeting:'你好呀，今天有什么想一起探索的？',
- traits:['温和','耐心','好奇'],warmth:70,humor:35,initiative:40,detail:45,
+ identity:'业务智能体',background:'围绕明确的业务目标处理资料、问题和任务。',values:'准确、可追溯、保护业务与个人数据。',boundaries:'未经授权不执行写入操作，不编造数据或执行结果。',address:'您',greeting:'您好，请说明业务场景和目标。',
+ traits:['专业','清晰','审慎'],warmth:55,humor:15,initiative:40,detail:60,
  expression:'微笑',screenTheme:'石墨',disabledAbilities:['SLM','VLLM'],extensions:['e1'],connectionTools:{},skills:['knowledge'],commands:[],hooks:[],risk:{sensitiveWords:[],requireApproval:true,allowToolWrite:false}
 };}
 /** 合并既有角色数据并深拷贝，不污染原草稿或其他角色。 */
