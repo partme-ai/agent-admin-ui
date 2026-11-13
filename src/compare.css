@@ -8,3 +8,5 @@
 
 /* 浅色画布与颜色模式切换控件使用相同的中性灰底色。 */
 .comparison:not(.dark) .comparison-canvas{background-image:linear-gradient(#0000000a 1px,transparent 1px),linear-gradient(90deg,#0000000a 1px,transparent 1px)}
+.comparison-tabs{width:100%;margin-bottom:-16px}.comparison-tabs .ant-tabs-nav{margin:0}.comparison-tabs .ant-tabs-content-holder{display:none}.comparison-board{width:100%;grid-template-columns:24px minmax(0,1fr)}.comparison-devices{justify-self:center}.comparison-device{max-width:100%}
+@media(max-width:900px){.comparison-tabs{margin-bottom:-12px}}

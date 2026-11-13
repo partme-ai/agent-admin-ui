@@ -1,5 +1,5 @@
-import {shellEntries} from './shell_layout.ts';
-const parents=shellEntries().filter(e=>e.node.children?.length);
+import {shellEntries,shellGroupsForHost} from './shell_layout.ts';
+const parents=[...shellEntries().filter(e=>e.node.children?.length),...shellGroupsForHost('desktop','settings').flatMap(group=>group.items.filter(node=>node.key==='basic').map(node=>({node,key:node.key,ancestors:[]})))];
 /** 每一层同级互斥，深层菜单保留完整祖先路径。 */
 export function accordionKeys(previous:readonly string[],next:readonly string[]):string[]{
  const valid=next.filter(key=>parents.some(e=>e.key===key));

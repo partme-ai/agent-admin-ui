@@ -31,11 +31,14 @@ export function selectionFromPath(raw:string):string {
  const match=path.match(/\/(?:agents|connections|knowledge|devices|tasks|runs|extensions|plans)\/([^/]+)(?:\/|$)/);
  const doc=path.match(/\/documents\/([^/]+)/);return decodeURIComponent(doc?.[1]||match?.[1]||'');
 }
-export function normalizePreview(raw:unknown):{page:string;theme:'light'|'dark';style?:'cards'|'compact'}|null {
+export function normalizePreviewItem(value:unknown):string{
+ return typeof value==='string'&&value.length<=128&&/^[\p{L}\p{N}._:-]*$/u.test(value)?value:'';
+}
+export function normalizePreview(raw:unknown):{page:string;theme:'light'|'dark';item?:string;style?:'cards'|'compact'}|null {
  if(!raw||typeof raw!=='object')return null;
  const data=raw as Record<string,unknown>;
  if(!pages.some(p=>p.id===data.page)||!['light','dark'].includes(String(data.theme)))return null;
- return {page:String(data.page),theme:data.theme as 'light'|'dark',...(['cards','compact'].includes(String(data.style))?{style:data.style as 'cards'|'compact'}:{})};
+ return {page:String(data.page),theme:data.theme as 'light'|'dark',...(typeof data.item==='string'&&normalizePreviewItem(data.item)===data.item?{item:data.item}:{}),...(['cards','compact'].includes(String(data.style))?{style:data.style as 'cards'|'compact'}:{})};
 }
 export type AgentVersion={icon?:string;profile?:RoleProfile;avatar?:string;runtime?:AgentRuntime;revision:number;name:string;desc:string;model:string;knowledge:string[];instructions:string;tools?:string[];temperature?:number;context?:boolean;memory?:boolean;channels?:string[];workflowId?:string;published?:boolean};
 export type Agent={marketTemplateId?:string;profile?:RoleProfile;publishedRevision?:number;avatar?:string;runtime?:AgentRuntime;id:string;name:string;desc:string;color:string;icon:string;model:string;knowledge:string[];instructions:string;published:boolean;revision:number;temperature?:number;tools?:string[];context?:boolean;memory?:boolean;channels?:string[];workflowId?:string;versions?:AgentVersion[];publishedConfig?:Omit<AgentVersion,'revision'|'published'>};

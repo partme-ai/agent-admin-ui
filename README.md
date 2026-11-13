@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md) | English
 
-Agent Admin UI is a responsive administration interface for models, knowledge bases, and agents. It is for teams designing an agent control plane and developers reviewing its interaction flows. This is a **front-end prototype**: agent runs and connection checks are local simulations. No real model, knowledge service, or production API is called.
+Agent Admin UI is a responsive administration interface for models, knowledge bases, and agents across Web, Desktop, Pad, and Mobile. It is for teams designing an agent control plane and developers reviewing its interaction flows. This is a **front-end prototype**: agent runs and connection checks are local simulations. No real model, knowledge service, or production API is called.
 
 ```text
 Administrator input
@@ -25,7 +25,17 @@ npm run build
 npm run preview -- --port 5188
 ```
 
-Open `http://127.0.0.1:5188/index.html?device=desktop&host=web#/w/demo/home`. The server reads generated `dist/` files on `127.0.0.1`; rebuild after source changes. `compare.html` offers a multi-viewport preview. Port `5188` avoids a concurrent preview on the script's default port `5177`.
+Open any entry independently, or use the comparison page to switch between the four host layouts:
+
+| Surface | URL |
+| --- | --- |
+| Web | `http://127.0.0.1:5188/web/index.html#/w/demo/home` |
+| Desktop | `http://127.0.0.1:5188/desktop/index.html#/w/demo/home` |
+| Pad | `http://127.0.0.1:5188/tablet/index.html#/w/demo/home` |
+| Mobile | `http://127.0.0.1:5188/mobile/index.html#/w/demo/home` |
+| Tabbed comparison | `http://127.0.0.1:5188/compare.html` |
+
+The server reads generated `dist/` files on `127.0.0.1`; rebuild after source changes. The comparison page shows one host at a time in Web, Desktop, Pad, and Mobile tabs. It keeps the selected page and subview when switching tabs, and provides theme controls, viewport presets, and links to each independent entry. Port `5188` avoids a concurrent preview on the script's default port `5177`.
 
 ## Capabilities and boundaries
 
@@ -39,7 +49,7 @@ Open `http://127.0.0.1:5188/index.html?device=desktop&host=web#/w/demo/home`. Th
 
 These are UI and local-state flows. A visible provider, tool, or service does not prove a working external connection. Simulated debug output does not prove that a real model or MCP server ran.
 
-Use `device=desktop|tablet|mobile` to preview layouts. Design review sizes are 1280 × 1024, 768 × 1024, and 390 × 884. Set the browser viewport to match; the query parameter alone does not resize it.
+Web keeps the full administration navigation, including System. Desktop and Pad use a workspace navigation with account, interconnect, and settings at the bottom; settings opens its own navigation. Mobile uses the compact bottom navigation and full-menu drawer. Dedicated entry pages lock the intended host layout. The root `index.html` remains available for older preview links. Design review sizes are 1280 × 1024 for Web and Desktop, 768 × 1024 for Pad, and 390 × 884 for Mobile. These pages demonstrate the four host interfaces in a browser; this repository does not build native packages.
 
 ## Source map
 
@@ -54,7 +64,7 @@ Use `device=desktop|tablet|mobile` to preview layouts. Design review sizes are 1
 | `scripts/build.mjs`, `scripts/serve.py` | Build and preview |
 | `tests/` | Node-based checks |
 
-The esbuild script generates `dist/index.html` and `dist/compare.html`, plus selected assets and third-party notices.
+The esbuild script generates `dist/index.html`, `dist/web/index.html`, `dist/desktop/index.html`, `dist/tablet/index.html`, `dist/mobile/index.html`, and `dist/compare.html`, plus selected assets and third-party notices.
 
 ## Configuration, safety, and verification
 
@@ -66,7 +76,7 @@ npm test
 npm run build
 ```
 
-`npm test` includes a test importing `evidence/gugong-figma/colors-audit.json`, which is missing in this checkout. That known fixture failure is not a passing suite. Feature-branch cleanup may add temporary failures until code and tests converge; current uncommitted changes have no verified CI result. If the preview is blank, confirm the build completed and `dist/index.html` exists. Verify UI behavior in the target browser and actual viewport.
+If the preview is blank, confirm the build completed and the entry HTML exists in `dist/`. Verify UI behavior in the target browser and actual viewport. CI and native packaging require separate verification.
 
 ## Further reading and license
 

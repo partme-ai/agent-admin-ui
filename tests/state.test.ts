@@ -33,11 +33,13 @@ test('深链覆盖 34 页，非法路径不伪装正常页',()=>{
  assert.equal(resolvePage('/w/demo/knowledge/k1/documents/d1'),'10');
  assert.equal(resolvePage('/arbitrary'),'404');
 });
-test('三端预览消息只接受有效导航，不能携带写入或草稿',()=>{
+test('四端预览消息只接受有效导航，不能携带写入或草稿',()=>{
  assert.deepEqual(normalizePreview({page:'08',theme:'dark',submit:true,apiKey:'secret'}),{page:'08',theme:'dark'});
  assert.equal(normalizePreview({page:'unknown',theme:'bad'}),null);
  assert.deepEqual(normalizePreview({page:'08',theme:'dark',style:'compact',apiKey:'secret'}),{page:'08',theme:'dark',style:'compact'});
  assert.deepEqual(normalizePreview({page:'08',theme:'dark',style:'unsafe'}),{page:'08',theme:'dark'});
+ assert.deepEqual(normalizePreview({page:'30',theme:'light',item:'basic-voice'}),{page:'30',theme:'light',item:'basic-voice'});
+ assert.deepEqual(normalizePreview({page:'30',theme:'light',item:'<script>'}),{page:'30',theme:'light'});
 });
 
 test('书签恢复设备和文档上下文',async()=>{

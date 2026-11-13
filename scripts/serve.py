@@ -12,5 +12,5 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'none'; media-src 'self' blob:; frame-src 'self'; object-src 'none'; base-uri 'self'")
         super().end_headers()
 root=Path(__file__).resolve().parents[1]/'dist'
-print(f'TinyBot preview: http://127.0.0.1:{args.port}/compare.html',flush=True)
+print(f'Agent Admin UI preview: http://127.0.0.1:{args.port}/compare.html',flush=True)
 ThreadingHTTPServer(('127.0.0.1',args.port),partial(Handler,directory=str(root))).serve_forever()

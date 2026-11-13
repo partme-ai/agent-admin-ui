@@ -1,0 +1,9 @@
+/* Desktop/Tablet 的系统配置使用独立侧栏；Web 保留原主导航。 */
+.buddy-shell.host-ipad.settings-mode .sidebar{width:215px;min-width:215px;padding:0 12px}
+.buddy-shell.host-ipad.settings-mode .brand{justify-content:flex-start;margin:0}
+.buddy-shell.host-ipad.settings-mode .brand>strong{display:block}
+.buddy-shell.host-ipad.settings-mode .sidebar-bottom{flex-direction:row;padding:12px 0;gap:4px}
+.buddy-shell.host-ipad.settings-mode .account{flex:1;width:auto;justify-content:flex-start;padding:0 4px}
+.buddy-shell.host-ipad.settings-mode .account>span:not(.ant-avatar),.buddy-shell.host-ipad.settings-mode .account>.anticon{display:inline}
+.buddy-shell.settings-mode .sidebar-bottom [aria-pressed="true"]{color:var(--accent);background:var(--sidebar-selected)}
+.buddy-shell.settings-mode .location-label>.ant-btn{width:28px;height:28px;flex:none}

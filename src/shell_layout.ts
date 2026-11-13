@@ -1,7 +1,15 @@
 import type {Host} from './catalog.ts';
 /** 屏幕尺寸只决定排版；浏览器入口默认Web，原生预览仍由明确的host指定。 */
-export function resolveConsoleHost(requested:string|null):Host{
- return requested==='desktop'||requested==='android'||requested==='ipad'?requested:'web';
+export function resolveConsoleHost(requested:string|null,locked:string|null=null):Host{
+ const value=locked||requested;
+ return value==='desktop'||value==='android'||value==='ipad'?value:'web';
+}
+export function resolveConsoleDevice(requested:string|null,width:number,lockedHost:string|null=null):'desktop'|'tablet'|'mobile'{
+ if(lockedHost==='desktop')return 'desktop';
+ if(lockedHost==='ipad')return 'tablet';
+ if(lockedHost==='android')return 'mobile';
+ if(lockedHost==='web')return width<600?'mobile':width<1000?'tablet':'desktop';
+ return requested==='desktop'||requested==='tablet'||requested==='mobile'?requested:width<600?'mobile':width<1000?'tablet':'desktop';
 }
 export const terminalEntry={page:'30',item:'terminals',label:'终端互联'};
 export type ShellLink={key:string;label:string;page:string;item?:string};
@@ -18,6 +26,15 @@ const roots:ShellItem[]=[
  {...link('system','系统','48'),children:[link('info','基础信息','48'),link('theme','系统主题','30','theme'),link('roles','系统角色','49'),link('users','系统用户','50'),{...link('audit','安全审计','51','login'),children:[link('login','登录日志','51','login'),link('operations','操作日志','51','operations')]},{...link('configuration','系统设置','52','general'),children:[link('general','常规设置','52','general'),link('dictionary','数据字典','52','dictionary'),link('variables','变量参数','52','variables')]}]}
 ];
 export const shellGroups=[{label:'',items:roots}];
+const settingsRoots:ShellItem[]=[
+ {...link('basic','基础设置','30','basic-general'),children:[link('general','常规','30','basic-general'),link('appearance','外观','30','basic-appearance'),link('notifications','通知','30','basic-notifications'),link('voice','语音','33','basic-voice')]},
+ {...roots.find(item=>item.key==='system')!,label:'系统设置'},
+ link('about','关于','30','about'),
+];
+export function shellGroupsForHost(host:Host,mode:'main'|'settings'='main'){
+ if(mode==='settings'&&host!=='web')return [{label:'',items:settingsRoots}];
+ return [{label:'',items:host==='web'?roots:roots.filter(item=>item.key!=='system')}];
+}
 /** 使用完整菜单路径区分同名入口，三端共享语义图标。 */
 export const shellSubmenuIcons:Record<string,string>={
  'models/gateway/defaults':'controls','agents/sandbox':'safety','agents/tools':'tool','resources/storage':'storage',...Object.fromEntries(['computer','browser','search','fetch','documents','ocr'].map(k=>['agents/tools/'+k,({computer:'devices',browser:'browser',search:'search',fetch:'link',documents:'file',ocr:'image'} as Record<string,string>)[k]])),'models/gateway/api':'code','knowledge/mcp':'link','system/cli':'code','models/model-settings':'models','models/gateway':'gateway',
@@ -49,5 +66,23 @@ export function shellSelection(page:string,selected:string,owner:string):string{
  const preferred:Record<string,string>={agents:'agents/mine',models:'models/model-settings',knowledge:'knowledge/manage',resources:'resources/spaces',system:page==='27'?'system/users':'system/info'};
  return preferred[owner]||owner;
 }
+export function settingsSelection(page:string,selected:string,owner:string):string{
+ if(page==='30'&&selected==='about')return 'about';
+ const basic:Record<string,string>={'basic-general':'general','basic-appearance':'appearance','basic-notifications':'notifications','basic-voice':'voice'};
+ if((page==='30'||page==='33')&&basic[selected])return `basic/${basic[selected]}`;
+ return shellSelection(page,selected,owner);
+}
+export function nativeSettingsMode(page:string,selected:string):boolean{
+ if(page==='30'&&['terminals','remote'].includes(selected))return false;
+ return ['30','48','49','50','51','52'].includes(page)||(page==='33'&&selected==='basic-voice');
+}
 export function shellAncestors(page:string,selected:string,owner:string):string[]{return shellEntries().find(e=>e.key===shellSelection(page,selected,owner))?.ancestors||[];}
-export function shellTarget(key:string):ShellLink|undefined{return shellEntries().find(e=>e.key===key)?.node;}
+export function settingsAncestors(page:string,selected:string,owner:string):string[]{
+ const key=settingsSelection(page,selected,owner);
+ return key.startsWith('basic/')?['basic']:shellEntries().find(e=>e.key===key)?.ancestors||[];
+}
+export function shellTarget(key:string):ShellLink|undefined{
+ const existing=shellEntries().find(e=>e.key===key)?.node;if(existing)return existing;
+ if(key==='about')return settingsRoots.find(item=>item.key==='about');
+ if(key.startsWith('basic/'))return settingsRoots[0].children?.find(item=>`basic/${item.key}`===key);
+}

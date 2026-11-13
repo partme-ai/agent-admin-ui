@@ -28,3 +28,7 @@ test('深层手风琴保留祖先，同级网关与统计互斥',()=>{
  assert.deepEqual(accordionKeys(['models','models/gateway'],['models']),['models']);
  assert.deepEqual(accordionKeys(['models'],['models','system','system/audit']),['system','system/audit']);
 });
+test('原生设置的基础设置可展开并与系统设置互斥',()=>{
+ assert.deepEqual(accordionKeys(['system'],['system','basic']),['basic']);
+ assert.deepEqual(accordionKeys(['basic'],['basic','system']),['system']);
+});

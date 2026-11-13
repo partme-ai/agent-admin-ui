@@ -1,5 +1,10 @@
 // CSS viewport dimensions for layout review; these are not physical display pixels.
 export const DEVICE_PRESETS = {
+ web: [
+  {id:'web-default',name:'Web 标准视口',width:1280,height:1024},
+  {id:'web-compact',name:'Web 紧凑视口',width:1024,height:768},
+  {id:'web-wide',name:'Web 宽屏',width:1440,height:900},
+ ],
  phone: [
   {id:'mobile-default',name:'默认手机',width:390,height:884},
   {id:'iphone-se',name:'iPhone SE',width:375,height:667},
