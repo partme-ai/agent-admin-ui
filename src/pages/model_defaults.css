@@ -1,0 +1,62 @@
+.defaults-workspace .model-defaults-page .section-card .ant-card-head {
+  min-height: 38px;
+  border-bottom-color: var(--line);
+}
+
+.defaults-workspace .model-defaults-page .ant-card-body {
+  padding: 12px 16px;
+}
+
+.defaults-workspace .defaults-hint {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.defaults-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 20px;
+}
+
+.buddy-shell[data-density=compact] .defaults-grid .ant-form-item {
+  min-width: 0;
+  margin: 0;
+}
+
+.defaults-workspace .defaults-grid .ant-form-item-label {
+  padding-bottom: 4px;
+}
+
+.defaults-workspace .defaults-grid .ant-form-item-label > label {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 550;
+}
+
+.defaults-workspace .defaults-grid .ant-select {
+  min-height: 32px;
+}
+
+.defaults-workspace .defaults-grid .ant-select:focus-within {
+  border-color: var(--accent);
+}
+
+.defaults-workspace .defaults-grid :is(.ant-select-placeholder, .ant-select-selection-placeholder),
+.defaults-workspace .key-values dt {
+  color: var(--muted);
+}
+
+.defaults-actions {
+  display: flex;
+  gap: 8px;
+  padding-top: 14px;
+}
+
+.defaults-workspace .defaults-scope {
+  margin-top: 12px;
+}
+
+@media (max-width: 650px) {
+  .defaults-grid { grid-template-columns: minmax(0, 1fr); }
+}

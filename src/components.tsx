@@ -1,5 +1,7 @@
 import {OnboardingPageTip} from './GuidanceUI';
 import type {ReactNode} from 'react';
+import {useConsole} from './context';
+import {uiText} from './ui_i18n';
 import {Button,Card,Tag,Input,Empty,Space} from 'antd';
 import {GlobalOutlined,FileImageOutlined,PictureOutlined,VideoCameraOutlined,AppstoreOutlined,MessageOutlined,RobotOutlined,ApiOutlined,BookOutlined,DesktopOutlined,CheckSquareOutlined,HistoryOutlined,AppstoreAddOutlined,AudioOutlined,SettingOutlined,SearchOutlined,BulbOutlined,StarOutlined,ThunderboltOutlined,FileTextOutlined,LinkOutlined,ToolOutlined} from '@ant-design/icons';
 import {ClusterOutlined,ApartmentOutlined,SwapOutlined,DashboardOutlined,SafetyCertificateOutlined,ShopOutlined,BugOutlined,CloudUploadOutlined,InfoCircleOutlined,DatabaseOutlined,SkinOutlined,TeamOutlined,UserOutlined,LoginOutlined,ControlOutlined,CodeOutlined,PieChartOutlined,BarChartOutlined,LineChartOutlined,DollarOutlined} from '@ant-design/icons';
@@ -11,8 +13,12 @@ export function PageHeader({title,desc,actions}:{title:string;eyebrow?:string;de
 export function TileIcon({name,large=false}:{name:string;color?:string;large?:boolean}){return <span className={`tile-icon ${large?'large':''}`}><Icon name={name}/></span>;}
 export function Status({text}:{text:string}){const color=/完成|可用|在线|已发布|已索引|允许/.test(text)?'success':/失败|离线|拒绝|取消$/.test(text)?'default':/待|草稿|请求/.test(text)?'warning':'processing';return <Tag color={color} className="status-tag">{text}</Tag>;}
 export function Section({title,extra,children,className=''}:{title?:ReactNode;extra?:ReactNode;children:ReactNode;className?:string}){return <Card title={title} extra={extra} className={`section-card ${className}`}>{children}</Card>;}
-export function Toolbar({value,onChange,placeholder='搜索名称…',children}:{value:string;onChange:(s:string)=>void;placeholder?:string;children?:ReactNode}){return <div className="toolbar"><Input prefix={<SearchOutlined/>} allowClear placeholder={placeholder} aria-label={placeholder} value={value} onChange={e=>onChange(e.target.value)}/><Space wrap>{children}</Space></div>;}
-export function Nothing({title='没有匹配的内容',action}:{title?:string;action?:ReactNode}){return <div className="empty-area"><Empty description={title}>{action}</Empty></div>;}
+export function Toolbar({value,onChange,placeholder='搜索名称…',children}:{value:string;onChange:(s:string)=>void;placeholder?:string;children?:ReactNode}){const c=useConsole();return <div className="toolbar"><Input prefix={<SearchOutlined/>} allowClear placeholder={placeholder} aria-label={placeholder} value={value} onChange={e=>onChange(e.target.value)}/><Space wrap>{children}</Space></div>;}
+export function Nothing({title='没有匹配的内容',description,kind='generic',action}:{title?:string;description?:string;kind?:'knowledge'|'search'|'generic';action?:ReactNode}){
+ const c=useConsole(),t=(value:string)=>uiText(value,c.store.preferences.language);
+ const content=description?<span className="empty-copy"><strong>{t(title)}</strong><small>{t(description)}</small></span>:t(title);
+ return <div className="empty-area"><Empty image={kind==='generic'?undefined:<span className="empty-illustration"><Icon name={kind==='knowledge'?'book':'search'}/></span>} description={content}>{action}</Empty></div>;
+}
 export function KeyValue({items}:{items:[string,ReactNode][]}){return <dl className="key-values">{items.map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>;}
 
 export function CollectionStats({items}:{items:{label:string;value:number|string;note?:string}[]}){return <div className="collection-stats">{items.map(item=><div className="collection-stat" key={item.label}><span>{item.label}</span><strong>{item.value}</strong>{item.note&&<small>{item.note}</small>}</div>)}</div>;}

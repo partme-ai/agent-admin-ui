@@ -10,11 +10,13 @@ import {connectionMatchesCategory} from '../model_categories';
 import {downloadJson} from '../feature_state';
 import type {Connection} from '../state';
 import './settings_integration.css';
+import './model_defaults.css';
+import {isEnglish} from '../ui_i18n';
 
 /** 只选择中央模型连接；缺失的历史引用保留且明确标记。 */
-export function ConfiguredModelChoice({category,value,onChange,label}:{category:string;value?:string;onChange:(id:string)=>void;label:string}){
+export function ConfiguredModelChoice({category,value,onChange,label,english=false}:{english?:boolean;category:string;value?:string;onChange:(id:string)=>void;label:string}){
  const c=useConsole(),rows=c.store.connections.filter(m=>m.enabled!==false&&connectionMatchesCategory(m,category));
- return <Select className="full-width" aria-label={label} allowClear showSearch optionFilterProp="label" placeholder={`选择已配置的 ${category} 模型`} value={value||undefined} onChange={id=>onChange(id||'')} options={[...(value&&!rows.some(m=>m.id===value)?[{value,label:'原引用不可用 · 请重新选择',disabled:true}]:[]),...rows.map(m=>({value:m.id,label:`${m.name} · ${m.model}`}))]} notFoundContent={<span>暂无已配连接 <Button type="link" size="small" onClick={()=>c.go('06')}>前往模型服务</Button></span>}/>;
+ return <Select className="full-width" aria-label={label} allowClear showSearch optionFilterProp="label" placeholder={english ? 'Select a connection' : `选择已配置的 ${category} 模型`} value={value||undefined} onChange={id=>onChange(id||'')} options={[...(value&&!rows.some(m=>m.id===value)?[{value,label:english?'Connection unavailable · select again':'原引用不可用 · 请重新选择',disabled:true}]:[]),...rows.map(m=>({value:m.id,label:`${m.name} · ${m.model}`}))]} notFoundContent={<span>{english?'No configured connections':'暂无已配连接'} <Button type="link" size="small" onClick={()=>c.go('06')}>{english?'Model services':'前往模型服务'}</Button></span>}/>;
 }
 export function PersonalProfile(){
  const c=useConsole(),self=c.store.members.find(m=>m.id==='u1')||c.store.members[0],[form]=Form.useForm(),[avatar,setAvatar]=useState(self?.avatar||'');
@@ -23,7 +25,42 @@ export function PersonalProfile(){
 export function ModelDefaults(){
  const c=useConsole(),[draft,setDraft]=useState<ModelDefaults>({...c.product.integration.defaults}),[error,setError]=useState('');
  function save(){for(const slot of defaultSlots)if(draft[slot.key]&&!resolveDefaultModel(c.store.connections,draft,slot.key)){setError(`${slot.label}引用已停用、分类不匹配或被删除`);return;}c.setProduct(p=>({...p,integration:{...p.integration,defaults:{...draft}}}));setError('');c.notify('默认配置已保存，供新建对象使用');}
- return <><PageHeader title="默认模型" desc="按任务选择默认模型，新建时自动带入，具体对象可单独调整。" actions={<Button onClick={()=>c.go('06')}>模型设置</Button>}/><Section title="模型默认值"><Form layout="vertical"><div className="integration-form-grid">{defaultSlots.map(slot=><Form.Item key={slot.key} label={slot.label} extra={draft[slot.key]?'指定默认连接':'未指定时沿用已有兼容选择'}><ConfiguredModelChoice label={`默认${slot.label}`} category={slot.category} value={draft[slot.key]} onChange={id=>setDraft({...draft,[slot.key]:id})}/></Form.Item>)}</div>{error&&<Alert type="error" title={error}/>}<Space><Button type="primary" onClick={save}>保存默认配置</Button><Button onClick={()=>{setDraft({...c.product.integration.defaults});setError('');}}>撤销修改</Button></Space></Form></Section><Section title="使用范围" className="margin-top"><KeyValue items={[["新智能体",'对话模型，具体能力可以在人物面板覆盖'],["新知识库",'摘要、嵌入、图像与音频处理模型'],["长期记忆",'提取任务与语义召回的候选默认值'],["已有配置",'保留明确引用，修改默认值不回写已有智能体或知识库']]}/></Section></>;
+ const en = isEnglish(c.store.preferences.language, navigator.language);
+ const names = {chat:'Chat model',utility:'Lightweight model',embedding:'Embedding model',rerank:'Reranker',vision:'Vision model',asr:'Speech recognition',tts:'Speech synthesis',vad:'Voice activity detection',intent:'Intent recognition',memory:'External memory service'};
+ return <div className="model-defaults-page">
+   <PageHeader title="默认模型" desc={en ? 'Choose which models new agents and knowledge bases use.' : '为新建智能体和知识库选择各项能力使用的模型。'}
+     actions={<Button onClick={()=>c.go('06')}>{en ? 'Model services' : '模型服务'}</Button>}/>
+   <Section title={en ? 'Model assignments' : '模型默认值'}>
+     <p className="defaults-hint">{en ? 'Leave a field empty to use an existing compatible connection.' : '未指定时，沿用已有的兼容连接。'}</p>
+     <Form layout="vertical">
+       <div className="defaults-grid">{defaultSlots.map(slot => {
+         const label = en ? names[slot.key] : slot.label;
+         return <Form.Item key={slot.key} label={label}>
+           <ConfiguredModelChoice label={label} category={slot.category} value={draft[slot.key]}
+             english={en} onChange={id => setDraft(previous => ({...previous,[slot.key]:id}))}/>
+         </Form.Item>;
+       })}</div>
+       {error && <Alert type="error" title={error}/>}
+       <div className="defaults-actions">
+         <Button type="primary" onClick={save}>{en ? 'Save defaults' : '保存默认配置'}</Button>
+         <Button onClick={()=>{setDraft({...c.product.integration.defaults});setError('');}}>{en ? 'Discard changes' : '撤销修改'}</Button>
+       </div>
+     </Form>
+   </Section>
+   <Section title={en ? 'Where defaults apply' : '使用范围'} className="defaults-scope">
+     <KeyValue items={en ? [
+       ['New agents','Chat model and capability overrides in the agent profile'],
+       ['New knowledge bases','Summary, embedding, image and audio processing'],
+       ['Long-term memory','Model suggestions for extraction and semantic recall'],
+       ['Existing configurations','Existing model assignments are preserved']
+     ] : [
+       ['新智能体','默认对话模型，可在人物面板按能力调整'],
+       ['新知识库','摘要、嵌入、图像与音频处理模型'],
+       ['长期记忆','提取任务与语义召回的候选默认值'],
+       ['已有配置','保留已指定的模型连接']
+     ]}/>
+   </Section>
+ </div>;
 }
 export function ModelProbe({connectionId}:{connectionId:string}){
  const c=useConsole(),m=c.store.connections.find(m=>m.id===connectionId),[input,setInput]=useState('你好，请简短介绍你自己。'),[result,setResult]=useState<ReturnType<typeof createProbe>|null>(null),[error,setError]=useState('');

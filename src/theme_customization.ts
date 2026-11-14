@@ -11,7 +11,7 @@ export function parseThemeAppearance(value:unknown):ThemeAppearance|undefined{
  if(value===undefined)return undefined;
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('高级主题设置格式不正确。');
  const input=value as Record<string,unknown>,out:Record<string,unknown>={};
- for(const [key,min,max,integer] of [['font_size',12,18,true],['line_height',1.3,2,false],['border_width',0,2,true],['border_radius',0,16,true]] as const){
+ for(const [key,min,max,integer] of [['font_size',12,18,true],['line_height',1.3,2,false],['border_width',0,2,true],['border_radius',0,16,false]] as const){
   const n=input[key];if(n===undefined)continue;
   if(typeof n!=='number'||!Number.isFinite(n)||n<min||n>max||integer&&!Number.isInteger(n))throw Error(`${({font_size:'正文字号',line_height:'正文行高',border_width:'边框粗细',border_radius:'基础圆角'} as Record<string,string>)[key]}超出允许范围。`);out[key]=n;
  }

@@ -50,9 +50,9 @@ body{-webkit-font-smoothing:antialiased}
 /* 品牌栏和顶栏共用中心线，菜单与正文保持各自原有布局。 */
 .buddy-shell{--shell-header-height:48px;--header-center:calc(var(--shell-header-height) / 2)}
 .buddy-shell.device-desktop .sidebar-brand-row,.buddy-shell.device-tablet .sidebar-brand-row{height:var(--shell-header-height);min-height:var(--shell-header-height);margin-bottom:8px;position:relative;isolation:isolate}
-.buddy-shell .sidebar-brand-row::before{content:"";position:absolute;z-index:-1;inset:0 -12px;background:var(--sidebar-surface);border-bottom:1px solid var(--line)}
+.buddy-shell .sidebar-brand-row::before{content:"";position:absolute;z-index:-1;inset:0 -12px;background:var(--sidebar-surface);border-bottom:1px solid color-mix(in srgb,var(--sidebar-ink) 18%,transparent)}
 .buddy-shell.shell-sidebar-collapsed .sidebar-brand-row::before,.buddy-shell.device-tablet .sidebar-brand-row::before{inset-inline:-8px}
-.buddy-shell:not(.device-mobile) .topbar{height:var(--shell-header-height);min-height:var(--shell-header-height);align-items:center;border-bottom:1px solid var(--line)}
+.buddy-shell .topbar{height:var(--shell-header-height);min-height:var(--shell-header-height);align-items:center;border-bottom:1px solid var(--line)}
 /* 图标列保留 Logo，展开按钮移至面包屑之前，避免重复入口。 */
 .buddy-shell .location-label>.header-sidebar-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:28px;min-width:28px;height:28px;padding:0;color:inherit}
 .buddy-shell .location-label>.header-sidebar-toggle:hover{background:var(--soft)}

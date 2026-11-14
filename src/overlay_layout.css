@@ -15,6 +15,11 @@
 .ant-drawer .ant-drawer-footer{padding-bottom:max(10px,env(safe-area-inset-bottom))}
 .empty-area{grid-column:1/-1;min-width:0;text-align:center;padding:28px 12px}
 .empty-area .ant-empty-description{overflow-wrap:anywhere}
+.buddy-shell .empty-area .ant-empty-image:has(.empty-illustration){height:62px;margin-bottom:8px}
+.empty-illustration{display:inline-flex;align-items:center;justify-content:center;width:72px;height:62px;color:var(--muted);font-size:36px}
+.empty-copy{display:flex;flex-direction:column;align-items:center;gap:4px}
+.empty-copy strong{color:var(--text);font-weight:500}
+.empty-copy small{color:var(--muted);line-height:1.6;max-width:360px}
 @media(max-width:600px){
  .ant-modal-wrap .ant-modal{top:12px;max-width:calc(100% - 24px)}
  .ant-modal .ant-modal-container{max-height:calc(100dvh - 24px);padding:16px}

@@ -1,0 +1,19 @@
+/* Layout options are independent of palette. Small screens keep the existing
+   touch navigation, while direction and width apply to the actual content. */
+.admin-theme-layout[data-content-width=centered] .page-content{width:100%;max-width:1120px;margin-inline:auto;box-sizing:border-box}
+.admin-theme-layout[data-sidebar-variant=inset]:not(.device-mobile) .main-shell{margin-block:8px;margin-inline-end:8px;border:1px solid var(--line);border-radius:var(--console-card-radius,12px);overflow:hidden;background:var(--surface)}
+.admin-theme-layout.device-desktop[data-sidebar-variant=floating] .sidebar{inset:10px auto 10px 10px;width:195px;min-width:195px;height:calc(100% - 20px);border:1px solid color-mix(in srgb,var(--sidebar-ink) 15%,transparent);border-radius:var(--console-card-radius,12px);box-shadow:0 12px 30px -18px #0005}
+.admin-theme-layout.device-desktop.shell-sidebar-collapsed[data-sidebar-variant=floating] .sidebar{width:48px;min-width:48px;inset-inline-start:8px;padding-inline:0}
+.admin-theme-layout.device-tablet[data-sidebar-variant=floating] .sidebar{margin:8px;width:56px;min-width:56px;padding-inline:4px;height:calc(100% - 16px);border-radius:var(--console-card-radius,12px);border:1px solid var(--line)}
+.admin-theme-layout[data-layout-mode=full]:not(.device-mobile)>.sidebar{display:none}
+.admin-theme-layout.device-desktop[data-layout-mode=full]>.main-shell{margin-left:0;margin-inline-start:0}
+.admin-theme-layout .full-layout-menu-toggle{width:28px;height:30px;min-width:28px;padding:0;flex:none}
+/* Real RTL geometry; text, menu popups and form alignment are handled by antd. */
+:root[dir=rtl] .admin-theme-layout.device-desktop .main-shell{margin-left:0;margin-right:215px}
+:root[dir=rtl] .admin-theme-layout.device-desktop .sidebar{left:auto;right:0}
+:root[dir=rtl] .admin-theme-layout.device-desktop.shell-sidebar-collapsed .main-shell{margin-right:64px}
+:root[dir=rtl] .admin-theme-layout.device-desktop[data-layout-mode=full]>.main-shell{margin-right:0}
+:root[dir=rtl] .admin-theme-layout.device-desktop[data-sidebar-variant=floating] .sidebar{left:auto;right:10px}
+:root[dir=rtl] .admin-theme-layout.device-desktop>.desktop-sidebar-toggle{left:auto;right:172px}
+:root[dir=rtl] .admin-theme-layout.device-desktop.shell-sidebar-collapsed>.desktop-sidebar-toggle{left:auto;right:80px}
+@media(max-width:600px){.admin-theme-layout[data-content-width=centered] .page-content{max-width:100%}}

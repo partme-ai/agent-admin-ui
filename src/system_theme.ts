@@ -1,5 +1,6 @@
 import {classifyColorFamily,type ColorFamily} from './color_family.ts';
 import {parseThemeAppearance,themeQuickAppearance,type ThemeAppearance} from './theme_customization.ts';
+import {parseThemeLayout,type ThemeLayout} from './theme_layout.ts';
 import {independentSidebar} from './theme_palette_rules.ts';
 import legacyCombinationData from './vendor/theme_combinations_legacy_v175.json' with {type:'json'};
 import combinationData from './vendor/theme_combinations.json' with {type:'json'};
@@ -8,7 +9,7 @@ import traditionalColors from './vendor/traditional_742/colors.json' with {type:
 
 export type SystemThemeMode='light'|'dark'|'system';
 export type SystemThemeCustom={name:string;primary:string;background:string;sidebar:string;sidebar_style:'tinted'|'light'|'dark';palette_version?:2|3;palette_family?:ColorFamily;ui_reference?:string;appearance?:ThemeAppearance};
-export type SystemThemeSettings={schema_version:1;preset_id:string;mode:SystemThemeMode;custom?:SystemThemeCustom};
+export type SystemThemeSettings={schema_version:1;preset_id:string;mode:SystemThemeMode;custom?:SystemThemeCustom;quick_layout?:ThemeLayout;quick_appearance?:ThemeAppearance};
 export type SystemThemeColors={bg:string;surface:string;surface2:string;text:string;muted:string;line:string;soft:string;primary:string;primaryText:string;sidebar:string;sidebarInk:string;sidebarSelected:string;sidebarSelectedInk?:string;topbar:string;anchor:string};
 export const systemThemeKey='tinybot.system-theme.v1';
 /** 主题主色仅引用完整传统色表，不修改颜色资产或机器人形象配置。 */
@@ -114,7 +115,12 @@ export function parseSystemTheme(raw:string):SystemThemeSettings{
   const appearance=parseThemeAppearance(c.appearance);if(appearance)custom.appearance=appearance;
  }
  if(v.preset_id==='custom'&&!custom)throw Error('缺少自定义主题的颜色设置。');
- return {schema_version:1,preset_id:v.preset_id as string,mode:v.mode as SystemThemeMode,...(custom?{custom}:{})};
+ const quick_layout=parseThemeLayout(v.quick_layout),quick_appearance=v.quick_appearance===undefined?undefined:(parseThemeAppearance(v.quick_appearance)||{});
+ return {schema_version:1,preset_id:v.preset_id as string,mode:v.mode as SystemThemeMode,...(custom?{custom}:{}),...(quick_layout?{quick_layout}:{}),...(quick_appearance!==undefined?{quick_appearance}:{})};
+}
+/** 快捷外观只覆盖视觉值，不改写保留的个人主题定义。 */
+export function systemThemeAppearance(settings:SystemThemeSettings):ThemeAppearance|undefined{
+ return settings.quick_appearance!==undefined?settings.quick_appearance:settings.preset_id==='custom'?settings.custom?.appearance:undefined;
 }
 type ThemeStorage={getItem:(key:string)=>string|null;setItem:(key:string,value:string)=>void};
 /** 读取失败保留原始数据，不在初始化时自动修复或覆盖。 */

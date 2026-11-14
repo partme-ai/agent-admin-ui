@@ -1,5 +1,5 @@
 import {theme,type ThemeConfig,type GlobalToken,type MappingAlgorithm} from 'antd';
-import {buildSystemTheme,systemThemes,contrastRatio,mixThemeColor,systemThemeVariables,type SystemThemeSettings,type SystemThemeColors} from './system_theme.ts';
+import {buildSystemTheme,systemThemes,systemThemeAppearance,contrastRatio,mixThemeColor,systemThemeVariables,type SystemThemeSettings,type SystemThemeColors} from './system_theme.ts';
 
 import {codeFontFamily,themeFontFamily} from './theme_fonts.ts';
 import type {ThemeAppearance} from './theme_customization.ts';
@@ -17,10 +17,11 @@ const preserveReferencePrimary:MappingAlgorithm=(seed,map)=>({...map!,colorPrima
 
 /** 传统色只定义配色意图；组件梯度、尺寸和交互状态由 antd 算法派生。 */
 export function systemThemeConfig(settings:SystemThemeSettings,mode:'light'|'dark',device:Device,reduceMotion=false):ThemeConfig{
- const c=buildSystemTheme(settings,mode),touch=device!=='desktop',a=settings.preset_id==='custom'?settings.custom?.appearance:undefined;
+ const c=buildSystemTheme(settings,mode),touch=device!=='desktop',a=systemThemeAppearance(settings);
  const reference=settings.preset_id==='custom'?settings.custom?.ui_reference:systemThemes.find(t=>t.id===settings.preset_id)?.palette?.ui_reference;
  const density=a?.density||'compact',compact=density==='compact',font=a?.font_size||13;
  const control=touch?(density==='spacious'?44:density==='comfortable'?42:40):(density==='spacious'?36:density==='comfortable'?32:28);
+ const fieldHeight=touch?control:compact?28:control;
  const gap=density==='spacious'?22:density==='comfortable'?18:16,base=mode==='dark'?theme.darkAlgorithm:theme.defaultAlgorithm;
  const algorithm:MappingAlgorithm[]=[base,...(compact?[theme.compactAlgorithm]:[])];
  // 保留官方字体梯度，让字号与密度可独立定制，不被紧凑算法再次缩小。
@@ -34,12 +35,14 @@ export function systemThemeConfig(settings:SystemThemeSettings,mode:'light'|'dar
   colorBgLayout:c.bg,colorBgContainer:c.surface,colorBgElevated:c.surface,colorText:c.text,colorTextSecondary:c.muted,colorTextPlaceholder:c.muted,colorBorder:c.line,
   ...(reference?{colorPrimaryBg:c.soft,colorFillAlter:c.surface2,colorBorderSecondary:c.line}:{}),
   colorSuccess:'#36805c',colorWarning:'#a76b13',colorError:'#c63838',
-  fontFamily:themeFontFamily(a?.font_family),fontFamilyCode:codeFontFamily(a?.code_font_family),fontSize:a?.font_size??(a?.density?13:14),borderRadius:radius,borderRadiusLG:largeRadius,paddingLG:gap,paddingSM:density==='spacious'?14:density==='comfortable'?11:8,controlHeight:control+(compact?4:0),motion:!reduceMotion,
+  fontFamily:themeFontFamily(a?.font_family),fontFamilyCode:codeFontFamily(a?.code_font_family),fontSize:a?.font_size??(a?.density?13:14),borderRadius:radius,borderRadiusLG:largeRadius,paddingLG:gap,paddingSM:density==='spacious'?14:density==='comfortable'?11:8,controlHeight:control+(compact?(touch?4:8):0),motion:!reduceMotion,
   ...textOverrides,...(a?.line_height!==undefined?{lineHeight:a.line_height}:{}),...(a?.border_width!==undefined?{lineWidth:a.border_width,...(a.border_width===0?{lineWidthFocus:2,controlOutlineWidth:2}:{})}:{}),...(a?.border_style?{lineType:a.border_style}:{}),...(shadow!==undefined?{boxShadow:shadow,boxShadowSecondary:shadow,boxShadowTertiary:shadow}:{})
  },components:{
   Menu:{fontSize:font+1,itemHeight:touch?Math.max(40,control):control+6,itemBorderRadius:radius,itemMarginBlock:2,itemMarginInline:0,itemPaddingInline:9,groupTitleFontSize:10,groupTitleLineHeight:'18px',iconSize:15,collapsedWidth:64},
-  Button:{fontSize:font,defaultShadow:'none',primaryShadow:'none'},
-  Input:{fontSize:font,paddingBlock:touch?7:3},Select:{fontSize:font,optionHeight:touch?control:control+2},
+  Button:{controlHeight:fieldHeight,defaultShadow:'none',primaryShadow:'none'},
+  Input:{controlHeight:fieldHeight,activeBorderColor:c.primary,activeShadow:'none',errorActiveShadow:'none',warningActiveShadow:'none'},
+  InputNumber:{controlHeight:fieldHeight,activeBorderColor:c.primary,activeShadow:'none',errorActiveShadow:'none',warningActiveShadow:'none'},
+  Select:{controlHeight:fieldHeight,activeBorderColor:c.primary,activeOutlineColor:'transparent',controlOutlineWidth:0},
   Table:{fontSize:font-1,cellPaddingBlock:density==='spacious'?14:density==='comfortable'?11:8,cellPaddingInline:12,headerBorderRadius:radius},
   Card:{fontSize:font,headerFontSize:font,borderRadiusLG:largeRadius,bodyPadding:gap,headerHeight:control+12},
   Modal:{fontSize:font,borderRadiusLG:largeRadius},Drawer:{fontSize:font,paddingLG:touch?16:20}

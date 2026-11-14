@@ -11,8 +11,15 @@ test('官方算法及组件Token覆盖明暗与触控尺寸，自有壳消费相
   const t=theme.getDesignToken(config),colors=resolveThemeColors(defaultSystemTheme(),mode,device);
   const vars=themeVariablesFromToken(t,colors);
   assert.equal(vars['--accent'],t.colorPrimary);assert.equal(vars['--surface'],t.colorBgContainer);assert.equal(vars['--text'],t.colorText);
-  assert.equal(t.controlHeight,device==='desktop'?28:40);
-  for(const name of ['Menu','Button','Input','Select','Table','Card','Modal','Drawer'])assert.ok(config.components?.[name]);
+  assert.equal(t.controlHeight,device==='desktop'?32:40);
+  assert.equal(t.controlHeightSM,device==='desktop'?24:30);
+  for(const name of ['Button','Input','InputNumber','Select'] as const)assert.equal(config.components?.[name]?.controlHeight,device==='desktop'?28:40);
+  for(const name of ['Menu','Button','Table','Card','Modal','Drawer'])assert.ok(config.components?.[name]);
+  assert.equal(config.components?.Input?.activeShadow,'none');
+  assert.equal(config.components?.InputNumber?.activeShadow,'none');
+  assert.equal(config.components?.Select?.activeOutlineColor,'transparent');
+  assert.equal(config.components?.Input?.paddingBlock,undefined);
+  assert.equal(config.components?.Select?.optionHeight,undefined);
  }
 });
 
