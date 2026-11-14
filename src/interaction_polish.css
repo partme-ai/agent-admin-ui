@@ -1,0 +1,29 @@
+/* 从 TinyBot 的交互调整提取纯色反馈；不叠加透明面板或模糊材质。 */
+.buddy-shell{
+  --interaction-panel-hover:color-mix(in srgb,var(--surface) 94%,var(--accent));
+  --interaction-edge-hover:var(--border-hover);
+}
+
+@media (hover:hover) and (pointer:fine){
+  .buddy-shell .page-content .overview-tile:hover:not(:disabled,[aria-disabled="true"]){
+    border-color:var(--interaction-edge-hover);
+  }
+  .buddy-shell .page-content .ant-card-hoverable:hover:not(.stat-tile){
+    background-color:var(--interaction-panel-hover);
+    border-color:var(--interaction-edge-hover);
+  }
+  .buddy-shell .page-content .stat-tile:hover:not(:disabled,[aria-disabled="true"]){
+    border-color:var(--interaction-edge-hover);
+  }
+  .buddy-shell .page-content :is(.ant-input-outlined,.ant-input-affix-wrapper-outlined,.ant-input-number-outlined,.ant-select-outlined):hover:not(:disabled,:focus-within,[class*="-disabled"],[class*="-status-"]){
+    border-color:var(--interaction-edge-hover);
+  }
+  .buddy-shell .page-content .ant-btn-color-default.ant-btn-variant-outlined:hover:not(:disabled,.ant-btn-disabled,.ant-btn-loading,[aria-disabled="true"]){
+    border-color:var(--interaction-edge-hover);
+  }
+}
+
+.buddy-shell .page-content :where(button,a[href],[role="button"]):focus-visible{
+  outline:2px solid var(--focus);
+  outline-offset:2px;
+}

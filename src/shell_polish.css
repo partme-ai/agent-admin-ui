@@ -47,9 +47,12 @@ body{-webkit-font-smoothing:antialiased}
 @media(prefers-reduced-motion:reduce){.buddy-shell.device-desktop .main-shell,.buddy-shell.device-desktop .sidebar{transition:none}}
 @media(max-width:600px){.buddy-shell.device-desktop .main-shell{margin-left:0}}
 
-/* 菜单首行含选中背景的上边缘，对齐正文标题区域；不使用文字字面作为基准。 */
-.buddy-shell.device-desktop .sidebar-brand-row{height:57px;min-height:57px;margin-bottom:0}
-.buddy-shell.device-tablet .sidebar-brand-row{height:55px;min-height:55px;margin-bottom:0}
+/* 品牌栏和顶栏共用中心线，菜单与正文保持各自原有布局。 */
+.buddy-shell{--shell-header-height:48px;--header-center:calc(var(--shell-header-height) / 2)}
+.buddy-shell.device-desktop .sidebar-brand-row,.buddy-shell.device-tablet .sidebar-brand-row{height:var(--shell-header-height);min-height:var(--shell-header-height);margin-bottom:8px;position:relative;isolation:isolate}
+.buddy-shell .sidebar-brand-row::before{content:"";position:absolute;z-index:-1;inset:0 -12px;background:var(--sidebar-surface);border-bottom:1px solid var(--line)}
+.buddy-shell.shell-sidebar-collapsed .sidebar-brand-row::before,.buddy-shell.device-tablet .sidebar-brand-row::before{inset-inline:-8px}
+.buddy-shell:not(.device-mobile) .topbar{height:var(--shell-header-height);min-height:var(--shell-header-height);align-items:center;border-bottom:1px solid var(--line)}
 /* 图标列保留 Logo，展开按钮移至面包屑之前，避免重复入口。 */
 .buddy-shell .location-label>.header-sidebar-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:28px;min-width:28px;height:28px;padding:0;color:inherit}
 .buddy-shell .location-label>.header-sidebar-toggle:hover{background:var(--soft)}
@@ -63,9 +66,10 @@ body{-webkit-font-smoothing:antialiased}
 @media(prefers-reduced-motion:reduce){.buddy-shell.device-desktop>.desktop-sidebar-toggle,.buddy-shell.device-desktop .location-label{transition:none}}
 @media(max-width:600px){.buddy-shell.device-desktop>.desktop-sidebar-toggle{display:none}.buddy-shell.device-desktop.shell-sidebar-collapsed .location-label{padding-inline-start:0}}
 
-/* Logo 左侧与顶部各留 16px，整条顶栏沿同一中心排列，不推动菜单或正文。 */
-.buddy-shell{--header-center:31px}
-.buddy-shell .location-label,.buddy-shell .topbar-actions{align-self:flex-start;align-items:center;height:30px;margin-top:16px}
+/* 顶部文字与操作区在工具栏内垂直居中。 */
+.buddy-shell .location-label,.buddy-shell .topbar-actions{align-self:center;align-items:center;height:30px;margin-block:0}
+.buddy-shell .location-label,.buddy-shell .location-label strong,.buddy-shell .shell-service-state,.buddy-shell .shell-pending{font-size:12px}
+.buddy-shell .shell-clock{font-size:11px}
 .buddy-shell .shell-service-state,.buddy-shell .shell-pending{padding-block:0;min-height:22px;align-items:center}
 .buddy-shell .shell-service-state>span{margin-top:0}
 .buddy-shell .shell-clock{align-items:center}
