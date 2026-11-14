@@ -3,6 +3,8 @@ export const modelCategories=[
  {value:'LLM',label:'主语言模型',group:'对话与视觉'},
  {value:'SLM',label:'小参数模型',group:'对话与视觉'},
  {value:'VLLM',label:'视觉大模型',group:'对话与视觉'},
+ {value:'IMAGE',label:'图片生成',group:'内容生成'},
+ {value:'VIDEO',label:'视频生成',group:'内容生成'},
  {value:'Embedding',label:'向量嵌入',group:'知识检索'},
  {value:'Rerank',label:'重排序',group:'知识检索'},
  {value:'ASR',label:'语音识别',group:'语音'},

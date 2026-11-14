@@ -18,7 +18,7 @@ const link=(key:string,label:string,page:string,item?:string):ShellItem=>({key,l
 const reports=(parent:string,page:string):ShellItem=>({...link(`${parent}-reports`,'数据与统计',page,'usage'),children:[link('usage','使用统计',page,'usage'),link('analysis','使用分析',page,'analysis'),link('cost','成本分析',page,'cost')]});
 const roots:ShellItem[]=[
  link('home','工作台','01'),
- {...link('models','模型','06'),children:[link('model-settings','模型服务','06'),{...link('gateway','模型网关','35'),children:[link('api','模型 API','57'),link('defaults','默认模型','55'),link('load','模型负载','35'),link('fallback','模型降级','36'),link('rate','模型限流','37'),link('breaker','模型熔断','38')]},reports('models','39')]},
+ {...link('models','模型','06'),children:[{...link('model-settings','模型服务','06','text'),children:[link('text','文本生成','06','text'),link('image','图片生成','06','image'),link('video','视频生成','06','video'),link('tts','语音合成','06','tts'),link('asr','语音识别','06','asr')]},{...link('gateway','模型网关','35'),children:[link('api','模型 API','57'),link('defaults','默认模型','55'),link('load','模型负载','35'),link('fallback','模型降级','36'),link('rate','模型限流','37'),link('breaker','模型熔断','38')]},reports('models','39')]},
  {...link('knowledge','知识库','08'),children:[link('market','公共知识库','40'),link('manage','知识库管理','08'),link('shared','共享空间','53'),link('mcp','MCP 服务','58')]},
  {...link('agents','智能体','03'),children:[link('market','市场','05'),link('plugins','插件','41'),link('connections','连接 · MCP','42'),link('skills','技能','43'),link('sandbox','沙箱','64'),{...link('tools','工具','65','computer'),children:[link('computer','电脑操控','65','computer'),link('browser','浏览器','65','browser'),link('search','网页搜索','65','search'),link('fetch','网页抓取','65','fetch'),link('documents','文档处理','65','documents'),link('ocr','OCR','65','ocr')]},link('mine','我的智能体','03'),link('debug','智能体调试','02'),reports('agents','44')]},
 
@@ -38,6 +38,7 @@ export function shellGroupsForHost(host:Host,mode:'main'|'settings'='main'){
 /** 使用完整菜单路径区分同名入口，三端共享语义图标。 */
 export const shellSubmenuIcons:Record<string,string>={
  'models/gateway/defaults':'controls','agents/sandbox':'safety','agents/tools':'tool','resources/storage':'storage',...Object.fromEntries(['computer','browser','search','fetch','documents','ocr'].map(k=>['agents/tools/'+k,({computer:'devices',browser:'browser',search:'search',fetch:'link',documents:'file',ocr:'image'} as Record<string,string>)[k]])),'models/gateway/api':'code','knowledge/mcp':'link','system/cli':'code','models/model-settings':'models','models/gateway':'gateway',
+ 'models/model-settings/text':'message-outlined','models/model-settings/image':'photo-outlined','models/model-settings/video':'movie-outlined','models/model-settings/tts':'microphone-outlined','models/model-settings/asr':'chart-column-outlined',
  'models/gateway/load':'balance','models/gateway/fallback':'fallback','models/gateway/rate':'rate','models/gateway/breaker':'safety',
  'knowledge/market':'market','knowledge/manage':'book','knowledge/shared':'roles',
  'agents/memory':'book','agents/market':'market','agents/plugins':'extensions','agents/connections':'link','agents/skills':'bolt','agents/mine':'agents','agents/debug':'debug',
@@ -63,7 +64,7 @@ export function shellOwner(page:string,fallback:string,selected=''):string{
 export function shellSelection(page:string,selected:string,owner:string):string{
  if(owner==='terminals')return 'terminals';
  const match=exact(page,selected);if(match)return match.key;
- const preferred:Record<string,string>={agents:'agents/mine',models:'models/model-settings',knowledge:'knowledge/manage',resources:'resources/spaces',system:page==='27'?'system/users':'system/info'};
+ const preferred:Record<string,string>={agents:'agents/mine',models:'models/model-settings/text',knowledge:'knowledge/manage',resources:'resources/spaces',system:page==='27'?'system/users':'system/info'};
  return preferred[owner]||owner;
 }
 export function settingsSelection(page:string,selected:string,owner:string):string{
