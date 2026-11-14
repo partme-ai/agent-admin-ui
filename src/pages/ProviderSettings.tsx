@@ -13,11 +13,13 @@ import {ModelAuthorization} from './ModelAuthorization';
 import {Voices} from './Media';
 import {ModelExperience} from './ModelExperience';
 import {resolveModelService,serviceCategoryAllowed,providerServiceDescription} from '../model_services';
+import {uiText} from '../ui_i18n';
 import '../provider_settings.css';
 
 type Entry=Omit<ProviderView,'profile'>&{profile?:ProviderView['profile'];custom?:boolean};
 export function ProviderSettings(){
  const c=useConsole(),service=resolveModelService(c.selected,c.store.connections),experienceKind=service.key,selectedConnection=c.store.connections.find(m=>m.id===c.selected);
+ const t=(value:string)=>uiText(value,c.store.preferences.language);
  const entries:Entry[]=[...providerViews,...c.store.customProviders.map(p=>({id:'custom:'+p.id,name:p.name,kind:'自定义服务',summary:`${p.protocol} · 自定义接入字段`,specialties:p.roles,mark:p.name.slice(0,2),models:[],roles:p.roles,custom:true}))];
  const [filterOpen,setFilterOpen]=useState(false),[category,setCategory]=useState(service.role),[view,setView]=useState(c.selected==='tts-voices'?'voices':'providers');
  const [query,setQuery]=useState(''),[kind,setKind]=useState('全部'),[configuredOnly,setConfiguredOnly]=useState(c.selected==='connections');
@@ -41,8 +43,8 @@ export function ProviderSettings(){
  function saved(id:string){setConnectionId(id);setModel('');setEditorOpen(false);}
  function removeConnection(id:string){const used=c.product.rules.some(rule=>rule.targets.includes(id))||Object.values(c.product.integration.defaults).includes(id)||c.store.agents.some(a=>a.model===id||Object.values(a.runtime?.bindings||{}).includes(id)||a.runtime?.longTermMemory?.model===id||a.runtime?.longTermMemory?.embedding===id)||c.store.knowledge.some(k=>{const v=k.configuration;return v&&[...Object.values(v.modelConfig),v.multimodalConfig.vllmModelId,v.asrConfig.modelId,v.questionGenerationConfig.modelId,v.autoTagConfig.modelId,v.profileConfig.modelId].includes(id);});if(used){c.notify('调用策略、默认配置、智能体或知识库仍引用此连接，请先调整引用');return;}c.confirm('删除模型连接','删除后引用此连接的草稿需要重新配置，已发布快照保持不变。',()=>{c.setStore(s=>({...s,connections:s.connections.filter(m=>m.id!==id)}));if(connectionId===id)setConnectionId('new');});}
  const openGlobalConfiguration=(id?:string)=>{setView('providers');const selected=c.store.connections.find(connection=>connection.id===id);if(selected){setProviderId(connectionProviderId(selected)||providerId);setConnectionId(selected.id);setTab('connections');setMobileDetail(true);}else setMobileDetail(false);};
- const header=<PageHeader title={`模型服务 · ${service.title}`} desc={service.description} actions={<Space wrap><ProviderManager onConfigure={id=>{setView('providers');selectProvider(id);}}/><Button onClick={()=>{setView('providers');request(()=>{setTab('authorization');setMobileDetail(true);});}}>账户授权</Button>{(experienceKind==='tts'||experienceKind==='asr')&&<Button onClick={()=>c.go('33')}>语音链路</Button>}</Space>}/>;
- const views=<Tabs activeKey={view} onChange={key=>{const change=()=>setView(key);if(guardRef.current)guardRef.current(change);else change();}} items={[{key:'providers',label:'模型连接'},{key:'experience',label:'模型体验'},...(experienceKind==='tts'?[{key:'voices',label:'音色试听与管理'}]:[])]}/>;
+ const header=<PageHeader title={`${t('模型服务')} · ${t(service.title)}`} desc={t(service.description)} actions={<Space wrap><ProviderManager onConfigure={id=>{setView('providers');selectProvider(id);}}/><Button onClick={()=>{setView('providers');request(()=>{setTab('authorization');setMobileDetail(true);});}}>{t('账户授权')}</Button>{(experienceKind==='tts'||experienceKind==='asr')&&<Button onClick={()=>c.go('33')}>{t('语音链路')}</Button>}</Space>}/>;
+ const views=<Tabs activeKey={view} onChange={key=>{const change=()=>setView(key);if(guardRef.current)guardRef.current(change);else change();}} items={[{key:'providers',label:t('模型连接')},{key:'experience',label:t('模型体验')},...(experienceKind==='tts'?[{key:'voices',label:t('音色试听与管理')}]:[])]}/>;
  if(view==='voices')return <div className="provider-settings">{header}{views}<Voices embedded/></div>;
  if(view==='experience')return <div className="provider-settings">{header}{views}<ModelExperience kind={experienceKind} onConfigure={openGlobalConfiguration} onOpenVoices={()=>setView('voices')}/></div>;
  return <div className="provider-settings">{header}{views}
@@ -53,7 +55,7 @@ export function ProviderSettings(){
   </aside>
   <section className="provider-detail" aria-label="当前厂商模型配置">
    <div className="provider-detail-heading"><Button className="provider-list-back" type="text" icon={<ArrowLeftOutlined/>} onClick={()=>setMobileDetail(false)}>厂商列表</Button><div className="provider-detail-identity"><span className={`provider-mark provider-mark-${active.id.split(':')[0]}`} aria-hidden="true">{active.mark}</span><div><h2>{active.name}<Tag>{active.kind}</Tag></h2><p>{providerServiceDescription(active.name,experienceKind)}</p></div></div><Button icon={<PlusOutlined/>} onClick={()=>editConnection('new')}>新增连接</Button></div>
-   <Tabs className="provider-detail-tabs" activeKey={tab} onChange={key=>request(()=>setTab(key))} items={[{key:'config',label:'模型目录'},{key:'connections',label:`已配置连接 ${connections.configured.length}`},{key:'experience',label:'模型体验'},{key:'authorization',label:'账户授权'}]}/>
+   <Tabs className="provider-detail-tabs" activeKey={tab} onChange={key=>request(()=>setTab(key))} items={[{key:'config',label:t('模型目录')},{key:'connections',label:`${t('已配置连接')} ${connections.configured.length}`},{key:'experience',label:t('模型体验')},{key:'authorization',label:t('账户授权')}]}/>
    <div className="provider-detail-content" ref={contentRef}>
     {tab==='config'&&<><ProviderModelList key={`${active.id}:${category}`} category={category} entry={active} serviceRoles={service.roles} onConfigure={configureModel} onEdit={editConnection} onTest={id=>request(()=>{setConnectionId(id);setTab('experience');})}/></>}
 

@@ -19,8 +19,8 @@ test('五类菜单图标使用现有字体图标组件',()=>{
 
 test('模型服务保留 TinyBot 顶部入口和语音音色管理',()=>{
  const page=readFileSync(new URL('../src/pages/ProviderSettings.tsx',import.meta.url),'utf8');
- assert.match(page,/key:'providers',label:'模型连接'/);
- assert.match(page,/key:'experience',label:'模型体验'/);
- assert.match(page,/key:'voices',label:'音色试听与管理'/);
+ assert.match(page,/key:'providers',label:t\('模型连接'\)/);
+ assert.match(page,/key:'experience',label:t\('模型体验'\)/);
+ assert.match(page,/key:'voices',label:t\('音色试听与管理'\)/);
  assert.match(page,/<Voices embedded\/>/);
 });
